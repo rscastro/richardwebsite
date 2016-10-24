@@ -1,0 +1,25 @@
+@mixin size($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+@mixin fontsize($fs, $lh) {
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@mixin margin-top-bottom($top, $bottom) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+
+@mixin padding-top-bottom($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+@mixin vertical-align {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

@@ -1,0 +1,10 @@
+
+.wrapper {
+	// @include container;
+	max-width: $wrapper-max;
+	margin: 0 auto;
+}
+
+[class*="grid__col-"] {
+    padding: 0 1em;
+}

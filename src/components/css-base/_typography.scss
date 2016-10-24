@@ -1,0 +1,74 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 $sm-spacing;
+  // font-family: $CircularAirBold;
+  line-height: $heading-line-height;
+  color: $hof;
+}
+
+h1 {
+  @include fontsize(34px, 41px);
+  color: $white;
+
+  @include breakpoint($break-pt-sm) {
+    @include fontsize(44px, 56px);
+  }
+}
+
+h2 {
+  @include fontsize(28px, 35px);
+
+  @include breakpoint($break-pt-sm) {
+    @include fontsize(32px, 38px);
+  }
+}
+
+h3 {
+  // font-family: $CircularAirBook;
+  @include fontsize(22px, 24px);
+}
+
+h4 {
+  font-size: 16px;
+  margin-bottom: $xs-spacing;
+}
+
+p {
+  // font-family: $CircularAirLight;
+  @include fontsize($base-font-size, $base-line-height);
+  margin: 0 0 $sm-spacing;
+  color: $hof;
+}
+
+a {
+  // font-family: $CircularAirBook;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul, li {
+  // font-family: $CircularAirBook;
+}
+
+img,
+picture {
+  margin: 0;
+  width: 100%;
+}
+
+.bld,
+strong {
+  // font-family: $CircularAirBold;
+}
+
+.ital {
+  font-style: italic;
+}
