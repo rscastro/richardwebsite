@@ -4,6 +4,7 @@ import React from 'react';
 import Header from '../ui-Header';
 import Nav from '../ui-Nav';
 import Hero from '../ui-Hero';
+import ProjectsContainer from '../ui-Projects/PeopleContainer';
 import Footer from '../ui-Footer';
 
 
@@ -25,13 +26,9 @@ export default class AppContainer extends React.Component {
 				<Header />
 				<Nav />
 				<Hero />
+				<ProjectsContainer />
 				<Footer />
 			</div>
 		);
-	}
-
-	showThankYouScreen() {
-		console.log('change when form submitted...');
-		this.setState({formSubmitted: true});
 	}
 }
