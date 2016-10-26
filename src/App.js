@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import PeopleContainer from './components/PeopleContainer';
+import PeopleContainer from './components/ui-projects/PeopleContainer';
 
 const appData = require('./assets/data/data.json');
 
