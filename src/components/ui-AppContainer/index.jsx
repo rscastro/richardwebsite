@@ -14,18 +14,19 @@ export default class AppContainer extends React.Component {
 
   render() {
     const {
-        appData: {
-            nav,
-            projects,
-            footer
-        }
+      appData: {
+        nav,
+        hero,
+        projects,
+        footer
+      }
     } = this.props;
 
     return (
       <div className="app-container">
-        <Header />
         <Nav data={nav} />
-        <Hero />
+        <Header />
+        <Hero data={hero} />
         <ProjectsContainer projects={projects} />
         <Footer data={footer} />
       </div>
