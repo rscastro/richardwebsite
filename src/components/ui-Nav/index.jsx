@@ -11,12 +11,12 @@ export default class Nav extends Component {
   }
 
 	render() {
-		const { data } = this.props;
-		
+		const { data: { links }} = this.props;
+
 		return (
 			<div className="nav">
 				<ul>
-					{ this.renderNav(data.links) }
+					{ this.renderNav(links) }
 				</ul>
 			</div>
   	);

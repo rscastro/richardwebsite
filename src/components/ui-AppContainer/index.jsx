@@ -19,9 +19,7 @@ export default class AppContainer extends React.Component {
 	render() {
 		const {
 			appData: {
-				nav
-			},
-			appData: {
+				nav,
 				projects
 			}
 		} = this.props;
