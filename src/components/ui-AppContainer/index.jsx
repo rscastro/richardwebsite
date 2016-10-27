@@ -4,7 +4,7 @@ import React from 'react';
 import Header from '../ui-Header';
 import Nav from '../ui-Nav';
 import Hero from '../ui-Hero';
-import ProjectsContainer from '../ui-Projects/PeopleContainer';
+import ProjectsContainer from '../ui-Projects/ProjectsContainer';
 import Footer from '../ui-Footer';
 
 
@@ -18,7 +18,9 @@ export default class AppContainer extends React.Component {
 
 	render() {
 		const {
-			appData
+			appData: {
+				projects
+			}
 		} = this.props;
 
 		return (
@@ -26,7 +28,7 @@ export default class AppContainer extends React.Component {
 				<Header />
 				<Nav />
 				<Hero />
-				<ProjectsContainer />
+				<ProjectsContainer projects={projects} />
 				<Footer />
 			</div>
 		);
