@@ -16,8 +16,8 @@ class PersonInput extends Component {
       lastname: lastNameElement.value
     });
 
-    firstNameElement.value = "";
-    lastNameElement.value = "";
+    firstNameElement.value = '';
+    lastNameElement.value = '';
 
     firstNameElement.focus();
   }
