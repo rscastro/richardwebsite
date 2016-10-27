@@ -7,6 +7,14 @@ import PersonInput from './PersonInput';
 
 class ProjectsContainer extends Component {
 
+  static get propTypes() {
+    return {
+      people: PropTypes.array.isRequired,
+      actions: PropTypes.object.isRequired,
+      projects: React.PropTypes.object
+    };
+  }
+
   constructor(props) {
     super(props);
 
@@ -47,11 +55,6 @@ class ProjectsContainer extends Component {
   }
 }
 
-ProjectsContainer.propTypes = {
-  people: PropTypes.array.isRequired,
-  actions: PropTypes.object.isRequired,
-  projects: React.PropTypes.object
-};
 
 function mapStateToProps(state) {
   return {
