@@ -4,7 +4,7 @@ import React from 'react';
 import Header from '../ui-Header';
 import Nav from '../ui-Nav';
 import Hero from '../ui-Hero';
-import ProjectsContainer from '../ui-Projects/PeopleContainer';
+import ProjectsContainer from '../ui-Projects/ProjectsContainer';
 import Footer from '../ui-Footer';
 
 
@@ -29,7 +29,7 @@ export default class AppContainer extends React.Component {
 				<Header />
 				<Nav data={nav} />
 				<Hero />
-				<ProjectsContainer data={projects} />
+				<ProjectsContainer projects={projects} />
 				<Footer />
 			</div>
 		);
