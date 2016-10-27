@@ -12,7 +12,8 @@ export default class Nav extends Component {
     const {
       data: {
         links
-      }} = this.props;
+      }
+    } = this.props;
 
     return (
       <div className="nav">
