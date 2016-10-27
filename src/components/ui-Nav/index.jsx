@@ -20,7 +20,7 @@ export default class Nav extends Component {
           { this.renderNav(links) }
         </ul>
       </div>
-      );
+    );
   }
 
   renderNav(links) {
