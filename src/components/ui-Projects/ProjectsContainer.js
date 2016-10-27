@@ -53,7 +53,7 @@ ProjectsContainer.propTypes = {
   projects: React.PropTypes.object
 };
 
-function mapStateToProps(state, props) {
+function mapStateToProps(state) {
   return {
     people: state.people
   };

@@ -8,21 +8,6 @@ export default class Nav extends Component {
     return {data: React.PropTypes.object};
   }
 
-  render() {
-    const {
-      data: {
-        links
-      }} = this.props;
-
-    return (
-      <div className="nav">
-        <ul>
-          { this.renderNav(links) }
-        </ul>
-      </div>
-      );
-  }
-
   renderNav(links) {
     return links.map((link, index) => {
       return (
@@ -31,5 +16,21 @@ export default class Nav extends Component {
         </li>
       );
     });
+  }
+
+  render() {
+    const {
+      data: {
+        links
+      }
+    } = this.props;
+
+    return (
+      <div className="nav">
+        <ul>
+          { this.renderNav(links) }
+        </ul>
+      </div>
+    );
   }
 }
