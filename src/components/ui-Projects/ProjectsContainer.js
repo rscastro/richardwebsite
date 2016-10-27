@@ -15,27 +15,6 @@ class ProjectsContainer extends Component {
     };
   }
 
-  render() {
-    const {
-      people,
-      projects: {
-        projectDetails
-      }
-    } = this.props;
-
-    console.log('projects', projectDetails);
-
-    return (
-      <div>
-        <ul>
-          { this.renderProjects(projectDetails) }
-        </ul>
-        <PersonInput addPerson={this.props.actions.addPerson} />
-        <PeopleList people={people} />
-      </div>
-    );
-  }
-
   renderProjects(projects) {
     return projects.map((project, index) => {
       return (
@@ -46,6 +25,25 @@ class ProjectsContainer extends Component {
         </div>
       );
     });
+  }
+
+  render() {
+    const {
+      people,
+      projects: {
+        projectDetails
+      }
+    } = this.props;
+
+    return (
+      <div>
+        <ul>
+          { this.renderProjects(projectDetails) }
+        </ul>
+        <PersonInput addPerson={this.props.actions.addPerson} />
+        <PeopleList people={people} />
+      </div>
+    );
   }
 }
 
