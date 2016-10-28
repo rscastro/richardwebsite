@@ -23,13 +23,27 @@ class ProjectsContainer extends Component {
     };
   }
 
+  renderProjectImgs(imgs) {
+    return imgs.map((img, index) => {
+      return (
+        <li><img key={index} className="client-img" src={img.src} alt={img.title}/></li>
+      );
+    });
+  }
+
   renderProjects(projects) {
     return projects.map((project, index) => {
       return (
-        <div key={index}>
-          <h3>Client: {project.client}</h3>
-          <p>Description: {project.description}</p>
+        <div key={index} className="grid__col-4">
           <p>Title: {project.title}</p>
+          <p>Url: {project.url}</p>
+          <p>Description: {project.description}</p>
+          <p>Client: {project.client}</p>
+          <p>Client: {project.launch}</p>
+          <ul className="client-imgs">
+            { this.renderProjectImgs(project.images) }
+          </ul>
+          <hr />
         </div>
       );
     });
@@ -45,9 +59,9 @@ class ProjectsContainer extends Component {
 
     return (
       <div>
-        <ul>
+        <div className="grid">
           { this.renderProjects(projectDetails) }
-        </ul>
+        </div>
         <PersonInput addPerson={this.props.actions.addPerson} />
         <PeopleList people={people} />
       </div>
