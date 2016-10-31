@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+## Grid System
+The site uses reflex, which is a responsive flexbox grid with inline-block legacy support
+https://github.com/leejordan/reflex
+https://www.npmjs.com/package/reflex-grid
+Documentation can be found here:
+http://leejordan.github.io/reflex/docs/
+
 
 ## Available Scripts
 
