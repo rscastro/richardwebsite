@@ -26,8 +26,6 @@ export default class Footer extends Component {
       }
     } = this.props;
 
-    console.log('footerNav', footerNav);
-
     return (
       <div className="footer">
           <h3>Footer</h3>

@@ -1,5 +1,6 @@
-// @import '../css-base/index.scss';
+@import '../css-base/index.scss';
 
-// .footer {
-//
-// }
+.hamburger-svg {
+  @include size(32px, 32px);
+  margin: $lg-spacing;
+}
