@@ -26,7 +26,9 @@ class ProjectsContainer extends Component {
   renderProjectImgs(imgs) {
     return imgs.map((img, index) => {
       return (
-        <li><img key={index} className="client-img" src={img.src} alt={img.title}/></li>
+        <li key={img.title + '-' + index} >
+          <img className="client-img" src={img.src} alt={img.title}/>
+        </li>
       );
     });
   }
@@ -34,7 +36,7 @@ class ProjectsContainer extends Component {
   renderProjects(projects) {
     return projects.map((project, index) => {
       return (
-        <div key={index} className="grid__col-4">
+        <div key={project.title + '-' + index} className="grid__col-4">
           <p>Title: {project.title}</p>
           <p>Url: {project.url}</p>
           <p>Description: {project.description}</p>
