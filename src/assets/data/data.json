@@ -7,7 +7,11 @@
       { "title": "Nav Link 3", "url": "some-where" }
     ]
   },
-  "hero": {
+  "homeHero": {
+    "url": "someurl.jpg",
+    "title": "Hero Title"
+  },
+  "projectHero": {
     "url": "someurl.jpg",
     "title": "Hero Title"
   },

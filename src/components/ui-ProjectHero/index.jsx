@@ -3,7 +3,7 @@ import './index.scss';
 import React, { Component } from 'react';
 
 
-export default class HomeHero extends Component {
+export default class ProjectHero extends Component {
 
   static get propTypes() {
     return {data: React.PropTypes.object};
@@ -18,8 +18,8 @@ export default class HomeHero extends Component {
     } = this.props;
 
     return (
-      <div className="home-hero">
-        <h3>Home Hero</h3>
+      <div className="project-hero">
+        <h3>Project Hero</h3>
         <img src={url} alt={title} />
       </div>
     );
