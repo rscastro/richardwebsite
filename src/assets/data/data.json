@@ -57,7 +57,9 @@
       {
         "title": "Project 01",
         "url": "//example.com",
+        "logo": "somelogo1.jpg",
         "description":"Project 01 description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum purus libero, hendrerit interdum diam aliquet nec. Vivamus in ipsum eget lacus feugiat interdum vitae sed dui.",
+        "projectIntro": "Someintro copy...1",
         "client": "AirBnb",
         "launch":"Oct 2016",
         "images": [
@@ -70,7 +72,9 @@
       {
         "title": "Project 02",
         "url": "//example.com",
+        "logo": "somelogo2.jpg",
         "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
+        "projectIntro": "Someintro copy...2",
         "client": "Twitter",
         "launch":"Oct 2016",
         "images": [
@@ -83,7 +87,9 @@
       {
         "title": "Project 03",
         "url": "//example.com",
+        "logo": "somelogo3.jpg",
         "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "projectIntro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
         "images": [

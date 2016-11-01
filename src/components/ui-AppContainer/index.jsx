@@ -5,6 +5,7 @@ import Header from '../ui-Header';
 import Nav from '../ui-Nav';
 import HomeHero from '../ui-HomeHero';
 import ProjectHero from '../ui-ProjectHero';
+import ProjectIntro from '../ui-ProjectIntro';
 import Tagline from '../ui-Tagline';
 import SectionHeader from '../ui-SectionHeader';
 import TextColumns from '../ui-TextColumns';
@@ -26,6 +27,9 @@ export default class AppContainer extends React.Component {
         sectionHeader,
         textColumns,
         projects,
+        projects: {
+          projectDetails
+        },
         footer
       }
     } = this.props;
@@ -39,6 +43,7 @@ export default class AppContainer extends React.Component {
         <Tagline data={tagline} />
         <SectionHeader data={sectionHeader} />
         <TextColumns data={textColumns} />
+        <ProjectIntro data={projectDetails[1]} />
         <WorkGrid projects={projects} />
         <Footer data={footer} />
       </div>
