@@ -2,5 +2,5 @@
 
 .hamburger-svg {
   @include size(32px, 32px);
-  margin: $lg-spacing;
+  margin: $base-spacing;
 }
