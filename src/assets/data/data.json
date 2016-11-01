@@ -1,10 +1,34 @@
 {
   "nav": {
-    "logo": "someurl",
-    "links": [
-      { "title": "Nav Link 1", "url": "some-where" },
-      { "title": "Nav Link 3", "url": "some-where" },
-      { "title": "Nav Link 3", "url": "some-where" }
+    "title": "Navigation Title",
+    "navColumns": [
+      {
+        "title": "Work",
+        "className": "nav-col1",
+        "links": [
+          { "title": "Work Nav Link 1", "url": "some-where" },
+          { "title": "Work Nav Link 3", "url": "some-where" },
+          { "title": "Work Nav Link 3", "url": "some-where" }
+        ]
+      },
+      {
+        "title": "Labs",
+        "className": "nav-col2",
+        "links": [
+          { "title": "Labs Nav Link 1", "url": "some-where" },
+          { "title": "Labs Nav Link 3", "url": "some-where" },
+          { "title": "Labs Nav Link 3", "url": "some-where" }
+        ]
+      },
+      {
+        "title": "About",
+        "className": "nav-col3",
+        "links": [
+          { "title": "About Nav Link 1", "url": "some-where" },
+          { "title": "About Nav Link 3", "url": "some-where" },
+          { "title": "About Nav Link 3", "url": "some-where" }
+        ]
+      }
     ]
   },
   "homeHero": {
