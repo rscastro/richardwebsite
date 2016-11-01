@@ -5,6 +5,7 @@ import Header from '../ui-Header';
 import Nav from '../ui-Nav';
 import HomeHero from '../ui-HomeHero';
 import ProjectHero from '../ui-ProjectHero';
+import Tagline from '../ui-Tagline';
 import ProjectsContainer from '../ui-Projects/ProjectsContainer';
 import Footer from '../ui-Footer';
 
@@ -19,6 +20,7 @@ export default class AppContainer extends React.Component {
         nav,
         homeHero,
         projectHero,
+        tagline,
         projects,
         footer
       }
@@ -30,6 +32,8 @@ export default class AppContainer extends React.Component {
         <Header />
         <HomeHero data={homeHero} />
         <ProjectHero data={projectHero} />
+        <Tagline data={tagline} />
+
         <ProjectsContainer projects={projects} />
         <Footer data={footer} />
       </div>
