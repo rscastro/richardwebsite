@@ -42,6 +42,9 @@
   "tagline": {
     "copy": "This is a tagline"
   },
+  "sectionHeader": {
+    "copy": "This is a section header"
+  },
   "textColumns": {
     "copyLeft": "Vivamus eleifend mollis faucibus. Sed eget lacus pellentesque, sodales erat in, convallis dolor. Ut lobortis semper purus, id luctus urna dignissim fermentum. Proin vitae sem interdum, lobortis ex venenatis, commodo ante. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et.",
     "copyRight": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et."
