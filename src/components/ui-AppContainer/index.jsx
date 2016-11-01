@@ -6,7 +6,7 @@ import Nav from '../ui-Nav';
 import HomeHero from '../ui-HomeHero';
 import ProjectHero from '../ui-ProjectHero';
 import Tagline from '../ui-Tagline';
-import ProjectsContainer from '../ui-Projects/ProjectsContainer';
+import WorkGrid from '../ui-WorkGrid';
 import Footer from '../ui-Footer';
 
 export default class AppContainer extends React.Component {
@@ -34,7 +34,7 @@ export default class AppContainer extends React.Component {
         <ProjectHero data={projectHero} />
         <Tagline data={tagline} />
 
-        <ProjectsContainer projects={projects} />
+        <WorkGrid projects={projects} />
         <Footer data={footer} />
       </div>
     );

@@ -5,7 +5,7 @@ import * as peopleActions from '../actions-projects/project-actions';
 import PeopleList from './PeopleList';
 import PersonInput from './PersonInput';
 
-class ProjectsContainer extends Component {
+class WorkGrid extends Component {
 
   static get propTypes() {
     return {
@@ -84,4 +84,4 @@ function mapDispatchToProps(dispatch) {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ProjectsContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(WorkGrid);
