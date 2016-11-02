@@ -9,6 +9,7 @@ import ProjectIntro from '../ui-ProjectIntro';
 import Tagline from '../ui-Tagline';
 import SectionHeader from '../ui-SectionHeader';
 import TextColumns from '../ui-TextColumns';
+import Image from '../ui-Image';
 import WorkGrid from '../ui-WorkGrid';
 import Footer from '../ui-Footer';
 
@@ -26,6 +27,7 @@ export default class AppContainer extends React.Component {
         tagline,
         sectionHeader,
         textColumns,
+        img,
         projects,
         projects: {
           projectDetails
@@ -44,6 +46,8 @@ export default class AppContainer extends React.Component {
         <SectionHeader data={sectionHeader} />
         <TextColumns data={textColumns} />
         <ProjectIntro data={projectDetails[1]} />
+        <ProjectIntro data={projectDetails[1]} />
+        <Image data={img} />
         <WorkGrid projects={projects} />
         <Footer data={footer} />
       </div>
