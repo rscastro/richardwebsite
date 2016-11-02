@@ -12,15 +12,18 @@ export default class ProjectIntro extends Component {
   render() {
     const {
       data: {
+        title,
         logo,
         projectIntro
       }
     } = this.props;
 
     return (
-      <div className="project-intro grid grid--justify-center">
-        <div className="grid__col-4 copy">{logo}</div>
-        <div className="grid__col-4 copy">{projectIntro}</div>
+      <div className="project-intro">
+        <div className="grid grid--justify-center">
+          <div className="grid__col-3 copy">{ <img src={logo} alt={title} /> }</div>
+          <div className="grid__col-5 copy">{ projectIntro }</div>
+        </div>
       </div>
     );
   }
