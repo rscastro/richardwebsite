@@ -46,7 +46,6 @@ export default class AppContainer extends React.Component {
         <SectionHeader data={sectionHeader} />
         <TextColumns data={textColumns} />
         <ProjectIntro data={projectDetails[1]} />
-        <ProjectIntro data={projectDetails[1]} />
         <Image data={img} />
         <WorkGrid projects={projects} />
         <Footer data={footer} />
