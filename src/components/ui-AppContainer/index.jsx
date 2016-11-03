@@ -11,6 +11,7 @@ import SectionHeader from '../ui-SectionHeader';
 import TextColumns from '../ui-TextColumns';
 import Image from '../ui-Image';
 import Video from '../ui-Video';
+import Carousel from '../ui-Carousel';
 import WorkGrid from '../ui-WorkGrid';
 import Footer from '../ui-Footer';
 
@@ -30,6 +31,7 @@ export default class AppContainer extends React.Component {
         textColumns,
         img,
         video,
+        carousel,
         projects,
         projects: {
           projectDetails
@@ -50,6 +52,7 @@ export default class AppContainer extends React.Component {
         <ProjectIntro data={projectDetails[1]} />
         <Image data={img} />
         <Video data={video} />
+        <Carousel data={carousel} />
         <WorkGrid projects={projects} />
         <Footer data={footer} />
       </div>

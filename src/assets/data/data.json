@@ -57,6 +57,30 @@
     "url": "temp-image.jpg",
     "title": "Video title"
   },
+  "carousel": {
+    "temp": "temp-image.jpg",
+    "title": "Video title",
+    "slides": [
+      {
+        "title": "Project 01",
+        "url": "//example.com",
+        "subtitle": "Subtitle copy...1",
+        "client": "AirBnb"
+      },
+      {
+        "title": "Project 01",
+        "url": "//example.com",
+        "subtitle": "Subtitle copy...1",
+        "client": "AirBnb"
+      },
+      {
+        "title": "Project 01",
+        "url": "//example.com",
+        "subtitle": "Subtitle copy...1",
+        "client": "AirBnb"
+      }
+    ]
+  },
   "projects": {
     "title": "Test Title from json",
     "subtitle": "subtitle test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
