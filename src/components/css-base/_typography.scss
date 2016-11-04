@@ -7,7 +7,7 @@ h6 {
   margin: 0 0 $sm-spacing;
   // font-family: $CircularAirBold;
   line-height: $heading-line-height;
-  color: $hof;
+  color: $white;
 }
 
 h1 {
@@ -41,7 +41,7 @@ p {
   // font-family: $CircularAirLight;
   @include fontsize($base-font-size, $base-line-height);
   margin: 0 0 $sm-spacing;
-  color: $hof;
+  color: $white;
 }
 
 a {

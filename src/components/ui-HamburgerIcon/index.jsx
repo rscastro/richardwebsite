@@ -12,7 +12,7 @@ export default class HamburgerIcon extends Component {
   }
 
   onHover() {
-    
+
   }
 
   render() {
@@ -20,9 +20,9 @@ export default class HamburgerIcon extends Component {
       <div className="hamburger-icon" onClick={this.onClick}>
         <a href="#">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="hamburger-svg">
-            <rect id="l1" y="0" width="32" height="2"/>
-            <rect id="l2" y="15" width="32" height="2"/>
-            <rect id="l3" y="30" width="32" height="2"/>
+            <rect id="l1" y="0" width="32" height="2" fill="#fff" />
+            <rect id="l2" y="15" width="32" height="2" fill="#fff" />
+            <rect id="l3" y="30" width="32" height="2" fill="#fff" />
           </svg>
         </a>
       </div>
