@@ -11,6 +11,10 @@ export default class HamburgerIcon extends Component {
     TweenLite.to('#l3', .2, {rotation:-45, transformOrigin:'0% 50%'});
   }
 
+  onHover() {
+    
+  }
+
   render() {
     return (
       <div className="hamburger-icon" onClick={this.onClick}>
