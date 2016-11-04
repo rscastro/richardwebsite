@@ -1,0 +1,11 @@
+@import '../css-base/index.scss';
+
+.img-hldr {
+  margin-top: $sm-spacing; // Temp style
+  margin-bottom: $sm-spacing; // Temp style
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+}

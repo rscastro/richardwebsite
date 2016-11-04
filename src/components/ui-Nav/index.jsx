@@ -1,6 +1,7 @@
 import './index.scss';
 
 import React, {Component} from 'react';
+import NavColumn from './navColumn.jsx'
 
 export default class Nav extends Component {
 
@@ -8,12 +9,10 @@ export default class Nav extends Component {
     return {data: React.PropTypes.object};
   }
 
-  renderNav(links) {
-    return links.map((link, index) => {
+  renderColumns(columns) {
+    return columns.map((column, index) => {
       return (
-        <li key={index}>
-            <a href={link.url}>{link.title}</a>
-        </li>
+        <NavColumn key={'nav-column-' + index} data={column} />
       );
     });
   }
@@ -21,15 +20,17 @@ export default class Nav extends Component {
   render() {
     const {
       data: {
-        links
+        title,
+        navColumns
       }
     } = this.props;
 
     return (
-      <div className="nav">
-        <ul>
-          { this.renderNav(links) }
-        </ul>
+      <div className="nav grid">
+        <div className="grid__col-12">
+          <h3>{title}</h3>
+        </div>
+        { this.renderColumns(navColumns) }
       </div>
     );
   }
