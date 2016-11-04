@@ -5,7 +5,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 $sm-spacing;
-  // font-family: $CircularAirBold;
+  font-family: 'Titillium Web', sans-serif;
   line-height: $heading-line-height;
   color: $white;
 }
@@ -38,14 +38,16 @@ h4 {
 }
 
 p {
-  // font-family: $CircularAirLight;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
   @include fontsize($base-font-size, $base-line-height);
   margin: 0 0 $sm-spacing;
   color: $white;
 }
 
 a {
-  // font-family: $CircularAirBook;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
   text-decoration: none;
   color: inherit;
 
@@ -55,7 +57,8 @@ a {
 }
 
 ul, li {
-  // font-family: $CircularAirBook;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
 }
 
 img,
@@ -66,7 +69,8 @@ picture {
 
 .bld,
 strong {
-  // font-family: $CircularAirBold;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
 }
 
 .ital {
