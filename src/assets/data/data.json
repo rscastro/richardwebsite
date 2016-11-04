@@ -6,27 +6,37 @@
         "title": "Work",
         "className": "nav-col1",
         "links": [
-          { "title": "Work Nav Link 1", "url": "some-where" },
-          { "title": "Work Nav Link 3", "url": "some-where" },
-          { "title": "Work Nav Link 3", "url": "some-where" }
+          { "title": "Twitter Marketing", "url": "some-where" },
+          { "title": "Twitter Flight School", "url": "some-where" },
+          { "title": "WeAreMartian", "url": "some-where" },
+          { "title": "Airbnb Road Trips", "url": "some-where" },
+          { "title": "Airbnb Maisons de France", "url": "airbnb-maisons-de-france" },
+          { "title": "Sony HMZ", "url": "sony-hmz" },
+          { "title": "Twitter Marketing", "url": "twitter-marketing" },
+          { "title": "Twitter Flight School", "url": "twitter-flight-school" },
+          { "title": "WeAreMartian", "url": "we-are-martian" }
         ]
       },
       {
         "title": "Labs",
         "className": "nav-col2",
         "links": [
-          { "title": "Labs Nav Link 1", "url": "some-where" },
-          { "title": "Labs Nav Link 3", "url": "some-where" },
-          { "title": "Labs Nav Link 3", "url": "some-where" }
+          { "title": "Twitter Marketing", "url": "some-where" },
+          { "title": "Twitter Flight School", "url": "some-where" },
+          { "title": "WeAreMartian", "url": "some-where" },
+          { "title": "Airbnb Road Trips", "url": "some-where" },
+          { "title": "Airbnb Maisons de France", "url": "airbnb-maisons-de-france" },
+          { "title": "Sony HMZ", "url": "sony-hmz" }
         ]
       },
       {
         "title": "About",
         "className": "nav-col3",
         "links": [
-          { "title": "About Nav Link 1", "url": "some-where" },
-          { "title": "About Nav Link 3", "url": "some-where" },
-          { "title": "About Nav Link 3", "url": "some-where" }
+          { "title": "Approach", "url": "/approach" },
+          { "title": "Team", "url": "/team" },
+          { "title": "Careers", "url": "/careers" },
+          { "title": "Contact", "url": "/contact" }
         ]
       }
     ]
