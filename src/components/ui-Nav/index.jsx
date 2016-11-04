@@ -32,15 +32,15 @@ export default class Nav extends Component {
       <div className="nav-hldr">
         <div className="wrapper">
           <div className="grid">
-          <div className="grid__col-4">
-          <h2><img src={LogoType} alt={title} className="logo-type" /></h2>
-          </div>
-          <div className="grid__col-4 text-center">
-          <h2><img src={LogoMark} alt={title} className="logo-mark" /></h2>
-          </div>
-          <div className="grid__col-4 text-right">
-          <HamburgerIcon />
-          </div>
+            <div className="grid__col-4">
+            <h2><img src={LogoType} alt={title} className="logo-type" /></h2>
+            </div>
+            <div className="grid__col-4 text-center">
+            <h2><img src={LogoMark} alt={title} className="logo-mark" /></h2>
+            </div>
+            <div className="grid__col-4 text-right">
+            <HamburgerIcon />
+            </div>
           </div>
           <div className="grid nav">
           { this.renderColumns(navColumns) }

@@ -10,6 +10,7 @@
 
   .logo-type {
     @include size(150px, 20px);
+    margin-top: 40px;
   }
 
   .nav {
