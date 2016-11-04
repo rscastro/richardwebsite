@@ -1,9 +1,15 @@
 @import '../css-base/index.scss';
 
 .tagline {
-  background: #ccc; // Temp style
+  background: $orange;
   text-align: center;
-  padding: $base-spacing; // Temp style
+  padding: 215px $base-spacing;
   margin-top: $sm-spacing; // Temp style
   margin-bottom: $sm-spacing; // Temp style
+
+  .title {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
 }
