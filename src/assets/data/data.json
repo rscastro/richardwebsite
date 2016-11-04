@@ -4,7 +4,7 @@
     "navColumns": [
       {
         "title": "Work",
-        "className": "nav-col1",
+        "className": "nav-col-ul",
         "links": [
           { "title": "Twitter Marketing", "url": "some-where" },
           { "title": "Twitter Flight School", "url": "some-where" },
@@ -19,7 +19,7 @@
       },
       {
         "title": "Labs",
-        "className": "nav-col2",
+        "className": "nav-col-ul",
         "links": [
           { "title": "Twitter Marketing", "url": "some-where" },
           { "title": "Twitter Flight School", "url": "some-where" },
@@ -31,7 +31,7 @@
       },
       {
         "title": "About",
-        "className": "nav-col3",
+        "className": "nav-col-ul",
         "links": [
           { "title": "Approach", "url": "/approach" },
           { "title": "Team", "url": "/team" },

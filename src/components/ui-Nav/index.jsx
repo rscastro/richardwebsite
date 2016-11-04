@@ -2,6 +2,9 @@ import './index.scss';
 
 import React, {Component} from 'react';
 import NavColumn from './navColumn.jsx'
+import LogoMark from '../../assets/images/logo-mark.svg';
+import LogoType from '../../assets/images/logo-type.svg';
+import HamburgerIcon from '../ui-HamburgerIcon';
 
 export default class Nav extends Component {
 
@@ -26,11 +29,23 @@ export default class Nav extends Component {
     } = this.props;
 
     return (
-      <div className="nav grid">
-        <div className="grid__col-12">
-          <h3>{title}</h3>
+      <div className="nav-hldr">
+        <div className="wrapper">
+          <div className="grid">
+          <div className="grid__col-4">
+          <h2><img src={LogoType} alt={title} className="logo-type" /></h2>
+          </div>
+          <div className="grid__col-4 text-center">
+          <h2><img src={LogoMark} alt={title} className="logo-mark" /></h2>
+          </div>
+          <div className="grid__col-4 text-right">
+          <HamburgerIcon />
+          </div>
+          </div>
+          <div className="grid nav">
+          { this.renderColumns(navColumns) }
+          </div>
         </div>
-        { this.renderColumns(navColumns) }
       </div>
     );
   }

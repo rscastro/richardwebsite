@@ -1,5 +1,18 @@
 @import '../css-base/index.scss';
 
-.nav {
-  min-height: 300px;
+.nav-hldr {
+  padding-top: $xl-spacing;
+  padding-bottom: $xl-spacing;
+
+  .logo-mark {
+    @include size(104px, 104px);
+  }
+
+  .logo-type {
+    @include size(150px, 20px);
+  }
+
+  .nav {
+    margin-top: $lg-spacing;
+  }
 }

@@ -1,0 +1,30 @@
+@import '../css-base/index.scss';
+
+.nav-column {
+  color: $orange;
+
+  .title {
+    font-size: 14px;
+    color: $orange;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid $orange;
+    padding-bottom: $sm-spacing;
+    margin-bottom: $md-spacing;
+  }
+
+  .nav-col-ul {
+    font-size: 18px;
+
+    li {
+      margin-bottom: $base-spacing;
+      a {
+        font-weight: 300;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
