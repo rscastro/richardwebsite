@@ -41,8 +41,8 @@ export default class AppContainer extends React.Component {
 
     return (
       <div className="app-container">
-        <Nav data={nav} />
         <Tagline data={tagline} />
+        <Nav data={nav} />
         <HomeHero data={homeHero} />
         <ProjectHero data={projectHero} />
         <SectionHeader data={sectionHeader} />
