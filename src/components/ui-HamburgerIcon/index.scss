@@ -1,6 +1,7 @@
 @import '../css-base/index.scss';
 
 .hamburger-svg {
-  @include size(32px, 32px);
+  width: 3.2rem;
+  height: 3.2rem;
   margin: $md-spacing 0 $base-spacing $base-spacing;
 }

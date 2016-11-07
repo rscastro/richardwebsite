@@ -6,16 +6,16 @@
   padding: $xl-spacing $base-spacing;
 
   @include breakpoint($break-pt-md) {
-		padding: 160px $base-spacing;
+		padding: 16rem $base-spacing;
 	}
 
   @include breakpoint($break-pt-lg) {
-		padding: 215px $base-spacing;
+		padding: 21.5rem $base-spacing;
 	}
 
   .title {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
   }
 }
