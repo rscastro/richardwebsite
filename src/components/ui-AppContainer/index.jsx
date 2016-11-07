@@ -1,7 +1,6 @@
 import './index.scss';
 
 import React from 'react';
-import Header from '../ui-Header';
 import Nav from '../ui-Nav';
 import HomeHero from '../ui-HomeHero';
 import ProjectHero from '../ui-ProjectHero';
@@ -42,11 +41,10 @@ export default class AppContainer extends React.Component {
 
     return (
       <div className="app-container">
+        <Tagline data={tagline} />
         <Nav data={nav} />
-        <Header />
         <HomeHero data={homeHero} />
         <ProjectHero data={projectHero} />
-        <Tagline data={tagline} />
         <SectionHeader data={sectionHeader} />
         <TextColumns data={textColumns} />
         <ProjectIntro data={projectDetails[1]} />

@@ -18,7 +18,7 @@ export default class Tagline extends Component {
 
     return (
       <div className="tagline">
-        <h3>{copy}</h3>
+        <h3 className="title">{copy}</h3>
       </div>
     );
   }
