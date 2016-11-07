@@ -3,7 +3,15 @@
 .tagline {
   background: $orange;
   text-align: center;
-  padding: 215px $base-spacing;
+  padding: $xl-spacing $base-spacing;
+
+  @include breakpoint($break-pt-md) {
+		padding: 160px $base-spacing;
+	}
+
+  @include breakpoint($break-pt-lg) {
+		padding: 215px $base-spacing;
+	}
 
   .title {
     font-size: 24px;

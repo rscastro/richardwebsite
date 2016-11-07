@@ -13,6 +13,12 @@ $break-pt-md: 768px;
 $break-pt-lg: 992px;
 $break-pt-xl: 1200px;
 
+// Available breakpoints
+// @include breakpoint($break-pt-sm) {}
+// @include breakpoint($break-pt-md) {}
+// @include breakpoint($break-pt-lg) {}
+// @include breakpoint($break-pt-xl) {}
+
 
 $wrapper-max: 1200px;
 // $columns: 12;
