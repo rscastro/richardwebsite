@@ -4,7 +4,7 @@
   color: $orange;
 
   .title {
-    font-size: 1.4rem;
+    @include fontsize(1.4rem, 1.4rem);
     color: $orange;
     text-align: center;
     text-transform: uppercase;
@@ -15,15 +15,21 @@
   }
 
   .nav-col-ul {
-    font-size: 1.8rem;
+    @include fontsize(1.8rem, 1.8rem);
 
     li {
       margin-bottom: $base-spacing;
       a {
         font-weight: 300;
+        opacity: .5;
 
         &:hover {
+          opacity: .75;
           text-decoration: none;
+        }
+
+        &.active {
+          opacity: 1;
         }
       }
     }
