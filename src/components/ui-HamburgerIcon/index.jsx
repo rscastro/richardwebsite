@@ -24,13 +24,13 @@ export default class HamburgerIcon extends Component {
 
   render() {
     return (
-      <div
-        className="hamburger-icon"
-        onClick={this.onClickHandler}
-        onMouseEnter={this.onMouseEnterHandler}
-        onMouseLeave={this.onMouseLeaveHandler}
-      >
-        <a href="#">
+      <div className="hamburger-icon">
+        <a
+          href="#"
+          onClick={this.onClickHandler}
+          onMouseEnter={this.onMouseEnterHandler}
+          onMouseLeave={this.onMouseLeaveHandler}
+        >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="hamburger-svg">
             <rect id="l1" y="0" width="32" height="2" fill="#fff" />
             <rect id="l2" y="15" width="32" height="2" fill="#fff" />
