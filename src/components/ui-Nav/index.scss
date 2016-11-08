@@ -5,12 +5,14 @@
   padding-bottom: $xl-spacing;
 
   .logo-mark {
-    @include size(104px, 104px);
+    width: 10.4rem;
+    height: 10.4rem;
   }
 
   .logo-type {
-    @include size(150px, 20px);
-    margin-top: 40px;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 4rem;
   }
 
   .nav {

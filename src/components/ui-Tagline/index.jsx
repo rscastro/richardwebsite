@@ -17,8 +17,10 @@ export default class Tagline extends Component {
     } = this.props;
 
     return (
-      <div className="tagline">
-        <h3 className="title">{copy}</h3>
+      <div className="tagline bg-lines-white">
+        <div className="wrapper">
+          <h3 className="title">{copy}</h3>
+        </div>
       </div>
     );
   }

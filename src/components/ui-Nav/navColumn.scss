@@ -4,28 +4,43 @@
   color: $orange;
 
   .title {
-    font-size: 14px;
+    @include fontsize(1.6rem, 1.6rem);
     color: $orange;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    border-bottom: 1px solid $orange;
+    letter-spacing: .5rem;
+    border-bottom: .1rem solid $orange;
     padding-bottom: $sm-spacing;
     margin-bottom: $md-spacing;
   }
 
   .nav-col-ul {
-    font-size: 18px;
+    @include fontsize(2.4rem, 4.8rem);
 
     li {
-      margin-bottom: $base-spacing;
       a {
-        font-weight: 300;
+        font-weight: 200;
+        opacity: .5;
 
         &:hover {
+          opacity: .75;
           text-decoration: none;
+        }
+
+        &.active {
+          opacity: 1;
         }
       }
     }
+  }
+}
+
+.nav-column-about {
+  p {
+    @include fontsize(2.4rem, 4.8rem);
+    color: $orange;
+    font-weight: 200;
+    opacity: .5;
+    margin-bottom: $base-spacing;
   }
 }

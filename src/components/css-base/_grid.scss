@@ -1,10 +1,20 @@
 
 .wrapper {
-	// @include container;
 	max-width: $wrapper-max;
 	margin: 0 auto;
 }
 
 [class*="grid__col-"] {
     padding: 0 1em;
+}
+
+// body,
+.bg-lines-black {
+  background: $off-black url(../../assets/images/bg-lines-black.png) repeat-y;
+  background-size: 100%;
+}
+
+.bg-lines-white {
+  background: $orange url(../../assets/images/bg-lines-white.png) repeat-y;
+  background-size: 100%;
 }

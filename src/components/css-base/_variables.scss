@@ -8,10 +8,10 @@ $orange: #d94c02;
 
 // Breakpoints/Grid
 $break-pt-xs: 0;
-$break-pt-sm: 480px;
-$break-pt-md: 768px;
-$break-pt-lg: 992px;
-$break-pt-xl: 1200px;
+$break-pt-sm: 48rem;
+$break-pt-md: 76.8rem;
+$break-pt-lg: 99.2rem;
+$break-pt-xl: 120rem;
 
 // Available breakpoints
 // @include breakpoint($break-pt-sm) {}
@@ -20,20 +20,20 @@ $break-pt-xl: 1200px;
 // @include breakpoint($break-pt-xl) {}
 
 
-$wrapper-max: 1200px;
+$wrapper-max: 120rem;
 // $columns: 12;
 // $gutters: .75;
 
 
 // Font Sizes
-$base-font-size: 16px;
+$base-font-size: 1.6rem;
 
 // Line height
-$base-line-height: 20px;
+$base-line-height: 2rem;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-spacing: 20px;
+$base-spacing: 2rem;
 $xs-spacing: $base-spacing / 4;
 $sm-spacing: $base-spacing / 2;
 $md-spacing: $base-spacing * 2;
@@ -42,11 +42,10 @@ $xl-spacing: $base-spacing * 4;
 $xxl-spacing: $base-spacing * 5;
 
 // Forms
-$form-border-radius: 3px;
-$form-element-padding-top-bottom: 12px;
-$form-element-padding-left-right: 8px;
-$radio-btn-padding-top: 8px;
-// $radio-btn-padding-bottom: 14px;
+$form-border-radius: .3rem;
+$form-element-padding-top-bottom: 1.2rem;
+$form-element-padding-left-right: .8rem;
+$radio-btn-padding-top: .8rem;
 $form-border-color: #c4c4c4;
 $error-message-color: #ff5a60;
 

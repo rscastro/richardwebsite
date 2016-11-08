@@ -1,6 +1,15 @@
+
+
 {
   "nav": {
     "title": "Navigation Title",
+    "aboutInfo": {
+      "title": "About",
+      "weAre": "Martian is a creative development studio in San Francisco",
+      "address1": "1311 Sutter Street",
+      "address2": "San Francisco, California 94109",
+      "phone": "415.263.7383"
+    },
     "navColumns": [
       {
         "title": "Work",
@@ -27,16 +36,6 @@
           { "title": "Airbnb Road Trips", "url": "some-where" },
           { "title": "Airbnb Maisons de France", "url": "airbnb-maisons-de-france" },
           { "title": "Sony HMZ", "url": "sony-hmz" }
-        ]
-      },
-      {
-        "title": "About",
-        "className": "nav-col-ul",
-        "links": [
-          { "title": "Approach", "url": "/approach" },
-          { "title": "Team", "url": "/team" },
-          { "title": "Careers", "url": "/careers" },
-          { "title": "Contact", "url": "/contact" }
         ]
       }
     ]

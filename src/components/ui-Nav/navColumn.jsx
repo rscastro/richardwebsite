@@ -28,3 +28,11 @@ export default class NavColumn extends Component {
     );
   }
 }
+
+// "aboutInfo": {
+//   "weAre": "Martian is a creative development studio in San Francisco",
+//   "address1": "Sutter Street",
+//   "address2": "San Francisco, California 94109",
+//   "phone": "415.263.7383",
+//   "email": "info@martiansf.com"
+// }
