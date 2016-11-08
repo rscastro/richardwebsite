@@ -43,13 +43,4 @@
     opacity: .5;
     margin-bottom: $base-spacing;
   }
-  p {
-    a {
-      opacity: 1;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
-  }
 }
