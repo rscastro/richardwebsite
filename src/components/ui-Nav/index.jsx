@@ -24,6 +24,7 @@ export default class Nav extends Component {
     const {
       data: {
         title,
+        aboutInfo,
         navColumns
       }
     } = this.props;
@@ -43,7 +44,12 @@ export default class Nav extends Component {
             </div>
           </div>
           <div className="grid nav">
-          { this.renderColumns(navColumns) }
+            { this.renderColumns(navColumns) }
+            <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
+              <h3 className="title">{aboutInfo.title}</h3>
+              <p>{aboutInfo.weAre}</p>
+              <p>{aboutInfo.address1}<br/>{aboutInfo.address2}<br/>{aboutInfo.phone}</p>
+            </div>
           </div>
         </div>
       </div>
