@@ -49,6 +49,7 @@ export default class Nav extends Component {
               <h3 className="title">{aboutInfo.title}</h3>
               <p>{aboutInfo.weAre}</p>
               <p>{aboutInfo.address1}<br/>{aboutInfo.address2}<br/>{aboutInfo.phone}</p>
+              <p>!! Social Media icons !!</p>
             </div>
           </div>
         </div>
