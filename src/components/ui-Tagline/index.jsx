@@ -12,14 +12,14 @@ export default class Tagline extends Component {
   render() {
     const {
       data: {
-        copy
+        title
       }
     } = this.props;
 
     return (
       <div className="tagline bg-lines-white">
         <div className="wrapper">
-          <h3 className="title">{copy}</h3>
+          <h3 className="title">{title}</h3>
         </div>
       </div>
     );
