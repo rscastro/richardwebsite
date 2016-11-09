@@ -53,14 +53,11 @@
   },
   "sectionHeader1": {
     "number": "01",
-    "title": "This is a section header"
+    "title": "Challenge"
   },
   "sectionHeader2": {
     "number": "02",
-    "title": "Other section header"
-  },
-  "sectionHeader3": {
-    "title": "No number"
+    "title": "Solution"
   },
   "textColumns": {
     "copyLeft": "Vivamus eleifend mollis faucibus. Sed eget lacus pellentesque, sodales erat in, convallis dolor. Ut lobortis semper purus, id luctus urna dignissim fermentum. Proin vitae sem interdum, lobortis ex venenatis, commodo ante. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et.",

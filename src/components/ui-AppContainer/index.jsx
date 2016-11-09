@@ -28,7 +28,6 @@ export default class AppContainer extends React.Component {
         tagline,
         sectionHeader1,
         sectionHeader2,
-        sectionHeader3,
         textColumns,
         img,
         video,
@@ -47,14 +46,16 @@ export default class AppContainer extends React.Component {
         <Nav data={nav} />
 
         <SectionHeader data={sectionHeader1} />
-        <SectionHeader data={sectionHeader2} />
-        <SectionHeader data={sectionHeader3} />
 
         <ProjectIntro data={projectDetails[1]} />
-        
+
+        <SectionHeader data={sectionHeader2} />
+
+        <TextColumns data={textColumns} />
+
+
         <HomeHero data={homeHero} />
         <ProjectHero data={projectHero} />
-        <TextColumns data={textColumns} />
         <Image data={img} />
         <Video data={video} />
         <Carousel data={carousel} />

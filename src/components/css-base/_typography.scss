@@ -57,6 +57,10 @@ p {
     @include fontsize($font-size-lg, $line-height-lg);
     font-weight: 200;
     margin: 0 0 $lg-spacing;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
 
