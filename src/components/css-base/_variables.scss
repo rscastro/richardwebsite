@@ -27,11 +27,13 @@ $wrapper-max: 120rem;
 
 
 // Font Sizes
-$base-font-size: 1.6rem;
+$font-size-base: 1.8rem;
+$font-size-lg: 2.4rem;
 
 // Line height
-$base-line-height: 2rem;
-$heading-line-height: 1.2;
+$line-height-base: 3.6rem;
+$line-height-lg: 4.8rem;
+$line-height-heading: 1.2;
 
 // Other Sizes
 $base-spacing: 2rem;
@@ -41,6 +43,9 @@ $md-spacing: $base-spacing * 2;
 $lg-spacing: $base-spacing * 3;
 $xl-spacing: $base-spacing * 4;
 $xxl-spacing: $base-spacing * 5;
+
+$component-margin-top: 17.5rem;
+$component-margin-bottom: 0;
 
 // Forms
 $form-border-radius: .3rem;

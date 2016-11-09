@@ -50,10 +50,11 @@ export default class AppContainer extends React.Component {
         <SectionHeader data={sectionHeader2} />
         <SectionHeader data={sectionHeader3} />
 
+        <ProjectIntro data={projectDetails[1]} />
+        
         <HomeHero data={homeHero} />
         <ProjectHero data={projectHero} />
         <TextColumns data={textColumns} />
-        <ProjectIntro data={projectDetails[1]} />
         <Image data={img} />
         <Video data={video} />
         <Carousel data={carousel} />

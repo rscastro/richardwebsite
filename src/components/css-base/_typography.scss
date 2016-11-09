@@ -6,7 +6,7 @@ h5,
 h6 {
   margin: 0 0 $sm-spacing;
   font-family: 'Titillium Web', sans-serif;
-  line-height: $heading-line-height;
+  line-height: $line-height-heading;
   color: $white;
 
   &.underline {
@@ -46,10 +46,18 @@ h4 { // Used by section headers
 
 p {
   font-family: 'Titillium Web', sans-serif;
+  @include fontsize($font-size-base, $line-height-base);
   font-weight: 400;
-  @include fontsize($base-font-size, $base-line-height);
   margin: 0 0 $sm-spacing;
   color: $white;
+}
+
+.copy-lg {
+  p {
+    @include fontsize($font-size-lg, $line-height-lg);
+    font-weight: 200;
+    margin: 0 0 $lg-spacing;
+  }
 }
 
 a {
