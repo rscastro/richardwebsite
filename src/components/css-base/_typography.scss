@@ -48,8 +48,12 @@ p {
   font-family: 'Titillium Web', sans-serif;
   @include fontsize($font-size-base, $line-height-base);
   font-weight: 400;
-  margin: 0 0 $sm-spacing;
+  margin: 0 0 $md-spacing;
   color: $white;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 .copy-lg {

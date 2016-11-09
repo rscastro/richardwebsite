@@ -60,8 +60,8 @@
     "title": "Solution"
   },
   "textColumns": {
-    "copyLeft": "Vivamus eleifend mollis faucibus. Sed eget lacus pellentesque, sodales erat in, convallis dolor. Ut lobortis semper purus, id luctus urna dignissim fermentum. Proin vitae sem interdum, lobortis ex venenatis, commodo ante. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et.",
-    "copyRight": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et."
+    "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+    "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
   },
   "img": {
     "url": "temp-image.jpg",
