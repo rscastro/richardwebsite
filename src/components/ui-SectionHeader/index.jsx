@@ -12,13 +12,23 @@ export default class SectionHeader extends Component {
   render() {
     const {
       data: {
-        copy
+        title,
+        number
       }
     } = this.props;
 
     return (
       <div className="section-header">
-        <h3>{copy}</h3>
+        <div className="wrapper">
+          <div className="grid">
+            <div className="grid__col-xs-12 grid__col-sm-2 number">
+              <h4 className="title-title underline">{number}</h4>
+            </div>
+            <div className="grid__col-xs-12 grid__col-sm-4 title-hldr">
+              <h4 className="title underline">{title}</h4>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

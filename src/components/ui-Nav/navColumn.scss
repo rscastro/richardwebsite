@@ -4,12 +4,10 @@
   color: $orange;
 
   .title {
-    @include fontsize(1.6rem, 1.6rem);
-    color: $orange;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5rem;
-    border-bottom: .1rem solid $orange;
+    border-bottom-color: $orange;
     padding-bottom: $sm-spacing;
     margin-bottom: $md-spacing;
   }

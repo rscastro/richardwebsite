@@ -1,9 +1,25 @@
 @import '../css-base/index.scss';
 
 .section-header {
-  background: #ccc; // Temp style
   text-align: center;
-  padding: $base-spacing; // Temp style
-  margin-top: $sm-spacing; // Temp style
-  margin-bottom: $sm-spacing; // Temp style
+  margin-top: $base-spacing;
+  margin-bottom: $base-spacing;
+
+  .number {
+    @include breakpoint($break-pt-sm) {
+      margin-right: 16.66667%; // With of two more columns
+    }
+
+    .nunber-title {
+      color: $drk-gray;
+      border-bottom-color: $drk-gray;
+    }
+  }
+
+  .title-hldr {
+    .title {
+      color: $orange;
+      border-bottom-color: $orange;
+    }
+  }
 }

@@ -8,6 +8,10 @@ h6 {
   font-family: 'Titillium Web', sans-serif;
   line-height: $heading-line-height;
   color: $white;
+
+  &.underline {
+    border-bottom: 1px solid $white;
+  }
 }
 
 h1 {
@@ -28,13 +32,16 @@ h2 {
 }
 
 h3 {
-  // font-family: $CircularAirBook;
-  @include fontsize(2.2rem, 2.4rem);
+  @include fontsize(1.6rem, 1.6rem);
+  color: $orange;
 }
 
-h4 {
-  font-size: 1.6rem;
-  margin-bottom: $xs-spacing;
+h4 { // Used by section headers
+  @include fontsize(1.8rem, 2.4rem);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  padding-bottom: $xs-spacing;
 }
 
 p {

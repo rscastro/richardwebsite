@@ -52,7 +52,8 @@
     "copy": "We build the creative web"
   },
   "sectionHeader": {
-    "copy": "This is a section header"
+    "number": "01",
+    "title": "This is a section header"
   },
   "textColumns": {
     "copyLeft": "Vivamus eleifend mollis faucibus. Sed eget lacus pellentesque, sodales erat in, convallis dolor. Ut lobortis semper purus, id luctus urna dignissim fermentum. Proin vitae sem interdum, lobortis ex venenatis, commodo ante. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et.",
