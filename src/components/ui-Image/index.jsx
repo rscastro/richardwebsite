@@ -12,17 +12,61 @@ export default class Image extends Component {
 
   // Make it so image url gets build from passed in url.!!!!
 
+  // Size options are full, lg, md, sm
+
   render() {
     const {
       data: {
+         size,
         // url,
         title
       }
     } = this.props;
 
+    const wrapperSize = size;
+    console.log(wrapperSize);
+
     return (
       <div className="img-hldr">
-        <img src={ImageUrl} alt={title} className="img" />
+
+        {/* Fullwidth */}
+        { (size === 'full') ?
+          <img src={ImageUrl} alt={title} className="img" />
+        : null }
+
+        {/* Large */}
+        { (size === 'lg') ?
+          <div className="wrapper">
+            <div className="grid">
+              <div className="grid__col-12">
+                <img src={ImageUrl} alt={title} className="img" />
+              </div>
+            </div>
+          </div>
+        : null }
+
+        {/* Medium */}
+        { (size === 'md') ?
+          <div className="wrapper">
+            <div className="grid grid--justify-center">
+              <div className="grid__col-8">
+                <img src={ImageUrl} alt={title} className="img" />
+              </div>
+            </div>
+          </div>
+        : null }
+
+        {/* Medium */}
+        { (size === 'sm') ?
+          <div className="wrapper">
+            <div className="grid grid--justify-center">
+              <div className="grid__col-4">
+                <img src={ImageUrl} alt={title} className="img" />
+              </div>
+            </div>
+          </div>
+        : null }
+
       </div>
     );
   }

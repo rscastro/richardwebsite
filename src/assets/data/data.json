@@ -64,6 +64,7 @@
     "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
   },
   "img": {
+    "size": "full",
     "url": "temp-image.jpg",
     "title": "Image title"
   },
