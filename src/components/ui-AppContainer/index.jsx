@@ -34,9 +34,9 @@ export default class AppContainer extends React.Component {
         img,
         video,
         carousel,
-        projects,
-        projects: {
-          projectDetails
+        work,
+        work: {
+          projects
         },
         footer
       }
@@ -46,7 +46,7 @@ export default class AppContainer extends React.Component {
       <div className="app-container">
         <ProjectHero data={projectHero} />
         <SectionHeader data={sectionHeader1} />
-        <ProjectIntro data={projectDetails[1]} />
+        <ProjectIntro data={projects[1]} />
         <SectionHeader data={sectionHeader2} />
         <TextColumns data={textColumns} />
         <Image data={img} />
@@ -57,7 +57,7 @@ export default class AppContainer extends React.Component {
         <HomeHero data={homeHero} />
         <Video data={video} />
         <Carousel data={carousel} />
-        <WorkGrid projects={projects} />
+        <WorkGrid work={work} />
         <Footer data={footer} />
       </div>
     );

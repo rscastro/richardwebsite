@@ -11,7 +11,7 @@ class WorkGrid extends Component {
     return {
       people: PropTypes.array.isRequired,
       actions: PropTypes.object.isRequired,
-      projects: React.PropTypes.object
+      work: React.PropTypes.object
     };
   }
 
@@ -23,7 +23,7 @@ class WorkGrid extends Component {
     };
   }
 
-  renderProjectImgs(imgs) {
+  renderProjectImages(imgs) {
     return imgs.map((img, index) => {
       return (
         <li key={img.title + '-' + index} >
@@ -33,8 +33,8 @@ class WorkGrid extends Component {
     });
   }
 
-  renderProjects(projects) {
-    return projects.map((project, index) => {
+  renderProjects(work) {
+    return work.map((project, index) => {
       return (
         <div key={project.title + '-' + index} className="grid__col-4">
           <p>Title: {project.title}</p>
@@ -43,7 +43,7 @@ class WorkGrid extends Component {
           <p>Client: {project.client}</p>
           <p>Client: {project.launch}</p>
           <ul className="client-imgs">
-            { this.renderProjectImgs(project.images) }
+            { this.renderProjectImages(project.images) }
           </ul>
           <hr />
         </div>
@@ -54,15 +54,15 @@ class WorkGrid extends Component {
   render() {
     const {
       people,
-      projects: {
-        projectDetails
+      work: {
+        projects
       }
     } = this.props;
 
     return (
       <div>
         <div className="grid">
-          { this.renderProjects(projectDetails) }
+          { this.renderProjects(projects) }
         </div>
         <PersonInput addPerson={this.props.actions.addPerson} />
         <PeopleList people={people} />
