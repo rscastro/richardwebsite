@@ -5,6 +5,10 @@ body {
   color: $white;
 }
 
+img {
+  display: inline-block;
+}
+
 // offscreen
 .screen-reader-only {
   border: 0;

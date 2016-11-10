@@ -46,17 +46,22 @@
   },
   "projectHero": {
     "url": "someurl.jpg",
-    "title": "Hero Title"
+    "copy": "We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
   },
   "tagline": {
-    "copy": "We build the creative web"
+    "title": "We build the creative web"
   },
-  "sectionHeader": {
-    "copy": "This is a section header"
+  "sectionHeader1": {
+    "number": "01",
+    "title": "Challenge"
+  },
+  "sectionHeader2": {
+    "number": "02",
+    "title": "Solution"
   },
   "textColumns": {
-    "copyLeft": "Vivamus eleifend mollis faucibus. Sed eget lacus pellentesque, sodales erat in, convallis dolor. Ut lobortis semper purus, id luctus urna dignissim fermentum. Proin vitae sem interdum, lobortis ex venenatis, commodo ante. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et.",
-    "copyRight": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et. Vestibulum aliquet scelerisque ex, eget vulputate erat tempor et."
+    "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+    "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
   },
   "img": {
     "url": "temp-image.jpg",
@@ -98,9 +103,9 @@
       {
         "title": "Project 01",
         "url": "//example.com",
-        "logo": "somelogo1.jpg",
+        "logo": "metagram-logo.png",
         "description":"Project 01 description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum purus libero, hendrerit interdum diam aliquet nec. Vivamus in ipsum eget lacus feugiat interdum vitae sed dui.",
-        "projectIntro": "Someintro copy...1",
+        "projectIntro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
         "client": "AirBnb",
         "launch":"Oct 2016",
         "images": [
@@ -113,9 +118,9 @@
       {
         "title": "Project 02",
         "url": "//example.com",
-        "logo": "somelogo2.jpg",
+        "logo": "metagram-logo.png",
         "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
-        "projectIntro": "Someintro copy...2",
+        "projectIntro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
         "client": "Twitter",
         "launch":"Oct 2016",
         "images": [

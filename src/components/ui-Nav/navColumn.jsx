@@ -22,7 +22,7 @@ export default class NavColumn extends Component {
 
     return (
       <div className="nav-column grid__col-12 grid__col-sm-4">
-        <h3 className="title">{title}</h3>
+        <h3 className="title underline">{title}</h3>
         <List items={links} className={className} />
       </div>
     );
