@@ -102,8 +102,9 @@
     "introcopy": "introcopy test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
     "projects": [
       {
+        "project-id": "project-1",
         "title": "Project 01",
-        "url": "//example.com",
+        "url": "project-1-slug",
         "logo": "metagram-logo.png",
         "description":"Project 01 description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum purus libero, hendrerit interdum diam aliquet nec. Vivamus in ipsum eget lacus feugiat interdum vitae sed dui.",
         "projectIntro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
@@ -114,11 +115,26 @@
           { "src": "project_1_2.jpg", "title": "Image title 1.2" },
           { "src": "project_1_3.jpg", "title": "Image title 1.3" },
           { "src": "project_1_4.jpg", "title": "Image title 1.4" }
-        ]
+        ],
+        "pageContent": {
+          "sectionHeader": {
+            "number": "01",
+            "title": "Challenge"
+          },
+          "textColumns": {
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          "sectionHeader": {
+            "number": "02",
+            "title": "Solution"
+          }
+        }
       },
       {
+        "project-id": "project-2",
         "title": "Project 02",
-        "url": "//example.com",
+        "url": "project-2-slug",
         "logo": "metagram-logo.png",
         "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
         "projectIntro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
@@ -129,11 +145,26 @@
           { "src": "project_2_2.jpg", "title": "Image title 2.2" },
           { "src": "project_2_3.jpg", "title": "Image title 2.3" },
           { "src": "project_2_4.jpg", "title": "Image title 2.4" }
-        ]
+        ],
+        "pageContent": {
+          "sectionHeader": {
+            "number": "01",
+            "title": "Challenge"
+          },
+          "textColumns": {
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          "sectionHeader": {
+            "number": "02",
+            "title": "Solution"
+          }
+        }
       },
       {
+        "project-id": "project-3",
         "title": "Project 03",
-        "url": "//example.com",
+        "url": "project-3-slug",
         "logo": "somelogo3.jpg",
         "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
         "projectIntro": "Someintro copy...3",
@@ -144,7 +175,21 @@
           { "src": "project_3_2.jpg", "title": "Image title 3.2" },
           { "src": "project_3_3.jpg", "title": "Image title 3.3" },
           { "src": "project_3_4.jpg", "title": "Image title 3.4" }
-        ]
+        ],
+        "pageContent": {
+          "sectionHeader": {
+            "number": "01",
+            "title": "Challenge"
+          },
+          "textColumns": {
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          "sectionHeader": {
+            "number": "02",
+            "title": "Solution"
+          }
+        }
       }
     ]
   },
