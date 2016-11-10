@@ -19,15 +19,15 @@ h1 {
   color: $white;
 
   @include breakpoint($break-pt-sm) {
-    @include fontsize(4.4rem, 5.6rem);
+    // @include fontsize(4.4rem, 5.6rem);
   }
 }
 
 h2 {
-  @include fontsize(2.8rem, 3.5rem);
-
+  @include fontsize(5.6rem, 7rem);
+  font-weight: 200;
   @include breakpoint($break-pt-sm) {
-    @include fontsize(3.2rem, 3.8rem);
+    // @include fontsize(3.2rem, 3.8rem);
   }
 }
 

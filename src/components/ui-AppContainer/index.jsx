@@ -42,20 +42,16 @@ export default class AppContainer extends React.Component {
 
     return (
       <div className="app-container">
+        <ProjectHero data={projectHero} />
+        <SectionHeader data={sectionHeader1} />
+        <ProjectIntro data={projectDetails[1]} />
+        <SectionHeader data={sectionHeader2} />
+        <TextColumns data={textColumns} />
+
         <Tagline data={tagline} />
         <Nav data={nav} />
 
-        <SectionHeader data={sectionHeader1} />
-
-        <ProjectIntro data={projectDetails[1]} />
-
-        <SectionHeader data={sectionHeader2} />
-
-        <TextColumns data={textColumns} />
-
-
         <HomeHero data={homeHero} />
-        <ProjectHero data={projectHero} />
         <Image data={img} />
         <Video data={video} />
         <Carousel data={carousel} />
