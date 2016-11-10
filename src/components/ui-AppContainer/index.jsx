@@ -1,6 +1,8 @@
 import './index.scss';
 
 import React from 'react';
+// import { Router, Route, Link, browserHistory } from 'react-router';
+
 import Nav from '../ui-Nav';
 import HomeHero from '../ui-HomeHero';
 import ProjectHero from '../ui-ProjectHero';
