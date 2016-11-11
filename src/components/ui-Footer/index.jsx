@@ -1,12 +1,13 @@
 import './index.scss';
 
 import React, {Component} from 'react';
+const footerData = require('../../assets/data/footer-data.json');
 
 export default class Footer extends Component {
 
-  static get propTypes() {
-    return {data: React.PropTypes.object};
-  }
+  // static get propTypes() {
+  //   return {footerData: React.PropTypes.object};
+  // }
 
   renderFooterNav(links) {
     return links.map((link, index) => {
@@ -19,20 +20,28 @@ export default class Footer extends Component {
   }
 
   render() {
-    const {
-      data: {
-        copyright,
-        footerNav
-      }
-    } = this.props;
+    // const {
+    //   footerData: {
+    //     copyright,
+    //     footerNav
+    //   }
+    // } = this.props;
+
+    // console.log('footerData', footerData);
 
     return (
       <div className="footer">
-          <h3>Footer</h3>
-          <ul className="footer-nav">
-            { this.renderFooterNav(footerNav) }
-          </ul>
-          <p>{copyright}</p>
+        <div className="wrapper">
+          <div className="grid">
+            <div className="grid__col-12">
+              <h3>Footer</h3>
+              <ul className="footer-nav">
+                { this.renderFooterNav(footerData.footerNav) }
+              </ul>
+              <p>{footerData.copyright}</p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

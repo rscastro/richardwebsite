@@ -1,0 +1,9 @@
+{
+  "homeHero": {
+    "url": "someurl.jpg",
+    "title": "Hero Title"
+  },
+  "tagline": {
+    "title": "We build the creative web"
+  }
+}

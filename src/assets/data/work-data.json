@@ -1,45 +1,4 @@
-
-
 {
-  "nav": {
-    "title": "Navigation Title",
-    "aboutInfo": {
-      "title": "About",
-      "weAre": "Martian is a creative development studio in San Francisco",
-      "address1": "1311 Sutter Street",
-      "address2": "San Francisco, California 94109",
-      "phone": "415.263.7383"
-    },
-    "navColumns": [
-      {
-        "title": "Work",
-        "className": "nav-col-ul",
-        "links": [
-          { "title": "Twitter Marketing", "url": "some-where" },
-          { "title": "Twitter Flight School", "url": "some-where" },
-          { "title": "WeAreMartian", "url": "some-where" },
-          { "title": "Airbnb Road Trips", "url": "some-where" },
-          { "title": "Airbnb Maisons de France", "url": "airbnb-maisons-de-france" },
-          { "title": "Sony HMZ", "url": "sony-hmz" },
-          { "title": "Twitter Marketing", "url": "twitter-marketing" },
-          { "title": "Twitter Flight School", "url": "twitter-flight-school" },
-          { "title": "WeAreMartian", "url": "we-are-martian" }
-        ]
-      },
-      {
-        "title": "Labs",
-        "className": "nav-col-ul",
-        "links": [
-          { "title": "Twitter Marketing", "url": "some-where" },
-          { "title": "Twitter Flight School", "url": "some-where" },
-          { "title": "WeAreMartian", "url": "some-where" },
-          { "title": "Airbnb Road Trips", "url": "some-where" },
-          { "title": "Airbnb Maisons de France", "url": "airbnb-maisons-de-france" },
-          { "title": "Sony HMZ", "url": "sony-hmz" }
-        ]
-      }
-    ]
-  },
   "homeHero": {
     "url": "someurl.jpg",
     "title": "Hero Title"
@@ -191,14 +150,6 @@
           }
         }
       }
-    ]
-  },
-  "footer": {
-    "copyright": "©2016 Martian. All Rights Reserved.",
-    "footerNav": [
-      { "title": "Footer Link 1", "url": "some-where" },
-      { "title": "Footer Link 3", "url": "some-where" },
-      { "title": "Footer Link 3", "url": "some-where" }
     ]
   }
 }

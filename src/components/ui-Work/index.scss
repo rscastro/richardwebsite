@@ -1,0 +1,11 @@
+@import '../css-base/index.scss';
+
+.work {
+
+  .title {
+    @include fontsize(3.2rem, 4.8rem);
+    font-weight: 300;
+    letter-spacing: .2rem;
+    color: $white;
+  }
+}
