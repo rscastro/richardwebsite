@@ -30,7 +30,7 @@ export default class Nav extends Component {
     //   }
     // } = this.props;
 
-    console.log('title', navData.title);
+    console.log('navData.title', navData.title);
 
     return (
       <div className="nav-hldr">

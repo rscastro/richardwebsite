@@ -16,6 +16,26 @@ import WorkGrid from '../ui-WorkGrid';
 export default class Work extends Component {
   render() {
 
+    console.log('workData :: ', workData);
+
+    // const {
+    //   // workData: {
+    //   //   projectHero,
+    //   //   sectionHeader1,
+    //   //   sectionHeader2,
+    //   //   textColumns,
+    //   //   img,
+    //   //   video,
+    //   //   carousel,
+    //   //   work,
+    //   //   work: {
+    //   //     projects
+    //   //   }
+    //   // }
+    // } = this.props;
+
+    console.log('workData.projectHero :: ', workData.projectHero);
+
     // const {
     //   workData: {
     //     projectHero,
@@ -31,6 +51,7 @@ export default class Work extends Component {
     //     }
     //   }
     // } = this.props;
+
 
     return (
       <div className="work">
