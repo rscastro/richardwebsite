@@ -37,6 +37,10 @@ export default class Work extends Component {
         return (
           <TextColumns key={component.type + '-' + index} data={component} />
         );
+      } else if (component.type === 'image') {
+        return (
+          <Image key={component.type + '-' + index} data={component} />
+        );
       }
     });
   }
@@ -45,15 +49,15 @@ export default class Work extends Component {
     return (
       <div className="work">
         <div className="wrapper">
-          
+
           { this.renderPageComponents(workData.work.projects[0].pageContent) }
 
           {/* <ProjectHero data={workData.projectHero} />
           <SectionHeader data={workData.sectionHeader1} />
           <ProjectIntro data={workData.work.projects[1]} />
           <SectionHeader data={workData.sectionHeader2} />
-          <TextColumns data={workData.textColumns} /> */}
-          <Image data={workData.img} />
+          <TextColumns data={workData.textColumns} />
+          <Image data={workData.img} /> */}
 
           <Video data={workData.video} />
           <Carousel data={workData.carousel} />
