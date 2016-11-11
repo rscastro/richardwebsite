@@ -5,10 +5,6 @@ const footerData = require('../../assets/data/footer-data.json');
 
 export default class Footer extends Component {
 
-  // static get propTypes() {
-  //   return {footerData: React.PropTypes.object};
-  // }
-
   renderFooterNav(links) {
     return links.map((link, index) => {
       return (
@@ -20,15 +16,6 @@ export default class Footer extends Component {
   }
 
   render() {
-    // const {
-    //   footerData: {
-    //     copyright,
-    //     footerNav
-    //   }
-    // } = this.props;
-
-    // console.log('footerData', footerData);
-
     return (
       <div className="footer">
         <div className="wrapper">

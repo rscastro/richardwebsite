@@ -3,9 +3,6 @@ import './index.scss';
 import React from 'react';
 import { Router, Route, browserHistory } from 'react-router';
 
-// Data
-// const appData = require('../../assets/data/data.json'); // Remove eventually
-
 
 import Home from '../ui-Home';
 import Work from '../ui-Work';

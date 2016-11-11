@@ -9,10 +9,6 @@ import HamburgerIcon from '../ui-HamburgerIcon';
 
 export default class Nav extends Component {
 
-  // static get propTypes() {
-  //   return {navData: React.PropTypes.object};
-  // }
-
   renderColumns(columns) {
     return columns.map((column, index) => {
       return (
@@ -22,28 +18,18 @@ export default class Nav extends Component {
   }
 
   render() {
-    // const {
-    //   navData: {
-    //     title,
-    //     aboutInfo,
-    //     navColumns
-    //   }
-    // } = this.props;
-
-    console.log('navData.title', navData.title);
-
     return (
       <div className="nav-hldr">
         <div className="wrapper">
           <div className="grid">
             <div className="grid__col-4">
-            <h2><img src={LogoType} alt={navData.title} className="logo-type" /></h2>
+              <h2><img src={LogoType} alt={navData.title} className="logo-type" /></h2>
             </div>
             <div className="grid__col-4 text-center">
-            <h2><img src={LogoMark} alt={navData.title} className="logo-mark" /></h2>
+              <h2><img src={LogoMark} alt={navData.title} className="logo-mark" /></h2>
             </div>
             <div className="grid__col-4 text-right">
-            <HamburgerIcon />
+              <HamburgerIcon />
             </div>
           </div>
           <div className="grid nav">

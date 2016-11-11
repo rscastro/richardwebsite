@@ -8,20 +8,7 @@ import Tagline from '../ui-Tagline';
 
 
 export default class Home extends Component {
-
-  // static get propTypes() {
-  //   return {homeData: React.PropTypes.object};
-  // }
-
   render() {
-
-    // const {
-    //   homeData: {
-    //     homeHero,
-    //     tagline
-    //   }
-    // } = this.props;
-
     return (
       <div className="home">
         <div className="wrapper">
