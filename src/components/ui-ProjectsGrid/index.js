@@ -5,7 +5,7 @@ import * as peopleActions from '../actions-projects/project-actions';
 import PeopleList from './PeopleList';
 import PersonInput from './PersonInput';
 
-class WorkGrid extends Component {
+class ProjectsGrid extends Component {
 
   static get propTypes() {
     return {

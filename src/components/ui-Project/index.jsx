@@ -1,25 +1,23 @@
 import './index.scss';
 
-const workData = require('../../assets/data/work-data.json');
+const projectsData = require('../../assets/data/projects-data.json');
 
 import React, { Component } from 'react';
 import ProjectHero from '../ui-ProjectHero';
 import ProjectIntro from '../ui-ProjectIntro';
-import SectionHeader from '../ui-SectionHeader';
-import TextColumns from '../ui-TextColumns';
+import ProjectSectionHeader from '../ui-ProjectSectionHeader';
+import ProjectTextColumns from '../ui-ProjectTextColumns';
 import Image from '../ui-Image';
 import Video from '../ui-Video';
 import Carousel from '../ui-Carousel';
 import WorkGrid from '../ui-WorkGrid';
 
 
-console.log('pageContent:', workData.work.projects[0].pageContent);
+console.log('pageContent:', projectsData.work.projects[0].pageContent);
 
-export default class Work extends Component {
+export default class Project extends Component {
 
-  // let currentProject = 1;
-
-  renderPageComponents(pageContent) {
+  renderProjectComponents(pageContent) {
     return pageContent.map((component, index) => {
       if (component.type === 'projectHero') {
         return (
@@ -31,11 +29,11 @@ export default class Work extends Component {
         );
       } else if (component.type === 'sectionHeader') {
         return (
-          <SectionHeader key={component.type + '-' + index} data={component} />
+          <ProjectSectionHeader key={component.type + '-' + index} data={component} />
         );
       } else if (component.type === 'textColumns') {
         return (
-          <TextColumns key={component.type + '-' + index} data={component} />
+          <ProjectTextColumns key={component.type + '-' + index} data={component} />
         );
       } else if (component.type === 'image') {
         return (
@@ -47,21 +45,13 @@ export default class Work extends Component {
 
   render() {
     return (
-      <div className="work">
+      <div className="project">
         <div className="wrapper">
+          { this.renderProjectComponents(projectsData.work.projects[0].pageContent) }
 
-          { this.renderPageComponents(workData.work.projects[0].pageContent) }
-
-          {/* <ProjectHero data={workData.projectHero} />
-          <SectionHeader data={workData.sectionHeader1} />
-          <ProjectIntro data={workData.work.projects[1]} />
-          <SectionHeader data={workData.sectionHeader2} />
-          <TextColumns data={workData.textColumns} />
-          <Image data={workData.img} /> */}
-
-          <Video data={workData.video} />
-          <Carousel data={workData.carousel} />
-          <WorkGrid work={workData.work} />
+          <Video data={projectsData.video} />
+          <Carousel data={projectsData.carousel} />
+          <WorkGrid work={projectsData.work} />
         </div>
       </div>
     );

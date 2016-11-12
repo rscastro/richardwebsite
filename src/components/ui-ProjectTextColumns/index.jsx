@@ -3,7 +3,7 @@ import './index.scss';
 import React, { Component } from 'react';
 
 
-export default class TextColumns extends Component {
+export default class ProjectTextColumns extends Component {
 
   static get propTypes() {
     return {data: React.PropTypes.object};
