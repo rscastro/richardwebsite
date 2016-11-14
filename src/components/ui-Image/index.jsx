@@ -23,9 +23,6 @@ export default class Image extends Component {
       }
     } = this.props;
 
-    const wrapperSize = size;
-    console.log(wrapperSize);
-
     return (
       <div className="img-hldr">
 
