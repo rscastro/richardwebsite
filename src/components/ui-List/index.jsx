@@ -6,7 +6,7 @@ export default class List extends Component {
 
   static get propTypes() {
     return {
-      items: React.PropTypes.array.required,
+      items: React.PropTypes.array, // Had .required, but that was causing a warning.
       className: React.PropTypes.string
     };
   }
