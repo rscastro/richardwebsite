@@ -11,7 +11,7 @@ class ProjectsGrid extends Component {
     return {
       people: PropTypes.array.isRequired,
       actions: PropTypes.object.isRequired,
-      work: React.PropTypes.object
+      projects: React.PropTypes.object
     };
   }
 
@@ -33,8 +33,8 @@ class ProjectsGrid extends Component {
     });
   }
 
-  renderProjects(work) {
-    return work.map((project, index) => {
+  renderProjects(projects) {
+    return projects.map((project, index) => {
       return (
         <div key={project.title + '-' + index} className="grid__col-4">
           <p>Title: {project.title}</p>
@@ -52,17 +52,19 @@ class ProjectsGrid extends Component {
   }
 
   render() {
+
+
     const {
       people,
-      work: {
-        projects
+      projects: {
+        projectSingles
       }
     } = this.props;
 
     return (
       <div>
         <div className="grid">
-          { this.renderProjects(projects) }
+          { this.renderProjects(projectSingles) }
         </div>
         <PersonInput addPerson={this.props.actions.addPerson} />
         <PeopleList people={people} />
@@ -84,4 +86,4 @@ function mapDispatchToProps(dispatch) {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(WorkGrid);
+export default connect(mapStateToProps, mapDispatchToProps)(ProjectsGrid);

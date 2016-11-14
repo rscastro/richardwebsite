@@ -10,10 +10,7 @@ import ProjectTextColumns from '../ui-ProjectTextColumns';
 import Image from '../ui-Image';
 import Video from '../ui-Video';
 import Carousel from '../ui-Carousel';
-import WorkGrid from '../ui-WorkGrid';
-
-
-console.log('pageContent:', projectsData.work.projects[0].pageContent);
+import ProjectsGrid from '../ui-ProjectsGrid';
 
 export default class Project extends Component {
 
@@ -47,11 +44,10 @@ export default class Project extends Component {
     return (
       <div className="project">
         <div className="wrapper">
-          { this.renderProjectComponents(projectsData.work.projects[0].pageContent) }
-
+          { this.renderProjectComponents(projectsData.projects.projectSingles[0].pageContent) }
           <Video data={projectsData.video} />
           <Carousel data={projectsData.carousel} />
-          <WorkGrid work={projectsData.work} />
+          <ProjectsGrid projects={projectsData.projects} />
         </div>
       </div>
     );

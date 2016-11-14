@@ -1,9 +1,9 @@
 {
-  "work": {
+  "projects": {
     "title": "Test Title from json",
     "subtitle": "subtitle test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
     "introcopy": "introcopy test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
-    "projects": [
+    "projectSingles": [
       {
         "project-id": "project-1",
         "title": "Project 01",
