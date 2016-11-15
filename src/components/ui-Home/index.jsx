@@ -1,6 +1,6 @@
 import './index.scss';
 
-const homeData = require('../../assets/data/home-data.json');
+const homeData = require('../../assets/data/home.json');
 
 import React, { Component } from 'react';
 import HomeHero from '../ui-HomeHero';

@@ -1,6 +1,6 @@
 import './index.scss';
 
-const projectsData = require('../../assets/data/projects-data.json');
+const projectsData = require('../../assets/data/projects.json');
 
 import React, { Component } from 'react';
 
