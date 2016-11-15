@@ -11,16 +11,14 @@ export default class HamburgerIcon extends Component {
     TweenLite.to('#l2', .2, {rotation:45, transformOrigin:'50% 50%'});
     TweenLite.to('#l3', .2, {rotation:-45, scaleX:.5, x:2, y:-1, transformOrigin:'0% 50%'});
 
-    
+
   }
 
   onMouseEnterHandler() {
-    console.log('onMouseEnterHandler::');
     TweenLite.to('#l2', .2, {scaleX:.7, transformOrigin:'50% 50%'});
   }
 
   onMouseLeaveHandler() {
-    console.log('onMouseLeaveHandler');
     TweenLite.to('#l2', .2, {scaleX:1, transformOrigin:'50% 50%'});
   }
 
