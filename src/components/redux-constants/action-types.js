@@ -1,1 +1,1 @@
-// export const ADD_PROJECT = 'ADD_PROJECT';
+export const TOGGLE_NAVIGATION = 'TOGGLE_NAVIGATION';
