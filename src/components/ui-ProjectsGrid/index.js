@@ -1,27 +1,27 @@
 import React, {PropTypes, Component} from 'react';
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
-import * as peopleActions from '../actions-projects/project-actions';
-import PeopleList from './PeopleList';
-import PersonInput from './PersonInput';
+// import {connect} from 'react-redux';
+// import {bindActionCreators} from 'redux';
+// import * as peopleActions from '../actions-projects/project-actions';
+// import PeopleList from './PeopleList';
+// import PersonInput from './PersonInput';
 
-class ProjectsGrid extends Component {
+export default class ProjectsGrid extends Component {
 
   static get propTypes() {
     return {
-      people: PropTypes.array.isRequired,
-      actions: PropTypes.object.isRequired,
+      // people: PropTypes.array.isRequired,
+      // actions: PropTypes.object.isRequired,
       projects: React.PropTypes.object
     };
   }
 
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      people: []
-    };
-  }
+  // constructor(props) {
+  //   super(props);
+  //
+  //   this.state = {
+  //     people: []
+  //   };
+  // }
 
   renderProjectImages(imgs) {
     return imgs.map((img, index) => {
@@ -55,7 +55,7 @@ class ProjectsGrid extends Component {
 
 
     const {
-      people,
+      // people,
       projects: {
         projectSingles
       }
@@ -66,24 +66,24 @@ class ProjectsGrid extends Component {
         <div className="grid">
           { this.renderProjects(projectSingles) }
         </div>
-        <PersonInput addPerson={this.props.actions.addPerson} />
-        <PeopleList people={people} />
+        {/* <PersonInput addPerson={this.props.actions.addPerson} />
+        <PeopleList people={people} /> */}
       </div>
     );
   }
 }
 
 
-function mapStateToProps(state) {
-  return {
-    people: state.people
-  };
-}
+// function mapStateToProps(state) {
+//   return {
+//     people: state.people
+//   };
+// }
+//
+// function mapDispatchToProps(dispatch) {
+//   return {
+//     actions: bindActionCreators(peopleActions, dispatch)
+//   }
+// }
 
-function mapDispatchToProps(dispatch) {
-  return {
-    actions: bindActionCreators(peopleActions, dispatch)
-  }
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(ProjectsGrid);
+// export default connect(mapStateToProps, mapDispatchToProps)(ProjectsGrid);
