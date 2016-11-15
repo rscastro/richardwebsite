@@ -6,6 +6,7 @@ import NavColumn from './navColumn.jsx'
 import LogoMark from '../../assets/images/logo-mark.svg';
 import LogoType from '../../assets/images/logo-type.svg';
 import HamburgerIcon from '../ui-HamburgerIcon';
+import SocialMediaIcons from '../ui-SocialMediaIcons';
 
 export default class Nav extends Component {
 
@@ -37,7 +38,7 @@ export default class Nav extends Component {
               <h3 className="title underline">{navData.aboutInfo.title}</h3>
               <p>{navData.aboutInfo.weAre}</p>
               <p>{navData.aboutInfo.address1}<br/>{navData.aboutInfo.address2}<br/>{navData.aboutInfo.phone}</p>
-              <p>!! Social Media icons !!</p>
+              <SocialMediaIcons />
             </div>
             { this.renderColumns(navData.navColumns) }
           </div>
