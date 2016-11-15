@@ -235,7 +235,7 @@
           },
           {
             "type": "image",
-            "size": "full",
+            "size": "lg",
             "url": "../../assets/images/temp-image.jpg",
             "title": "Image title"
           }
