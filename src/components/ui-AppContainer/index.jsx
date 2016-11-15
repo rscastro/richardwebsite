@@ -7,8 +7,6 @@ import Home from '../ui-Home';
 import Project from '../ui-Project';
 import Contact from '../ui-Contact';
 import Nav from '../ui-Nav';
-import Footer from '../ui-Footer';
-
 
 export default class AppContainer extends React.Component {
   render() {
@@ -23,7 +21,6 @@ export default class AppContainer extends React.Component {
         </Router>
 
         <Nav />
-        <Footer />
       </div>
     );
   }
