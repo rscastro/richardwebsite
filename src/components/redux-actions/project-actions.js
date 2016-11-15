@@ -1,4 +1,4 @@
-import * as types from '../constants-projects/action-types';
+import * as types from '../redux-constants/action-types';
 
 // export const addPerson = (person) => {
 //   return {

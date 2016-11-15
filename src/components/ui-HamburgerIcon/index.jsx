@@ -10,8 +10,6 @@ export default class HamburgerIcon extends Component {
     TweenLite.to('#l1', .2, {rotation:-45, scaleX:.5, x:-2, y:1, transformOrigin:'100% 50%'});
     TweenLite.to('#l2', .2, {rotation:45, transformOrigin:'50% 50%'});
     TweenLite.to('#l3', .2, {rotation:-45, scaleX:.5, x:2, y:-1, transformOrigin:'0% 50%'});
-
-
   }
 
   onMouseEnterHandler() {
@@ -21,7 +19,6 @@ export default class HamburgerIcon extends Component {
   onMouseLeaveHandler() {
     TweenLite.to('#l2', .2, {scaleX:1, transformOrigin:'50% 50%'});
   }
-
 
   render() {
     return (
