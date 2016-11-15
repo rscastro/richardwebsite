@@ -67,14 +67,12 @@ export default class Project extends Component {
 
     return (
       <div className="project">
-        <div className="wrapper">
-          {
-            this.renderProjectComponents( pageContent )
-          }
-          {/* <Video data={projectsData.video} />
-          <Carousel data={projectsData.carousel} />
-          <ProjectsGrid projects={projectsData.projects} /> */}
-        </div>
+        {
+          this.renderProjectComponents( pageContent )
+        }
+        {/* <Video data={projectsData.video} />
+        <Carousel data={projectsData.carousel} />
+        <ProjectsGrid projects={projectsData.projects} /> */}
       </div>
     );
   }
