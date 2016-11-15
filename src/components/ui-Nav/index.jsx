@@ -33,13 +33,13 @@ export default class Nav extends Component {
             </div>
           </div>
           <div className="grid nav">
-            { this.renderColumns(navData.navColumns) }
             <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
               <h3 className="title underline">{navData.aboutInfo.title}</h3>
               <p>{navData.aboutInfo.weAre}</p>
               <p>{navData.aboutInfo.address1}<br/>{navData.aboutInfo.address2}<br/>{navData.aboutInfo.phone}</p>
               <p>!! Social Media icons !!</p>
             </div>
+            { this.renderColumns(navData.navColumns) }
           </div>
         </div>
       </div>
