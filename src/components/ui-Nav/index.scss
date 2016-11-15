@@ -1,6 +1,11 @@
 @import '../css-base/index.scss';
 
 .nav-hldr {
+  // position: fixed;
+  // top: 0;
+  // right: 0;
+  // left: 0;
+  // z-index: 100;
   padding-top: $xl-spacing;
   padding-bottom: $xl-spacing;
 
@@ -17,5 +22,6 @@
 
   .nav {
     margin-top: $lg-spacing;
+    // display: none;
   }
 }

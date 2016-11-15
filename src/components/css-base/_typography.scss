@@ -47,7 +47,7 @@ h4 { // Used by section headers
 p {
   font-family: 'Titillium Web', sans-serif;
   @include fontsize($font-size-base, $line-height-base);
-  font-weight: 400;
+  font-weight: 200;
   margin: 0 0 $md-spacing;
   color: $white;
 

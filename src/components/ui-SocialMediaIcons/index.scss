@@ -1,0 +1,29 @@
+@import '../css-base/index.scss';
+
+.social-icons {
+  margin-top: $base-spacing;
+
+  .social-icons-list {
+
+    li {
+      float: left;
+      margin-left: $base-spacing;
+      margin-bottom: $sm-spacing;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      .icon-link {
+        cursor: pointer;
+        
+        img {
+          display: inline;
+          width: 3.2rem;
+          height: 3.2rem;
+        }
+      }
+    }
+
+  }
+}
