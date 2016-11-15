@@ -12,14 +12,12 @@ export default class AppContainer extends React.Component {
   render() {
     return (
       <div className="app-container">
-
         <Router history={browserHistory}>
           <Route path='/' name='home' component={Home} />
           <Route path='work' name='work' component={Project} />
           <Route path="work/:projectId" component={Project}/>
           <Route path='contact' name='contact' component={Contact} />
         </Router>
-
         <Nav />
       </div>
     );
