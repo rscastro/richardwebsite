@@ -1,8 +1,8 @@
-import projects from './project-reducer.js';
+import navigation from './nav-reducer.js';
 import {combineReducers} from 'redux';
 
 const rootReducer = combineReducers({
-  projects
+  navigation
 });
 
 export default rootReducer;
