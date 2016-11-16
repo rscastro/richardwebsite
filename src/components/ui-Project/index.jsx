@@ -46,11 +46,16 @@ export default class Project extends Component {
         );
       } else if (component.type === 'textColumns') {
         return (
-          <ProjectTextColumns key={component.type + '-' + index} data={component} />
+          <ProjectTextColumns
+            key={component.type + '-' + index} data={component} />
         );
       } else if (component.type === 'image') {
         return (
-          <Image key={component.type + '-' + index} data={component} />
+          <Image
+            key={ `${component.type}-${index}` }
+            size={ component.size }
+            src={ component.src }
+            title={ component.title } />
         );
       }
     });
@@ -63,7 +68,7 @@ export default class Project extends Component {
   }
 
   render() {
-    const { currentProject: { pageContent} } = this.state;
+    const { currentProject: { pageContent } } = this.state;
 
     return (
       <div className="project">
