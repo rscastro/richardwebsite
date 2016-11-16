@@ -1,0 +1,247 @@
+{
+  "labs": {
+    "title": "Lab Test Title from json",
+    "subtitle": "subtitle test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
+    "introcopy": "introcopy test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
+    "labSingles": [
+      {
+        "labID": "metagramme",
+        "title": "Project 01",
+        "description":"Project 01 description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum purus libero, hendrerit interdum diam aliquet nec. Vivamus in ipsum eget lacus feugiat interdum vitae sed dui.",
+        "intro": "<p>Twitter Marketing how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+        "client": "Twitter",
+        "launch":"Oct 2016",
+        "images": [
+          { "src": "lab_1_1.jpg", "title": "Image title 1.1" },
+          { "src": "lab_1_2.jpg", "title": "Image title 1.2" },
+          { "src": "lab_1_3.jpg", "title": "Image title 1.3" },
+          { "src": "lab_1_4.jpg", "title": "Image title 1.4" }
+        ],
+        "pageContent": [
+          {
+            "type": "hero",
+            "url": "someurl.jpg",
+            "copy": "metagramme - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "intro",
+            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "logo": "metagram-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "url": "../../assets/images/temp-image.jpg",
+            "title": "Image title"
+          }
+        ]
+      },
+      {
+        "labID": "twitter-fingerprint",
+        "title": "Project 02",
+        "logo": "metagram-logo.png",
+        "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
+        "client": "Twitter",
+        "launch":"Oct 2016",
+        "images": [
+          { "src": "lab_2_1.jpg", "title": "Image title 2.1" },
+          { "src": "lab_2_2.jpg", "title": "Image title 2.2" },
+          { "src": "lab_2_3.jpg", "title": "Image title 2.3" },
+          { "src": "lab_2_4.jpg", "title": "Image title 2.4" }
+        ],
+        "pageContent": [
+          {
+            "type": "hero",
+            "url": "someurl.jpg",
+            "copy": "twitter-fingerprint - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "intro",
+            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "logo": "metagram-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "url": "../../assets/images/temp-image.jpg",
+            "title": "Image title"
+          }
+        ]
+      },
+      {
+        "labID": "scrum-poker",
+        "title": "Project 03",
+        "logo": "somelogo3.jpg",
+        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "intro": "Someintro copy...3",
+        "client": "Sony",
+        "launch":"Oct 2015",
+        "images": [
+          { "src": "lab_3_1.jpg", "title": "Image title 3.1" },
+          { "src": "lab_3_2.jpg", "title": "Image title 3.2" },
+          { "src": "lab_3_3.jpg", "title": "Image title 3.3" },
+          { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
+        ],
+        "pageContent": [
+          {
+            "type": "hero",
+            "url": "someurl.jpg",
+            "copy": "scrum-poker - This lab was built in multiple phases; fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "intro",
+            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "logo": "metagram-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "url": "../../assets/images/temp-image.jpg",
+            "title": "Image title"
+          }
+        ]
+      },
+      {
+        "labID": "moon-phase",
+        "title": "Project 04",
+        "logo": "somelogo3.jpg",
+        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "intro": "Someintro copy...3",
+        "client": "Sony",
+        "launch":"Oct 2015",
+        "images": [
+          { "src": "lab_3_1.jpg", "title": "Image title 3.1" },
+          { "src": "lab_3_2.jpg", "title": "Image title 3.2" },
+          { "src": "lab_3_3.jpg", "title": "Image title 3.3" },
+          { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
+        ],
+        "pageContent": [
+          {
+            "type": "hero",
+            "url": "someurl.jpg",
+            "copy": "moon-phase - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "intro",
+            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "logo": "metagram-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "url": "../../assets/images/temp-image.jpg",
+            "title": "Image title"
+          }
+        ]
+      },
+      {
+        "labID": "serenade",
+        "title": "Project 04",
+        "logo": "somelogo3.jpg",
+        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "intro": "Someintro copy...3",
+        "client": "Sony",
+        "launch":"Oct 2015",
+        "images": [
+          { "src": "lab_3_1.jpg", "title": "Image title 3.1" },
+          { "src": "lab_3_2.jpg", "title": "Image title 3.2" },
+          { "src": "lab_3_3.jpg", "title": "Image title 3.3" },
+          { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
+        ],
+        "pageContent": [
+          {
+            "type": "hero",
+            "url": "someurl.jpg",
+            "copy": "serenade - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "intro",
+            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "logo": "metagram-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "url": "../../assets/images/temp-image.jpg",
+            "title": "Image title"
+          }
+        ]
+      }
+    ]
+  }
+}

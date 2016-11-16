@@ -15,7 +15,7 @@ export default class ProjectIntro extends Component {
       data: {
         title,
         // logo,
-        projectIntro
+        intro
       }
     } = this.props;
 
@@ -29,7 +29,7 @@ export default class ProjectIntro extends Component {
             { <img src={clientLogo} alt={title} className="img" /> }
           </div>
           <div className="grid__col-6 copy copy-lg">
-            <div dangerouslySetInnerHTML={ {__html: projectIntro} } />
+            <div dangerouslySetInnerHTML={ {__html: intro} } />
           </div>
         </div>
       </div>

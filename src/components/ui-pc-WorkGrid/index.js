@@ -1,27 +1,12 @@
 import React, {PropTypes, Component} from 'react';
-// import {connect} from 'react-redux';
-// import {bindActionCreators} from 'redux';
-// import * as peopleActions from '../actions-projects/project-actions';
-// import PeopleList from './PeopleList';
-// import PersonInput from './PersonInput';
 
-export default class ProjectsGrid extends Component {
+export default class WorkGrid extends Component {
 
   static get propTypes() {
     return {
-      // people: PropTypes.array.isRequired,
-      // actions: PropTypes.object.isRequired,
       projects: React.PropTypes.object
     };
   }
-
-  // constructor(props) {
-  //   super(props);
-  //
-  //   this.state = {
-  //     people: []
-  //   };
-  // }
 
   renderProjectImages(imgs) {
     return imgs.map((img, index) => {
@@ -33,7 +18,7 @@ export default class ProjectsGrid extends Component {
     });
   }
 
-  renderProjects(projects) {
+  renderWork(projects) {
     return projects.map((project, index) => {
       return (
         <div key={project.title + '-' + index} className="grid__col-4">
@@ -66,24 +51,7 @@ export default class ProjectsGrid extends Component {
         <div className="grid">
           { this.renderProjects(projectSingles) }
         </div>
-        {/* <PersonInput addPerson={this.props.actions.addPerson} />
-        <PeopleList people={people} /> */}
       </div>
     );
   }
 }
-
-
-// function mapStateToProps(state) {
-//   return {
-//     people: state.people
-//   };
-// }
-//
-// function mapDispatchToProps(dispatch) {
-//   return {
-//     actions: bindActionCreators(peopleActions, dispatch)
-//   }
-// }
-
-// export default connect(mapStateToProps, mapDispatchToProps)(ProjectsGrid);

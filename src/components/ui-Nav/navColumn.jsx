@@ -1,7 +1,7 @@
 import './navColumn.scss';
 
 import React, {Component} from 'react';
-import List from '../ui-List';
+import List from '../ui-pc-List';
 
 export default class NavColumn extends Component {
 

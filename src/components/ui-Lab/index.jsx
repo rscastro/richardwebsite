@@ -1,6 +1,6 @@
 import './index.scss';
 
-const projectsData = require('../../assets/data/projects.json');
+const labsData = require('../../assets/data/labs.json');
 
 import React, { Component } from 'react';
 
@@ -13,20 +13,20 @@ import Image from '../ui-pc-Image';
 // import Carousel from '../ui-pc-Carousel';
 // import ProjectsGrid from '../ui-pc-WorkGrid';
 
-export default class Project extends Component {
+export default class Lab extends Component {
 
   constructor(props) {
     super(props)
     this.state = {
-      currentProject: {}
+      currentLab: {}
     }
   }
 
   componentWillMount() {
-    const { projectId } = this.props.params;
+    const { labId } = this.props.params;
 
     this.setState({
-      currentProject: this.getCurrentPageId(projectId)
+      currentLab: this.getCurrentPageId(labId)
     })
   }
 
@@ -56,24 +56,24 @@ export default class Project extends Component {
     });
   }
 
-  getCurrentPageId(projectId) {
-    return projectsData.projects.projectSingles.find( project =>
-      project.projectID === projectId
+  getCurrentPageId(labId) {
+    return labsData.labs.labSingles.find( lab =>
+      lab.labID === labId
     );
   }
 
   render() {
-    const { currentProject: { pageContent} } = this.state;
+    const { currentLab: { pageContent} } = this.state;
 
     return (
-      <div className="project">
+      <div className="lab">
         <div className="wrapper">
           {
             this.renderPageComponents( pageContent )
           }
-          {/* <Video data={projectsData.video} />
-          <Carousel data={projectsData.carousel} />
-          <ProjectsGrid projects={projectsData.projects} /> */}
+          {/* <Video data={labsData.video} />
+          <Carousel data={labsData.carousel} />
+          <ProjectsGrid labs={labsData.labs} /> */}
         </div>
       </div>
     );

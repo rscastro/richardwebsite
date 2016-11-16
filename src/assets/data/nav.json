@@ -30,9 +30,9 @@
       "className": "nav-col-ul",
       "links": [
         { "title": "Metagramme", "url": "/labs/metagramme" },
-        { "title": "Twitter Fingerprint", "url": "/labs/twitterfingerprint" },
-        { "title": "Scrum Poker", "url": "/labs/scrumpoker" },
-        { "title": "Moon Phase App", "url": "/labs/moonphase" },
+        { "title": "Twitter Fingerprint", "url": "/labs/twitter-fingerprint" },
+        { "title": "Scrum Poker", "url": "/labs/scrum-poker" },
+        { "title": "Moon Phase App", "url": "/labs/moon-phase" },
         { "title": "Serenade", "url": "/labs/serenade" }
       ]
     }
