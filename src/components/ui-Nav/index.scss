@@ -6,8 +6,11 @@
   // right: 0;
   // left: 0;
   // z-index: 100;
-  padding-top: $xl-spacing;
-  padding-bottom: $xl-spacing;
+  padding-top: $lg-spacing;
+  padding-bottom: $base-spacing;
+
+  background: $off-black;
+  opacity: .7; // Temp style
 
   .logo-mark {
     width: 10.4rem;

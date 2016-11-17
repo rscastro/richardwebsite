@@ -14,9 +14,9 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-store.subscribe(() => {
-  console.log('store change: ', store.state());
-})
-
-
-store.dispatch( navActions.openNavigation );
+// store.subscribe(() => {
+//   console.log('store change: ', store.state());
+// })
+//
+//
+// store.dispatch( navActions.openNavigation );
