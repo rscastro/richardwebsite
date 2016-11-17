@@ -12,7 +12,7 @@ const fillColor =  {
   opacity: '.5'
 }
 
-export default class ProjectHero extends Component {
+export default class Hero extends Component {
 
   static get propTypes() {
     return {data: React.PropTypes.object};
@@ -27,7 +27,7 @@ export default class ProjectHero extends Component {
     } = this.props;
 
     return (
-      <div className="project-hero" style={ fillStyle }>
+      <div className="hero" style={ fillStyle }>
         <div className="color-overlay" style={ fillColor }></div>
         <div className="wrapper">
           <div className="grid grid--justify-center copy-hldr">
