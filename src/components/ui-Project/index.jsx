@@ -11,7 +11,7 @@ import TextColumns from '../ui-TextColumns';
 import Image from '../ui-Image';
 // import Video from '../ui-Video';
 // import Carousel from '../ui-Carousel';
-// import ProjectsGrid from '../ui-WorkGrid';
+// import WorkGrid from '../ui-WorkGrid';
 
 export default class Project extends Component {
 
@@ -77,7 +77,7 @@ export default class Project extends Component {
           }
           {/* <Video data={projectsData.video} />
           <Carousel data={projectsData.carousel} />
-          <ProjectsGrid projects={projectsData.projects} /> */}
+          <WorkGrid projects={projectsData.projects} /> */}
         </div>
       </div>
     );
