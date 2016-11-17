@@ -3,8 +3,8 @@ import './index.scss';
 const homeData = require('../../assets/data/home.json');
 
 import React, { Component } from 'react';
-import HomeHero from '../ui-pc-HomeHero';
-import Tagline from '../ui-pc-Tagline';
+import HomeHero from '../ui-HomeHero';
+import Tagline from '../ui-Tagline';
 
 
 export default class Home extends Component {

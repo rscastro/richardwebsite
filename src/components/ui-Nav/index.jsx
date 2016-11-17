@@ -6,7 +6,7 @@ import NavColumn from './navColumn.jsx'
 import LogoMark from '../../assets/images/logo-mark.svg';
 import LogoType from '../../assets/images/logo-type.svg';
 import HamburgerIcon from '../ui-HamburgerIcon';
-import SocialMediaIcons from '../ui-pc-SocialMediaIcons';
+import SocialMediaIcons from '../ui-SocialMediaIcons';
 
 export default class Nav extends Component {
 

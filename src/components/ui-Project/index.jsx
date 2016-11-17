@@ -4,14 +4,14 @@ const projectsData = require('../../assets/data/projects.json');
 
 import React, { Component } from 'react';
 
-import Hero from '../ui-pc-Hero';
-import Intro from '../ui-pc-Intro';
-import SectionHeader from '../ui-pc-SectionHeader';
-import TextColumns from '../ui-pc-TextColumns';
-import Image from '../ui-pc-Image';
-// import Video from '../ui-pc-Video';
-// import Carousel from '../ui-pc-Carousel';
-// import ProjectsGrid from '../ui-pc-WorkGrid';
+import Hero from '../ui-Hero';
+import Intro from '../ui-Intro';
+import SectionHeader from '../ui-SectionHeader';
+import TextColumns from '../ui-TextColumns';
+import Image from '../ui-Image';
+// import Video from '../ui-Video';
+// import Carousel from '../ui-Carousel';
+// import ProjectsGrid from '../ui-WorkGrid';
 
 export default class Project extends Component {
 
