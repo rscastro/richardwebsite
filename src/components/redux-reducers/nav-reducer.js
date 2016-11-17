@@ -5,10 +5,12 @@ export default (state = [], action) => {
   switch (action.type) {
 
   case types.OPEN_NAVIGATION:
-    return [...state, Object.assign({}, action.openNavigation)];
+    console.log('open nav');
+    return [...state, Object.assign({}, action.open)];
 
   case types.CLOSE_NAVIGATION:
-    return [...state, Object.assign({}, action.closeNavigation)];
+    console.log('close nav');
+    return [...state, Object.assign({}, action.close)];
 
   default:
     return state;
