@@ -237,7 +237,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "../../assets/images/temp-image.jpg",
+            "url": "/images/temp-image.jpg",
             "title": "Image title"
           }
         ]
@@ -285,7 +285,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "../../assets/images/temp-image.jpg",
+            "url": "/images/temp-image.jpg",
             "title": "Image title"
           }
         ]
@@ -333,7 +333,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "../../assets/images/temp-image.jpg",
+            "url": "/images/temp-image.jpg",
             "title": "Image title"
           }
         ]
@@ -381,7 +381,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "../../assets/images/temp-image.jpg",
+            "url": "/images/temp-image.jpg",
             "title": "Image title"
           }
         ]
@@ -429,7 +429,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "../../assets/images/temp-image.jpg",
+            "url": "/images/temp-image.jpg",
             "title": "Image title"
           }
         ]
@@ -477,7 +477,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "../../assets/images/temp-image.jpg",
+            "url": "/images/temp-image.jpg",
             "title": "Image title"
           }
         ]
@@ -525,7 +525,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "../../assets/images/temp-image.jpg",
+            "url": "/images/temp-image.jpg",
             "title": "Image title"
           }
         ]
@@ -573,7 +573,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "../../assets/images/temp-image.jpg",
+            "url": "/images/temp-image.jpg",
             "title": "Image title"
           }
         ]
@@ -621,7 +621,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "../../assets/images/vidhub-fullimg-1.jpg",
+            "url": "/images/vidhub-fullimg-1.jpg",
             "title": "Image title"
           }
         ]
