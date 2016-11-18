@@ -7,8 +7,8 @@ export default class HamburgerIcon extends Component {
 
   static get propTypes() {
     return {
-      status: React.PropTypes.bool,
-      onChange: React.PropTypes.func
+      navOpen: React.PropTypes.bool,
+      onToggleNav: React.PropTypes.func
     };
   }
 
@@ -20,7 +20,7 @@ export default class HamburgerIcon extends Component {
     TweenLite.to('#l2', .2, {rotation:45, transformOrigin:'50% 50%'});
     TweenLite.to('#l3', .2, {rotation:-45, scaleX:.5, x:2, y:-1, transformOrigin:'0% 50%'});
 
-    this.props.onChange();
+    this.props.onToggleNav();
   }
 
   onMouseEnterHandler() {
@@ -34,12 +34,11 @@ export default class HamburgerIcon extends Component {
   render() {
 
     const {
-      status,
-      onChange
+      navOpen
     } = this.props;
 
-    console.log('status:', status);
-    
+    console.log('navOpen:', navOpen);
+
     return (
       <div className="hamburger-icon">
         <a

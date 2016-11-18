@@ -1,9 +1,9 @@
 import './index.scss';
 const navData = require('../../assets/data/nav.json');
 import React, {Component} from 'react';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
-import navAction from '../redux-actions/nav-actions.js';
+// import { bindActionCreators } from 'redux';
+// import { connect } from 'react-redux';
+// import navAction from '../redux-actions/nav-actions.js';
 import NavColumn from './navColumn.jsx'
 import LogoMark from '../../assets/images/logo-mark.svg';
 import LogoType from '../../assets/images/logo-type.svg';
@@ -74,7 +74,7 @@ export default class Nav extends Component {
                 <h2><img src={LogoMark} alt={navData.title} className="logo-mark" /></h2>
               </div>
               <div className="grid__col-4 text-right">
-                <HamburgerIcon status={this.state.navOpen} onChange={this.onChange.bind(this)} />
+                <HamburgerIcon navOpen={this.state.navOpen} onToggleNav={this.onChange.bind(this)} />
               </div>
             </div>
           </div>
