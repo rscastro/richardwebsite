@@ -34,23 +34,40 @@ export default class Lab extends Component {
     return pageContent.map((component, index) => {
       if (component.type === 'hero') {
         return (
-          <Hero key={component.type + '-' + index} data={component} />
+          <Hero
+            key={component.type + '-' + index}
+            data={component}
+          />
         );
       } else if (component.type === 'intro') {
         return (
-          <Intro key={component.type + '-' + index} data={component} />
+          <Intro
+            key={component.type + '-' + index}
+            data={component}
+          />
         );
       } else if (component.type === 'sectionHeader') {
         return (
-          <SectionHeader key={component.type + '-' + index} data={component} />
+          <SectionHeader
+            key={component.type + '-' + index}
+            data={component}
+          />
         );
       } else if (component.type === 'textColumns') {
         return (
-          <TextColumns key={component.type + '-' + index} data={component} />
+          <TextColumns
+            key={component.type + '-' + index}
+            data={component}
+          />
         );
       } else if (component.type === 'image') {
         return (
-          <Image key={component.type + '-' + index} data={component} />
+          <Image
+            key={ `${component.type}-${index}` }
+            size={ component.size }
+            src={ component.src }
+            title={ component.title }
+          />
         );
       }
     });

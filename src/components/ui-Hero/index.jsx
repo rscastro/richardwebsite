@@ -1,16 +1,6 @@
 import './index.scss';
 
 import React, { Component } from 'react';
-import headerImg from '../../assets/images/temp-project-hero.jpg';
-
-const fillStyle = {
-  backgroundImage: 'url(' + headerImg + ')'
-}
-
-const fillColor =  {
-  backgroundColor: '#00aeef',
-  opacity: '.5'
-}
 
 export default class Hero extends Component {
 
@@ -21,10 +11,19 @@ export default class Hero extends Component {
   render() {
     const {
       data: {
-        // url,
+        src,
         copy
       }
     } = this.props;
+
+    const fillStyle = {
+      backgroundImage: 'url(' + src + ')'
+    }
+
+    const fillColor =  {
+      backgroundColor: '#00aeef',
+      opacity: '.5'
+    }
 
     return (
       <div className="hero" style={ fillStyle }>

@@ -20,7 +20,7 @@
         "pageContent": [
           {
             "type": "hero",
-            "url": "someurl.jpg",
+            "src": "/images/temp-project-hero-1.jpg",
             "copy": "metagramme - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
           },
           {
@@ -31,7 +31,7 @@
           {
             "type": "intro",
             "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "metagram-logo.png"
+            "logo": "/images/temp-client-logo-1.png"
           },
           {
             "type": "sectionHeader",
@@ -46,7 +46,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "/images/temp-image.jpg",
+            "src": "/images/temp-image-1.jpg",
             "title": "Image title"
           }
         ]
@@ -54,7 +54,6 @@
       {
         "labID": "twitter-fingerprint",
         "title": "Project 02",
-        "logo": "metagram-logo.png",
         "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
         "client": "Twitter",
         "launch":"Oct 2016",
@@ -67,7 +66,7 @@
         "pageContent": [
           {
             "type": "hero",
-            "url": "someurl.jpg",
+            "src": "/images/temp-project-hero-2.jpg",
             "copy": "twitter-fingerprint - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
           },
           {
@@ -78,7 +77,7 @@
           {
             "type": "intro",
             "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "metagram-logo.png"
+            "logo": "/images/temp-client-logo-2.png"
           },
           {
             "type": "sectionHeader",
@@ -93,7 +92,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "/images/temp-image.jpg",
+            "src": "/images/temp-image-2.jpg",
             "title": "Image title"
           }
         ]
@@ -101,7 +100,6 @@
       {
         "labID": "scrum-poker",
         "title": "Project 03",
-        "logo": "somelogo3.jpg",
         "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
         "intro": "Someintro copy...3",
         "client": "Sony",
@@ -115,7 +113,7 @@
         "pageContent": [
           {
             "type": "hero",
-            "url": "someurl.jpg",
+            "src": "/images/temp-project-hero-3.jpg",
             "copy": "scrum-poker - This lab was built in multiple phases; fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
           },
           {
@@ -126,7 +124,7 @@
           {
             "type": "intro",
             "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "metagram-logo.png"
+            "logo": "/images/temp-client-logo-3.png"
           },
           {
             "type": "sectionHeader",
@@ -141,7 +139,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "/images/temp-image.jpg",
+            "src": "/images/temp-image-3.jpg",
             "title": "Image title"
           }
         ]
@@ -149,7 +147,6 @@
       {
         "labID": "moon-phase",
         "title": "Project 04",
-        "logo": "somelogo3.jpg",
         "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
         "intro": "Someintro copy...3",
         "client": "Sony",
@@ -163,7 +160,7 @@
         "pageContent": [
           {
             "type": "hero",
-            "url": "someurl.jpg",
+            "src": "/images/temp-project-hero-1.jpg",
             "copy": "moon-phase - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
           },
           {
@@ -174,7 +171,7 @@
           {
             "type": "intro",
             "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "metagram-logo.png"
+            "logo": "/images/temp-client-logo-1.png"
           },
           {
             "type": "sectionHeader",
@@ -189,7 +186,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "/images/temp-image.jpg",
+            "src": "/images/temp-image-4.jpg",
             "title": "Image title"
           }
         ]
@@ -197,7 +194,6 @@
       {
         "labID": "serenade",
         "title": "Project 04",
-        "logo": "somelogo3.jpg",
         "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
         "intro": "Someintro copy...3",
         "client": "Sony",
@@ -211,7 +207,7 @@
         "pageContent": [
           {
             "type": "hero",
-            "url": "someurl.jpg",
+            "src": "/images/temp-project-hero-2.jpg",
             "copy": "serenade - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
           },
           {
@@ -222,7 +218,7 @@
           {
             "type": "intro",
             "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "metagram-logo.png"
+            "logo": "/images/temp-client-logo-2.png"
           },
           {
             "type": "sectionHeader",
@@ -237,7 +233,7 @@
           {
             "type": "image",
             "size": "full",
-            "url": "/images/temp-image.jpg",
+            "src": "/images/temp-image-5.jpg",
             "title": "Image title"
           }
         ]
