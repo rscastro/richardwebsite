@@ -16,7 +16,7 @@ export default class PageContent extends Component {
 
   static get propTypes() {
     return {
-      pageContent: React.PropTypes.object
+      pageContent: React.PropTypes.array
     };
   }
 
