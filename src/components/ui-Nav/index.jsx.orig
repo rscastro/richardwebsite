@@ -86,8 +86,14 @@ export default class Nav extends Component {
                 <SocialMediaIcons />
               </div>
             </div>
+<<<<<<< Updated upstream
+            { this.renderColumns(navData.navColumns) }
+            {/* { this.setupScrollMagic() } */}
+          </div>
+=======
           : null }
 
+>>>>>>> Stashed changes
         </div>
       </div>
     );
