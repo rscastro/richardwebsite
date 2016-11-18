@@ -7,7 +7,7 @@ export default class Tagline extends Component {
 
   static get propTypes() {
     return {
-      title: React.PropTypes.object
+      title: React.PropTypes.string
     };
   }
 
