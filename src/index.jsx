@@ -13,10 +13,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-
-// store.subscribe(() => {
-//   console.log('store change: ', store.state());
-// })
-//
-//
-// store.dispatch( navActions.openNavigation );

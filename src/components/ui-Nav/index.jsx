@@ -1,9 +1,7 @@
 import './index.scss';
 const navData = require('../../assets/data/nav.json');
 import React, {Component} from 'react';
-// import { bindActionCreators } from 'redux';
-// import { connect } from 'react-redux';
-// import navAction from '../redux-actions/nav-actions.js';
+
 import NavColumn from './navColumn.jsx'
 import LogoMark from '../../assets/images/logo-mark.svg';
 import LogoType from '../../assets/images/logo-type.svg';
@@ -19,10 +17,6 @@ import SocialMediaIcons from '../ui-SocialMediaIcons';
 // require('debug.addIndicators');
 // const TimelineMax = require('TimelineMax');
 
-// @connect (
-//   state => state.items,
-//   dispatch => bindActionCreators(navAction, dispatch)
-// )
 export default class Nav extends Component {
 
   constructor() {
