@@ -1,30 +1,30 @@
 import './index.scss';
 
 import React, { Component } from 'react';
-import headerImg from '../../assets/images/temp-project-hero.jpg';
-
-const fillStyle = {
-  backgroundImage: 'url(' + headerImg + ')'
-}
-
-const fillColor =  {
-  backgroundColor: '#00aeef',
-  opacity: '.5'
-}
 
 export default class Hero extends Component {
 
   static get propTypes() {
-    return {data: React.PropTypes.object};
+    return {
+      src: React.PropTypes.string, // src to image
+      copy: React.PropTypes.string
+    };
   }
 
   render() {
     const {
-      data: {
-        // url,
-        copy
-      }
+      src,
+      copy
     } = this.props;
+
+    const fillStyle = {
+      backgroundImage: 'url(' + src + ')'
+    }
+
+    const fillColor =  {
+      backgroundColor: '#00aeef',
+      opacity: '.5'
+    }
 
     return (
       <div className="hero" style={ fillStyle }>
