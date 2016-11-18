@@ -16,9 +16,15 @@ export default class HamburgerIcon extends Component {
     evt.preventDefault();
 
     // Animate the Hamburger
-    TweenLite.to('#l1', .2, {rotation:-45, scaleX:.5, x:-2, y:1, transformOrigin:'100% 50%'});
-    TweenLite.to('#l2', .2, {rotation:45, transformOrigin:'50% 50%'});
-    TweenLite.to('#l3', .2, {rotation:-45, scaleX:.5, x:2, y:-1, transformOrigin:'0% 50%'});
+    if (this.props.navOpen) {
+      TweenLite.to('#l1', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'100% 50%'});
+      TweenLite.to('#l2', .2, {rotation:0, transformOrigin:'50% 50%'});
+      TweenLite.to('#l3', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'0% 50%'});
+    } else {
+      TweenLite.to('#l1', .2, {rotation:-45, scaleX:.5, x:-2, y:1, transformOrigin:'100% 50%'});
+      TweenLite.to('#l2', .2, {rotation:45, transformOrigin:'50% 50%'});
+      TweenLite.to('#l3', .2, {rotation:-45, scaleX:.5, x:2, y:-1, transformOrigin:'0% 50%'});
+    }
 
     this.props.onToggleNav();
   }
@@ -32,13 +38,6 @@ export default class HamburgerIcon extends Component {
   }
 
   render() {
-
-    const {
-      navOpen
-    } = this.props;
-
-    console.log('navOpen:', navOpen);
-
     return (
       <div className="hamburger-icon">
         <a

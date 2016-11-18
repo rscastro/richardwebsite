@@ -37,7 +37,12 @@ export default class Nav extends Component {
   renderColumns(columns) {
     return columns.map((column, index) => {
       return (
-        <NavColumn key={'nav-column-' + index} data={column} />
+        <NavColumn
+          key={ `nav-column-${index}` }
+          title={column.title}
+          className={column.className}
+          links={column.links}
+        />
       );
     });
   }

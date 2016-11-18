@@ -7,17 +7,17 @@ export default class NavColumn extends Component {
 
   static get propTypes() {
     return {
-      data: React.PropTypes.object
+      title: React.PropTypes.string,
+      className: React.PropTypes.string,
+      links: React.PropTypes.array
     };
   }
 
   render() {
     const {
-      data: {
-        title,
-        className,
-        links
-      }
+      title,
+      className,
+      links
     } = this.props;
 
     return (
