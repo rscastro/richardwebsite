@@ -64,20 +64,23 @@ export default class Nav extends Component {
     return (
       <div className="nav-hldr">
         <div className="wrapper">
-          <div className="grid">
-            <div className="grid__col-4">
-              <h2><img src={LogoType} alt={navData.title} className="logo-type" /></h2>
-            </div>
-            <div className="grid__col-4 text-center">
-              <h2><img src={LogoMark} alt={navData.title} className="logo-mark" /></h2>
-            </div>
-            <div className="grid__col-4 text-right">
-              <HamburgerIcon status={this.state.navOpen} onChange={this.onChange.bind(this)} />
+
+          <div className="nav-bar">
+            <div className="grid">
+              <div className="grid__col-4 logo-type-hldr">
+                <h2><img src={LogoType} alt={navData.title} className="logo-type" /></h2>
+              </div>
+              <div className="grid__col-4 text-center logo-mark-hldr">
+                <h2><img src={LogoMark} alt={navData.title} className="logo-mark" /></h2>
+              </div>
+              <div className="grid__col-4 text-right">
+                <HamburgerIcon status={this.state.navOpen} onChange={this.onChange.bind(this)} />
+              </div>
             </div>
           </div>
 
           { this.state.navOpen ?
-            <div className="grid nav">
+            <div className="grid nav-links">
               { this.renderColumns(navData.navColumns) }
               <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
                 <h3 className="title underline">{navData.aboutInfo.title}</h3>
