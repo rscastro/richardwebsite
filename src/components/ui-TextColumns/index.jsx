@@ -6,15 +6,16 @@ import React, { Component } from 'react';
 export default class ProjectTextColumns extends Component {
 
   static get propTypes() {
-    return {data: React.PropTypes.object};
+    return {
+      copyLeft: React.PropTypes.string,
+      copyRight: React.PropTypes.string
+    };
   }
 
   render() {
     const {
-      data: {
-        copyLeft,
-        copyRight
-      }
+      copyLeft,
+      copyRight
     } = this.props;
 
     return (

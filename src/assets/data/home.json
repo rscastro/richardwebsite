@@ -1,6 +1,6 @@
 {
   "homeHero": {
-    "url": "someurl.jpg",
+    "src": "someurl.jpg",
     "title": "Hero Title"
   },
   "tagline": {

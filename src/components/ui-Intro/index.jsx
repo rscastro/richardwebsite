@@ -5,16 +5,18 @@ import React, { Component } from 'react';
 export default class ProjectIntro extends Component {
 
   static get propTypes() {
-    return {data: React.PropTypes.object};
+    return {
+      title: React.PropTypes.string,
+      logo: React.PropTypes.string,
+      intro: React.PropTypes.string
+    };
   }
 
   render() {
     const {
-      data: {
-        title,
-        logo,
-        intro
-      }
+      title,
+      logo,
+      intro
     } = this.props;
 
     return (

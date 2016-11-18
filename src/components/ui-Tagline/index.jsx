@@ -6,14 +6,14 @@ import React, { Component } from 'react';
 export default class Tagline extends Component {
 
   static get propTypes() {
-    return {data: React.PropTypes.object};
+    return {
+      title: React.PropTypes.object
+    };
   }
 
   render() {
     const {
-      data: {
-        title
-      }
+      title
     } = this.props;
 
     return (

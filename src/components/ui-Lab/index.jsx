@@ -35,29 +35,34 @@ export default class Lab extends Component {
       if (component.type === 'hero') {
         return (
           <Hero
-            key={component.type + '-' + index}
-            data={component}
+            key={ `${component.type}-${index}` }
+            src={ component.src }
+            copy={ component.copy }
           />
         );
       } else if (component.type === 'intro') {
         return (
           <Intro
-            key={component.type + '-' + index}
-            data={component}
+            key={ `${component.type}-${index}` }
+            title={ component.title }
+            logo={ component.logo }
+            intro={ component.intro }
           />
         );
       } else if (component.type === 'sectionHeader') {
         return (
           <SectionHeader
-            key={component.type + '-' + index}
-            data={component}
+            key={ `${component.type}-${index}` }
+            title={ component.title }
+            number={ component.number }
           />
         );
       } else if (component.type === 'textColumns') {
         return (
           <TextColumns
-            key={component.type + '-' + index}
-            data={component}
+            key={ `${component.type}-${index}` }
+            copyLeft={ component.copyLeft }
+            copyRight={ component.copyRight }
           />
         );
       } else if (component.type === 'image') {
@@ -70,6 +75,9 @@ export default class Lab extends Component {
           />
         );
       }
+      {/* <Video data={labsData.video} />
+      <Carousel data={labsData.carousel} />
+      <WorkGrid labs={labsData.labs} /> */}
     });
   }
 
@@ -88,9 +96,6 @@ export default class Lab extends Component {
           {
             this.renderPageComponents( pageContent )
           }
-          {/* <Video data={labsData.video} />
-          <Carousel data={labsData.carousel} />
-          <WorkGrid labs={labsData.labs} /> */}
         </div>
       </div>
     );

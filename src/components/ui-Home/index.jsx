@@ -13,8 +13,13 @@ export default class Home extends Component {
       <div className="home">
         <div className="wrapper">
           <h3 className="title">Home Page</h3>
-          <HomeHero data={ homeData.homeHero } />
-          <Tagline data={ homeData.tagline } />
+          <HomeHero
+            src={ homeData.homeHero.src }
+            title={ homeData.homeHero.title }
+          />
+          <Tagline
+            title={ homeData.tagline.title }
+          />
         </div>
       </div>
     );

@@ -5,15 +5,16 @@ import React, { Component } from 'react';
 export default class Hero extends Component {
 
   static get propTypes() {
-    return {data: React.PropTypes.object};
+    return {
+      src: React.PropTypes.string, // src to image
+      copy: React.PropTypes.string
+    };
   }
 
   render() {
     const {
-      data: {
-        src,
-        copy
-      }
+      src,
+      copy
     } = this.props;
 
     const fillStyle = {
