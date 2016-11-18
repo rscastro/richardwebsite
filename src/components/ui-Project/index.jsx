@@ -3,15 +3,7 @@ import './index.scss';
 const projectsData = require('../../assets/data/projects.json');
 
 import React, { Component } from 'react';
-
-import Hero from '../ui-Hero';
-import Intro from '../ui-Intro';
-import SectionHeader from '../ui-SectionHeader';
-import TextColumns from '../ui-TextColumns';
-import Image from '../ui-Image';
-// import Video from '../ui-Video';
-// import Carousel from '../ui-Carousel';
-// import WorkGrid from '../ui-WorkGrid';
+import PageContent from '../ui-PageContent';
 
 export default class Project extends Component {
 
@@ -30,57 +22,6 @@ export default class Project extends Component {
     })
   }
 
-  renderPageComponents(pageContent) {
-    return pageContent.map((component, index) => {
-      if (component.type === 'hero') {
-        return (
-          <Hero
-            key={ `${component.type}-${index}` }
-            src={ component.src }
-            copy={ component.copy }
-          />
-        );
-      } else if (component.type === 'intro') {
-        return (
-          <Intro
-            key={ `${component.type}-${index}` }
-            title={ component.title }
-            logo={ component.logo }
-            intro={ component.intro }
-          />
-        );
-      } else if (component.type === 'sectionHeader') {
-        return (
-          <SectionHeader
-            key={ `${component.type}-${index}` }
-            title={ component.title }
-            number={ component.number }
-          />
-        );
-      } else if (component.type === 'textColumns') {
-        return (
-          <TextColumns
-            key={ `${component.type}-${index}` }
-            copyLeft={ component.copyLeft }
-            copyRight={ component.copyRight }
-          />
-        );
-      } else if (component.type === 'image') {
-        return (
-          <Image
-            key={ `${component.type}-${index}` }
-            size={ component.size }
-            src={ component.src }
-            title={ component.title }
-          />
-        );
-      }
-      {/* <Video data={labsData.video} />
-      <Carousel data={labsData.carousel} />
-      <WorkGrid labs={labsData.labs} /> */}
-    });
-  }
-
   getCurrentPageId(projectId) {
     return projectsData.projects.projectSingles.find( project =>
       project.projectID === projectId
@@ -93,9 +34,7 @@ export default class Project extends Component {
     return (
       <div className="project">
         <div className="wrapper">
-          {
-            this.renderPageComponents( pageContent )
-          }
+          <PageContent pageContent={ pageContent } />
         </div>
       </div>
     );
