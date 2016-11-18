@@ -6,15 +6,16 @@ import React, { Component } from 'react';
 export default class ProjectSectionHeader extends Component {
 
   static get propTypes() {
-    return {data: React.PropTypes.object};
+    return {
+      title: React.PropTypes.string,
+      number: React.PropTypes.string
+    };
   }
 
   render() {
     const {
-      data: {
-        title,
-        number
-      }
+      title,
+      number
     } = this.props;
 
     return (
