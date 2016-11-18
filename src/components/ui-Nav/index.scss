@@ -1,27 +1,37 @@
 @import '../css-base/index.scss';
 
 .nav-hldr {
-  // position: fixed;
-  // top: 0;
-  // right: 0;
-  // left: 0;
-  // z-index: 100;
-  padding-top: $xl-spacing;
-  padding-bottom: $xl-spacing;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  padding-top: $md-spacing;
+  padding-bottom: $base-spacing;
 
-  .logo-mark {
-    width: 10.4rem;
-    height: 10.4rem;
+  // background: #f0f; // Temp style
+  // opacity: .7; // Temp style
+
+  .nav-bar {
+    .logo-mark-hldr {
+
+      .logo-mark {
+        width: 10.4rem;
+        height: 10.4rem;
+      }
+    }
+
+    .logo-type-hldr {
+      .logo-type {
+        width: 15rem;
+        height: 2rem;
+        margin-top: 4rem;
+      }
+    }
   }
 
-  .logo-type {
-    width: 15rem;
-    height: 2rem;
-    margin-top: 4rem;
-  }
 
-  .nav {
+  .nav-links {
     margin-top: $lg-spacing;
-    // display: none;
   }
 }

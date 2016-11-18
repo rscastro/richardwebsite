@@ -1,4 +1,9 @@
 import React, {PropTypes, Component} from 'react';
+// import {connect} from 'react-redux';
+// import {bindActionCreators} from 'redux';
+// import * as peopleActions from '../redux-actions/project-actions';
+// import PeopleList from './PeopleList';
+// import PersonInput from './PersonInput';
 
 export default class WorkGrid extends Component {
 

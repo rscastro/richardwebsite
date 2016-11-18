@@ -78,7 +78,14 @@ module.exports = {
     alias: {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
-      'react-native': 'react-native-web'
+      'react-native': 'react-native-web',
+      // 'TweenLite': paths.resolve('appNodeModules', 'gsap/src/uncompressed/TweenLite.js'),
+      // 'TweenMax': paths.resolve('appNodeModules', 'gsap/src/uncompressed/TweenMax.js'),
+      // 'TimelineLite': paths.resolve('appNodeModules', 'gsap/src/uncompressed/TimelineLite.js'),
+      // 'TimelineMax': paths.resolve('appNodeModules', 'gsap/src/uncompressed/TimelineMax.js'),
+      // 'ScrollMagic': paths.resolve('appNodeModules', 'scrollmagic/scrollmagic/uncompressed/ScrollMagic.js'),
+      // 'animation.gsap': paths.resolve('appNodeModules', 'scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js'),
+      // 'debug.addIndicators': paths.resolve('appNodeModules', 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js')
     }
   },
 

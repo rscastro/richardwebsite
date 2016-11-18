@@ -1,36 +1,50 @@
 import './index.scss';
 
 import React, { Component } from 'react';
-import TweenLite from 'gsap'
+import TweenLite from 'gsap';
 
 export default class HamburgerIcon extends Component {
 
-  onClickHandler() {
+  static get propTypes() {
+    return {
+      status: React.PropTypes.bool,
+      onChange: React.PropTypes.func
+    };
+  }
+
+  onClickHandler(evt) {
+    evt.preventDefault();
+
     // Animate the Hamburger
     TweenLite.to('#l1', .2, {rotation:-45, scaleX:.5, x:-2, y:1, transformOrigin:'100% 50%'});
     TweenLite.to('#l2', .2, {rotation:45, transformOrigin:'50% 50%'});
     TweenLite.to('#l3', .2, {rotation:-45, scaleX:.5, x:2, y:-1, transformOrigin:'0% 50%'});
 
-    
+    this.props.onChange();
   }
 
   onMouseEnterHandler() {
-    console.log('onMouseEnterHandler::');
     TweenLite.to('#l2', .2, {scaleX:.7, transformOrigin:'50% 50%'});
   }
 
   onMouseLeaveHandler() {
-    console.log('onMouseLeaveHandler');
     TweenLite.to('#l2', .2, {scaleX:1, transformOrigin:'50% 50%'});
   }
 
-
   render() {
+
+    const {
+      status,
+      onChange
+    } = this.props;
+
+    console.log('status:', status);
+    
     return (
       <div className="hamburger-icon">
         <a
           href="#"
-          onClick={this.onClickHandler}
+          onClick={this.onClickHandler.bind(this)}
           onMouseEnter={this.onMouseEnterHandler}
           onMouseLeave={this.onMouseLeaveHandler}
         >
