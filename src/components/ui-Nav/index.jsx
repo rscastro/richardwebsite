@@ -7,6 +7,9 @@ import LogoMark from '../../assets/images/logo-mark.svg';
 import LogoType from '../../assets/images/logo-type.svg';
 import HamburgerIcon from '../ui-HamburgerIcon';
 import SocialMediaIcons from '../ui-SocialMediaIcons';
+
+import TweenLite from 'gsap';
+
 // import ScrollMagic from 'scrollmagic';
 // require('scrollmagic/plugins/animation.gsap');
 // require('scrollmagic/plugins/debug.addIndicators.js');
@@ -29,8 +32,16 @@ export default class Nav extends Component {
   onChange() {
     if (this.state.navOpen) {
       this.setState({ navOpen: false });
+      // Close the nav
+      TweenLite.to('.nav-bg' , .4, {opacity:0, display:'none'});
+      TweenLite.to('.logo-type' , .4, {opacity:0, display:'none'});
+      // TweenLite.to('.nav-links' , .4, {opacity:0, display:'none'});
     } else {
       this.setState({ navOpen: true });
+      // Open the nav
+      TweenLite.to('.nav-bg' , .4, {opacity:1, display:'block'});
+      TweenLite.to('.logo-type' , .4, {opacity:1, display:'block'});
+      // TweenLite.to('.nav-links' , .4, {opacity:1, display:'block'});
     }
   }
 
@@ -62,6 +73,7 @@ export default class Nav extends Component {
   render() {
     return (
       <div className="nav-hldr">
+        <div className="nav-bg"></div>
         <div className="wrapper">
 
           <div className="nav-bar">
