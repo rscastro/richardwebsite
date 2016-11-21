@@ -27,6 +27,7 @@ export default class Carousel extends Component {
       slidesToShow: 1,
       slidesToScroll: 1
     };
+    
     return (
       <Slider {...settings}>
         <div><h3>1</h3></div>

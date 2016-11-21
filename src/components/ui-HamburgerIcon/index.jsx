@@ -7,8 +7,8 @@ export default class HamburgerIcon extends Component {
 
   static get propTypes() {
     return {
-      status: React.PropTypes.bool,
-      onChange: React.PropTypes.func
+      navOpen: React.PropTypes.bool,
+      onToggleNav: React.PropTypes.func
     };
   }
 
@@ -16,11 +16,17 @@ export default class HamburgerIcon extends Component {
     evt.preventDefault();
 
     // Animate the Hamburger
-    TweenLite.to('#l1', .2, {rotation:-45, scaleX:.5, x:-2, y:1, transformOrigin:'100% 50%'});
-    TweenLite.to('#l2', .2, {rotation:45, transformOrigin:'50% 50%'});
-    TweenLite.to('#l3', .2, {rotation:-45, scaleX:.5, x:2, y:-1, transformOrigin:'0% 50%'});
+    if (this.props.navOpen) {
+      TweenLite.to('#l1', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'0% 50%'});
+      TweenLite.to('#l2', .2, {rotation:0, scaleX:1, transformOrigin:'50% 50%'});
+      TweenLite.to('#l3', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'100% 50%'});
+    } else {
+      TweenLite.to('#l1', .2, {rotation:45, scaleX:.45, x:2, y:1, transformOrigin:'0% 50%'});
+      TweenLite.to('#l2', .2, {rotation:-45, scaleX:1.4, transformOrigin:'50% 50%'});
+      TweenLite.to('#l3', .2, {rotation:45, scaleX:.45, x:-2, y:-1, transformOrigin:'100% 50%'});
+    }
 
-    this.props.onChange();
+    this.props.onToggleNav();
   }
 
   onMouseEnterHandler() {
@@ -32,14 +38,6 @@ export default class HamburgerIcon extends Component {
   }
 
   render() {
-
-    const {
-      status,
-      onChange
-    } = this.props;
-
-    console.log('status:', status);
-    
     return (
       <div className="hamburger-icon">
         <a

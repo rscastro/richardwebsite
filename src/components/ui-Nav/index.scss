@@ -6,32 +6,49 @@
   right: 0;
   left: 0;
   z-index: 100;
-  padding-top: $md-spacing;
-  padding-bottom: $base-spacing;
+  padding-top: $navbar-height;
 
-  // background: #f0f; // Temp style
-  // opacity: .7; // Temp style
+  .nav-bg {
+    display: none;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: $off-black;
+  }
 
   .nav-bar {
-    .logo-mark-hldr {
-
-      .logo-mark {
-        width: 10.4rem;
-        height: 10.4rem;
-      }
-    }
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: $base-spacing;
+    height: $navbar-height;
 
     .logo-type-hldr {
       .logo-type {
+        display: none;
+        opacity: 0;
         width: 15rem;
         height: 2rem;
         margin-top: 4rem;
+      }
+    }
+
+    .logo-mark-hldr {
+      .logo-mark {
+        width: 10.4rem;
+        height: 10.4rem;
       }
     }
   }
 
 
   .nav-links {
+    display: none;
+    opacity: 0;
     margin-top: $lg-spacing;
   }
 }
