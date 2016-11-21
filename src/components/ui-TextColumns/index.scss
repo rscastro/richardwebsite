@@ -1,8 +1,7 @@
 @import '../css-base/index.scss';
 
 .text-columns {
-  margin-top: $component-margin-top;
-  margin-bottom: $component-margin-bottom;
+  @include component-margin-top-bottom;
 
   .copy {
 

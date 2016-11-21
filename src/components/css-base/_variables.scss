@@ -48,8 +48,15 @@ $lg-spacing: $base-spacing * 3;
 $xl-spacing: $base-spacing * 4;
 $xxl-spacing: $base-spacing * 5;
 
-$component-margin-top: 17.5rem;
-$component-margin-bottom: 0;
+// component spacing
+$component-margin-top-xs: 6.5rem;
+$component-margin-bottom-xs: 0;
+$component-margin-top-sm: 8.5rem;
+$component-margin-bottom-sm: 0;
+$component-margin-top-md: 15rem;
+$component-margin-bottom-md: 0;
+$component-margin-top-lg: 17.5rem;
+$component-margin-bottom-lg: 0;
 
 // Forms
 $form-border-radius: .3rem;

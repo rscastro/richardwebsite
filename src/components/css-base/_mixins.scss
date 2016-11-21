@@ -18,3 +18,26 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
+
+
+@mixin component-margin-top-bottom {
+
+  margin-top: $component-margin-top-xs;
+  margin-bottom: $component-margin-bottom-xs;
+
+  @include breakpoint($break-pt-sm) {
+    margin-top: $component-margin-top-sm;
+    margin-bottom: $component-margin-bottom-sm;
+  }
+
+  @include breakpoint($break-pt-md) {
+    margin-top: $component-margin-top-md;
+    margin-bottom: $component-margin-bottom-md;
+  }
+
+  @include breakpoint($break-pt-lg) {
+    margin-top: $component-margin-top-lg;
+    margin-bottom: $component-margin-bottom-lg;
+  }
+
+}
