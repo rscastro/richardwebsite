@@ -16,11 +16,16 @@ export default class PageContent extends Component {
 
   static get propTypes() {
     return {
-      pageContent: React.PropTypes.array
+      currentProject: React.PropTypes.object
     };
   }
 
-  renderPageComponents(pageContent) {
+  renderPageComponents(currentProject) {
+
+    console.log('currentProject', currentProject);
+    let pageContent = currentProject.pageContent;
+    let projectColor = currentProject.projectColor;
+
     return pageContent.map((component, index) => {
       if (component.type === 'hero') {
         return (
@@ -28,6 +33,7 @@ export default class PageContent extends Component {
             key={ `${component.type}-${index}` }
             src={ component.src }
             copy={ component.copy }
+            projectColor={ projectColor }
           />
         );
       } else if (component.type === 'intro') {
@@ -45,6 +51,7 @@ export default class PageContent extends Component {
             key={ `${component.type}-${index}` }
             title={ component.title }
             number={ component.number }
+            projectColor={ projectColor }
           />
         );
       } else if (component.type === 'textColumns') {
@@ -73,12 +80,12 @@ export default class PageContent extends Component {
 
   render() {
     const {
-      pageContent
+      currentProject
     } = this.props;
 
     return (
       <div className="page-content">
-        { this.renderPageComponents( pageContent ) }
+        { this.renderPageComponents( currentProject ) }
       </div>
     );
   }

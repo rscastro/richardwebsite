@@ -7,14 +7,16 @@ export default class Hero extends Component {
   static get propTypes() {
     return {
       src: React.PropTypes.string, // src to image
-      copy: React.PropTypes.string
+      copy: React.PropTypes.string,
+      projectColor: React.PropTypes.string
     };
   }
 
   render() {
     const {
       src,
-      copy
+      copy,
+      projectColor
     } = this.props;
 
     const fillStyle = {
@@ -22,7 +24,7 @@ export default class Hero extends Component {
     }
 
     const fillColor =  {
-      backgroundColor: '#00aeef',
+      backgroundColor: '#' + projectColor,
       opacity: '.5'
     }
 
