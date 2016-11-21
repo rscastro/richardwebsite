@@ -22,10 +22,10 @@ export default class ProjectIntro extends Component {
     return (
       <div className="project-intro">
         <div className="grid grid--justify-center">
-          <div className="grid__col-2 image text-center">
+          <div className="grid__col-12 grid__col-md-2 image text-center">
             { <img src={logo} alt={title} className="img" /> }
           </div>
-          <div className="grid__col-6 copy copy-lg">
+          <div className="grid__col-12 grid__col-md-6 copy copy-lg">
             <div dangerouslySetInnerHTML={ {__html: intro} } />
           </div>
         </div>
