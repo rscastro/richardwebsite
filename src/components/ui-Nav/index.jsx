@@ -96,13 +96,18 @@ export default class Nav extends Component {
           </div>
 
           <div className="grid nav-links">
-            { this.renderColumns(navData.navColumns) }
             <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
               <h3 className="title underline">{navData.aboutInfo.title}</h3>
-              <p>{navData.aboutInfo.weAre}</p>
-              <p>{navData.aboutInfo.address1}<br/>{navData.aboutInfo.address2}<br/>{navData.aboutInfo.phone}</p>
+              <p>
+                {navData.aboutInfo.weAre}<br/>
+                <span className="contact">{navData.aboutInfo.phone}</span><br/>
+                <span className="contact"><a href={'mailto:' + navData.aboutInfo.email}>{navData.aboutInfo.email}</a></span><br/>
+                <span className="addr">{navData.aboutInfo.address1}</span><br/>
+                <span className="addr">{navData.aboutInfo.address2}</span><br/>
+              </p>
               <SocialMediaIcons />
             </div>
+            { this.renderColumns(navData.navColumns) }
           </div>
 
         </div>
