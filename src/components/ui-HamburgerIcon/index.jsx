@@ -17,13 +17,13 @@ export default class HamburgerIcon extends Component {
 
     // Animate the Hamburger
     if (this.props.navOpen) {
-      TweenLite.to('#l1', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'100% 50%'});
-      TweenLite.to('#l2', .2, {rotation:0, transformOrigin:'50% 50%'});
-      TweenLite.to('#l3', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'0% 50%'});
+      TweenLite.to('#l1', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'0% 50%'});
+      TweenLite.to('#l2', .2, {rotation:0, scaleX:1, transformOrigin:'50% 50%'});
+      TweenLite.to('#l3', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'100% 50%'});
     } else {
-      TweenLite.to('#l1', .2, {rotation:-45, scaleX:.5, x:-2, y:1, transformOrigin:'100% 50%'});
-      TweenLite.to('#l2', .2, {rotation:45, transformOrigin:'50% 50%'});
-      TweenLite.to('#l3', .2, {rotation:-45, scaleX:.5, x:2, y:-1, transformOrigin:'0% 50%'});
+      TweenLite.to('#l1', .2, {rotation:45, scaleX:.45, x:2, y:1, transformOrigin:'0% 50%'});
+      TweenLite.to('#l2', .2, {rotation:-45, scaleX:1.4, transformOrigin:'50% 50%'});
+      TweenLite.to('#l3', .2, {rotation:45, scaleX:.45, x:-2, y:-1, transformOrigin:'100% 50%'});
     }
 
     this.props.onToggleNav();
