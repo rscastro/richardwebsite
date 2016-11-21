@@ -10,11 +10,13 @@ import SocialMediaIcons from '../ui-SocialMediaIcons';
 
 import TweenLite from 'gsap';
 
+// import TweenLite from 'TweenLite'; // via alias in the webpack.config files
+// import TimelineLite from 'TimelineLite' // via alias in the webpack.config files
+
 // import ScrollMagic from 'scrollmagic';
 // require('scrollmagic/plugins/animation.gsap');
 // require('scrollmagic/plugins/debug.addIndicators.js');
 // import ScrollMagicDebug from 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.js';
-
 // const ScrollMagic = require('ScrollMagic');
 // require('animation.gsap');
 // require('debug.addIndicators');
@@ -30,18 +32,21 @@ export default class Nav extends Component {
   }
 
   onChange() {
+    let aniTime = .4;
+
     if (this.state.navOpen) {
       this.setState({ navOpen: false });
       // Close the nav
-      TweenLite.to('.nav-bg' , .4, {opacity:0, display:'none'});
-      TweenLite.to('.logo-type' , .4, {opacity:0, display:'none'});
-      // TweenLite.to('.nav-links' , .4, {opacity:0, display:'none'});
+      TweenLite.to('.nav-bg' , aniTime, {opacity:0, display:'none'});
+      TweenLite.to('.logo-type' , aniTime, {opacity:0, display:'none'});
+      TweenLite.to('.nav-links' , aniTime, {opacity:0, display:'none'});
     } else {
       this.setState({ navOpen: true });
       // Open the nav
-      TweenLite.to('.nav-bg' , .4, {opacity:1, display:'block'});
-      TweenLite.to('.logo-type' , .4, {opacity:1, display:'block'});
-      // TweenLite.to('.nav-links' , .4, {opacity:1, display:'block'});
+      TweenLite.to('.nav-links' , 0, {y:'-400'}); // This should be solved differently going forward
+      TweenLite.to('.nav-bg' , aniTime, {opacity:1, display:'block'});
+      TweenLite.to('.logo-type' , aniTime, {opacity:1, display:'block', delay:aniTime/2 });
+      TweenLite.to('.nav-links' , aniTime, {y:'0', opacity:1, display:'flex', delay:aniTime });
     }
   }
 
@@ -90,17 +95,15 @@ export default class Nav extends Component {
             </div>
           </div>
 
-          { this.state.navOpen ?
-            <div className="grid nav-links">
-              { this.renderColumns(navData.navColumns) }
-              <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
-                <h3 className="title underline">{navData.aboutInfo.title}</h3>
-                <p>{navData.aboutInfo.weAre}</p>
-                <p>{navData.aboutInfo.address1}<br/>{navData.aboutInfo.address2}<br/>{navData.aboutInfo.phone}</p>
-                <SocialMediaIcons />
-              </div>
+          <div className="grid nav-links">
+            { this.renderColumns(navData.navColumns) }
+            <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
+              <h3 className="title underline">{navData.aboutInfo.title}</h3>
+              <p>{navData.aboutInfo.weAre}</p>
+              <p>{navData.aboutInfo.address1}<br/>{navData.aboutInfo.address2}<br/>{navData.aboutInfo.phone}</p>
+              <SocialMediaIcons />
             </div>
-          : null }
+          </div>
 
         </div>
       </div>
