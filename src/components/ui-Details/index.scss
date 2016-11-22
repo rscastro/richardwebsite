@@ -1,0 +1,19 @@
+@import '../css-base/index.scss';
+
+.details {
+  @include component-margin-top-bottom;
+
+  .project-link {
+    @include breakpoint($break-pt-sm) {
+      margin-right: 16.66667%; // With of two more columns
+    }
+  }
+
+  .what-we-did {
+
+  }
+
+  .credits {
+
+  }
+}

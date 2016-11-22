@@ -7,6 +7,7 @@ import Intro from '../ui-Intro';
 import SectionHeader from '../ui-SectionHeader';
 import TextColumns from '../ui-TextColumns';
 import Image from '../ui-Image';
+import Details from '../ui-Details';
 // import Video from '../ui-Video';
 // import Carousel from '../ui-Carousel';
 // import WorkGrid from '../ui-WorkGrid';
@@ -68,6 +69,16 @@ export default class PageContent extends Component {
             size={ component.size }
             src={ component.src }
             title={ component.title }
+          />
+        );
+      } else if (component.type === 'details') {
+        return (
+          <Details
+            key={ `${component.type}-${index}` }
+            siteurl={ component.siteurl }
+            whatWeDid={ component.whatWeDid }
+            credits={ component.credits }
+            projectColor={ projectColor }
           />
         );
       }
