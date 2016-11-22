@@ -1,10 +1,22 @@
 @import '../css-base/index.scss';
 
 .hero {
-  min-height: 90rem;
+  min-height: 40rem;
   position: relative;
   background-size: cover;
   overflow: hidden;
+
+  @include breakpoint($break-pt-sm) {
+    min-height: 50rem;
+  }
+
+  @include breakpoint($break-pt-md) {
+    min-height: 70rem;
+  }
+
+  @include breakpoint($break-pt-lg) {
+    min-height: 90rem;
+  }
 
   .color-overlay {
     position: absolute;
@@ -13,6 +25,20 @@
   }
 
   .copy-hldr {
-    padding-top: 30rem;
+    padding-top: 15rem;
+
+    @include breakpoint($break-pt-sm) {
+      padding-top: 20rem;
+    }
+
+    @include breakpoint($break-pt-md) {
+      padding-top: 30rem;
+    }
   }
 }
+
+
+// @include breakpoint($break-pt-sm) {}
+// @include breakpoint($break-pt-md) {}
+// @include breakpoint($break-pt-lg) {}
+// @include breakpoint($break-pt-xl) {}

@@ -34,7 +34,7 @@ export default class Hero extends Component {
         <div className="wrapper">
           <div className="copy-hldr">
             <div className="grid grid--justify-center">
-              <div className="grid__col-12 grid__col-sm-12 grid__col-md-8">
+              <div className="grid__col-12 grid__col-sm-10 grid__col-md-8">
                 <h2>{copy}</h2>
               </div>
             </div>

@@ -24,10 +24,19 @@ h1 {
 }
 
 h2 {
-  @include fontsize(5.6rem, 7rem);
+  @include fontsize(2.1rem, 2.9rem);
   font-weight: 200;
+
   @include breakpoint($break-pt-sm) {
-    // @include fontsize(3.2rem, 3.8rem);
+    @include fontsize(3.2rem, 4.1rem);
+  }
+
+  @include breakpoint($break-pt-md) {
+    @include fontsize(5.6rem, 8rem);
+  }
+
+  @include breakpoint($break-pt-lg) {
+    @include fontsize(5.6rem, 8rem);
   }
 }
 

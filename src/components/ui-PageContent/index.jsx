@@ -22,7 +22,6 @@ export default class PageContent extends Component {
 
   renderPageComponents(currentProject) {
 
-    console.log('currentProject', currentProject);
     let pageContent = currentProject.pageContent;
     let projectColor = currentProject.projectColor;
 
