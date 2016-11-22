@@ -25,10 +25,10 @@
   }
 
   .copy-hldr {
-    padding-top: 15rem;
+    padding-top: 17.5rem;
 
     @include breakpoint($break-pt-sm) {
-      padding-top: 20rem;
+      padding-top: 22rem;
     }
 
     @include breakpoint($break-pt-md) {
