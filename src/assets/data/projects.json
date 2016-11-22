@@ -1,27 +1,24 @@
 {
   "projects": {
-    "title": "Test Title from json",
-    "subtitle": "subtitle test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
-    "introcopy": "introcopy test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
+    "title": "",
+    "subtitle": "",
+    "introcopy": "",
     "projectSingles": [
       {
         "projectID": "twitter-marketing",
-        "title": "Project 01",
-        "description":"Project 01 description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum purus libero, hendrerit interdum diam aliquet nec. Vivamus in ipsum eget lacus feugiat interdum vitae sed dui.",
-        "intro": "<p>Twitter Marketing how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+        "title": "",
+        "description":"",
+        "intro": "<p></p>",
         "client": "Twitter",
-        "launch":"Oct 2016",
+        "launch":"Aug 2016",
         "images": [
-          { "src": "project_1_1.jpg", "title": "Image title 1.1" },
-          { "src": "project_1_2.jpg", "title": "Image title 1.2" },
-          { "src": "project_1_3.jpg", "title": "Image title 1.3" },
-          { "src": "project_1_4.jpg", "title": "Image title 1.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-1.jpg",
-            "copy": "twitter-marketing - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/mtc-header-1.jpg",
+            "copy": "A fully responsive, dynamic platform capable of easily generating and managing thousands of pages for Twitter Marketing"
           },
           {
             "type": "sectionHeader",
@@ -30,8 +27,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-1.png"
+            "intro": "<p>Twitter needed a solid front-end to go with their fancy new Adobe Experience Manager (AEM) enterprise backend.</p><p>The build needed to scale to fit thousands of pages, but be modern and fresh enough to fit the Twitter brand.</p>",
+            "logo": "/images/twtr-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -40,34 +37,31 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>Our team built the module framework from the ground up using modern web technologes.</p><p>This took months of planning and had a ton of moving parts, but we had an awesome client and a talented team so we were confident we could deliver.</p>",
+            "copyRight": "<p>The site took longer to build than expected but launched within a reasonable timeframe; Twitter has since scaled the framework out to hundreds of pages without issue.</p><p>This team is one of our favorite clients and we're proud of the work we did on this site.</p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-2.jpg",
+            "src": "/images/mtc-full-create.jpg",
             "title": "Image title"
           }
         ]
       },
       {
         "projectID": "twitter-flight-school",
-        "title": "Project 02",
-        "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
+        "title": "",
+        "description":"",
         "client": "Twitter",
-        "launch":"Oct 2016",
+        "launch":"Oct 2015",
         "images": [
-          { "src": "project_2_1.jpg", "title": "Image title 2.1" },
-          { "src": "project_2_2.jpg", "title": "Image title 2.2" },
-          { "src": "project_2_3.jpg", "title": "Image title 2.3" },
-          { "src": "project_2_4.jpg", "title": "Image title 2.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-2.jpg",
-            "copy": "twitter-flight-school - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/fs-header-1.jpg",
+            "copy": "Twitter's online global learning application for marketers and advertisers."
           },
           {
             "type": "sectionHeader",
@@ -76,8 +70,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-2.png"
+            "intro": "<p>Twitter's Flight School started as an e-learning tool for a very niche audience. It proved to be extremely successful, so it was expanded into multiple markets on a global scale.</p><p>The biggest challenge was updating the UI, Backend, etc without disrupting the constant daily users.</p>",
+            "logo": "/images/twtr-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -86,13 +80,13 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>This project was built using the React framework, and we ran this with strict Agile sprints.</p><p>As the project scaled, multiple stakeholders became involved with differing priorities. Maintaining a strict Agile workflow, we were to prioritize the backlog.</p>",
+            "copyRight": "<p>In this way, the stakeholders were able to have visibility into the project timeline and work out prioritization amongst themselves while having full transparency into the project.</p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-3.jpg",
+            "src": "/images/fs-full.jpg",
             "title": "Image title"
           }
         ]
@@ -475,22 +469,19 @@
       },
       {
         "projectID": "thinknear",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
+        "title": "",
+        "description":"",
+        "intro": "",
+        "client": "Thinknear",
+        "launch":"May 2015",
         "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-2.jpg",
-            "copy": "thinknear - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/thinknear-header-2.jpg",
+            "copy": "Thinknear: A site for a mobile-first technology company."
           },
           {
             "type": "sectionHeader",
@@ -499,8 +490,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-2.png"
+            "intro": "<p>Thinknear's design team had desktop comps already; the comps were beautiful but image-heavy. Additionally, they ONLY had desktop comps.</p>",
+            "logo": "/images/thinknear-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -509,35 +500,32 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>The client had a ton of content to display and needed an easy way to manage it. This was their first managed site so we chose Wordpress to manage the content.</p>",
+            "copyRight": "<p>The client was able to upload a TON of content to the site and manage it with very little support.. We were happy to find a happy medium between the friendliness of Wordpress' admin interface and a modern static site generator.</p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-2.jpg",
-            "title": "Image title"
+            "src": "/images/thinknear-full-1.jpg",
+            "title": "thinknear"
           }
         ]
       },
       {
         "projectID": "mede-analytics",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
+        "title": "",
+        "description":"",
+        "intro": "",
+        "client": "Mede",
+        "launch":"April 2015",
         "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-3.jpg",
-            "copy": "mede-analytics - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/mede-header-2.jpg",
+            "copy": "Using web technologies to build an innovative trade show screen solution."
           },
           {
             "type": "sectionHeader",
@@ -546,8 +534,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-3.png"
+            "intro": "<p>Mede Analytics had a huge trade show and needed help standing out among the crowd. They rented a 15' jumbo-tron screen and mounted it above their booth; now they needed content to display. The client wanted to be able to type in messages in realtime and display them on the screen. They also wanted to be able to upload images. Additionally, they wanted to gather input from conference-goers and graph and display this data.</p>",
+            "logo": "/images/mede-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -556,35 +544,32 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>We chose to use socket connections for realtime control of the screen. We knew that the browser could handle this type of interaction but weren't sure about 10 hours a day so we began testing immediately. We built different module types with different designs for each. We then created a programmable interface that would control the timing and content contained in the screens.</p>",
+            "copyRight": "<p>We built a mobile web app to gather the survey input; booth hosts would solict people to take the quiz throughout the event via iPads. The client would also share the quiz to their social channels so those not in attendance could also particpate. The application performed well and handled over one thousand survey responses, both from within the conference and via Twitter.</p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-3.jpg",
+            "src": "/images/mede-full.jpg",
             "title": "Image title"
           }
         ]
       },
       {
         "projectID": "twitter-videohub",
-        "title": "Project 04",
-        "logo": "somelogo.jpg",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
+        "title": "",
+        "logo": "",
+        "description":"",
+        "intro": "",
+        "client": "Twitter",
         "launch":"Oct 2015",
         "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-1.jpg",
+            "src": "/images/vidhub-header-3.jpg",
             "copy": "Twitter asked us to help build out their Video Marketing site. They wanted the site to feel modern and fresh, as well as showcase the new autoplay video functionality feature on Twitter."
           },
           {
@@ -595,7 +580,7 @@
           {
             "type": "intro",
             "intro": "<p>The site launch coincided with the feature launch happening on twitter.com, so our development process needed to be scalable in case the launch date was moved up.</p><p>Sure enough, the launch date was moved and we had to scale the team. Planning ahead allowed us to scale seamlessly and hit the new date.</p>",
-            "logo": "/images/temp-client-logo-3.png"
+            "logo": "/images/twtr-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -610,54 +595,7 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-4.jpg",
-            "title": "Image title"
-          }
-        ]
-      },
-      {
-        "projectID": "airbnb-maisons-de-france",
-        "title": "Project 02",
-        "logo": "metagram-logo.png",
-        "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
-        "client": "Twitter",
-        "launch":"Oct 2016",
-        "images": [
-          { "src": "project_2_1.jpg", "title": "Image title 2.1" },
-          { "src": "project_2_2.jpg", "title": "Image title 2.2" },
-          { "src": "project_2_3.jpg", "title": "Image title 2.3" },
-          { "src": "project_2_4.jpg", "title": "Image title 2.4" }
-        ],
-        "pageContent": [
-          {
-            "type": "projectHero",
-            "url": "someurl.jpg",
-            "copy": "airbnb-maisons-de-france - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "01",
-            "title": "Challenge"
-          },
-          {
-            "type": "projectIntro",
-            "projectIntro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "metagram-logo.png"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "02",
-            "title": "Solution"
-          },
-          {
-            "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
-          },
-          {
-            "type": "image",
-            "size": "lg",
-            "url": "../../assets/images/temp-image.jpg",
+            "src": "/images/vidhub-full.jpg",
             "title": "Image title"
           }
         ]
