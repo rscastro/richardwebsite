@@ -21,10 +21,10 @@ export default class ProjectTextColumns extends Component {
     return (
       <div className="text-columns">
         <div className="grid grid--justify-center">
-          <div className="grid__col-12 grid__col-sm-4 copy">
+          <div className="grid__col-12 grid__col-sm-5 grid__col-md-4 copy">
             <div dangerouslySetInnerHTML={ {__html: copyLeft} } />
           </div>
-          <div className="grid__col-12 grid__col-sm-4 copy">
+          <div className="grid__col-12 grid__col-sm-5 grid__col-md-4 copy">
             <div dangerouslySetInnerHTML={ {__html: copyRight} } />
           </div>
         </div>
