@@ -33,9 +33,7 @@ export default class Project extends Component {
 
     return (
       <div className="project">
-        <div className="wrapper">
-          <PageContent currentProject={ currentProject } />
-        </div>
+        <PageContent currentProject={ currentProject } />
       </div>
     );
   }

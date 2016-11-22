@@ -33,9 +33,7 @@ export default class Lab extends Component {
 
     return (
       <div className="lab">
-        <div className="wrapper">
-          <PageContent currentProject={ currentLab } />
-        </div>
+        <PageContent currentProject={ currentLab } />
       </div>
     );
   }
