@@ -64,7 +64,7 @@ export default class Nav extends Component {
           key={ `nav-column-${index}` }
           title={column.title}
           className={column.className}
-          links={column.links}
+          listlinks={column.listlinks}
         />
       );
     });

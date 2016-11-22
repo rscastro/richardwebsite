@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 
-export default class LinkedList extends Component {
+export default class List extends Component {
 
   static get propTypes() {
     return {

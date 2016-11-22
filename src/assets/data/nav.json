@@ -12,7 +12,7 @@
     {
       "title": "Work",
       "className": "nav-col-ul",
-      "links": [
+      "listlinks": [
         { "title": "Twitter: Twitter Marketing", "url": "/work/twitter-marketing" },
         { "title": "Twitter: Flight School", "url": "/work/twitter-flight-school" },
         { "title": "Airbnb: Maisons de France", "url": "/work/airbnb-maisons-de-france" },
@@ -29,7 +29,7 @@
     {
       "title": "Labs",
       "className": "nav-col-ul",
-      "links": [
+      "listlinks": [
         { "title": "Metagramme", "url": "/labs/metagramme" },
         { "title": "Twitter Fingerprint", "url": "/labs/twitter-fingerprint" },
         { "title": "Scrum Poker", "url": "/labs/scrum-poker" },
