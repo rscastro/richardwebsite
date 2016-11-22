@@ -27,20 +27,30 @@
     padding-top: $base-spacing;
     height: $navbar-height;
 
-    .logo-type-hldr {
+    .logo-mark-hldr {
+      position: relative;
+
       .logo-type {
+        position: absolute;
+        top: 4.75rem;
+        left: $column-padding;
         display: none;
         opacity: 0;
         width: 15rem;
         height: 2rem;
-        margin-top: 4rem;
       }
-    }
 
-    .logo-mark-hldr {
       .logo-mark {
         width: 10.4rem;
         height: 10.4rem;
+        margin: 0 auto;
+      }
+
+      .hamburger-icon {
+        position: absolute;
+        top: 3.6rem;
+        right: $column-padding;
+        display: inline-block;
       }
     }
   }

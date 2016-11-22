@@ -39,13 +39,20 @@ export default class Nav extends Component {
       // Close the nav
       TweenLite.to('.nav-bg' , aniTime, {opacity:0, display:'none'});
       TweenLite.to('.logo-type' , aniTime, {opacity:0, display:'none'});
-      TweenLite.to('.nav-links' , aniTime, {opacity:0, display:'none'});
+      TweenLite.to('.nav-links' , aniTime, {
+        opacity:0,
+        display:'none'
+      });
     } else {
       this.setState({ navOpen: true });
       // Open the nav
-      TweenLite.to('.nav-links' , 0, {y:'-400'}); // This should be solved differently going forward
+      TweenLite.to('.nav-links' , 0, {y:'-400'}); // This should be solved differently, hacky...
       TweenLite.to('.nav-bg' , aniTime, {opacity:1, display:'block'});
-      TweenLite.to('.logo-type' , aniTime, {opacity:1, display:'block', delay:aniTime/2 });
+      TweenLite.to('.logo-type' , aniTime, {
+        opacity:1,
+        display:'inline-block',
+        delay:aniTime/2
+      });
       TweenLite.to('.nav-links' , aniTime, {y:'0', opacity:1, display:'flex', delay:aniTime });
     }
   }
@@ -83,14 +90,10 @@ export default class Nav extends Component {
 
           <div className="nav-bar">
             <div className="grid">
-              <div className="grid__col-4 logo-type-hldr">
-                <h2><img src={LogoType} alt={navData.title} className="logo-type" /></h2>
-              </div>
-              <div className="grid__col-4 text-center logo-mark-hldr">
-                <h2><img src={LogoMark} alt={navData.title} className="logo-mark" /></h2>
-              </div>
-              <div className="grid__col-4 text-right">
-                <HamburgerIcon navOpen={this.state.navOpen} onToggleNav={this.onChange.bind(this)} />
+              <div className="grid__col-12 text-center logo-mark-hldr">
+                <img src={LogoType} alt={navData.title} className="logo-type" />
+                <img src={LogoMark} alt={navData.title} className="logo-mark" />
+                <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onChange.bind(this)} />
               </div>
             </div>
           </div>
