@@ -29,12 +29,12 @@ export default class Lab extends Component {
   }
 
   render() {
-    const { currentProject } = this.state;
+    const { currentLab } = this.state;
 
     return (
       <div className="lab">
         <div className="wrapper">
-          <PageContent pageContent={ currentProject } />
+          <PageContent currentProject={ currentLab } />
         </div>
       </div>
     );
