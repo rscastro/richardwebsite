@@ -5,8 +5,11 @@
   @include component-margin-top-bottom;
 
   .number-hldr {
+    margin-bottom: $md-spacing;
+
     @include breakpoint($break-pt-sm) {
       margin-right: 16.66667%; // With of two more columns
+      margin-bottom: 0;
     }
 
     .nunber-title {
