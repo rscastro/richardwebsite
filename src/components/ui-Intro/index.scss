@@ -3,7 +3,9 @@
 .project-intro {
   @include component-margin-top-bottom;
 
-  .image {
+  .image-hldr {
+    margin-bottom: $md-spacing;
+
     .img {
       margin: 0 auto;
       width: 92px;
