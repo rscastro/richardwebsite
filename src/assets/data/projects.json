@@ -10,7 +10,8 @@
         "description":"",
         "intro": "<p></p>",
         "client": "Twitter",
-        "launch":"Aug 2016",
+        "launch":"Oct 2016",
+        "projectColor": "00aeef",
         "images": [
           { "src": "", "title": "" }
         ],
@@ -41,6 +42,23 @@
             "copyRight": "<p>The site took longer to build than expected but launched within a reasonable timeframe; Twitter has since scaled the framework out to hundreds of pages without issue.</p><p>This team is one of our favorite clients and we're proud of the work we did on this site.</p>"
           },
           {
+            "type": "details",
+            "siteurl": "http://cnn.com",
+            "whatWeDid": [
+              { "title": "Technical Strategy" },
+              { "title": "Prototyping" },
+              { "title": "Content Management Systems" },
+              { "title": "Front-end development" },
+              { "title": "Back-end development" },
+              { "title": "Integration Support" }
+            ],
+            "credits": [
+              { "title": "Item 1" },
+              { "title": "Item 2" },
+              { "title": "Item 3" }
+            ]
+          },
+          {
             "type": "image",
             "size": "full",
             "src": "/images/mtc-full-create.jpg",
@@ -53,7 +71,8 @@
         "title": "",
         "description":"",
         "client": "Twitter",
-        "launch":"Oct 2015",
+        "launch":"Oct 2016",
+        "projectColor": "00aeef",
         "images": [
           { "src": "", "title": "" }
         ],
@@ -98,6 +117,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "00aeef",
         "images": [
           { "src": "project_3_1.jpg", "title": "Image title 3.1" },
           { "src": "project_3_2.jpg", "title": "Image title 3.2" },
@@ -145,6 +165,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "00aeef",
         "images": [
           { "src": "project_3_1.jpg", "title": "Image title 3.1" },
           { "src": "project_3_2.jpg", "title": "Image title 3.2" },
@@ -192,6 +213,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "00aeef",
         "images": [
           { "src": "project_3_1.jpg", "title": "Image title 3.1" },
           { "src": "project_3_2.jpg", "title": "Image title 3.2" },
@@ -239,6 +261,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "00aeef",
         "images": [
           { "src": "project_3_1.jpg", "title": "Image title 3.1" },
           { "src": "project_3_2.jpg", "title": "Image title 3.2" },
@@ -286,6 +309,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "00aeef",
         "images": [
           { "src": "project_3_1.jpg", "title": "Image title 3.1" },
           { "src": "project_3_2.jpg", "title": "Image title 3.2" },
@@ -333,6 +357,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "00aeef",
         "images": [
           { "src": "project_3_1.jpg", "title": "Image title 3.1" },
           { "src": "project_3_2.jpg", "title": "Image title 3.2" },
@@ -380,6 +405,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "#00aeef",
         "images": [
           { "src": "project_3_1.jpg", "title": "Image title 3.1" },
           { "src": "project_3_2.jpg", "title": "Image title 3.2" },
@@ -427,6 +453,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "#00aeef",
         "images": [
           { "src": "project_3_1.jpg", "title": "Image title 3.1" },
           { "src": "project_3_2.jpg", "title": "Image title 3.2" },
@@ -469,11 +496,12 @@
       },
       {
         "projectID": "thinknear",
-        "title": "",
-        "description":"",
-        "intro": "",
-        "client": "Thinknear",
-        "launch":"May 2015",
+        "title": "Project 04",
+        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "intro": "Someintro copy...3",
+        "client": "Sony",
+        "launch":"Oct 2015",
+        "projectColor": "#00aeef",
         "images": [
           { "src": "", "title": "" }
         ],
@@ -513,11 +541,12 @@
       },
       {
         "projectID": "mede-analytics",
-        "title": "",
-        "description":"",
-        "intro": "",
-        "client": "Mede",
-        "launch":"April 2015",
+        "title": "Project 04",
+        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "intro": "Someintro copy...3",
+        "client": "Sony",
+        "launch":"Oct 2015",
+        "projectColor": "#00aeef",
         "images": [
           { "src": "", "title": "" }
         ],
@@ -563,6 +592,7 @@
         "intro": "",
         "client": "Twitter",
         "launch":"Oct 2015",
+        "projectColor": "#00aeef",
         "images": [
           { "src": "", "title": "" }
         ],
@@ -596,6 +626,54 @@
             "type": "image",
             "size": "full",
             "src": "/images/vidhub-full.jpg",
+            "title": "Image title"
+          }
+        ]
+      },
+      {
+        "projectID": "airbnb-maisons-de-france",
+        "title": "Project 02",
+        "logo": "metagram-logo.png",
+        "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
+        "client": "Twitter",
+        "launch":"Oct 2016",
+        "projectColor": "#00aeef",
+        "images": [
+          { "src": "project_2_1.jpg", "title": "Image title 2.1" },
+          { "src": "project_2_2.jpg", "title": "Image title 2.2" },
+          { "src": "project_2_3.jpg", "title": "Image title 2.3" },
+          { "src": "project_2_4.jpg", "title": "Image title 2.4" }
+        ],
+        "pageContent": [
+          {
+            "type": "projectHero",
+            "url": "someurl.jpg",
+            "copy": "airbnb-maisons-de-france - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "projectIntro",
+            "projectIntro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "logo": "metagram-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          {
+            "type": "image",
+            "size": "lg",
+            "url": "../../assets/images/temp-image.jpg",
             "title": "Image title"
           }
         ]

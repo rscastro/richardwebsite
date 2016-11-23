@@ -1,7 +1,7 @@
 import './navColumn.scss';
 
 import React, {Component} from 'react';
-import List from '../ui-List';
+import LinkedList from '../ui-LinkedList';
 
 export default class NavColumn extends Component {
 
@@ -9,7 +9,7 @@ export default class NavColumn extends Component {
     return {
       title: React.PropTypes.string,
       className: React.PropTypes.string,
-      links: React.PropTypes.array
+      listlinks: React.PropTypes.array
     };
   }
 
@@ -17,13 +17,16 @@ export default class NavColumn extends Component {
     const {
       title,
       className,
-      links
+      listlinks
     } = this.props;
 
     return (
       <div className="nav-column grid__col-12 grid__col-sm-4">
         <h3 className="title underline">{title}</h3>
-        <List items={links} className={className} />
+        <LinkedList
+          items={listlinks}
+          className={className}
+        />
       </div>
     );
   }

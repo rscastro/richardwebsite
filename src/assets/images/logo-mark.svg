@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 104"><path fill="#FFF" d="M52 104C23.3 104 0 80.7 0 52S23.3 0 52 0s52 23.3 52 52-23.3 52-52 52zM52 2C24.4 2 2 24.4 2 52s22.4 50 50 50 50-22.4 50-50S79.6 2 52 2z"/><path fill="#FFF" d="M60.9 66.8h19.6L60.7 30.1 52 46.2l-8.6-16.1-19.9 36.7h3.3l16.6-30.6 7 13-9.5 17.6h3.3l16.5-30.6 14.9 27.7H62.4z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 104 104" enable-background="new 0 0 104 104" xml:space="preserve">
+<g>
+	<polygon fill="#FFFFFF" points="61.2,68.3 82.3,68.3 61.3,29.4 61.2,29.2 52,46.2 43,29.4 42.9,29.2 21.8,68.1 21.7,68.3 
+		25.4,68.3 42.9,36.1 50.2,49.6 40.1,68.1 40,68.3 43.8,68.3 61.2,36.1 76.8,65 63,65 	"/>
+	<path fill="#FFFFFF" d="M52,3.1c27,0,48.9,22,48.9,48.9S79,100.9,52,100.9C25,100.9,3.1,79,3.1,52S25,3.1,52,3.1 M52,0
+		C23.3,0,0,23.3,0,52s23.3,52,52,52c28.7,0,52-23.3,52-52S80.7,0,52,0L52,0z"/>
+</g>
+</svg>

@@ -5,13 +5,14 @@
     "weAre": "Martian is a creative development studio in San Francisco",
     "address1": "1311 Sutter Street",
     "address2": "San Francisco, California 94109",
-    "phone": "415.263.7383"
+    "phone": "415.263.7383",
+    "email": "hello@martiansf.com"
   },
   "navColumns": [
     {
       "title": "Work",
       "className": "nav-col-ul",
-      "links": [
+      "listlinks": [
         { "title": "Twitter: Twitter Marketing", "url": "/work/twitter-marketing" },
         { "title": "Twitter: Flight School", "url": "/work/twitter-flight-school" },
         { "title": "Airbnb: Maisons de France", "url": "/work/airbnb-maisons-de-france" },
@@ -28,7 +29,7 @@
     {
       "title": "Labs",
       "className": "nav-col-ul",
-      "links": [
+      "listlinks": [
         { "title": "Metagramme", "url": "/labs/metagramme" },
         { "title": "Twitter Fingerprint", "url": "/labs/twitter-fingerprint" },
         { "title": "Scrum Poker", "url": "/labs/scrum-poker" },

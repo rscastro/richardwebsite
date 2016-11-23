@@ -7,14 +7,16 @@ export default class Hero extends Component {
   static get propTypes() {
     return {
       src: React.PropTypes.string, // src to image
-      copy: React.PropTypes.string
+      copy: React.PropTypes.string,
+      projectColor: React.PropTypes.string
     };
   }
 
   render() {
     const {
       src,
-      copy
+      copy,
+      projectColor
     } = this.props;
 
     const fillStyle = {
@@ -22,7 +24,7 @@ export default class Hero extends Component {
     }
 
     const fillColor =  {
-      backgroundColor: '#00aeef',
+      backgroundColor: '#' + projectColor,
       opacity: '.5'
     }
 
@@ -30,9 +32,11 @@ export default class Hero extends Component {
       <div className="hero" style={ fillStyle }>
         <div className="color-overlay" style={ fillColor }></div>
         <div className="wrapper">
-          <div className="grid grid--justify-center copy-hldr">
-            <div className="grid__col-8">
-              <h2>{copy}</h2>
+          <div className="copy-hldr">
+            <div className="grid grid--justify-center">
+              <div className="grid__col-12 grid__col-sm-10 grid__col-md-8">
+                <h2>{copy}</h2>
+              </div>
             </div>
           </div>
         </div>

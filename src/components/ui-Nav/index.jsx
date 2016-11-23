@@ -39,13 +39,20 @@ export default class Nav extends Component {
       // Close the nav
       TweenLite.to('.nav-bg' , aniTime, {opacity:0, display:'none'});
       TweenLite.to('.logo-type' , aniTime, {opacity:0, display:'none'});
-      TweenLite.to('.nav-links' , aniTime, {opacity:0, display:'none'});
+      TweenLite.to('.nav-links' , aniTime, {
+        opacity:0,
+        display:'none'
+      });
     } else {
       this.setState({ navOpen: true });
       // Open the nav
-      TweenLite.to('.nav-links' , 0, {y:'-400'}); // This should be solved differently going forward
+      TweenLite.to('.nav-links' , 0, {y:'-400'}); // This should be solved differently, hacky...
       TweenLite.to('.nav-bg' , aniTime, {opacity:1, display:'block'});
-      TweenLite.to('.logo-type' , aniTime, {opacity:1, display:'block', delay:aniTime/2 });
+      TweenLite.to('.logo-type' , aniTime, {
+        opacity:1,
+        display:'inline-block',
+        delay:aniTime/2
+      });
       TweenLite.to('.nav-links' , aniTime, {y:'0', opacity:1, display:'flex', delay:aniTime });
     }
   }
@@ -57,7 +64,7 @@ export default class Nav extends Component {
           key={ `nav-column-${index}` }
           title={column.title}
           className={column.className}
-          links={column.links}
+          listlinks={column.listlinks}
         />
       );
     });
@@ -83,26 +90,27 @@ export default class Nav extends Component {
 
           <div className="nav-bar">
             <div className="grid">
-              <div className="grid__col-4 logo-type-hldr">
-                <h2><img src={LogoType} alt={navData.title} className="logo-type" /></h2>
-              </div>
-              <div className="grid__col-4 text-center logo-mark-hldr">
-                <h2><img src={LogoMark} alt={navData.title} className="logo-mark" /></h2>
-              </div>
-              <div className="grid__col-4 text-right">
-                <HamburgerIcon navOpen={this.state.navOpen} onToggleNav={this.onChange.bind(this)} />
+              <div className="grid__col-12 text-center logo-mark-hldr">
+                <img src={LogoType} alt={navData.title} className="logo-type" />
+                <img src={LogoMark} alt={navData.title} className="logo-mark" />
+                <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onChange.bind(this)} />
               </div>
             </div>
           </div>
 
           <div className="grid nav-links">
-            { this.renderColumns(navData.navColumns) }
             <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
               <h3 className="title underline">{navData.aboutInfo.title}</h3>
-              <p>{navData.aboutInfo.weAre}</p>
-              <p>{navData.aboutInfo.address1}<br/>{navData.aboutInfo.address2}<br/>{navData.aboutInfo.phone}</p>
+              <p>
+                {navData.aboutInfo.weAre}<br/>
+                <span className="contact">{navData.aboutInfo.phone}</span><br/>
+                <span className="contact"><a href={'mailto:' + navData.aboutInfo.email}>{navData.aboutInfo.email}</a></span><br/>
+                <span className="addr">{navData.aboutInfo.address1}</span><br/>
+                <span className="addr">{navData.aboutInfo.address2}</span><br/>
+              </p>
               <SocialMediaIcons />
             </div>
+            { this.renderColumns(navData.navColumns) }
           </div>
 
         </div>

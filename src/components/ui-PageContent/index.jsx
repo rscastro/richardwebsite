@@ -7,6 +7,7 @@ import Intro from '../ui-Intro';
 import SectionHeader from '../ui-SectionHeader';
 import TextColumns from '../ui-TextColumns';
 import Image from '../ui-Image';
+import Details from '../ui-Details';
 // import Video from '../ui-Video';
 // import Carousel from '../ui-Carousel';
 // import WorkGrid from '../ui-WorkGrid';
@@ -16,11 +17,15 @@ export default class PageContent extends Component {
 
   static get propTypes() {
     return {
-      pageContent: React.PropTypes.array
+      currentProject: React.PropTypes.object
     };
   }
 
-  renderPageComponents(pageContent) {
+  renderPageComponents(currentProject) {
+
+    let pageContent = currentProject.pageContent;
+    let projectColor = currentProject.projectColor;
+
     return pageContent.map((component, index) => {
       if (component.type === 'hero') {
         return (
@@ -28,6 +33,7 @@ export default class PageContent extends Component {
             key={ `${component.type}-${index}` }
             src={ component.src }
             copy={ component.copy }
+            projectColor={ projectColor }
           />
         );
       } else if (component.type === 'intro') {
@@ -45,6 +51,7 @@ export default class PageContent extends Component {
             key={ `${component.type}-${index}` }
             title={ component.title }
             number={ component.number }
+            projectColor={ projectColor }
           />
         );
       } else if (component.type === 'textColumns') {
@@ -64,6 +71,16 @@ export default class PageContent extends Component {
             title={ component.title }
           />
         );
+      } else if (component.type === 'details') {
+        return (
+          <Details
+            key={ `${component.type}-${index}` }
+            siteurl={ component.siteurl }
+            whatWeDid={ component.whatWeDid }
+            credits={ component.credits }
+            projectColor={ projectColor }
+          />
+        );
       }
       {/* <Video data={labsData.video} />
       <Carousel data={labsData.carousel} />
@@ -73,12 +90,12 @@ export default class PageContent extends Component {
 
   render() {
     const {
-      pageContent
+      currentProject
     } = this.props;
 
     return (
       <div className="page-content">
-        { this.renderPageComponents( pageContent ) }
+        { this.renderPageComponents( currentProject ) }
       </div>
     );
   }

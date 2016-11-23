@@ -11,6 +11,7 @@
         "intro": "<p>Twitter Marketing how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
         "client": "Twitter",
         "launch":"Oct 2016",
+        "projectColor": "00aeef",
         "images": [
           { "src": "lab_1_1.jpg", "title": "Image title 1.1" },
           { "src": "lab_1_2.jpg", "title": "Image title 1.2" },
@@ -31,7 +32,7 @@
           {
             "type": "intro",
             "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-1.png"
+            "logo": "/images/temp-client-logo-2.png"
           },
           {
             "type": "sectionHeader",
@@ -46,7 +47,7 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-1.jpg",
+            "src": "/images/temp-image-2.jpg",
             "title": "Image title"
           }
         ]
@@ -57,6 +58,7 @@
         "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
         "client": "Twitter",
         "launch":"Oct 2016",
+        "projectColor": "00aeef",
         "images": [
           { "src": "lab_2_1.jpg", "title": "Image title 2.1" },
           { "src": "lab_2_2.jpg", "title": "Image title 2.2" },
@@ -104,6 +106,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "00aeef",
         "images": [
           { "src": "lab_3_1.jpg", "title": "Image title 3.1" },
           { "src": "lab_3_2.jpg", "title": "Image title 3.2" },
@@ -151,6 +154,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "00aeef",
         "images": [
           { "src": "lab_3_1.jpg", "title": "Image title 3.1" },
           { "src": "lab_3_2.jpg", "title": "Image title 3.2" },
@@ -198,6 +202,7 @@
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
+        "projectColor": "00aeef",
         "images": [
           { "src": "lab_3_1.jpg", "title": "Image title 3.1" },
           { "src": "lab_3_2.jpg", "title": "Image title 3.2" },

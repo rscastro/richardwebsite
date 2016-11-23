@@ -29,13 +29,11 @@ export default class Project extends Component {
   }
 
   render() {
-    const { currentProject: { pageContent } } = this.state;
+    const { currentProject } = this.state;
 
     return (
       <div className="project">
-        <div className="wrapper">
-          <PageContent pageContent={ pageContent } />
-        </div>
+        <PageContent currentProject={ currentProject } />
       </div>
     );
   }

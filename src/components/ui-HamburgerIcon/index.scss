@@ -1,7 +1,13 @@
 @import '../css-base/index.scss';
 
-.hamburger-svg {
+.hamburger-icon {
+  display: inline-block;
   width: 3.2rem;
   height: 3.2rem;
-  margin: $md-spacing 0 $base-spacing $base-spacing;
+  
+  .hamburger-svg {
+    width: 3.2rem;
+    height: 3.2rem;
+    // margin: $md-spacing 0 $base-spacing $base-spacing;
+  }
 }

@@ -1,13 +1,15 @@
-@import '../css-base/index.scss';
+ @import '../css-base/index.scss';
 
 .section-header {
   text-align: center;
-  margin-top: $component-margin-top;
-  margin-bottom: $component-margin-bottom;
+  @include component-margin-top-bottom;
 
   .number-hldr {
+    margin-bottom: $md-spacing;
+
     @include breakpoint($break-pt-sm) {
       margin-right: 16.66667%; // With of two more columns
+      margin-bottom: 0;
     }
 
     .nunber-title {
