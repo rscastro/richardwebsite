@@ -43,8 +43,10 @@
           },
           {
             "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
             "siteurl": "http://cnn.com",
-            "whatWeDid": [
+            "list1Title": "What We Did",
+            "list1": [
               { "title": "Technical Strategy" },
               { "title": "Prototyping" },
               { "title": "Content Management Systems" },
@@ -52,10 +54,11 @@
               { "title": "Back-end development" },
               { "title": "Integration Support" }
             ],
-            "credits": [
-              { "title": "Item 1" },
-              { "title": "Item 2" },
-              { "title": "Item 3" }
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "Design: Carl Bean-Larson" },
+              { "title": "Producer: Shauna Mining" },
+              { "title": "Development: JD Corr" }
             ]
           },
           {

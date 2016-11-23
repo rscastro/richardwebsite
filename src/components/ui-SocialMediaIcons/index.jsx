@@ -7,8 +7,8 @@ import LinkedinSvg from '../../assets/images/icons/linkedin-icon.svg';
 import FacebookSvg from '../../assets/images/icons/facebook-icon.svg';
 import TwitterSvg from '../../assets/images/icons/twitter-icon.svg';
 import InstagramSvg from '../../assets/images/icons/instagram-icon.svg';
-import CodepenSvg from '../../assets/images/icons/codepen-icon.svg';
-import GithubSvg from '../../assets/images/icons/github-icon.svg';
+// import CodepenSvg from '../../assets/images/icons/codepen-icon.svg';
+// import GithubSvg from '../../assets/images/icons/github-icon.svg';
 
 
 export default class SocialMediaIcons extends Component {
@@ -46,7 +46,7 @@ export default class SocialMediaIcons extends Component {
               <img src={InstagramSvg} alt="Instagram icon"/>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="https://codepen.io/martiansf" className="icon-link" target="_blank">
               <span className="screen-reader-only">Codepen</span>
               <img src={CodepenSvg} alt="Codepen icon"/>
@@ -57,7 +57,7 @@ export default class SocialMediaIcons extends Component {
               <span className="screen-reader-only">Github</span>
               <img src={GithubSvg} alt="Github icon"/>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     );

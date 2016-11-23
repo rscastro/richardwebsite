@@ -75,9 +75,12 @@ export default class PageContent extends Component {
         return (
           <Details
             key={ `${component.type}-${index}` }
+            siteurlLinkTitle={ component.siteurlLinkTitle }
             siteurl={ component.siteurl }
-            whatWeDid={ component.whatWeDid }
-            credits={ component.credits }
+            list1Title={ component.list1Title }
+            list1={ component.list1 }
+            list2Title={ component.list2Title }
+            list2={ component.list2 }
             projectColor={ projectColor }
           />
         );

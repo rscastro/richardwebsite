@@ -6,10 +6,12 @@
 
   .number-hldr {
     margin-bottom: $md-spacing;
+    padding-right: 0;
 
     @include breakpoint($break-pt-sm) {
       margin-right: 16.66667%; // With of two more columns
       margin-bottom: 0;
+      padding-right: $column-padding;
     }
 
     .nunber-title {

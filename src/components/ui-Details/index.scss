@@ -4,16 +4,41 @@
   @include component-margin-top-bottom;
 
   .project-link {
+    margin-bottom: $md-spacing;
+
+    .title {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
     @include breakpoint($break-pt-sm) {
-      margin-right: 16.66667%; // With of two more columns
+      margin-right: 8.33333%; // Width of one columns
+    }
+
+    @include breakpoint($break-pt-md) {
+      margin-right: 16.66667%; // Width of two more columns
     }
   }
 
-  .what-we-did {
+  .details-list {
+    @include fontsize(1.2rem, 2.4rem);
+    margin-bottom: $md-spacing;
 
+    &.gray {
+      color: $gray;
+    }
   }
 
-  .credits {
+  .list1-hldr,
+  .list2-hldr {
 
+    .title {
+      @include fontsize(1.2rem, 3.2rem);
+      color: $gray;
+      border-color: $gray;
+    }
+
+    .list1-ul {}
+    .list2-ul {}
   }
 }
