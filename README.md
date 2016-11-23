@@ -7,9 +7,7 @@ https://www.npmjs.com/package/reflex-grid
 Documentation can be found here:
 http://leejordan.github.io/reflex/docs/
 
-
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -72,3 +70,4 @@ npm install -g eslint-config-react-app@0.3.0 eslint@3.8.1 babel-eslint@7.0.0 esl
 ```
 
 We recognize that this is suboptimal, but it is currently required due to the way we hide the ESLint dependency. The ESLint team is already [working on a solution to this](https://github.com/eslint/eslint/issues/3458) so this may become unnecessary in a couple of months.
+
