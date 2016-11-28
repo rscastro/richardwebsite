@@ -4,6 +4,7 @@ const projectsData = require('../../assets/data/projects.json');
 
 import React, { Component } from 'react';
 import PageContent from '../ui-PageContent';
+import NavFooter from '../ui-NavFooter';
 
 export default class Project extends Component {
 
@@ -34,6 +35,7 @@ export default class Project extends Component {
     return (
       <div className="project">
         <PageContent currentProject={ currentProject } />
+        <NavFooter />
       </div>
     );
   }
