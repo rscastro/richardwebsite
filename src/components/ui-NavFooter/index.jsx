@@ -10,7 +10,6 @@ import SocialMediaIcons from '../ui-SocialMediaIcons';
 export default class Nav extends Component {
 
   renderColumns(columns) {
-    console.log('columns:', columns);
     return columns.map((column, index) => {
       return (
         <NavColumn
