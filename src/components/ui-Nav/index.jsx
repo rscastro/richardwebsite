@@ -76,18 +76,28 @@ export default class Nav extends Component {
   setupScrollMagic() {
     let aniTime = .2;
 
-    const controller = new ScrollMagic.Controller();
-    const logoTween = TweenLite.to('.logo-mark', aniTime, { opacity: '0'});
-
-    const scene = new ScrollMagic.Scene({
+    // Logo mark fade out
+    const logoController = new ScrollMagic.Controller();
+    const logoTween = TweenLite.to('.logo-mark', aniTime, { opacity: '0', display:'none'});
+    const logoScene = new ScrollMagic.Scene({
       triggerElement: '.app-container',
       offset: 70,
       triggerHook: 0
     })
     .setTween(logoTween)
-    .addTo(controller);
-    
-    scene.addIndicators({name: 'logo fade'});
+    .addTo(logoController);
+    // logoScene.addIndicators({name: 'logo fade'});
+
+    // Hamburger fade out
+    const hamburgerController = new ScrollMagic.Controller();
+    const hamburgerTween = TweenLite.to('.hamburger-icon', aniTime, {opacity: '0', display:'none'});
+    const hamburgerScene = new ScrollMagic.Scene({
+      triggerElement: '.nav-footer-links',
+      triggerHook: 0.9
+    })
+    .setTween(hamburgerTween)
+    .addTo(hamburgerController);
+    // hamburgerScene.addIndicators({name: 'hamburger fade'});
   }
 
   componentDidMount() {
