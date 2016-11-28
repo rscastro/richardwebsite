@@ -4,6 +4,7 @@ const labsData = require('../../assets/data/labs.json');
 
 import React, { Component } from 'react';
 import PageContent from '../ui-PageContent';
+import NavFooter from '../ui-NavFooter';
 
 export default class Lab extends Component {
 
@@ -34,6 +35,7 @@ export default class Lab extends Component {
     return (
       <div className="lab">
         <PageContent currentProject={ currentLab } />
+        <NavFooter />
       </div>
     );
   }
