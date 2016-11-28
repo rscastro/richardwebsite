@@ -2,7 +2,7 @@ import './_index.scss';
 const navData = require('../../assets/data/nav.json');
 import React, {Component} from 'react';
 
-import NavColumn from './navColumn.jsx'
+import NavColumn from '../ui-NavColumn'
 import LogoMark from '../../assets/images/logo-mark.svg';
 import LogoType from '../../assets/images/logo-type.svg';
 import HamburgerIcon from '../ui-HamburgerIcon';

@@ -1,4 +1,4 @@
-import './navColumn.scss';
+import './index.scss';
 
 import React, {Component} from 'react';
 import LinkedList from '../ui-LinkedList';
