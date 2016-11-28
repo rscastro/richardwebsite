@@ -84,6 +84,7 @@ module.exports = {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
+
       // 'TweenLite': paths.resolve('nodePaths', 'gsap/src/uncompressed/TweenLite.js'),
       // 'TweenMax': paths.resolve('nodePaths', 'gsap/src/uncompressed/TweenMax.js'),
       // 'TimelineLite': paths.resolve('nodePaths', 'gsap/src/uncompressed/TimelineLite.js'),

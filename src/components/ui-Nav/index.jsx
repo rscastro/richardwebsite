@@ -8,19 +8,22 @@ import LogoType from '../../assets/images/logo-type.svg';
 import HamburgerIcon from '../ui-HamburgerIcon';
 import SocialMediaIcons from '../ui-SocialMediaIcons';
 
-import TweenLite from 'gsap';
+// import TweenLite from 'gsap';
 
-// import TweenLite from 'TweenLite'; // via alias in the webpack.config files
-// import TimelineLite from 'TimelineLite' // via alias in the webpack.config files
+import TweenLite from 'TweenLite'; // via alias in the webpack.config files
+// import TweenMax from 'TweenMax'; // via alias in the webpack.config files
+import TimelineLite from 'TimelineLite'; // via alias in the webpack.config files
+import ScrollMagic from 'ScrollMagic'; // via alias in the webpack.config files
+import animationGsap from 'animation.gsap'; // via alias in the webpack.config files
+import debugAddIndicators from 'debug.addIndicators'; // via alias in the webpack.config files
 
-// import ScrollMagic from 'scrollmagic';
-// require('scrollmagic/plugins/animation.gsap');
-// require('scrollmagic/plugins/debug.addIndicators.js');
-// import ScrollMagicDebug from 'scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.js';
-// const ScrollMagic = require('ScrollMagic');
-// require('animation.gsap');
-// require('debug.addIndicators');
-// const TimelineMax = require('TimelineMax');
+console.log('TweenLite', TweenLite);
+console.log('TimelineLite', TimelineLite);
+console.log('ScrollMagic', ScrollMagic);
+console.log('animationGsap', animationGsap);
+console.log('debugAddIndicators', debugAddIndicators);
+// console.log('debugAddIndicators', debugAddIndicators);
+
 
 export default class Nav extends Component {
 
@@ -70,17 +73,26 @@ export default class Nav extends Component {
     });
   }
 
-  // setupScrollMagic() {
-  //   // init controller
-  //   var controller = new ScrollMagic.Controller();
-  //
-  //   let scene = new ScrollMagic.Scene({
-  //     triggerElement: '.nav-hldr'
-  //   })
-	// 	.setTween('.text-center', 0.5, {backgroundColor: 'green'}) // trigger a TweenMax.to tween
-	// 	.addIndicators({name: '1 (duration: 0)'}) // add indicators (requires plugin)
-	// 	.addTo(controller);
-  // }
+  setupScrollMagic() {
+    let aniTime = .2;
+
+    const controller = new ScrollMagic.Controller();
+    const logoTween = TweenLite.to('.logo-mark', aniTime, { opacity: '0'});
+
+    const scene = new ScrollMagic.Scene({
+      triggerElement: '.app-container',
+      offset: 70,
+      triggerHook: 0
+    })
+    .setTween(logoTween)
+    .addTo(controller);
+    
+    scene.addIndicators({name: 'logo fade'});
+  }
+
+  componentDidMount() {
+    this.setupScrollMagic();
+  }
 
   render() {
     return (
