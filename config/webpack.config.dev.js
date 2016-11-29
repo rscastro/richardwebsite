@@ -79,17 +79,6 @@ module.exports = {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
-
-      // 'TweenLite': paths.resolve('nodePaths', 'gsap/src/uncompressed/TweenLite.js'),
-      // 'TweenMax': paths.resolve('nodePaths', 'gsap/src/uncompressed/TweenMax.js'),
-      // 'TimelineLite': paths.resolve('nodePaths', 'gsap/src/uncompressed/TimelineLite.js'),
-      // 'TimelineMax': paths.resolve('nodePaths', 'gsap/src/uncompressed/TimelineMax.js'),
-      // 'ScrollMagic': paths.resolve('nodePaths', 'scrollmagic/scrollmagic/uncompressed/ScrollMagic.js'),
-      // 'animation.gsap': paths.resolve('nodePaths', 'scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js'),
-      // 'debug.addIndicators': paths.resolve('nodePaths', 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js')
-
-      // 'TweenLite': '../node_modules/gsap/src/uncompressed/TweenLite.js',
-      // 'TimelineLite': '../node_modules/gsap/src/uncompressed/TimelineLite.js',
       'TweenLite': 'gsap',
       'TweenMax': 'gsap/src/uncompressed/TweenMax.js',
       'TimelineLite': 'gsap/src/uncompressed/TimelineLite.js',
