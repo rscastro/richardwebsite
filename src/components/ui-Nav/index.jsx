@@ -29,10 +29,14 @@ export default class Nav extends Component {
 
   constructor() {
     super();
+
     this.state = {
       navOpen: false,
       screenWidth: document.body.clientWidth
     }
+
+    this.logoController = {};
+    this.hamburgerController = {};
   }
 
   onChange() {
@@ -81,7 +85,7 @@ export default class Nav extends Component {
     let aniTime = .2;
 
     // Logo mark fade out
-    const logoController = new ScrollMagic.Controller();
+    this.logoController = new ScrollMagic.Controller();
     const logoTween = TweenLite.to('.logo-mark', aniTime, { opacity: '0', display:'none'});
     const logoScene = new ScrollMagic.Scene({
       triggerElement: '.app-container',
@@ -89,19 +93,26 @@ export default class Nav extends Component {
       triggerHook: 0
     })
     .setTween(logoTween)
-    .addTo(logoController);
+    .addTo(this.logoController);
     // logoScene.addIndicators({name: 'logo fade'});
 
     // Hamburger fade out
-    const hamburgerController = new ScrollMagic.Controller();
+    this.hamburgerController = new ScrollMagic.Controller();
     const hamburgerTween = TweenLite.to('.hamburger-icon', aniTime, {opacity: '0', display:'none'});
     const hamburgerScene = new ScrollMagic.Scene({
       triggerElement: '.nav-footer-links',
       triggerHook: 0.9
     })
     .setTween(hamburgerTween)
-    .addTo(hamburgerController);
+    .addTo(this.hamburgerController);
     // hamburgerScene.addIndicators({name: 'hamburger fade'});
+  }
+
+  destroyScrollMagic() {
+    this.logoController.destroy(true);
+    this.logoController = null;
+    this.hamburgerController.destroy(true);
+    this.hamburgerController = null;
   }
 
   updateScreenDims() {
@@ -115,6 +126,7 @@ export default class Nav extends Component {
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.updateScreenDims);
+    this.destroyScrollMagic();
   }
 
   render() {
