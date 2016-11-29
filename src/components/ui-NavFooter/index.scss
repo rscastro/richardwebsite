@@ -10,15 +10,20 @@
     .logo-mark-hldr {
       position: relative;
 
-      .logo-type {
+      .logo-footer-type {
         position: absolute;
+        display: none;
         top: 4.75rem;
         left: $column-padding;
         width: 15rem;
         height: 2rem;
+
+        @include breakpoint($break-pt-sm) {
+          display: block;
+        }
       }
 
-      .logo-mark {
+      .logo-footer-mark {
         width: 10.4rem;
         height: 10.4rem;
         margin: 0 auto;
