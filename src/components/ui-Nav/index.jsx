@@ -17,11 +17,11 @@ import ScrollMagic from 'ScrollMagic'; // via alias in the webpack.config files
 import animationGsap from 'animation.gsap'; // via alias in the webpack.config files
 import debugAddIndicators from 'debug.addIndicators'; // via alias in the webpack.config files
 
-console.log('TweenLite', TweenLite);
-console.log('TimelineLite', TimelineLite);
-console.log('ScrollMagic', ScrollMagic);
-console.log('animationGsap', animationGsap);
-console.log('debugAddIndicators', debugAddIndicators);
+// console.log('TweenLite', TweenLite);
+// console.log('TimelineLite', TimelineLite);
+// console.log('ScrollMagic', ScrollMagic);
+// console.log('animationGsap', animationGsap);
+// console.log('debugAddIndicators', debugAddIndicators);
 // console.log('debugAddIndicators', debugAddIndicators);
 
 
@@ -30,12 +30,14 @@ export default class Nav extends Component {
   constructor() {
     super();
     this.state = {
-      navOpen: false
+      navOpen: false,
+      screenWidth: 0
     }
   }
 
   onChange() {
-    let aniTime = .4;
+    const aniTime = .4;
+    const phoneWidth = 480;
 
     if (this.state.navOpen) {
       this.setState({ navOpen: false });
@@ -51,11 +53,13 @@ export default class Nav extends Component {
       // Open the nav
       TweenLite.to('.nav-links' , 0, {y:'-400'}); // This should be solved differently, hacky...
       TweenLite.to('.nav-bg' , aniTime, {opacity:1, display:'block'});
-      TweenLite.to('.logo-type' , aniTime, {
-        opacity:1,
-        display:'inline-block',
-        delay:aniTime/2
-      });
+      if (this.state.screenWidth > phoneWidth) {
+        TweenLite.to('.logo-type' , aniTime, {
+          opacity:1,
+          display:'inline-block',
+          delay:aniTime/2
+        });
+      }
       TweenLite.to('.nav-links' , aniTime, {y:'0', opacity:1, display:'flex', delay:aniTime });
     }
   }
@@ -100,8 +104,17 @@ export default class Nav extends Component {
     // hamburgerScene.addIndicators({name: 'hamburger fade'});
   }
 
+  updateScreenDims() {
+    this.setState({ screenWidth: document.body.clientWidth });
+  }
+
   componentDidMount() {
     this.setupScrollMagic();
+    window.addEventListener('resize', this.updateScreenDims.bind(this));
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateScreenDims);
   }
 
   render() {
@@ -120,19 +133,21 @@ export default class Nav extends Component {
             </div>
           </div>
 
-          <div className="grid nav-links">
-            <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
-              <h3 className="title underline">{navData.aboutInfo.title}</h3>
-              <p>
-                {navData.aboutInfo.weAre}<br/>
-                <span className="contact">{navData.aboutInfo.phone}</span><br/>
-                <span className="contact"><a href={'mailto:' + navData.aboutInfo.email}>{navData.aboutInfo.email}</a></span><br/>
-                <span className="addr">{navData.aboutInfo.address1}</span><br/>
-                <span className="addr">{navData.aboutInfo.address2}</span><br/>
-              </p>
-              <SocialMediaIcons />
+          <div className="nav-links">
+            <div className="grid">
+              <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
+                <h3 className="title underline">{navData.aboutInfo.title}</h3>
+                <p>
+                  {navData.aboutInfo.weAre}<br/>
+                  <span className="contact">{navData.aboutInfo.phone}</span><br/>
+                  <span className="contact"><a href={'mailto:' + navData.aboutInfo.email}>{navData.aboutInfo.email}</a></span><br/>
+                  <span className="addr">{navData.aboutInfo.address1}</span><br/>
+                  <span className="addr">{navData.aboutInfo.address2}</span><br/>
+                </p>
+                <SocialMediaIcons />
+              </div>
+              { this.renderColumns(navData.navColumns) }
             </div>
-            { this.renderColumns(navData.navColumns) }
           </div>
 
         </div>
