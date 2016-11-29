@@ -85,6 +85,7 @@ export default class Nav extends Component {
     let aniTime = .2;
 
     // Logo mark fade out
+    // this.logoController = new ScrollMagic.Controller({loglevel: 3});
     this.logoController = new ScrollMagic.Controller();
     const logoTween = TweenLite.to('.logo-mark', aniTime, { opacity: '0', display:'none'});
     const logoScene = new ScrollMagic.Scene({
