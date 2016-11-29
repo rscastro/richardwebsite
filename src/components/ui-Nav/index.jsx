@@ -31,7 +31,7 @@ export default class Nav extends Component {
     super();
     this.state = {
       navOpen: false,
-      screenWidth: 0
+      screenWidth: document.body.clientWidth
     }
   }
 
