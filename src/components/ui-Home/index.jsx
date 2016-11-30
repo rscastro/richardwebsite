@@ -1,4 +1,4 @@
-import './index.scss';
+import './_index.scss';
 
 const homeData = require('../../assets/data/home.json');
 

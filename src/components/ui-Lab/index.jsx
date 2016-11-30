@@ -1,4 +1,4 @@
-import './index.scss';
+import './_index.scss';
 
 const labsData = require('../../assets/data/labs.json');
 

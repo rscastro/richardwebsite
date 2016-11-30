@@ -1,4 +1,4 @@
-@import '../css-base/index.scss';
+@import '../css-base/_mixins';
 
 .text-columns {
   @include component-margin-top-bottom;

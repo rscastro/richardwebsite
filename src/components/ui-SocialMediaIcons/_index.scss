@@ -1,4 +1,4 @@
-@import '../css-base/index.scss';
+@import "../css-base/_variables";
 
 .social-icons {
   margin-top: $base-spacing;
@@ -16,7 +16,7 @@
 
       .icon-link {
         cursor: pointer;
-        
+
         img {
           display: inline;
           width: 3.2rem;

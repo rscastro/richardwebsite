@@ -1,4 +1,4 @@
-import './index.scss';
+import './_index.scss';
 
 import React from 'react';
 import { Router, Route, browserHistory } from 'react-router';

@@ -1,4 +1,4 @@
-import './index.scss';
+import './_index.scss';
 const navData = require('../../assets/data/nav.json');
 import React, {Component} from 'react';
 

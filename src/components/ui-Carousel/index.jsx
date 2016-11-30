@@ -1,4 +1,4 @@
-import './index.scss';
+import './_index.scss';
 
 import React, { Component } from 'react';
 import Slider from 'react-slick';
