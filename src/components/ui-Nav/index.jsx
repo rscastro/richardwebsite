@@ -8,13 +8,12 @@ import LogoType from '../../assets/images/logo-type.svg';
 import HamburgerIcon from '../ui-HamburgerIcon';
 import SocialMediaIcons from '../ui-SocialMediaIcons';
 
-import TweenLite from 'TweenLite'; // via alias in the webpack.config files
-// import TweenMax from 'TweenMax'; // via alias in the webpack.config files
-import TimelineLite from 'TimelineLite'; // via alias in the webpack.config files
-import ScrollMagic from 'ScrollMagic'; // via alias in the webpack.config files
-import animationGsap from 'animation.gsap'; // via alias in the webpack.config files
-import debugAddIndicators from 'debug.addIndicators'; // via alias in the webpack.config files
-
+// Alias includes in the webpack.config files
+import TweenLite from 'TweenLite';
+import ScrollMagic from 'ScrollMagic';
+import animationGsap from 'animation.gsap';
+//import debugAddIndicators from 'debug.addIndicators'; // via alias in the webpack.config files
+//end webpack Alias includes
 
 export default class Nav extends Component {
 
@@ -31,46 +30,51 @@ export default class Nav extends Component {
     this.hamburgerController = {};
   }
 
-  onChange() {
-    const aniTime = .4;
+  onToggleNav() {
+    const duration = .4;
     const phoneWidth = 480;
+    const logoMarkNode = this.refs.logoMark;
+    const logoTypeNode = this.refs.logoType;
 
-    if (this.state.navOpen) {
+    const {
+      logoFadedOut,
+      navOpen,
+      screenWidth
+    } = this.state;
 
+    if (navOpen) {
       this.setState({ navOpen: false });
-      console.log('enable scroll or scrollmagic');
+      //console.log('enable scroll or scrollmagic');
       // this.setupScrollMagic();
 
       // Close the nav
-      TweenLite.to('.nav-bg', aniTime, {opacity:0, display:'none'});
-      TweenLite.to('.logo-type', aniTime, {opacity:0, display:'none'});
-      if (this.state.logoFadedOut === 1) {
-        TweenLite.to('.logo-mark', aniTime, {opacity:0, display:'none'});
+      TweenLite.to('.nav-bg', duration, {opacity:0, display:'none'});
+      TweenLite.to(logoTypeNode, duration, {opacity:0, display:'none'});
+      if (logoFadedOut === 1) {
+        TweenLite.to(logoMarkNode, duration, {opacity:0, display:'none'});
       }
-      TweenLite.to('.nav-links', aniTime, {
+      TweenLite.to('.nav-links', duration, {
         opacity:0,
         display:'none'
       });
 
     } else {
-
       this.setState({ navOpen: true });
       console.log('disable scroll or scrollmagic');
-      // this.destroyScrollMagic()
+      this.destroyScrollMagic();
 
       // Open the nav
       TweenLite.to('.nav-links', 0, {y:'-400'}); // This should be solved differently, hacky...
-      TweenLite.to('.nav-bg', aniTime, {opacity:1, display:'block'});
-      TweenLite.to('.logo-mark', aniTime, {opacity:1, display:'block'});
-      if (this.state.screenWidth > phoneWidth) {
-        TweenLite.to('.logo-type', aniTime, {
+      TweenLite.to('.nav-bg', duration, {opacity:1, display:'block'});
+      TweenLite.to(logoMarkNode, duration, {opacity:1, display:'block'});
+      if (screenWidth > phoneWidth) {
+        TweenLite.to(logoTypeNode, duration, {
           opacity:1,
           display:'inline-block',
-          delay:aniTime/2
+          delay:duration/2
         });
       }
-      TweenLite.to('.nav-links', aniTime, {y:'0', opacity:1, display:'flex', delay:aniTime });
-
+      TweenLite.to('.nav-links', duration, {y:'0', opacity:1, display: 'flex', delay: duration });
     }
   }
 
@@ -92,14 +96,14 @@ export default class Nav extends Component {
   }
 
   setupScrollMagic() {
-    let aniTime = .2;
+    let duration = .2;
 
+    const logoMarkNode = this.refs.logoMark;
     const toggleLogoState = this.toggleLogoState.bind(this);
 
     // Logo mark fade out
-    // this.logoController = new ScrollMagic.Controller({loglevel: 3});
     this.logoController = new ScrollMagic.Controller();
-    const logoTween = TweenLite.to('.logo-mark', aniTime, { opacity: '0', display:'none'});
+    const logoTween = TweenLite.to(logoMarkNode, duration, { opacity: '0', display:'none'});
     const logoScene = new ScrollMagic.Scene({
       triggerElement: '.app-container',
       offset: 70,
@@ -114,7 +118,7 @@ export default class Nav extends Component {
 
     // Hamburger fade out
     this.hamburgerController = new ScrollMagic.Controller();
-    const hamburgerTween = TweenLite.to('.hamburger-icon', aniTime, {opacity: '0', display:'none'});
+    const hamburgerTween = TweenLite.to('.hamburger-icon', duration, {opacity: '0', display:'none'});
     const hamburgerScene = new ScrollMagic.Scene({
       triggerElement: '.nav-footer-links',
       triggerHook: 0.9
@@ -154,9 +158,9 @@ export default class Nav extends Component {
           <div className="nav-bar">
             <div className="grid">
               <div className="grid__col-12 text-center logo-mark-hldr">
-                <img src={LogoType} alt={navData.title} className="logo-type" />
-                <img src={LogoMark} alt={navData.title} className="logo-mark" />
-                <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onChange.bind(this)} />
+                <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
+                <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
+                <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onToggleNav.bind(this)} />
               </div>
             </div>
           </div>
