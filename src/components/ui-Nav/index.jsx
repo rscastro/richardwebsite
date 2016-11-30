@@ -44,8 +44,8 @@ export default class Nav extends Component {
 
     if (navOpen) {
       this.setState({ navOpen: false });
-      //console.log('enable scroll or scrollmagic');
-      // this.setupScrollMagic();
+      // console.log('enable scroll or scrollmagic');
+      this.setupScrollMagic();
 
       // Close the nav
       TweenLite.to('.nav-bg', duration, {opacity:0, display:'none'});
@@ -60,7 +60,7 @@ export default class Nav extends Component {
 
     } else {
       this.setState({ navOpen: true });
-      console.log('disable scroll or scrollmagic');
+      // console.log('disable scroll or scrollmagic');
       this.destroyScrollMagic();
 
       // Open the nav
