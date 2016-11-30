@@ -8,8 +8,6 @@ import LogoType from '../../assets/images/logo-type.svg';
 import HamburgerIcon from '../ui-HamburgerIcon';
 import SocialMediaIcons from '../ui-SocialMediaIcons';
 
-// import TweenLite from 'gsap';
-
 import TweenLite from 'TweenLite'; // via alias in the webpack.config files
 // import TweenMax from 'TweenMax'; // via alias in the webpack.config files
 import TimelineLite from 'TimelineLite'; // via alias in the webpack.config files
@@ -38,7 +36,11 @@ export default class Nav extends Component {
     const phoneWidth = 480;
 
     if (this.state.navOpen) {
+
       this.setState({ navOpen: false });
+      console.log('enable scroll or scrollmagic');
+      // this.setupScrollMagic();
+
       // Close the nav
       TweenLite.to('.nav-bg', aniTime, {opacity:0, display:'none'});
       TweenLite.to('.logo-type', aniTime, {opacity:0, display:'none'});
@@ -49,8 +51,13 @@ export default class Nav extends Component {
         opacity:0,
         display:'none'
       });
+
     } else {
+
       this.setState({ navOpen: true });
+      console.log('disable scroll or scrollmagic');
+      // this.destroyScrollMagic()
+
       // Open the nav
       TweenLite.to('.nav-links', 0, {y:'-400'}); // This should be solved differently, hacky...
       TweenLite.to('.nav-bg', aniTime, {opacity:1, display:'block'});
@@ -63,6 +70,7 @@ export default class Nav extends Component {
         });
       }
       TweenLite.to('.nav-links', aniTime, {y:'0', opacity:1, display:'flex', delay:aniTime });
+
     }
   }
 
