@@ -17,13 +17,6 @@ import ScrollMagic from 'ScrollMagic'; // via alias in the webpack.config files
 import animationGsap from 'animation.gsap'; // via alias in the webpack.config files
 import debugAddIndicators from 'debug.addIndicators'; // via alias in the webpack.config files
 
-// console.log('TweenLite', TweenLite);
-// console.log('TimelineLite', TimelineLite);
-// console.log('ScrollMagic', ScrollMagic);
-// console.log('animationGsap', animationGsap);
-// console.log('debugAddIndicators', debugAddIndicators);
-// console.log('debugAddIndicators', debugAddIndicators);
-
 
 export default class Nav extends Component {
 
@@ -32,7 +25,8 @@ export default class Nav extends Component {
 
     this.state = {
       navOpen: false,
-      screenWidth: document.body.clientWidth
+      screenWidth: document.body.clientWidth,
+      logoFadedOut: 0
     }
 
     this.logoController = {};
@@ -46,25 +40,29 @@ export default class Nav extends Component {
     if (this.state.navOpen) {
       this.setState({ navOpen: false });
       // Close the nav
-      TweenLite.to('.nav-bg' , aniTime, {opacity:0, display:'none'});
-      TweenLite.to('.logo-type' , aniTime, {opacity:0, display:'none'});
-      TweenLite.to('.nav-links' , aniTime, {
+      TweenLite.to('.nav-bg', aniTime, {opacity:0, display:'none'});
+      TweenLite.to('.logo-type', aniTime, {opacity:0, display:'none'});
+      if (this.state.logoFadedOut === 1) {
+        TweenLite.to('.logo-mark', aniTime, {opacity:0, display:'none'});
+      }
+      TweenLite.to('.nav-links', aniTime, {
         opacity:0,
         display:'none'
       });
     } else {
       this.setState({ navOpen: true });
       // Open the nav
-      TweenLite.to('.nav-links' , 0, {y:'-400'}); // This should be solved differently, hacky...
-      TweenLite.to('.nav-bg' , aniTime, {opacity:1, display:'block'});
+      TweenLite.to('.nav-links', 0, {y:'-400'}); // This should be solved differently, hacky...
+      TweenLite.to('.nav-bg', aniTime, {opacity:1, display:'block'});
+      TweenLite.to('.logo-mark', aniTime, {opacity:1, display:'block'});
       if (this.state.screenWidth > phoneWidth) {
-        TweenLite.to('.logo-type' , aniTime, {
+        TweenLite.to('.logo-type', aniTime, {
           opacity:1,
           display:'inline-block',
           delay:aniTime/2
         });
       }
-      TweenLite.to('.nav-links' , aniTime, {y:'0', opacity:1, display:'flex', delay:aniTime });
+      TweenLite.to('.nav-links', aniTime, {y:'0', opacity:1, display:'flex', delay:aniTime });
     }
   }
 
@@ -81,8 +79,14 @@ export default class Nav extends Component {
     });
   }
 
+  toggleLogoState(logoState) {
+    this.setState({ logoFadedOut: logoState });
+  }
+
   setupScrollMagic() {
     let aniTime = .2;
+
+    const toggleLogoState = this.toggleLogoState.bind(this);
 
     // Logo mark fade out
     // this.logoController = new ScrollMagic.Controller({loglevel: 3});
@@ -91,10 +95,13 @@ export default class Nav extends Component {
     const logoScene = new ScrollMagic.Scene({
       triggerElement: '.app-container',
       offset: 70,
-      triggerHook: 0
+      triggerHook: 0,
     })
     .setTween(logoTween)
-    .addTo(this.logoController);
+    .addTo(this.logoController)
+    .on('start', function (event) {
+      toggleLogoState(event.progress)
+    });
     // logoScene.addIndicators({name: 'logo fade'});
 
     // Hamburger fade out
