@@ -1,4 +1,4 @@
-import './index.scss';
+import './_index.scss';
 
 const projectsData = require('../../assets/data/projects.json');
 

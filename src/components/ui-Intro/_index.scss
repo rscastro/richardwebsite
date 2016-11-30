@@ -1,4 +1,5 @@
-@import '../css-base/index.scss';
+@import "../css-base/_variables";
+@import "../css-base/_mixins";
 
 .project-intro {
   @include component-margin-top-bottom;
