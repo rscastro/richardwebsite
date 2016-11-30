@@ -4,51 +4,52 @@ export default class WorkGrid extends Component {
 
   static get propTypes() {
     return {
-      projects: React.PropTypes.object
+      projects: React.PropTypes.array
     };
   }
 
-  renderProjectImages(imgs) {
-    return imgs.map((img, index) => {
-      return (
-        <li key={img.title + '-' + index} >
-          <img className="client-img" src={img.src} alt={img.title}/>
-        </li>
-      );
-    });
-  }
-
-  renderWork(projects) {
+  renderProjects(projects) {
     return projects.map((project, index) => {
+
+      let itemGridSize = '';
+      switch (project.size) {
+      case 'md':
+        itemGridSize = 'grid__col-6'
+        break;
+      case 'sm':
+      default:
+        itemGridSize = 'grid__col-4'
+      }
+
       return (
-        <div key={project.title + '-' + index} className="grid__col-4">
-          <p>Title: {project.title}</p>
-          <p>Url: {project.url}</p>
-          <p>Description: {project.description}</p>
-          <p>Client: {project.client}</p>
-          <p>Client: {project.launch}</p>
-          <ul className="client-imgs">
-            { this.renderProjectImages(project.images) }
-          </ul>
-          <hr />
+        <div
+          key={project.type + '-' + index}
+          className={ itemGridSize + ' workgrid__item' }
+        >
+          <a href={project.url}>
+            <img src={project.img} alt={project.title} className="workgrid__item-img" />
+            <div className="workgrid__item-copy">
+              <p>Type: {project.type}</p>
+              <p>Title: {project.title}</p>
+              <p>Project Url: {project.url}</p>
+            </div>
+          </a>
         </div>
       );
     });
   }
 
   render() {
-
-
     const {
-      projects: {
-        projectSingles
-      }
+      projects
     } = this.props;
 
     return (
-      <div>
-        <div className="grid">
-          { this.renderProjects(projectSingles) }
+      <div className="workgrid-hldr">
+        <div className="wrapper">
+          <div className="grid">
+            { this.renderProjects(projects) }
+          </div>
         </div>
       </div>
     );

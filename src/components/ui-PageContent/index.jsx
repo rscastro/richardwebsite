@@ -8,9 +8,11 @@ import SectionHeader from '../ui-SectionHeader';
 import TextColumns from '../ui-TextColumns';
 import Image from '../ui-Image';
 import Details from '../ui-Details';
+import HomeHero from '../ui-HomeHero';
+import Tagline from '../ui-Tagline';
+import WorkGrid from '../ui-WorkGrid';
 // import Video from '../ui-Video';
 // import Carousel from '../ui-Carousel';
-// import WorkGrid from '../ui-WorkGrid';
 
 
 export default class PageContent extends Component {
@@ -84,10 +86,35 @@ export default class PageContent extends Component {
             projectColor={ projectColor }
           />
         );
+      } else if (component.type === 'homeHero') {
+        return (
+          <HomeHero
+            key={ `${component.type}-${index}` }
+            src={ component.src }
+            title={ component.title }
+          />
+        );
+      } else if (component.type === 'tagline') {
+        return (
+          <Tagline
+            key={ `${component.type}-${index}` }
+            title={ component.title }
+          />
+        );
+      } else if (component.type === 'workgrid') {
+        return (
+          <WorkGrid
+            key={ `${component.type}-${index}` }
+            projects={ component.projects }
+          />
+        );
       }
-      {/* <Video data={labsData.video} />
-      <Carousel data={labsData.carousel} />
-      <WorkGrid labs={labsData.labs} /> */}
+
+      {/*
+        <Video data={labsData.video} />
+        <Carousel data={labsData.carousel} />
+        <WorkGrid labs={labsData.labs} />
+      */}
     });
   }
 

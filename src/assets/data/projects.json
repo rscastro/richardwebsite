@@ -642,10 +642,7 @@
         "launch":"Oct 2016",
         "projectColor": "#00aeef",
         "images": [
-          { "src": "project_2_1.jpg", "title": "Image title 2.1" },
-          { "src": "project_2_2.jpg", "title": "Image title 2.2" },
-          { "src": "project_2_3.jpg", "title": "Image title 2.3" },
-          { "src": "project_2_4.jpg", "title": "Image title 2.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {

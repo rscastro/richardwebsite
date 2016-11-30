@@ -1,9 +1,96 @@
 {
-  "homeHero": {
-    "src": "someurl.jpg",
-    "title": "Hero Title"
-  },
-  "tagline": {
-    "title": "We build the creative web"
-  }
+  "title": "",
+  "pageContent": [
+    {
+      "type": "homeHero",
+      "src": "someurl.jpg",
+      "title": "Hero Title"
+    },
+    {
+      "type": "tagline",
+      "title": "We build the creative web"
+    },
+    {
+      "type": "workgrid",
+      "projects": [
+        {
+          "type": "Work",
+          "title": "Project 01",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-01.jpg",
+          "size": "md"
+        },
+        {
+          "type": "Work",
+          "title": "Project 02",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-02.jpg",
+          "size": "md"
+        },
+        {
+          "type": "Labs",
+          "title": "Project 03",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-03.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "Work",
+          "title": "Project 04",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-04.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "Work",
+          "title": "Project 05",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-05.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "Labs",
+          "title": "Project 06",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-06.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "Work",
+          "title": "Project 07",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-07.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "Work",
+          "title": "Project 08",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-08.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "Work",
+          "title": "Project 09",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-09.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "Work",
+          "title": "Project 10",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-10.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "Work",
+          "title": "Project 11",
+          "url": "/somewhere-to-go",
+          "img": "/images/home-workgrid/temp-wg-11.jpg",
+          "size": "sm"
+        }
+      ]
+    }
+  ]
 }
