@@ -11,6 +11,16 @@
 
       .workgrid__item-img {
         vertical-align: top;
+        filter: grayscale(100%);
+        transition: 4s;
+        transition: filter 2s, transform 4s;
+      }
+
+      &:hover {
+        .workgrid__item-img {
+          filter: grayscale(0%);
+          transform: scale(1.05, 1.05);
+        }
       }
 
       .workgrid__item-copy {
