@@ -65,7 +65,7 @@
             "type": "image",
             "size": "full",
             "src": "/images/mtc-full-create.jpg",
-            "title": "Image title"
+            "title": ""
           }
         ]
       },
@@ -109,29 +109,26 @@
             "type": "image",
             "size": "full",
             "src": "/images/fs-full.jpg",
-            "title": "Image title"
+            "title": ""
           }
         ]
       },
       {
         "projectID": "airbnb-maisons-de-france",
-        "title": "Project 03",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "00aeef",
+        "title": "Airbnb: Maisons de France Contest",
+        "description":"",
+        "intro": "",
+        "client": "Airbnb",
+        "launch":"August 2016",
+        "projectColor": "ff5a5f",
         "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-3.jpg",
-            "copy": "airbnb-maisons-de-france - This project was built in multiple phases; fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/abb-mdf-header.jpg",
+            "copy": "A multi-phase contest to find the most iconic residence in each district in France."
           },
           {
             "type": "sectionHeader",
@@ -140,8 +137,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-3.png"
+            "intro": "<p>Airbnb wanted to host a contest in France that would let users submit their unique Airbnb listings.</p><p>Judges narrowed down the submissions to three finalists in each region.</p><p>The public could then vote on their favorite listings in each of the 14 regions.</p>",
+            "logo": "/images/airbnb-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -150,36 +147,39 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>We built a system that was secure enough to be accurate, but simple enough to keep people from dropping off before voting.</p>",
+            "copyRight": "<p>The contest received thousands of submissions. There were attempts at cheating the voting system but our backups were able to detect these cheating patterns quickly.</p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-4.jpg",
-            "title": "Image title"
+            "src": "/images/abb-mdf-full.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/abb-mdf-full-2.jpg",
+            "title": ""
           }
         ]
       },
       {
         "projectID": "airbnb-road-trippers",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "00aeef",
+        "title": "Airbnb: Road Trippers",
+        "description":"",
+        "intro": "",
+        "client": "Airbnb",
+        "launch":"July 2016",
+        "projectColor": "8CE071",
         "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-1.jpg",
-            "copy": "airbnb-road-trippers - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/abb-rt-hero.jpg",
+            "copy": "Helping to change how people use Airbnb when planning trips."
           },
           {
             "type": "sectionHeader",
@@ -188,8 +188,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-1.png"
+            "intro": "<p>People think of Airbnb like a hotel-replacement, but it can be so much more. Road Trippers was one attempt at providing road trip ideas along classic routes. These routes just happen to have awesome Airbnb listings along the way.</p>",
+            "logo": "/images/airbnb-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -198,132 +198,33 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>We wanted the routes to connect attractions and nearby listings, so we couldn't rely on the Google Maps API to give us path coordinates.</p><p>Getting the coordinates was tricky. We ended up using a combination of Google Earth, Excel, and some code editor magic to gather the data we needed.</p>",
+            "copyRight": "<p>We designed and built this project on an insanely-tight timeline.</p><p>Despite some last-minute listing changes, we launched it on time. The client was happy with what we were able to create.</p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-5.jpg",
-            "title": "Image title"
-          }
-        ]
-      },
-      {
-        "projectID": "airbnb-road-trippers",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "00aeef",
-        "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
-        ],
-        "pageContent": [
-          {
-            "type": "hero",
-            "src": "/images/temp-project-hero-2.jpg",
-            "copy": "airbnb-road-trippers - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "01",
-            "title": "Challenge"
-          },
-          {
-            "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-2.png"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "02",
-            "title": "Solution"
-          },
-          {
-            "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/temp-image-1.jpg",
-            "title": "Image title"
-          }
-        ]
-      },
-      {
-        "projectID": "airbnb-road-trippers",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "00aeef",
-        "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
-        ],
-        "pageContent": [
-          {
-            "type": "hero",
-            "src": "/images/temp-project-hero-3.jpg",
-            "copy": "airbnb-road-trippers - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "01",
-            "title": "Challenge"
-          },
-          {
-            "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-3.png"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "02",
-            "title": "Solution"
-          },
-          {
-            "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/temp-image-2.jpg",
-            "title": "Image title"
+            "src": "/images/abb-rt-full-1.jpg",
+            "title": ""
           }
         ]
       },
       {
         "projectID": "airbnb-holidays-app",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "00aeef",
+        "title": "Airbnb: Holidays Mobile Web App",
+        "description":"",
+        "intro": "",
+        "client": "Airbnb",
+        "launch":"Nov 2016",
+        "projectColor": "7B0051",
         "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-1.jpg",
-            "copy": "airbnb-holidays-app - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/abb-holidays-hero-1.jpg",
+            "copy": "Sharing a New Home for the Holidays in time for Thanksgiving."
           },
           {
             "type": "sectionHeader",
@@ -332,8 +233,13 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-1.png"
+            "intro": "<p>We got a call from our friend at Airbnb saying a project with an impossible timeline was coming, and that we were welcome to say no.</p><p>Challenge Accepted!</p>",
+            "logo": "/images/airbnb-logo.png"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>Airbnb wanted a shareable web app for Thanksgiving that people could use to share their holidays spent in an Airbnb.</p><p>Airbnb and Chiat/Day came up with the concept; Airbnb required Chiat to work with Martian because we knew how their deployment process worked.</p>",
+            "copyRight": "<p>We had less than 2 weeks to do UX, Design and Development. The app needed to grab camera/camera roll images, overlay one of a dozen filters on top, create a url and then be able to share the image on facebook/twitter, as well as be downloadable.</p>"
           },
           {
             "type": "sectionHeader",
@@ -342,36 +248,33 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>We built the app to post to facebook via a link share. The app was mobile-only, but we realized that the shared content needed to be viewable on desktop to we had to build out some exceptions.</p>",
+            "copyRight": "<p>We launched the app in time for Thanksgiving; we were proud of what we were able to build in the time given.</p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-3.jpg",
-            "title": "Image title"
+            "src": "/images/abb-holidays-full-1.jpg",
+            "title": ""
           }
         ]
       },
       {
         "projectID": "sony-hmz",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
+        "title": "",
+        "description":"",
+        "intro": "",
         "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "00aeef",
+        "launch":"Dec 2013",
+        "projectColor": "ffffff",
         "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-2.jpg",
-            "copy": "sony-hmz - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/sony-hmz-hero-1.jpg",
+            "copy": "building a new ux for a unique product."
           },
           {
             "type": "sectionHeader",
@@ -380,8 +283,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-2.png"
+            "intro": "<p>For years, Sony has been leading the pack in progressing the digital experience. Recently this innovation effort has resulted in a number of new, futuristic products such as the HMZ head-mounted display. The product has generated a lot of buzz and has been labeled as a serious competitor to the revolutionary Oculus Rift.</p><p>Selling the value of such a unique product required a web experience that would match the product's real-world product design. As the device is a video display, the creative team wanted to utilize some sort of video or motion sequence.</p><p>Sony's new site was built for modern browsers, and Sony wanted the showcase module experience to translate across desktop and mobile devices.</p>",
+            "logo": "/images/sony-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -390,14 +293,14 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>There were many different solutions to the problem; Video scrubbing, static image sequence traversing, and animation via time-codes were all attempted. Using html5, css3 and javascript, we tried many solutions and weighed the pros and cons of each.</p><p>Additionally, iPhones don't play video inline so we had to have an alternate technical implementation for that scenario.</p><p>A simple linear dragger wasn't novel enough so we tried different approaches to the animation. We settled on an arc motion to replicate a thumb swipe on a mobile device which felt very natural.</p>",
+            "copyRight": "<p>The technique we settled on was a hybrid of static image sequences that could be toggled on and off in rapid succession, simulating motion. Then, we tied those sequences together with video clips for the transitions.</p><p>The result was a module that was as interesting as the product itself. The interactive integrity was maintained across all devices and screen sizes, and the module gracefully degraded for older browsers.</p>"
           },
           {
             "type": "image",
             "size": "full",
             "src": "/images/temp-image-4.jpg",
-            "title": "Image title"
+            "title": ""
           }
         ]
       },
@@ -410,10 +313,10 @@
         "launch":"Oct 2015",
         "projectColor": "#00aeef",
         "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "project_3_1.jpg", "title": " 3.1" },
+          { "src": "project_3_2.jpg", "title": " 3.2" },
+          { "src": "project_3_3.jpg", "title": " 3.3" },
+          { "src": "", "title": " 3.4" }
         ],
         "pageContent": [
           {
@@ -445,7 +348,7 @@
             "type": "image",
             "size": "full",
             "src": "/images/temp-image-5.jpg",
-            "title": "Image title"
+            "title": ""
           }
         ]
       },
@@ -458,10 +361,10 @@
         "launch":"Oct 2015",
         "projectColor": "#00aeef",
         "images": [
-          { "src": "project_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "project_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "project_3_3.jpg", "title": "Image title 3.3" },
-          { "src": "project_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "project_3_1.jpg", "title": " 3.1" },
+          { "src": "project_3_2.jpg", "title": " 3.2" },
+          { "src": "project_3_3.jpg", "title": " 3.3" },
+          { "src": "", "title": " 3.4" }
         ],
         "pageContent": [
           {
@@ -493,7 +396,7 @@
             "type": "image",
             "size": "full",
             "src": "/images/temp-image-1.jpg",
-            "title": "Image title"
+            "title": ""
           }
         ]
       },
@@ -583,7 +486,7 @@
             "type": "image",
             "size": "full",
             "src": "/images/mede-full.jpg",
-            "title": "Image title"
+            "title": ""
           }
         ]
       },
@@ -629,7 +532,7 @@
             "type": "image",
             "size": "full",
             "src": "/images/vidhub-full.jpg",
-            "title": "Image title"
+            "title": ""
           }
         ]
       },
@@ -674,7 +577,7 @@
             "type": "image",
             "size": "lg",
             "url": "../../assets/images/temp-image.jpg",
-            "title": "Image title"
+            "title": ""
           }
         ]
       }
