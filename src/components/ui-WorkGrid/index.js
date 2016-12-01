@@ -1,3 +1,5 @@
+import './_index.scss';
+
 import React, {PropTypes, Component} from 'react';
 
 export default class WorkGrid extends Component {
@@ -18,7 +20,7 @@ export default class WorkGrid extends Component {
         break;
       case 'sm':
       default:
-        itemGridSize = 'grid__col-4'
+        itemGridSize = 'grid__col-6 grid__col-sm-4'
       }
 
       return (
@@ -26,12 +28,16 @@ export default class WorkGrid extends Component {
           key={project.type + '-' + index}
           className={ itemGridSize + ' workgrid__item' }
         >
-          <a href={project.url}>
+          <a
+            href={project.url}
+            className="workgrid__item-link"
+          >
             <img src={project.img} alt={project.title} className="workgrid__item-img" />
             <div className="workgrid__item-copy">
-              <p>Type: {project.type}</p>
-              <p>Title: {project.title}</p>
-              <p>Project Url: {project.url}</p>
+              <h3 className="type-title uppercase">{project.type}</h3>
+              <div className="title-hldr">
+                <h3 className="title uppercase">{project.title}</h3>
+              </div>
             </div>
           </a>
         </div>

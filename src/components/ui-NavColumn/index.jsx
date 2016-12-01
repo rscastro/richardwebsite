@@ -1,4 +1,4 @@
-import './index.scss';
+import './_index.scss';
 
 import React, {Component} from 'react';
 import LinkedList from '../ui-LinkedList';
