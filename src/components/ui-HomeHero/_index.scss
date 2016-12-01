@@ -1,9 +1,9 @@
 @import "../css-base/_variables";
 
 .home-hero {
+  margin: 0;
+  
   height: 5rem; // Temp style
   background: #ccc; // Temp style
   padding: $base-spacing; // Temp style
-  margin-top: $sm-spacing; // Temp style
-  margin-bottom: $sm-spacing; // Temp style
 }
