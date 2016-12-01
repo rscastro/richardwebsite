@@ -14,7 +14,6 @@ export default class WorkGrid extends Component {
   }
 
   onMouseEnterHandler(event) {
-    console.log('this:', event.currentTarget.querySelector('img'));
     TweenLite.to(event.currentTarget.querySelector('img'), 3, {scale:1.05, transformOrigin:'50% 50%'});
   }
 
