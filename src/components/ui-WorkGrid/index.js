@@ -20,7 +20,7 @@ export default class WorkGrid extends Component {
         break;
       case 'sm':
       default:
-        itemGridSize = 'grid__col-4'
+        itemGridSize = 'grid__col-6 grid__col-sm-4'
       }
 
       return (
