@@ -59,7 +59,7 @@
   .nav-links-hldr {
     margin-top: $lg-spacing;
     overflow: scroll;
-    height: calc(100vh - #{$navbar-height + $column-padding}); // 12.5rem is equal to $navbar-height, but variable didn't work with calc
+    height: calc(100vh - #{$navbar-height + $column-padding});
 
     .nav-links {
       display: none;
