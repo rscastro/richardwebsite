@@ -16,6 +16,10 @@ h6 {
   &.overline {
     border-top: 1px solid $white;
   }
+
+  &.uppercase {
+    text-transform: uppercase;
+  }
 }
 
 h1 {

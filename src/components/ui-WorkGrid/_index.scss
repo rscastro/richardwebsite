@@ -1,0 +1,41 @@
+@import '../css-base/_variables';
+@import '../css-base/_mixins';
+
+.workgrid-hldr {
+
+  .workgrid__item {
+    padding: 0;
+
+    .workgrid__item-img {
+      vertical-align: top;
+    }
+
+    .workgrid__item-copy {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: $column-padding;
+      text-align: center;
+      letter-spacing: .5rem;
+
+      .type-title {
+        position: absolute;
+        top: $column-padding;
+        right: 0;
+        left: 0;
+      }
+
+      .title-hldr {
+        @include vertical-align();
+        width: 100%;
+        padding: 15px;
+
+        .title {
+          color: $white;
+        }
+      }
+    }
+  }
+}

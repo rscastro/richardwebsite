@@ -1,3 +1,5 @@
+import './_index.scss';
+
 import React, {PropTypes, Component} from 'react';
 
 export default class WorkGrid extends Component {
@@ -29,9 +31,10 @@ export default class WorkGrid extends Component {
           <a href={project.url}>
             <img src={project.img} alt={project.title} className="workgrid__item-img" />
             <div className="workgrid__item-copy">
-              <p>Type: {project.type}</p>
-              <p>Title: {project.title}</p>
-              <p>Project Url: {project.url}</p>
+              <h3 className="type-title uppercase">{project.type}</h3>
+              <div className="title-hldr">
+                <h3 className="title uppercase">{project.title}</h3>
+              </div>
             </div>
           </a>
         </div>
