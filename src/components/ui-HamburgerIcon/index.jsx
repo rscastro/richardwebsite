@@ -1,7 +1,9 @@
 import './_index.scss';
 
 import React, { Component } from 'react';
-import TweenLite from 'gsap';
+
+// Alias includes in the webpack.config files
+import TweenLite from 'TweenLite';
 
 export default class HamburgerIcon extends Component {
 
