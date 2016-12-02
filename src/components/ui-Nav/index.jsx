@@ -3,6 +3,7 @@ const navData = require('../../assets/data/nav.json');
 import React, {Component} from 'react';
 
 import NavColumn from '../ui-NavColumn'
+import NavLinks from '../ui-NavLinks'
 import LogoMark from '../../assets/images/logo-mark.svg';
 import LogoType from '../../assets/images/logo-type.svg';
 import HamburgerIcon from '../ui-HamburgerIcon';
@@ -153,18 +154,7 @@ export default class Nav extends Component {
           <div className="nav-links-hldr">
             <div className="nav-links">
               <div className="grid">
-                <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
-                  <h3 className="title underline">{navData.aboutInfo.title}</h3>
-                  <p>
-                    {navData.aboutInfo.weAre}<br/>
-                    <span className="contact">{navData.aboutInfo.phone}</span><br/>
-                    <span className="contact"><a href={'mailto:' + navData.aboutInfo.email}>{navData.aboutInfo.email}</a></span><br/>
-                    <span className="addr">{navData.aboutInfo.address1}</span><br/>
-                    <span className="addr">{navData.aboutInfo.address2}</span><br/>
-                  </p>
-                  <SocialMediaIcons />
-                </div>
-                { this.renderColumns(navData.navColumns) }
+                <NavLinks navData={ navData } />
               </div>
             </div>
           </div>
