@@ -58,8 +58,10 @@
 
   .nav-links-hldr {
     margin-top: $lg-spacing;
-    overflow: scroll;
+    overflow: auto;
     height: calc(100vh - #{$navbar-height + $column-padding});
+    display: none;
+    opacity: 0;
 
     .nav-links {
       display: none;
