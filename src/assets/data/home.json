@@ -1,4 +1,5 @@
 {
+  "projectID": "home",
   "title": "",
   "pageContent": [
     {
@@ -12,7 +13,7 @@
     },
     {
       "type": "workgrid",
-      "projects": [
+      "workgridItems": [
         {
           "type": "Work",
           "title": "marketing.twitter.com",

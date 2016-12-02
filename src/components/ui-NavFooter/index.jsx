@@ -29,9 +29,13 @@ export default class Nav extends Component {
 
           <div className="nav-footer-bar">
             <div className="grid">
-              <div className="grid__col-12 text-center logo-mark-hldr">
-                <img src={LogoType} alt={navData.title} className="logo-footer-type" />
-                <img src={LogoMark} alt={navData.title} className="logo-footer-mark" />
+              <div className="grid__col-12 text-center nav-footer-bar-inner">
+                <a href="/">
+                  <img src={LogoType} alt={navData.title} className="logo-footer-type" />
+                </a>
+                <a href="/">
+                  <img src={LogoMark} alt={navData.title} className="logo-footer-mark" />
+                </a>
               </div>
             </div>
           </div>

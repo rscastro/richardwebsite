@@ -2,6 +2,12 @@
 @import '../css-base/_mixins';
 
 .workgrid-hldr {
+  @include component-margin-top-bottom;
+
+  &.home {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
   .workgrid__item {
     padding: 0;

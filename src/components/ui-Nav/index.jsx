@@ -148,7 +148,7 @@ export default class Nav extends Component {
   render() {
     return (
       <div className="nav-hldr">
-        <div className="nav-bg"></div>
+        <div className="nav-bg"/>
         <div className="wrapper">
 
           <div className="nav-links-hldr">
@@ -168,18 +168,22 @@ export default class Nav extends Component {
                 { this.renderColumns(navData.navColumns) }
               </div>
             </div>
-          </div>
+
 
           <div className="nav-bar">
             <div className="nav-bar-inner text-center">
-              <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
-              <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
+              <a href="/">
+                <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
+              </a>
+              <a href="/">
+                <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
+              </a>
               <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onToggleNav.bind(this)} />
             </div>
           </div>
-
         </div>
       </div>
+    </div>
     );
   }
 }
