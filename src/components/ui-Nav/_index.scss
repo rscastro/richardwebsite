@@ -26,8 +26,9 @@
     left: 0;
     padding-top: $base-spacing;
     height: $navbar-height;
+    // background: $off-black;
 
-    .logo-mark-hldr {
+    .nav-bar-inner {
       position: relative;
 
       .logo-type {
@@ -55,10 +56,14 @@
     }
   }
 
-
-  .nav-links {
-    display: none;
-    opacity: 0;
+  .nav-links-hldr {
     margin-top: $lg-spacing;
+    overflow: scroll;
+    height: calc(100vh - #{$navbar-height + $column-padding});
+
+    .nav-links {
+      display: none;
+      opacity: 0;
+    }
   }
 }

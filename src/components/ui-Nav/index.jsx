@@ -44,9 +44,7 @@ export default class Nav extends Component {
 
     if (navOpen) {
       this.setState({ navOpen: false });
-      // console.log('enable scroll or scrollmagic');
       this.setupScrollMagic();
-
       // Close the nav
       TweenLite.to('.nav-bg', duration, {opacity:0, display:'none'});
       TweenLite.to(logoTypeNode, duration, {opacity:0, display:'none'});
@@ -60,11 +58,9 @@ export default class Nav extends Component {
 
     } else {
       this.setState({ navOpen: true });
-      // console.log('disable scroll or scrollmagic');
       this.destroyScrollMagic();
-
       // Open the nav
-      TweenLite.to('.nav-links', 0, {y:'-400'}); // This should be solved differently, hacky...
+      TweenLite.to('.nav-links', 0, {y:'-100'}); // This should be solved differently, hacky...
       TweenLite.to('.nav-bg', duration, {opacity:1, display:'block'});
       TweenLite.to(logoMarkNode, duration, {opacity:1, display:'block'});
       if (screenWidth > phoneWidth) {
@@ -155,30 +151,30 @@ export default class Nav extends Component {
         <div className="nav-bg"></div>
         <div className="wrapper">
 
-          <div className="nav-bar">
-            <div className="grid">
-              <div className="grid__col-12 text-center logo-mark-hldr">
-                <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
-                <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
-                <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onToggleNav.bind(this)} />
+          <div className="nav-links-hldr">
+            <div className="nav-links">
+              <div className="grid">
+                <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
+                  <h3 className="title underline">{navData.aboutInfo.title}</h3>
+                  <p>
+                    {navData.aboutInfo.weAre}<br/>
+                    <span className="contact">{navData.aboutInfo.phone}</span><br/>
+                    <span className="contact"><a href={'mailto:' + navData.aboutInfo.email}>{navData.aboutInfo.email}</a></span><br/>
+                    <span className="addr">{navData.aboutInfo.address1}</span><br/>
+                    <span className="addr">{navData.aboutInfo.address2}</span><br/>
+                  </p>
+                  <SocialMediaIcons />
+                </div>
+                { this.renderColumns(navData.navColumns) }
               </div>
             </div>
           </div>
 
-          <div className="nav-links">
-            <div className="grid">
-              <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
-                <h3 className="title underline">{navData.aboutInfo.title}</h3>
-                <p>
-                  {navData.aboutInfo.weAre}<br/>
-                  <span className="contact">{navData.aboutInfo.phone}</span><br/>
-                  <span className="contact"><a href={'mailto:' + navData.aboutInfo.email}>{navData.aboutInfo.email}</a></span><br/>
-                  <span className="addr">{navData.aboutInfo.address1}</span><br/>
-                  <span className="addr">{navData.aboutInfo.address2}</span><br/>
-                </p>
-                <SocialMediaIcons />
-              </div>
-              { this.renderColumns(navData.navColumns) }
+          <div className="nav-bar">
+            <div className="nav-bar-inner text-center">
+              <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
+              <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
+              <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onToggleNav.bind(this)} />
             </div>
           </div>
 
