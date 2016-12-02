@@ -42,6 +42,12 @@
             "copyRight": "<p>The site took longer to build than expected but launched within a reasonable timeframe; Twitter has since scaled the framework out to hundreds of pages without issue.</p><p>This team is one of our favorite clients and we're proud of the work we did on this site.</p>"
           },
           {
+            "type": "image",
+            "size": "full",
+            "src": "/images/mtc-full-create.jpg",
+            "title": ""
+          },
+          {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
             "siteurl": "http://cnn.com",
@@ -62,10 +68,30 @@
             ]
           },
           {
-            "type": "image",
-            "size": "full",
-            "src": "/images/mtc-full-create.jpg",
-            "title": ""
+            "type": "workgrid",
+            "projects": [
+              {
+                "type": "Work",
+                "title": "Twitter<br>Flight School",
+                "url": "/somewhere-to-go-1",
+                "img": "/images/home-workgrid/temp-wg-01.jpg",
+                "size": "sm"
+              },
+              {
+                "type": "Labs",
+                "title": "Twitter Fingerprint",
+                "url": "/somewhere-to-go-2",
+                "img": "/images/home-workgrid/temp-wg-02.jpg",
+                "size": "sm"
+              },
+              {
+                "type": "Work",
+                "title": "Airbnb Maisons<br>De France",
+                "url": "/somewhere-to-go-3",
+                "img": "/images/home-workgrid/temp-wg-03.jpg",
+                "size": "sm"
+              }
+            ]
           }
         ]
       },

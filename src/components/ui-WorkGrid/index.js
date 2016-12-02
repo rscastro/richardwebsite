@@ -6,7 +6,8 @@ export default class WorkGrid extends Component {
 
   static get propTypes() {
     return {
-      projects: React.PropTypes.array
+      projects: React.PropTypes.array,
+      id: React.PropTypes.string
     };
   }
 
@@ -36,7 +37,10 @@ export default class WorkGrid extends Component {
             <div className="workgrid__item-copy">
               <h3 className="type-title uppercase">{project.type}</h3>
               <div className="title-hldr">
-                <h3 className="title uppercase">{project.title}</h3>
+                <h3
+                  className="title uppercase"
+                  dangerouslySetInnerHTML={ {__html: project.title} }
+                />
               </div>
             </div>
           </a>
@@ -47,11 +51,12 @@ export default class WorkGrid extends Component {
 
   render() {
     const {
-      projects
+      projects,
+      id
     } = this.props;
 
     return (
-      <div className="workgrid-hldr">
+      <div className={ id + ' workgrid-hldr' }>
         <div className="wrapper">
           <div className="grid">
             { this.renderProjects(projects) }
