@@ -69,7 +69,7 @@
           },
           {
             "type": "workgrid",
-            "projects": [
+            "workgridItems": [
               {
                 "type": "Work",
                 "title": "Twitter<br>Flight School",

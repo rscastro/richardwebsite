@@ -6,16 +6,16 @@ export default class WorkGrid extends Component {
 
   static get propTypes() {
     return {
-      projects: React.PropTypes.array,
+      workgridItems: React.PropTypes.array,
       id: React.PropTypes.string
     };
   }
 
-  renderProjects(projects) {
-    return projects.map((project, index) => {
+  renderProjects(items) {
+    return items.map((item, index) => {
 
       let itemGridSize = '';
-      switch (project.size) {
+      switch (item.size) {
       case 'md':
         itemGridSize = 'grid__col-6'
         break;
@@ -26,20 +26,20 @@ export default class WorkGrid extends Component {
 
       return (
         <div
-          key={project.type + '-' + index}
+          key={item.type + '-' + index}
           className={ itemGridSize + ' workgrid__item' }
         >
           <a
-            href={project.url}
+            href={item.url}
             className="workgrid__item-link"
           >
-            <img src={project.img} alt={project.title} className="workgrid__item-img" />
+            <img src={item.img} alt={item.title} className="workgrid__item-img" />
             <div className="workgrid__item-copy">
-              <h3 className="type-title uppercase">{project.type}</h3>
+              <h3 className="type-title uppercase">{item.type}</h3>
               <div className="title-hldr">
                 <h3
                   className="title uppercase"
-                  dangerouslySetInnerHTML={ {__html: project.title} }
+                  dangerouslySetInnerHTML={ {__html: item.title} }
                 />
               </div>
             </div>
@@ -51,7 +51,7 @@ export default class WorkGrid extends Component {
 
   render() {
     const {
-      projects,
+      workgridItems,
       id
     } = this.props;
 
@@ -59,7 +59,7 @@ export default class WorkGrid extends Component {
       <div className={ id + ' workgrid-hldr' }>
         <div className="wrapper">
           <div className="grid">
-            { this.renderProjects(projects) }
+            { this.renderProjects(workgridItems) }
           </div>
         </div>
       </div>

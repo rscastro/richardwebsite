@@ -106,7 +106,7 @@ export default class PageContent extends Component {
           <WorkGrid
             key={ `${component.type}-${index}` }
             id={ currentProject.projectID }
-            projects={ component.projects }
+            workgridItems={ component.workgridItems }
           />
         );
       }
