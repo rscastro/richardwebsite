@@ -1,28 +1,25 @@
 {
   "labs": {
-    "title": "Lab Test Title from json",
-    "subtitle": "subtitle test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
-    "introcopy": "introcopy test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis accumsan tortor, sed semper urna fringilla id.",
+    "title": "",
+    "subtitle": "",
+    "introcopy": "",
     "labSingles": [
       {
         "labID": "metagramme",
-        "title": "Project 01",
-        "description":"Project 01 description - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum purus libero, hendrerit interdum diam aliquet nec. Vivamus in ipsum eget lacus feugiat interdum vitae sed dui.",
-        "intro": "<p>Twitter Marketing how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-        "client": "Twitter",
-        "launch":"Oct 2016",
-        "projectColor": "00aeef",
+        "title": "Metagramme",
+        "description":"",
+        "intro": "<p></p>",
+        "client": "Martian",
+        "launch":"Oct 2014",
+        "projectColor": "666666",
         "images": [
-          { "src": "lab_1_1.jpg", "title": "Image title 1.1" },
-          { "src": "lab_1_2.jpg", "title": "Image title 1.2" },
-          { "src": "lab_1_3.jpg", "title": "Image title 1.3" },
-          { "src": "lab_1_4.jpg", "title": "Image title 1.4" }
+          { "src": "","title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-1.jpg",
-            "copy": "metagramme - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/metagramme-hero-2.jpg",
+            "copy": "a different way of looking at images."
           },
           {
             "type": "sectionHeader",
@@ -31,8 +28,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-2.png"
+            "intro": "<p>We love exploring different ways to process and view images.</p><p>This project stemmed from a 2-year-old idea that was resurrected and built out into something cooler.</p><p>We wanted to average image sets to see what would happen. We hoped that the resulting image would be both a mathematical average of the source images, as well as be representative of the average image content & composition.</p>",
+            "logo": "/images/metagramme-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -41,35 +38,70 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>The application needed to work on any screen, so the UI was designed to work on both small and large screens.</p><p>The concept is abstract, so we ended up simulating the process in the UI to help show users what was happening.</p><p>The site was a hit, and was featured by Wired Magazine both on their site and their Instagram feed. The production server was run on AWS and was built to scale; it handled the Wired traffic flawlessly.</p>",
+            "copyRight": "<p>This concept is awesome; with this approach, you can quantify and visualize what society thinks \"sadness\" looks like.</p><p>Instagram has a TON of spam. In the future, we hope to add other image sources like Flickr that are more curated.</p><p>We also plan to use higher-resolution images, which will allow users to print out the resulting images.</p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-2.jpg",
-            "title": "Image title"
+            "src": "/images/metagramme-full-1.jpg",
+            "title": ""
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "https://metagram.me",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/metagramme-full-2.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/metagramme-full-3.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/metagramme-full-4.jpg",
+            "title": ""
           }
         ]
       },
       {
         "labID": "twitter-fingerprint",
-        "title": "Project 02",
-        "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
-        "client": "Twitter",
-        "launch":"Oct 2016",
-        "projectColor": "00aeef",
+        "title": "Twitter Fingerprint",
+        "description":"",
+        "intro": "<p></p>",
+        "client": "Martian",
+        "launch":"Dec 2014",
+        "projectColor": "EF0173",
         "images": [
-          { "src": "lab_2_1.jpg", "title": "Image title 2.1" },
-          { "src": "lab_2_2.jpg", "title": "Image title 2.2" },
-          { "src": "lab_2_3.jpg", "title": "Image title 2.3" },
-          { "src": "lab_2_4.jpg", "title": "Image title 2.4" }
+          { "src": "","title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-2.jpg",
-            "copy": "twitter-fingerprint - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/metagramme-hero-2.jpg",
+            "copy": "A rapid-fire, iterative data-visualization experiment"
           },
           {
             "type": "sectionHeader",
@@ -78,8 +110,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-2.png"
+            "intro": "<p>We found ourselves with a little bit of free time at the end of one of our sprint cycles. We decided to come up with an idea that we could iterate on and build out within these time constraints.</p><p>This was another project from the archives that we thought could use a little more love.</p><p>We were looking for data and usage patterns that could possibly be used as unique identifiers or fingerprints for each user.</p>",
+            "logo": "/images/martian-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -88,29 +120,45 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>Again, time was of the essence. So again, we chose a data source that was a)ubuquitous and well-used and b)that had a robust API.</p><p>The project's interaction was basic enough to combine the wireframe and design iterations into one. We began prototyping as soon as we had settled on the circular graphs.</p><p>We were finishing up Metagramme and some client work, so those had to take priority but any spare time we had at the end of the day was to be devoted to this project.</p>",
+            "copyRight": "<p>This is a perfect example of the agile, iterative process at work. We've built a functioning application, with plenty of room for additional features.</p><p>Conceptually, we think we're on to something. Developing a visual fingerprint for web usage can tell us a lot about a person (or bot).</p><p>This was a fun exploration and a good example of how Agile development and R&D should happen.</p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-2.jpg",
-            "title": "Image title"
+            "src": "/images/metagramme-full-1.jpg",
+            "title": ""
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "https://twitterfp.martiansf.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
           }
         ]
       },
       {
         "labID": "scrum-poker",
         "title": "Project 03",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "description":"",
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
         "projectColor": "00aeef",
         "images": [
-          { "src": "lab_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "lab_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "lab_3_3.jpg", "title": "Image title 3.3" },
           { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
         ],
         "pageContent": [
@@ -149,23 +197,20 @@
       },
       {
         "labID": "moon-phase",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "title": "",
+        "description":"",
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
         "projectColor": "00aeef",
         "images": [
-          { "src": "lab_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "lab_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "lab_3_3.jpg", "title": "Image title 3.3" },
           { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-1.jpg",
-            "copy": "moon-phase - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/metagramme-hero-1.jpg",
+            "copy": "moon-phase - We d and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
           },
           {
             "type": "sectionHeader",
@@ -197,23 +242,20 @@
       },
       {
         "labID": "serenade",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "title": "",
+        "description":"",
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
         "projectColor": "00aeef",
         "images": [
-          { "src": "lab_3_1.jpg", "title": "Image title 3.1" },
-          { "src": "lab_3_2.jpg", "title": "Image title 3.2" },
-          { "src": "lab_3_3.jpg", "title": "Image title 3.3" },
           { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
         ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/temp-project-hero-2.jpg",
-            "copy": "serenade - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "copy": "serenade - We e and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
           },
           {
             "type": "sectionHeader",
@@ -232,7 +274,7 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyLeft": "<p>q is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
             "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
           },
           {
