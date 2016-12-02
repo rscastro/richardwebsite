@@ -100,7 +100,7 @@
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/metagramme-hero-2.jpg",
+            "src": "/images/twfp-hero-1.png",
             "copy": "A rapid-fire, iterative data-visualization experiment"
           },
           {
@@ -126,7 +126,7 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/metagramme-full-1.jpg",
+            "src": "/images/twfp-full-1.jpg",
             "title": ""
           },
           {
@@ -152,20 +152,20 @@
       },
       {
         "labID": "scrum-poker",
-        "title": "Project 03",
+        "title": "",
         "description":"",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "00aeef",
+        "intro": "",
+        "client": "Martian",
+        "launch":"July 2014",
+        "projectColor": "627847",
         "images": [
-          { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-3.jpg",
-            "copy": "scrum-poker - This lab was built in multiple phases; fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/scrumpoker-hero-1.jpg",
+            "copy": "Making tools to simplify our internal workflow"
           },
           {
             "type": "sectionHeader",
@@ -174,8 +174,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-3.png"
+            "intro": "<p>Scrum Poker is a critical part of the Agile Development Process. Unfortunately, there's no good standard practice.</p><p>Estimating the level of effort required to complete a task happens in the Sprint planning phase in Agile development.</p><p>Currently, the standard practice is to have a literal deck of cards, or download an app that just displays a number on your phone to show the group.</p>",
+            "logo": "/images/martian-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -184,13 +184,32 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>The biggest pain-points are actually tallying the votes up manually, doing so without influencing others, and working with a distributed team over Google Hangouts.</p><p>We were messing around with sockets and the concept of real-time peer connection, and came up with a solution that would be simpler to use, as well as provide more pertinent information.</p><p>This was a no-brainer in terms of requirements; this was a simple solution to a very tedious part of the Agile process.</p>",
+            "copyRight": "<p>The final app allows multiple table generation, anonymous voting, and a dealer-override button. Offsite team members' votes are identical to those attending in-person.</p><p>In addition to your own vote, the results screen shows the mean, the mode, the lowest and highest votes, as well as the table ID and the dealer name.</p><p>This tool simplifies the sprint planning process and saves a ton of time in the process.</p>"
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "https://scrumpoker.martiansf.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-3.jpg",
+            "src": "/images/scrumpoker-full-1.jpg",
             "title": "Image title"
           }
         ]
