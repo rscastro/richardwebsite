@@ -48,7 +48,7 @@ export default class NavLinks extends Component {
               <a href="tel:+1-415-263-7383">
                 415-263-7383
               </a>
-            </span><br/>
+            </span>
             <span className="contact">
               <a href={'mailto:' + email}>
                 {email}

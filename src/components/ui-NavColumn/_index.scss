@@ -41,7 +41,14 @@
     color: $orange;
     font-weight: 200;
     // opacity: .5;
+    line-height: 1.2;
+    margin-top: 0.9rem;
     margin-bottom: $base-spacing;
+
+    span {
+      display: block;
+      margin: 1rem 0;
+    }
 
     a {
       font-weight: 200;
@@ -52,7 +59,11 @@
     }
 
     .addr {
-      color: $drk-gray
+      :first-child {
+        margin-top: 1rem;
+      }
+      margin: 0.5rem 0;
+      color: $drk-gray;
     }
   }
 }
