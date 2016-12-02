@@ -27,7 +27,7 @@ To deploy staging:
 
 After branch is updated, ssh into server and run the following:
 
-* `ssh -i /Users/USERNAME/.ssh/Martian-west1.pem martian@54.67.90.6`
+* `ssh -i /Users/USERNAME/.ssh/Martian-west1.pem martian@52.53.236.31`
 * `cd /var/app/Martian-Site`
 * `git pull`
 * `npm install` if you made any npm package updates
