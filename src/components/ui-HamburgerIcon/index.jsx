@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 
 // Alias includes in the webpack.config files
 import TweenLite from 'TweenLite';
+import TimelineLite from 'TimelineLite';
 
 export default class HamburgerIcon extends Component {
 
@@ -14,18 +15,32 @@ export default class HamburgerIcon extends Component {
     };
   }
 
+  constructor() {
+    super();
+    this.hamburgerTl = {};
+  }
+
+  setupHamburgerAnimation() {
+    const duration = .2;
+    this.hamburgerTl = new TimelineLite({paused:true});
+    this.hamburgerTl
+      .to('#l1', duration, {rotation:45, scaleX:.38, x:9, y:0, transformOrigin:'0% 50%'}, 0)
+      .to('#l2', duration, {rotation:-45, transformOrigin:'50% 50%'}, 0)
+      .to('#l3', duration, {rotation:45, scaleX:.38, x:-9, y:0, transformOrigin:'100% 50%'}, 0)
+  }
+
+  componentDidMount() {
+    this.setupHamburgerAnimation();
+  }
+
   onClickHandler(evt) {
     evt.preventDefault();
 
     // Animate the Hamburger
     if (this.props.navOpen) {
-      TweenLite.to('#l1', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'0% 50%'});
-      TweenLite.to('#l2', .2, {rotation:0, scaleX:1, transformOrigin:'50% 50%'});
-      TweenLite.to('#l3', .2, {rotation:0, scaleX:1, x:0, y:0, transformOrigin:'100% 50%'});
+      this.hamburgerTl.reverse();
     } else {
-      TweenLite.to('#l1', .2, {rotation:45, scaleX:.45, x:2, y:1, transformOrigin:'0% 50%'});
-      TweenLite.to('#l2', .2, {rotation:-45, scaleX:1.4, transformOrigin:'50% 50%'});
-      TweenLite.to('#l3', .2, {rotation:45, scaleX:.45, x:-2, y:-1, transformOrigin:'100% 50%'});
+      this.hamburgerTl.play();
     }
 
     this.props.onToggleNav();
@@ -52,10 +67,10 @@ export default class HamburgerIcon extends Component {
           onMouseEnter={this.onMouseEnterHandler.bind(this)}
           onMouseLeave={this.onMouseLeaveHandler.bind(this)}
         >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="hamburger-svg">
-            <rect id="l1" y="0" width="32" height="2" fill="#fff" />
-            <rect id="l2" y="15" width="32" height="2" fill="#fff" />
-            <rect id="l3" y="30" width="32" height="2" fill="#fff" />
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 30" className="hamburger-svg">
+            <rect id="l1" y="0" width="48" height="1" fill="#fff" />
+            <rect id="l2" y="15" width="48" height="1" fill="#fff" />
+            <rect id="l3" y="29" width="48" height="1" fill="#fff" />
           </svg>
         </a>
       </div>
