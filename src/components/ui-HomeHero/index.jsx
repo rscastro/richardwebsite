@@ -13,6 +13,7 @@ export default class HomeHero extends Component {
     this.container = null;
     this.THREE = THREELib();
     this.scene = new this.THREE.Scene();
+    this.scene.background = new this.THREE.Color( 0x202020 );
     this.camera = new this.THREE.PerspectiveCamera( 90, window.innerWidth/window.innerHeight, 1, 1200 );
     this.renderer = new this.THREE.WebGLRenderer({ antialias: true });
     this.controls = null;
@@ -23,14 +24,14 @@ export default class HomeHero extends Component {
     this.yS = 180;
     this.mesh = new this.THREE.MeshBasicMaterial({
       wireframe: true,
-      color: 0xFF611E
+      color: 0xd94c02
     });
     this.terrainScene = this.THREE.Terrain({
       easing: this.THREE.Terrain.EaseInOut,
       frequency: 50,
       heightmap: this.THREE.Terrain.DiamondSquare,
       material: this.mesh,
-      maxHeight: 400,
+      maxHeight: 415,
       minHeight: -120,
       steps: 500,
       turbulent: true,
@@ -82,7 +83,7 @@ export default class HomeHero extends Component {
 
     this.scene.add(this.terrainScene);
 
-    this.scene.fog = new this.THREE.FogExp2( 0x000000, this.fog);
+    this.scene.fog = new this.THREE.FogExp2( 0x202020, this.fog);
 
     this.update();
 
