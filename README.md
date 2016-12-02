@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
 ## Grid System
 The site uses reflex, which is a responsive flexbox grid with inline-block legacy support
 https://github.com/leejordan/reflex
@@ -27,7 +25,7 @@ To deploy staging:
 
 After branch is updated, ssh into server and run the following:
 
-* `ssh -i /Users/USERNAME/.ssh/Martian-west1.pem martian@52.53.236.31`
+* `ssh -i /Users/USERNAME/.ssh/Martian-west1.pem martian@54.67.42.233`
 * `cd /var/app/Martian-Site`
 * `git pull`
 * `npm install` if you made any npm package updates
@@ -101,3 +99,4 @@ npm install -g eslint-config-react-app@0.3.0 eslint@3.8.1 babel-eslint@7.0.0 esl
 
 We recognize that this is suboptimal, but it is currently required due to the way we hide the ESLint dependency. The ESLint team is already [working on a solution to this](https://github.com/eslint/eslint/issues/3458) so this may become unnecessary in a couple of months.
 
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
