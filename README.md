@@ -7,6 +7,36 @@ https://www.npmjs.com/package/reflex-grid
 Documentation can be found here:
 http://leejordan.github.io/reflex/docs/
 
+## Deployments
+For the time being, deployments are manual
+
+### Development
+http://www-dev.martiansf.com reflects `master` branch
+
+### Staging
+http://www-stg.martiansf.com reflects `staging` branch
+
+To deploy staging:
+* `git checkout master`
+* `git pull`
+* `git checkout staging`
+* `git pull`
+* `git merge master --no-ff`
+* Enter `:wq` to write and quit out of vim
+* `git push`
+
+After branch is updated, ssh into server and run the following:
+
+* `ssh -i /Users/USERNAME/.ssh/Martian-west1.pem martian@54.67.90.6`
+* `cd /var/app/Martian-Site`
+* `git pull`
+* `npm install` if you made any npm package updates
+* `npm run build` to rebuild the app in production mode
+* `pm2 restart all` restart app
+
+### Production
+TBD
+
 ## Available Scripts
 In the project directory, you can run:
 
