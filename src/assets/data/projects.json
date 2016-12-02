@@ -28,7 +28,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Twitter needed a solid front-end to go with their fancy new Adobe Experience Manager (AEM) enterprise backend.</p><p>The build needed to scale to fit thousands of pages, but be modern and fresh enough to fit the Twitter brand.</p>",
+            "intro": "<p>Twitter needed a solid front-end to tie in to their new Adobe Experience Manager (AEM) enterprise backend.</p><p>The build needed to scale to fit thousands of pages, but be modern and fresh enough to fit the Twitter brand.</p>",
             "logo": "/images/twtr-logo.png"
           },
           {
@@ -50,21 +50,20 @@
           {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
-            "siteurl": "http://cnn.com",
+            "siteurl": "http://marketing.twitter.com",
             "list1Title": "What We Did",
             "list1": [
               { "title": "Technical Strategy" },
               { "title": "Prototyping" },
-              { "title": "Content Management Systems" },
+              { "title": "AEM Integration" },
               { "title": "Front-end development" },
-              { "title": "Back-end development" },
               { "title": "Integration Support" }
             ],
             "list2Title": "Credits",
             "list2": [
-              { "title": "Design: Carl Bean-Larson" },
-              { "title": "Producer: Shauna Mining" },
-              { "title": "Development: JD Corr" }
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
             ]
           },
           {
@@ -131,6 +130,22 @@
             "copyLeft": "<p>This project was built using the React framework, and we ran this with strict Agile sprints.</p><p>As the project scaled, multiple stakeholders became involved with differing priorities. Maintaining a strict Agile workflow, we were to prioritize the backlog.</p>",
             "copyRight": "<p>In this way, the stakeholders were able to have visibility into the project timeline and work out prioritization amongst themselves while having full transparency into the project.</p>"
           },
+           {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "http://twitterflightschool.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Technical Strategy" },
+              { "title": "Prototyping" },
+              { "title": "Front-end development" },
+              { "title": "Backend development" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" }
+            ]
+          },
           {
             "type": "image",
             "size": "full",
@@ -182,6 +197,22 @@
             "src": "/images/abb-mdf-full.jpg",
             "title": ""
           },
+           {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "http://marketing.twitter.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Technical Strategy" },
+              { "title": "Design" },
+              { "title": "Front-end development" },
+              { "title": "Backend development" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" }
+            ]
+          },
           {
             "type": "image",
             "size": "full",
@@ -226,6 +257,23 @@
             "type": "textColumns",
             "copyLeft": "<p>We wanted the routes to connect attractions and nearby listings, so we couldn't rely on the Google Maps API to give us path coordinates.</p><p>Getting the coordinates was tricky. We ended up using a combination of Google Earth, Excel, and some code editor magic to gather the data we needed.</p>",
             "copyRight": "<p>We designed and built this project on an insanely-tight timeline.</p><p>Despite some last-minute listing changes, we launched it on time. The client was happy with what we were able to create.</p>"
+          },
+           {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "http://roadtrips.withairbnb.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Custom Path Creation" },
+              { "title": "Front-end development" },
+              { "title": "Design" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
           },
           {
             "type": "image",
@@ -278,6 +326,25 @@
             "copyRight": "<p>We launched the app in time for Thanksgiving; we were proud of what we were able to build in the time given.</p>"
           },
           {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "http://holidays.withairbnb.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "UX" },
+              { "title": "Prototyping" },
+              { "title": "Design" },
+              { "title": "Front-end development" },
+              { "title": "Backend development" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
+          },
+          {
             "type": "image",
             "size": "full",
             "src": "/images/abb-holidays-full-1.jpg",
@@ -300,7 +367,7 @@
           {
             "type": "hero",
             "src": "/images/sony-hmz-hero-1.jpg",
-            "copy": "building a new ux for a unique product."
+            "copy": "Building a new UX for a unique product."
           },
           {
             "type": "sectionHeader",
@@ -323,32 +390,47 @@
             "copyRight": "<p>The technique we settled on was a hybrid of static image sequences that could be toggled on and off in rapid succession, simulating motion. Then, we tied those sequences together with video clips for the transitions.</p><p>The result was a module that was as interesting as the product itself. The interactive integrity was maintained across all devices and screen sizes, and the module gracefully degraded for older browsers.</p>"
           },
           {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "http://sony.t2dsf.com/module/hmz/index.html",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Technical Strategy" },
+              { "title": "Prototyping" },
+              { "title": "UX" },
+              { "title": "Front-end development" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
+          },
+          {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-4.jpg",
+            "src": "/images/sony-hmz-full-1.jpg",
             "title": ""
           }
         ]
       },
       {
         "projectID": "merrill-animations",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "#00aeef",
+        "title": "",
+        "description":"",
+        "intro": "",
+        "client": "Merrill",
+        "launch":"Dec 2015",
+        "projectColor": "0064B5",
         "images": [
-          { "src": "project_3_1.jpg", "title": " 3.1" },
-          { "src": "project_3_2.jpg", "title": " 3.2" },
-          { "src": "project_3_3.jpg", "title": " 3.3" },
-          { "src": "", "title": " 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-3.jpg",
-            "copy": "merrill-animations - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/merrill-hero-1.jpg",
+            "copy": "Modern, data-driven animations."
           },
           {
             "type": "sectionHeader",
@@ -357,8 +439,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-3.png"
+            "intro": "<p>Merrill had a very corporate site; the re-brand was solid but the site needed some hero pieces.</p><p></p>",
+            "logo": "/images/merrill-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -367,36 +449,63 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>We worked with Merrill's agency on the approach and design, and built out some really cool interactive graphs and charts.</p><p>The modules needed to be Localized into multiple languages, so we had to do quite a bit of fenagling to make that work. </p>",
+            "copyRight": "<p></p><p></p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-5.jpg",
+            "src": "/images/merrill-full-1.jpg",
+            "title": ""
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "http://merrilcorp.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Technical Strategy" },
+              { "title": "Prototyping" },
+              { "title": "UX" },
+              { "title": "Front-end development" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/merrill-full-2.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/merrill-full-3.jpg",
             "title": ""
           }
         ]
       },
       {
         "projectID": "eventbrite-prototype",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "#00aeef",
+        "title": "",
+        "description":"",
+        "intro": "",
+        "client": "Eventbrite",
+        "launch":"Feb 2016",
+        "projectColor": "F6682F",
         "images": [
-          { "src": "project_3_1.jpg", "title": " 3.1" },
-          { "src": "project_3_2.jpg", "title": " 3.2" },
-          { "src": "project_3_3.jpg", "title": " 3.3" },
-          { "src": "", "title": " 3.4" }
+          { "src": "", "title": "" }
         ],
         "pageContent": [
           {
             "type": "hero",
-            "src": "/images/temp-project-hero-1.jpg",
-            "copy": "eventbrite-prototype - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
+            "src": "/images/eventbrite-coyote-hero-1.jpg",
+            "copy": "Re-thinking an overhaul of Eventbrite's core product."
           },
           {
             "type": "sectionHeader",
@@ -405,8 +514,8 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-1.png"
+            "intro": "<p>Eventbrite is the company to beat when it comes to ticket sales. Lately their UI and overall customer experience was feeling sluggish and dated.</p><p>We helped to prototype out a framework that would allow the design and product teams to iterate quickly and refine the massive core product.</p>",
+            "logo": "/images/eventbrite-logo.png"
           },
           {
             "type": "sectionHeader",
@@ -415,25 +524,67 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p>We built the product on React after talking with Eventbrite's technical team.</p>",
+            "copyRight": "<p></p><p></p>"
           },
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-1.jpg",
+            "src": "/images/eventbrite-coyote-full-1.jpg",
+            "title": ""
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Site Unavailable.",
+            "siteurl": "martiansf.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Technical Architecture" },
+              { "title": "Prototyping" },
+              { "title": "UX" },
+              { "title": "Front-end development" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/eventbrite-coyote-full-2.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/eventbrite-coyote-full-6.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/eventbrite-coyote-full-4.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/eventbrite-coyote-full-5.jpg",
             "title": ""
           }
         ]
       },
       {
         "projectID": "thinknear",
-        "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "#00aeef",
+        "title": "",
+        "description":"",
+        "intro": "",
+        "client": "Thinknear",
+        "launch":"May 2015",
+        "projectColor": "FFCE34",
         "images": [
           { "src": "", "title": "" }
         ],
@@ -441,7 +592,7 @@
           {
             "type": "hero",
             "src": "/images/thinknear-header-2.jpg",
-            "copy": "Thinknear: A site for a mobile-first technology company."
+            "copy": "A flexible site to define a mobile-first technology company."
           },
           {
             "type": "sectionHeader",
@@ -468,13 +619,49 @@
             "size": "full",
             "src": "/images/thinknear-full-1.jpg",
             "title": "thinknear"
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "www.thinknear.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Technical Architecture" },
+              { "title": "UX" },
+              { "title": "Front-end development" },
+              { "title": "Responsive design layout" }
+            ],
+            "list2Title": "Credits",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/thinknear-full-2.jpg",
+            "title": "thinknear"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/thinknear-full-3.jpg",
+            "title": "thinknear"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/thinknear-full-4.jpg",
+            "title": "thinknear"
           }
         ]
       },
       {
         "projectID": "mede-analytics",
         "title": "Project 04",
-        "description":"Project 03 description - Quisque ullamcorper turpis ut neque convallis hendrerit. Vivamus mollis imperdiet pellentesque. ",
+        "description":"",
         "intro": "Someintro copy...3",
         "client": "Sony",
         "launch":"Oct 2015",
@@ -586,7 +773,7 @@
           },
           {
             "type": "projectIntro",
-            "projectIntro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "projectIntro": "<p></p><p></p>",
             "logo": "metagram-logo.png"
           },
           {
@@ -596,8 +783,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+            "copyLeft": "<p> </p>",
+            "copyRight": "<p></p><p></p>"
           },
           {
             "type": "image",
