@@ -51,10 +51,8 @@ export default class Nav extends Component {
       if (logoFadedOut === 1) {
         TweenLite.to(logoMarkNode, duration, {opacity:0, display:'none'});
       }
-      TweenLite.to('.nav-links', duration, {
-        opacity:0,
-        display:'none'
-      });
+      TweenLite.to('.nav-links-hldr', duration, {opacity:0, display: 'none' });
+      TweenLite.to('.nav-links', duration, { opacity:0, display:'none' });
 
     } else {
       this.setState({ navOpen: true });
@@ -70,6 +68,7 @@ export default class Nav extends Component {
           delay:duration/2
         });
       }
+      TweenLite.to('.nav-links-hldr', duration, {opacity:1, display: 'block' });
       TweenLite.to('.nav-links', duration, {y:'0', opacity:1, display: 'flex', delay: duration });
     }
   }
@@ -168,22 +167,24 @@ export default class Nav extends Component {
                 { this.renderColumns(navData.navColumns) }
               </div>
             </div>
-
+          </div>
 
           <div className="nav-bar">
-            <div className="nav-bar-inner text-center">
-              <a href="/">
-                <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
-              </a>
-              <a href="/">
-                <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
-              </a>
-              <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onToggleNav.bind(this)} />
+            <div className="wrapper">
+              <div className="nav-bar-inner text-center">
+                <a href="/">
+                  <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
+                </a>
+                <a href="/">
+                  <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
+                </a>
+                <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onToggleNav.bind(this)} />
+              </div>
             </div>
           </div>
+
         </div>
       </div>
-    </div>
     );
   }
 }
