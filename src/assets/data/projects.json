@@ -44,7 +44,7 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/mtc-full-create.jpg",
+            "src": "/images/mtc-full-2.jpg",
             "title": ""
           },
           {
@@ -66,6 +66,25 @@
               { "title": "" }
             ]
           },
+          {
+            "type": "image",
+            "size": "lg",
+            "src": "/images/mtc-full-3.jpg",
+            "title": ""
+          }, 
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/mtc-full-4.jpg",
+            "title": ""
+          }, 
+          {
+            "type": "image",
+            "size": "lg",
+            "src": "/images/mtc-full-5.jpg",
+            "title": ""
+          },
+          
           {
             "type": "workgrid",
             "workgridItems": [
@@ -149,6 +168,12 @@
           {
             "type": "image",
             "size": "full",
+            "src": "/images/fs-full-2.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "lg",
             "src": "/images/fs-full.jpg",
             "title": ""
           }
@@ -215,7 +240,7 @@
           },
           {
             "type": "image",
-            "size": "full",
+            "size": "lg",
             "src": "/images/abb-mdf-full-2.jpg",
             "title": ""
           }
@@ -290,7 +315,7 @@
         "intro": "",
         "client": "Airbnb",
         "launch":"Nov 2016",
-        "projectColor": "7B0051",
+        "projectColor": "BD80A8",
         "images": [
           { "src": "", "title": "" }
         ],
@@ -416,7 +441,7 @@
         ]
       },
       {
-        "projectID": "merrill-animations",
+        "projectID": "merrill-infographics",
         "title": "",
         "description":"",
         "intro": "",
@@ -449,8 +474,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>We worked with Merrill's agency on the approach and design, and built out some really cool interactive graphs and charts.</p><p>The modules needed to be Localized into multiple languages, so we had to do quite a bit of fenagling to make that work. </p>",
-            "copyRight": "<p></p><p></p>"
+            "copyLeft": "<p>We worked with Merrill's agency on the approach and design, and built out some really cool interactive infographics and charts.</p>",
+            "copyRight": "<p>The modules needed to be translated into multiple languages after the fact, so we had to do quite a bit of finagling to get localization working. </p>"
           },
           {
             "type": "image",

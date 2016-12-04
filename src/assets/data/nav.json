@@ -3,9 +3,7 @@
   "aboutInfo": {
     "title": "About",
     "weAre": "Martian is a creative development studio",
-    "address1": "220 Sansome Street",
-    "address2": "Unit 1320",
-    "address3": "San Francisco, CA 94104",
+    "address1": "San Francisco",
     "phone": "415.263.7383",
     "email": "hello@martiansf.com"
   },
@@ -14,13 +12,13 @@
       "title": "Work",
       "className": "nav-col-ul",
       "listlinks": [
-        { "title": "Twitter: Twitter Marketing", "url": "/work/twitter-marketing" },
-        { "title": "Twitter: Flight School", "url": "/work/twitter-flight-school" },
+        { "title": "Twitter Marketing", "url": "/work/twitter-marketing" },
+        { "title": "Twitter Flight School", "url": "/work/twitter-flight-school" },
         { "title": "Airbnb: Maisons de France", "url": "/work/airbnb-maisons-de-france" },
         { "title": "Airbnb: Road Trippers", "url": "/work/airbnb-road-trippers" },
         { "title": "Airbnb: Holidays App", "url": "/work/airbnb-holidays-app" },
-        { "title": "Sony HMZ", "url": "/work/sony-hmz" },
-        { "title": "Merrill Animations", "url": "/work/merrill-animations" },
+        { "title": "Sony: HMZ", "url": "/work/sony-hmz" },
+        { "title": "Merrill: Infographics", "url": "/work/merrill-infographics" },
         { "title": "Eventbrite Prototype", "url": "/work/eventbrite-prototype" },
         { "title": "Thinknear", "url": "/work/thinknear" },
         { "title": "Mede Analytics", "url": "/work/mede-analytics" },
@@ -33,9 +31,7 @@
       "listlinks": [
         { "title": "Metagramme", "url": "/labs/metagramme" },
         { "title": "Twitter Fingerprint", "url": "/labs/twitter-fingerprint" },
-        { "title": "Scrum Poker", "url": "/labs/scrum-poker" },
-        { "title": "Moon Phase App", "url": "/labs/moon-phase" },
-        { "title": "Serenade", "url": "/labs/serenade" }
+        { "title": "Scrum Poker", "url": "/labs/scrum-poker" }
       ]
     }
   ]

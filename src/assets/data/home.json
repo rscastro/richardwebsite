@@ -16,100 +16,100 @@
       "workgridItems": [
         {
           "type": "Work",
-          "title": "marketing.twitter.com",
-          "url": "/somewhere-to-go-1",
-          "img": "/images/home-workgrid/temp-wg-01.jpg",
+          "title": "twitter marketing",
+          "url": "/work/twitter-marketing",
+          "img": "/images/home-workgrid/mtc-sq.jpg",
           "size": "md"
         },
         {
           "type": "Work",
-          "title": "Project 02",
-          "url": "/somewhere-to-go-2",
-          "img": "/images/home-workgrid/temp-wg-02.jpg",
+          "title": "twitter flight school",
+          "url": "/work/twitter-marketing",
+          "img": "/images/home-workgrid/fs-sq.jpg",
           "size": "md"
         },
         {
           "type": "Labs",
-          "title": "Project 03",
-          "url": "/somewhere-to-go-3",
-          "img": "/images/home-workgrid/temp-wg-03.jpg",
+          "title": "metagramme",
+          "url": "/labs/metagramme",
+          "img": "/images/home-workgrid/metagramme-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "Project 04",
-          "url": "/somewhere-to-go-4",
-          "img": "/images/home-workgrid/temp-wg-04.jpg",
+          "title": "maisons de france",
+          "url": "work/airbnb-maisons-de-france",
+          "img": "/images/home-workgrid/abb-mdf-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "Project 05",
-          "url": "/somewhere-to-go-5",
-          "img": "/images/home-workgrid/temp-wg-05.jpg",
-          "size": "sm"
-        },
-        {
-          "type": "Labs",
-          "title": "Project 06",
-          "url": "/somewhere-to-go-6",
-          "img": "/images/home-workgrid/temp-wg-06.jpg",
+          "title": "eventbrite prototype",
+          "url": "/work/eventbrite-prototype",
+          "img": "/images/home-workgrid/eb-prototype-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "Project 07",
-          "url": "/somewhere-to-go-7",
-          "img": "/images/home-workgrid/temp-wg-07.jpg",
+          "title": "sony hmz",
+          "url": "/work/sony-hmz",
+          "img": "/images/home-workgrid/sony-hmz-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "Project 08",
-          "url": "/somewhere-to-go-8",
-          "img": "/images/home-workgrid/temp-wg-08.jpg",
+          "title": "road trippers",
+          "url": "/work/airbnb-road-trippers",
+          "img": "/images/home-workgrid/abb-road-trippers-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "Project 09",
-          "url": "/somewhere-to-go-9",
-          "img": "/images/home-workgrid/temp-wg-09.jpg",
+          "title": "new home for the holidays",
+          "url": "/work/airbnb-holidays-app",
+          "img": "/images/home-workgrid/abb-holidays-app-sq.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "labs",
+          "title": "scrum poker",
+          "url": "/labs/scrum-poker",
+          "img": "/images/home-workgrid/scrumpoker-sq.jpg",
+          "size": "sm"
+        },
+        {
+          "type": "labs",
+          "title": "twitter fingerprint",
+          "url": "/labs/twitter-fingerprint",
+          "img": "/images/home-workgrid/twitter-fingerprint-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "Project 10",
-          "url": "/somewhere-to-go-10",
-          "img": "/images/home-workgrid/temp-wg-10.jpg",
+          "title": "merrill infographics",
+          "url": "/work/merrill-infographics",
+          "img": "/images/home-workgrid/merrill-infographics-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "Project 11",
-          "url": "/somewhere-to-go-11",
-          "img": "/images/home-workgrid/temp-wg-11.jpg",
+          "title": "thinknear",
+          "url": "/thinknear",
+          "img": "/images/home-workgrid/thinknear-sq.jpg",
           "size": "sm"
         },
         {
-          "type": "Labs",
-          "title": "Project 12",
-          "url": "/somewhere-to-go-1",
-          "img": "/images/home-workgrid/temp-wg-01.jpg",
+          "type": "work",
+          "title": "mede analytics",
+          "url": "/mede-analytics",
+          "img": "/images/home-workgrid/mede-analytics-sq.jpg",
           "size": "sm"
         },
         {
-          "type": "Labs",
-          "title": "Project 13",
-          "url": "/somewhere-to-go-2",
-          "img": "/images/home-workgrid/temp-wg-02.jpg",
-          "size": "sm"
-        },
-        {
-          "type": "Labs",
-          "title": "Project 14",
-          "url": "/somewhere-to-go-3",
-          "img": "/images/home-workgrid/temp-wg-03.jpg",
+          "type": "work",
+          "title": "twitter videohub",
+          "url": "/twitter-videohub",
+          "img": "/images/home-workgrid/twitter-videohub-sq.jpg",
           "size": "sm"
         }
       ]

@@ -53,11 +53,13 @@
             "siteurl": "https://metagram.me",
             "list1Title": "What We Did",
             "list1": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Concepting" },
+              { "title": "UX" },
+              { "title": "Prototyping" },
+              { "title": "Branding" },
+              { "title": "UI Design" },
+              { "title": "Front-end Development" },
+              { "title": "Backend Development" }
             ],
             "list2Title": "Credits",
             "list2": [
@@ -135,11 +137,12 @@
             "siteurl": "https://twitterfp.martiansf.com",
             "list1Title": "What We Did",
             "list1": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Concepting" },
+              { "title": "UX" },
+              { "title": "Prototyping" },
+              { "title": "Design" },
+              { "title": "Front-end Development" },
+              { "title": "Backend Development" }
             ],
             "list2Title": "Credits",
             "list2": [
@@ -193,11 +196,12 @@
             "siteurl": "https://scrumpoker.martiansf.com",
             "list1Title": "What We Did",
             "list1": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Concepting" },
+              { "title": "UX" },
+              { "title": "Prototyping" },
+              { "title": "Design" },
+              { "title": "Front-end Development" },
+              { "title": "Backend Development" }
             ],
             "list2Title": "Credits",
             "list2": [
@@ -210,96 +214,6 @@
             "type": "image",
             "size": "full",
             "src": "/images/scrumpoker-full-1.jpg",
-            "title": "Image title"
-          }
-        ]
-      },
-      {
-        "labID": "moon-phase",
-        "title": "",
-        "description":"",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "00aeef",
-        "images": [
-          { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
-        ],
-        "pageContent": [
-          {
-            "type": "hero",
-            "src": "/images/metagramme-hero-1.jpg",
-            "copy": "moon-phase - We d and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "01",
-            "title": "Challenge"
-          },
-          {
-            "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-1.png"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "02",
-            "title": "Solution"
-          },
-          {
-            "type": "textColumns",
-            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/temp-image-4.jpg",
-            "title": "Image title"
-          }
-        ]
-      },
-      {
-        "labID": "serenade",
-        "title": "",
-        "description":"",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
-        "projectColor": "00aeef",
-        "images": [
-          { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
-        ],
-        "pageContent": [
-          {
-            "type": "hero",
-            "src": "/images/temp-project-hero-2.jpg",
-            "copy": "serenade - We e and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "01",
-            "title": "Challenge"
-          },
-          {
-            "type": "intro",
-            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "logo": "/images/temp-client-logo-2.png"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "02",
-            "title": "Solution"
-          },
-          {
-            "type": "textColumns",
-            "copyLeft": "<p>q is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
-            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/temp-image-5.jpg",
             "title": "Image title"
           }
         ]
