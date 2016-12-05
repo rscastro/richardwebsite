@@ -40,7 +40,8 @@ export default class NavLinks extends Component {
 
     return (
       <div className={`grid ${ isFooter ? 'nav-footer-links' : ''}`}>
-        <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4">
+        { this.renderColumns(navColumns) }
+        <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4 grid--order-1-sm">
           <h3 className="title underline">{title}</h3>
           <p>
             {weAre}
@@ -60,7 +61,6 @@ export default class NavLinks extends Component {
           </p>
           <SocialMediaIcons />
         </div>
-      { this.renderColumns(navColumns) }
       </div>
     );
   }
