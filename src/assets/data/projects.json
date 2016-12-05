@@ -42,12 +42,6 @@
             "copyRight": "<p>The site took longer to build than expected but launched within a reasonable timeframe; Twitter has since scaled the framework out to hundreds of pages without issue.</p><p>This team is one of our favorite clients and we're proud of the work we did on this site.</p>"
           },
           {
-            "type": "image",
-            "size": "full",
-            "src": "/images/mtc-full-2.jpg",
-            "title": ""
-          },
-          {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
             "siteurl": "http://marketing.twitter.com",
@@ -71,20 +65,19 @@
             "size": "lg",
             "src": "/images/mtc-full-3.jpg",
             "title": ""
-          }, 
+          },
           {
             "type": "image",
             "size": "full",
             "src": "/images/mtc-full-4.jpg",
             "title": ""
-          }, 
+          },
           {
             "type": "image",
             "size": "lg",
             "src": "/images/mtc-full-5.jpg",
             "title": ""
           },
-          
           {
             "type": "workgrid",
             "workgridItems": [
