@@ -70,8 +70,7 @@ export default class PageContent extends Component {
           <Image
             key={ `${component.type}-${index}` }
             size={ component.size }
-            src={ component.src }
-            title={ component.title }
+            images={ component.images }
           />
         );
       } else if (component.type === 'details') {

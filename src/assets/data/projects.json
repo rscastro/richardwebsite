@@ -43,6 +43,20 @@
             "copyRight": "<p>The site took longer to build than expected but launched within a reasonable timeframe; Twitter has since scaled the framework out to hundreds of pages without issue.</p><p>This team is one of our favorite clients and we're proud of the work we did on this site.</p>"
           },
           {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/mtc-full-create.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mtc-full-create.jpg"
+              }
+            ]
+          },
+          {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
             "siteurl": "http://marketing.twitter.com",
@@ -163,14 +177,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/fs-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "lg",
-            "src": "/images/fs-full.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/fs-full.jpg"
+              }
+            ]
           }
         ]
       },
@@ -236,9 +248,13 @@
           },
           {
             "type": "image",
-            "size": "lg",
-            "src": "/images/abb-mdf-full-2.jpg",
-            "title": ""
+            "size": "full",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-mdf-full-2.jpg"
+              }
+            ]
           }
         ]
       },
@@ -300,14 +316,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/abb-rt-full-1.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/abb-rt-full-2.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-rt-full-1.jpg"
+              }
+            ]
           }
         ]
       },
@@ -376,8 +390,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/abb-holidays-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-holidays-full-1.jpg"
+              }
+            ]
           }
         ]
       },
@@ -440,8 +458,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/sony-hmz-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/sony-hmz-full-1.jpg"
+              }
+            ]
           }
         ]
       },
@@ -510,14 +532,16 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/merrill-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/merrill-full-3.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/merrill-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/merrill-full-3.jpg"
+              }
+            ]
           }
         ]
       },
@@ -562,8 +586,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/eventbrite-coyote-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-1.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -587,25 +615,25 @@
             "type": "image",
             "size": "full",
             "src": "/images/eventbrite-coyote-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/eventbrite-coyote-full-6.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/eventbrite-coyote-full-4.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/eventbrite-coyote-full-5.jpg",
-            "title": ""
+            "title": "",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-6.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-4.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-5.jpg"
+              }
+            ]
           }
         ]
       },
@@ -650,8 +678,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/thinknear-full-1.jpg",
-            "title": "thinknear"
+            "images": [
+              {
+                "title": "",
+                "src": "/images/thinknear-full-1.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -674,20 +706,20 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/thinknear-full-2.jpg",
-            "title": "thinknear"
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/thinknear-full-3.jpg",
-            "title": "thinknear"
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/thinknear-full-4.jpg",
-            "title": "thinknear"
+            "images": [
+              {
+                "title": "thinknear",
+                "src": "/images/thinknear-full-2.jpg"
+              },
+              {
+                "title": "thinknear",
+                "src": "/images/thinknear-full-3.jpg"
+              },
+              {
+                "title": "thinknear",
+                "src": "/images/thinknear-full-4.jpg"
+              }
+            ]
           }
         ]
       },
@@ -731,27 +763,25 @@
           },
           {
             "type": "image",
-            "size": "lg",
-            "src": "/images/mede-full.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
             "size": "full",
-            "src": "/images/mede-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/mede-full-3.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/mede-full-4.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/mede-full.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mede-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mede-full-3.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mede-full-4.jpg"
+              }
+            ]
           }
 
         ]
@@ -798,8 +828,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/vidhub-full.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/vidhub-full.jpg"
+              }
+            ]
           }
         ]
       },
@@ -838,14 +872,18 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p> </p>",
+            "copyLeft": "<p></p>",
             "copyRight": "<p></p><p></p>"
           },
           {
             "type": "image",
             "size": "lg",
-            "url": "../../assets/images/temp-image.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "../../assets/images/temp-image.jpg"
+              }
+            ]
           }
         ]
       }

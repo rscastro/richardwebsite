@@ -45,8 +45,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/metagramme-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/metagramme-full-1.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -84,8 +88,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/metagramme-full-4.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/metagramme-full-4.jpg"
+              }
+            ]
           }
         ]
       },
@@ -130,8 +138,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/twfp-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/twfp-full-1.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -216,8 +228,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/scrumpoker-full-1.jpg",
-            "title": "Image title"
+            "images": [
+              {
+                "title": "Image title",
+                "src": "/images/scrumpoker-full-1.jpg"
+              }
+            ]
           }
         ]
       },
@@ -262,8 +278,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-4.jpg",
-            "title": "Image title"
+            "images": [
+              {
+                "title": "Image title",
+                "src": "/images/temp-image-4.jpg"
+              }
+            ]
           }
         ]
       },
@@ -308,8 +328,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/temp-image-5.jpg",
-            "title": "Image title"
+            "images": [
+              {
+                "title": "Image title",
+                "src": "/images/temp-image-5.jpg"
+              }
+            ]
           }
         ]
       }
