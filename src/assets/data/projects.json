@@ -247,8 +247,8 @@
         ]
       },
       {
-        "projectID": "airbnb-road-trippers",
-        "title": "Airbnb: Road Trippers",
+        "projectID": "airbnb-road-trips",
+        "title": "Airbnb: Road Trips",
         "description":"",
         "intro": "",
         "client": "Airbnb",
@@ -270,7 +270,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>People think of Airbnb like a hotel-replacement, but it can be so much more. Road Trippers was one attempt at providing road trip ideas along classic routes. These routes just happen to have awesome Airbnb listings along the way.</p>",
+            "intro": "<p>People use Airbnb as a hotel-replacement, but it can be so much more. Road Trips: Rerouted was one attempt at providing road trip ideas along classic routes. These routes just happen to have awesome Airbnb listings along the way.</p>",
             "logo": "/images/airbnb-logo.png"
           },
           {
@@ -304,6 +304,12 @@
             "type": "image",
             "size": "full",
             "src": "/images/abb-rt-full-1.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/abb-rt-full-2.jpg",
             "title": ""
           }
         ]
@@ -722,10 +728,29 @@
           },
           {
             "type": "image",
-            "size": "full",
+            "size": "lg",
             "src": "/images/mede-full.jpg",
             "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/mede-full-2.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/mede-full-3.jpg",
+            "title": ""
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "src": "/images/mede-full-4.jpg",
+            "title": ""
           }
+
         ]
       },
       {
@@ -770,51 +795,6 @@
             "type": "image",
             "size": "full",
             "src": "/images/vidhub-full.jpg",
-            "title": ""
-          }
-        ]
-      },
-      {
-        "projectID": "airbnb-maisons-de-france",
-        "title": "Project 02",
-        "logo": "metagram-logo.png",
-        "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
-        "client": "Twitter",
-        "launch":"Oct 2016",
-        "projectColor": "#00aeef",
-        "images": [
-          { "src": "", "title": "" }
-        ],
-        "pageContent": [
-          {
-            "type": "projectHero",
-            "url": "someurl.jpg",
-            "copy": "airbnb-maisons-de-france - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "01",
-            "title": "Challenge"
-          },
-          {
-            "type": "projectIntro",
-            "projectIntro": "<p></p><p></p>",
-            "logo": "metagram-logo.png"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "02",
-            "title": "Solution"
-          },
-          {
-            "type": "textColumns",
-            "copyLeft": "<p> </p>",
-            "copyRight": "<p></p><p></p>"
-          },
-          {
-            "type": "image",
-            "size": "lg",
-            "url": "../../assets/images/temp-image.jpg",
             "title": ""
           }
         ]
