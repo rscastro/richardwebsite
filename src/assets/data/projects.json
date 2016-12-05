@@ -19,7 +19,8 @@
           {
             "type": "hero",
             "src": "/images/mtc-header-1.jpg",
-            "copy": "A fully responsive, dynamic platform capable of easily generating and managing thousands of pages for Twitter Marketing"
+            "copy": "A fully responsive, dynamic platform capable of easily generating and managing thousands of pages for Twitter Marketing",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -120,7 +121,8 @@
           {
             "type": "hero",
             "src": "/images/fs-header-1.jpg",
-            "copy": "Twitter's online global learning application for marketers and advertisers."
+            "copy": "Twitter's online global learning application for marketers and advertisers.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -187,7 +189,8 @@
           {
             "type": "hero",
             "src": "/images/abb-mdf-header.jpg",
-            "copy": "A multi-phase contest to find the most iconic residence in each district in France."
+            "copy": "A multi-phase contest to find the most iconic residence in each district in France.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -254,7 +257,8 @@
           {
             "type": "hero",
             "src": "/images/abb-rt-hero.jpg",
-            "copy": "Helping to change how people use Airbnb when planning trips."
+            "copy": "Helping to change how people use Airbnb when planning trips.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -322,7 +326,8 @@
           {
             "type": "hero",
             "src": "/images/abb-holidays-hero-1.jpg",
-            "copy": "Sharing a New Home for the Holidays in time for Thanksgiving."
+            "copy": "Sharing a New Home for the Holidays in time for Thanksgiving.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -391,7 +396,8 @@
           {
             "type": "hero",
             "src": "/images/sony-hmz-hero-1.jpg",
-            "copy": "Building a new UX for a unique product."
+            "copy": "Building a new UX for a unique product.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -454,7 +460,8 @@
           {
             "type": "hero",
             "src": "/images/merrill-hero-1.jpg",
-            "copy": "Modern, data-driven animations."
+            "copy": "Modern, data-driven animations.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -529,7 +536,8 @@
           {
             "type": "hero",
             "src": "/images/eventbrite-coyote-hero-1.jpg",
-            "copy": "Re-thinking an overhaul of Eventbrite's core product."
+            "copy": "Re-thinking an overhaul of Eventbrite's core product.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -616,7 +624,8 @@
           {
             "type": "hero",
             "src": "/images/thinknear-header-2.jpg",
-            "copy": "A flexible site to define a mobile-first technology company."
+            "copy": "A flexible site to define a mobile-first technology company.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -697,7 +706,8 @@
           {
             "type": "hero",
             "src": "/images/mede-header-2.jpg",
-            "copy": "Using web technologies to build an innovative trade show screen solution."
+            "copy": "Using web technologies to build an innovative trade show screen solution.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -762,7 +772,8 @@
           {
             "type": "hero",
             "src": "/images/vidhub-header-3.jpg",
-            "copy": "Twitter asked us to help build out their Video Marketing site. They wanted the site to feel modern and fresh, as well as showcase the new autoplay video functionality feature on Twitter."
+            "copy": "Twitter asked us to help build out their Video Marketing site. They wanted the site to feel modern and fresh, as well as showcase the new autoplay video functionality feature on Twitter.",
+            "headerOverlayOpacity": "50"
           },
           {
             "type": "sectionHeader",
@@ -788,6 +799,52 @@
             "type": "image",
             "size": "full",
             "src": "/images/vidhub-full.jpg",
+            "title": ""
+          }
+        ]
+      },
+      {
+        "projectID": "airbnb-maisons-de-france",
+        "title": "Project 02",
+        "logo": "metagram-logo.png",
+        "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
+        "client": "Twitter",
+        "launch":"Oct 2016",
+        "projectColor": "#00aeef",
+        "images": [
+          { "src": "", "title": "" }
+        ],
+        "pageContent": [
+          {
+            "type": "projectHero",
+            "url": "someurl.jpg",
+            "copy": "airbnb-maisons-de-france - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com",
+            "headerOverlayOpacity": "50"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "projectIntro",
+            "projectIntro": "<p></p><p></p>",
+            "logo": "metagram-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p> </p>",
+            "copyRight": "<p></p><p></p>"
+          },
+          {
+            "type": "image",
+            "size": "lg",
+            "url": "../../assets/images/temp-image.jpg",
             "title": ""
           }
         ]

@@ -8,7 +8,8 @@ export default class Hero extends Component {
     return {
       src: React.PropTypes.string, // src to image
       copy: React.PropTypes.string,
-      projectColor: React.PropTypes.string
+      projectColor: React.PropTypes.string,
+      headerOverlayOpacity: React.PropTypes.string
     };
   }
 
@@ -16,8 +17,11 @@ export default class Hero extends Component {
     const {
       src,
       copy,
-      projectColor
+      projectColor,
+      headerOverlayOpacity
     } = this.props;
+
+    console.log('headerOverlayOpacity', headerOverlayOpacity );
 
     const fillStyle = {
       backgroundImage: 'url(' + src + ')'
@@ -25,7 +29,7 @@ export default class Hero extends Component {
 
     const fillColor =  {
       backgroundColor: '#' + projectColor,
-      opacity: '.5'
+      opacity: headerOverlayOpacity * 0.01 // Turn into decimal
     }
 
     return (
