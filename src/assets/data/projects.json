@@ -91,22 +91,22 @@
               {
                 "type": "Work",
                 "title": "Twitter<br>Flight School",
-                "url": "/somewhere-to-go-1",
-                "img": "/images/home-workgrid/temp-wg-01.jpg",
+                "url": "/twitter-flight-school",
+                "img": "/images/home-workgrid/fs-sq.jpg",
                 "size": "sm"
               },
               {
                 "type": "Labs",
                 "title": "Twitter Fingerprint",
-                "url": "/somewhere-to-go-2",
-                "img": "/images/home-workgrid/temp-wg-02.jpg",
+                "url": "/twitter-fingerprint",
+                "img": "/images/home-workgrid/twitter-fingerprint-sq.jpg",
                 "size": "sm"
               },
               {
                 "type": "Work",
                 "title": "Airbnb Maisons<br>De France",
-                "url": "/somewhere-to-go-3",
-                "img": "/images/home-workgrid/temp-wg-03.jpg",
+                "url": "/airbnb-maisons-de-france",
+                "img": "/images/home-workgrid/abb-mdf-sq.jpg",
                 "size": "sm"
               }
             ]
