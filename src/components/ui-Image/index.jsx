@@ -7,7 +7,7 @@ export default class Image extends Component {
   static get propTypes() {
     return {
       size: React.PropTypes.string, // Size options are full, lg, md, sm
-      images: React.PropTypes.object
+      images: React.PropTypes.array
     };
   }
 

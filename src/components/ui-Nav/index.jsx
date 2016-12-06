@@ -2,12 +2,10 @@ import './_index.scss';
 const navData = require('../../assets/data/nav.json');
 import React, {Component} from 'react';
 
-import NavColumn from '../ui-NavColumn'
 import NavLinks from '../ui-NavLinks'
 import LogoMark from '../../assets/images/logo-mark.svg';
 import LogoType from '../../assets/images/logo-type.svg';
 import HamburgerIcon from '../ui-HamburgerIcon';
-// import SocialMediaIcons from '../ui-SocialMediaIcons';
 
 // Alias includes in the webpack.config files
 import TweenLite from 'TweenLite';
@@ -73,19 +71,6 @@ export default class Nav extends Component {
       TweenLite.to('.nav-links', duration, {y:'0', opacity:1, display: 'flex', delay: duration });
     }
   }
-
-  // renderColumns(columns) {
-  //   return columns.map((column, index) => {
-  //     return (
-  //       <NavColumn
-  //         key={ `nav-column-${index}` }
-  //         title={column.title}
-  //         className={column.className}
-  //         listlinks={column.listlinks}
-  //       />
-  //     );
-  //   });
-  // }
 
   toggleLogoState(logoState) {
     this.setState({ logoFadedOut: logoState });

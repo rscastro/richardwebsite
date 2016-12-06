@@ -12,15 +12,12 @@
         "client": "Martian",
         "launch":"Oct 2014",
         "projectColor": "666666",
-        "images": [
-          { "src": "","title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/metagramme-hero-2.jpg",
             "copy": "a different way of looking at images.",
-            "headerOverlayOpacity": "50"
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -76,19 +73,15 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/metagramme-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/metagramme-full-3.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
             "images": [
+              {
+                "title": "",
+                "src": "/images/metagramme-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/metagramme-full-3.jpg"
+              },
               {
                 "title": "",
                 "src": "/images/metagramme-full-4.jpg"
@@ -105,15 +98,12 @@
         "client": "Martian",
         "launch":"Dec 2014",
         "projectColor": "EF0173",
-        "images": [
-          { "src": "","title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/twfp-hero-1.png",
             "copy": "A rapid-fire, iterative data-visualization experiment",
-            "headerOverlayOpacity": "50"
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -175,15 +165,12 @@
         "client": "Martian",
         "launch":"July 2014",
         "projectColor": "627847",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/scrumpoker-hero-1.jpg",
             "copy": "Making tools to simplify our internal workflow",
-            "headerOverlayOpacity": "50"
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -245,15 +232,12 @@
         "client": "Sony",
         "launch":"Oct 2015",
         "projectColor": "00aeef",
-        "images": [
-          { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/metagramme-hero-1.jpg",
             "copy": "moon-phase - We d and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com",
-            "headerOverlayOpacity": "50"
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -295,15 +279,12 @@
         "client": "Sony",
         "launch":"Oct 2015",
         "projectColor": "00aeef",
-        "images": [
-          { "src": "lab_3_4.jpg", "title": "Image title 3.4" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/temp-project-hero-2.jpg",
             "copy": "serenade - We e and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com",
-            "headerOverlayOpacity": "50"
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",

@@ -36,7 +36,7 @@ export default class PageContent extends Component {
             src={ component.src }
             copy={ component.copy }
             projectColor={ projectColor }
-            headerOverlayOpacity={ component.headerOverlayOpacity }
+            headerOverlayOpacity={ component.headerOverlayOpacity || 0.5 }
           />
         );
       } else if (component.type === 'intro') {

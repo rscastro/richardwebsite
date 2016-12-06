@@ -29,7 +29,7 @@ export default class Hero extends Component {
 
     const fillColor =  {
       backgroundColor: '#' + projectColor,
-      opacity: headerOverlayOpacity * 0.01 // Turn into decimal
+      opacity: headerOverlayOpacity
     }
 
     return (
