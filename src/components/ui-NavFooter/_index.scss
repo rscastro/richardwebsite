@@ -2,11 +2,11 @@
 @import "../css-base/_mixins";
 
 .nav-footer-hldr {
-  padding-top: $navbar-height;
+  padding-top: $navbar-height-base;
 
   .nav-footer-bar {
     padding-top: $base-spacing;
-    height: $navbar-height;
+    height: $navbar-height-base;
 
     .nav-footer-bar-inner {
       position: relative;
