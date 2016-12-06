@@ -23,7 +23,7 @@ export default class Hero extends Component {
 
     console.log('headerOverlayOpacity', headerOverlayOpacity );
 
-    const fillStyle = {
+    const bgImgStyle = {
       backgroundImage: 'url(' + src + ')'
     }
 
@@ -33,8 +33,9 @@ export default class Hero extends Component {
     }
 
     return (
-      <div className="hero" style={ fillStyle }>
-        <div className="color-overlay" style={ fillColor }></div>
+      <div className="hero">
+        <div className="hero__img" style={ bgImgStyle }></div>
+        <div className="hero__color-overlay" style={ fillColor }></div>
         <div className="wrapper">
           <div className="copy-hldr">
             <div className="grid grid--justify-center">
