@@ -37,25 +37,18 @@
 
 .nav-column-about {
 
-  // @include breakpoint($break-pt-sm) {
-  //   -ms-flex-order: 1;
-  //   -webkit-order: 1;
-  //   order: 1;
-  // }
-
   p {
     @include fontsize(2.4rem, 4.8rem);
     color: $orange;
     font-weight: 200;
-    // opacity: .5;
-    line-height: 1.2;
-    margin-top: 0.9rem;
+    // line-height: 1.2;
+    // margin-top: 0.9rem;
     margin-bottom: $base-spacing;
 
-    span {
-      display: block;
-      margin: 1rem 0;
-    }
+    // span {
+    //   display: block;
+    //   margin: 1rem 0;
+    // }
 
     a {
       font-weight: 200;
@@ -66,10 +59,10 @@
     }
 
     .addr {
-      :first-child {
-        margin-top: 1rem;
-      }
-      margin: 0.5rem 0;
+      // :first-child {
+      //   margin-top: 1rem;
+      // }
+      // margin: 0.5rem 0;
       color: $drk-gray;
     }
   }

@@ -30,9 +30,7 @@ export default class NavLinks extends Component {
           title,
           weAre,
           email,
-          address1,
-          address2,
-          address3
+          address1
         },
         navColumns
       }
@@ -44,20 +42,18 @@ export default class NavLinks extends Component {
         <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4 grid--order-1-sm">
           <h3 className="title underline">{title}</h3>
           <p>
-            {weAre}
+            {weAre}<br/>
             <span className="contact">
               <a href="tel:+1-415-263-7383">
                 415-263-7383
               </a>
-            </span>
+            </span><br/>
             <span className="contact">
               <a href={'mailto:' + email}>
                 {email}
               </a>
-            </span>
+            </span><br/>
             <span className="addr">{address1}</span>
-            <span className="addr">{address2}</span>
-            <span className="addr">{address3}</span>
           </p>
           <SocialMediaIcons />
         </div>
