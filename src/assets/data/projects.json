@@ -36,7 +36,7 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Our team built the module framework from the ground up using modern web technologes.</p><p>This took months of planning and had a ton of moving parts, but we had an awesome client and a talented team so we were confident we could deliver.</p>",
+            "copyLeft": "<p>Our team built the module framework from the ground up using modern web technologies.</p><p>This took months of planning and had a ton of moving parts, but we had an awesome client and a talented team so we were confident we could deliver.</p>",
             "copyRight": "<p>The site took longer to build than expected but launched within a reasonable timeframe; Twitter has since scaled the framework out to hundreds of pages without issue.</p><p>This team is one of our favorite clients and we're proud of the work we did on this site.</p>"
           },
           {
@@ -61,7 +61,7 @@
               { "title": "Front-end development" },
               { "title": "Integration Support" }
             ],
-            "list2Title": "Credits",
+            "list2Title": "Technologies",
             "list2": [
               { "title": "" },
               { "title": "" },
@@ -159,7 +159,7 @@
               { "title": "Front-end development" },
               { "title": "Backend development" }
             ],
-            "list2Title": "Credits",
+            "list2Title": "Technologies",
             "list2": [
               { "title": "" }
             ]
@@ -236,7 +236,7 @@
               { "title": "Front-end development" },
               { "title": "Backend development" }
             ],
-            "list2Title": "Credits",
+            "list2Title": "Technologies",
             "list2": [
               { "title": "" }
             ]
@@ -298,7 +298,7 @@
               { "title": "Front-end development" },
               { "title": "Design" }
             ],
-            "list2Title": "Credits",
+            "list2Title": "Technologies",
             "list2": [
               { "title": "" },
               { "title": "" },
@@ -373,7 +373,7 @@
               { "title": "Front-end development" },
               { "title": "Backend development" }
             ],
-            "list2Title": "Credits",
+            "list2Title": "Technologies",
             "list2": [
               { "title": "" },
               { "title": "" },
@@ -438,7 +438,7 @@
               { "title": "UX" },
               { "title": "Front-end development" }
             ],
-            "list2Title": "Credits",
+            "list2Title": "Technologies",
             "list2": [
               { "title": "" },
               { "title": "" },
@@ -513,7 +513,7 @@
               { "title": "UX" },
               { "title": "Front-end development" }
             ],
-            "list2Title": "Credits",
+            "list2Title": "Technologies",
             "list2": [
               { "title": "" },
               { "title": "" },
@@ -592,7 +592,7 @@
               { "title": "UX" },
               { "title": "Front-end development" }
             ],
-            "list2Title": "Credits",
+            "list2Title": "Technologies",
             "list2": [
               { "title": "" },
               { "title": "" },
@@ -679,7 +679,7 @@
               { "title": "Front-end development" },
               { "title": "Responsive design layout" }
             ],
-            "list2Title": "Credits",
+            "list2Title": "Technologies",
             "list2": [
               { "title": "" },
               { "title": "" },
