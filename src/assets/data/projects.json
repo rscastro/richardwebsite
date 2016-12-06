@@ -71,20 +71,20 @@
           {
             "type": "image",
             "size": "lg",
-            "src": "/images/mtc-full-3.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/mtc-full-4.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "lg",
-            "src": "/images/mtc-full-5.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/mtc-full-5.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mtc-full-3.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mtc-full-4.jpg"
+              }
+            ]
           },
           {
             "type": "workgrid",
