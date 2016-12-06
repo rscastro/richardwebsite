@@ -21,7 +21,7 @@ export default class NavColumn extends Component {
     } = this.props;
 
     return (
-      <div className="nav-column grid__col-12 grid__col-sm-4">
+      <div className="nav-column grid__col-12 grid__col-sm-4 grid--order-2-sm">
         <h3 className="title underline">{title}</h3>
         <LinkedList
           items={listlinks}

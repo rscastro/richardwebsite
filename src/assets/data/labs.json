@@ -12,14 +12,12 @@
         "client": "Martian",
         "launch":"Oct 2014",
         "projectColor": "666666",
-        "images": [
-          { "src": "","title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/metagramme-hero-2.jpg",
-            "copy": "a different way of looking at images."
+            "copy": "a different way of looking at images.",
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -44,8 +42,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/metagramme-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/metagramme-full-1.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -71,20 +73,20 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/metagramme-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/metagramme-full-3.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/metagramme-full-4.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/metagramme-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/metagramme-full-3.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/metagramme-full-4.jpg"
+              }
+            ]
           }
         ]
       },
@@ -96,14 +98,12 @@
         "client": "Martian",
         "launch":"Dec 2014",
         "projectColor": "EF0173",
-        "images": [
-          { "src": "","title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/twfp-hero-1.png",
-            "copy": "A rapid-fire, iterative data-visualization experiment"
+            "copy": "A rapid-fire, iterative data-visualization experiment",
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -128,8 +128,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/twfp-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/twfp-full-1.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -161,14 +165,12 @@
         "client": "Martian",
         "launch":"July 2014",
         "projectColor": "627847",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/scrumpoker-hero-1.jpg",
-            "copy": "Making tools to simplify our internal workflow"
+            "copy": "Making tools to simplify our internal workflow",
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -213,8 +215,106 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/scrumpoker-full-1.jpg",
-            "title": "Image title"
+            "images": [
+              {
+                "title": "Image title",
+                "src": "/images/scrumpoker-full-1.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "labID": "moon-phase",
+        "title": "",
+        "description":"",
+        "intro": "Someintro copy...3",
+        "client": "Sony",
+        "launch":"Oct 2015",
+        "projectColor": "00aeef",
+        "pageContent": [
+          {
+            "type": "hero",
+            "src": "/images/metagramme-hero-1.jpg",
+            "copy": "moon-phase - We d and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com",
+            "headerOverlayOpacity": ".6"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "intro",
+            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "logo": "/images/temp-client-logo-1.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "Image title",
+                "src": "/images/temp-image-4.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "labID": "serenade",
+        "title": "",
+        "description":"",
+        "intro": "Someintro copy...3",
+        "client": "Sony",
+        "launch":"Oct 2015",
+        "projectColor": "00aeef",
+        "pageContent": [
+          {
+            "type": "hero",
+            "src": "/images/temp-project-hero-2.jpg",
+            "copy": "serenade - We e and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com",
+            "headerOverlayOpacity": ".6"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "intro",
+            "intro": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "logo": "/images/temp-client-logo-2.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>q is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags. What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>",
+            "copyRight": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public instagram photos and hashtags.</p><p>What does it look like when you merge the image results for #sadness? Is it representative of society's view of what sadness is?</p>"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "Image title",
+                "src": "/images/temp-image-5.jpg"
+              }
+            ]
           }
         ]
       }

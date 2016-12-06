@@ -36,6 +36,13 @@
 }
 
 .nav-column-about {
+
+  // @include breakpoint($break-pt-sm) {
+  //   -ms-flex-order: 1;
+  //   -webkit-order: 1;
+  //   order: 1;
+  // }
+
   p {
     @include fontsize(2.4rem, 4.8rem);
     color: $orange;

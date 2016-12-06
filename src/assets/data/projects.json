@@ -12,14 +12,12 @@
         "client": "Twitter",
         "launch":"Oct 2016",
         "projectColor": "00aeef",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/mtc-header-1.jpg",
-            "copy": "A fully responsive, dynamic platform capable of easily generating and managing thousands of pages for Twitter Marketing"
+            "copy": "A fully responsive, dynamic platform capable of easily generating and managing thousands of pages for Twitter Marketing",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -44,8 +42,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/mtc-full-2.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/mtc-full-create.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -69,22 +71,21 @@
           {
             "type": "image",
             "size": "lg",
-            "src": "/images/mtc-full-3.jpg",
-            "title": ""
-          }, 
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/mtc-full-4.jpg",
-            "title": ""
-          }, 
-          {
-            "type": "image",
-            "size": "lg",
-            "src": "/images/mtc-full-5.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/mtc-full-5.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mtc-full-3.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mtc-full-4.jpg"
+              }
+            ]
           },
-          
           {
             "type": "workgrid",
             "workgridItems": [
@@ -120,14 +121,12 @@
         "client": "Twitter",
         "launch":"Oct 2016",
         "projectColor": "00aeef",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/fs-header-1.jpg",
-            "copy": "Twitter's online global learning application for marketers and advertisers."
+            "copy": "Twitter's online global learning application for marketers and advertisers.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -168,14 +167,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/fs-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "lg",
-            "src": "/images/fs-full.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/fs-full.jpg"
+              }
+            ]
           }
         ]
       },
@@ -187,14 +184,12 @@
         "client": "Airbnb",
         "launch":"August 2016",
         "projectColor": "ff5a5f",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/abb-mdf-header.jpg",
-            "copy": "A multi-phase contest to find the most iconic residence in each district in France."
+            "copy": "A multi-phase contest to find the most iconic residence in each district in France.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -219,8 +214,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/abb-mdf-full.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-mdf-full.jpg"
+              }
+            ]
           },
            {
             "type": "details",
@@ -240,9 +239,13 @@
           },
           {
             "type": "image",
-            "size": "lg",
-            "src": "/images/abb-mdf-full-2.jpg",
-            "title": ""
+            "size": "full",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-mdf-full-2.jpg"
+              }
+            ]
           }
         ]
       },
@@ -254,14 +257,12 @@
         "client": "Airbnb",
         "launch":"July 2016",
         "projectColor": "8CE071",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/abb-rt-hero.jpg",
-            "copy": "Helping to change how people use Airbnb when planning trips."
+            "copy": "Helping to change how people use Airbnb when planning trips.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -303,14 +304,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/abb-rt-full-1.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/abb-rt-full-2.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-rt-full-1.jpg"
+              }
+            ]
           }
         ]
       },
@@ -321,15 +320,13 @@
         "intro": "",
         "client": "Airbnb",
         "launch":"Nov 2016",
-        "projectColor": "BD80A8",
-        "images": [
-          { "src": "", "title": "" }
-        ],
+        "projectColor": "7B0051",
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/abb-holidays-hero-1.jpg",
-            "copy": "Sharing a New Home for the Holidays in time for Thanksgiving."
+            "copy": "Sharing a New Home for the Holidays in time for Thanksgiving.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -378,8 +375,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/abb-holidays-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-holidays-full-1.jpg"
+              }
+            ]
           }
         ]
       },
@@ -391,14 +392,12 @@
         "client": "Sony",
         "launch":"Dec 2013",
         "projectColor": "ffffff",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/sony-hmz-hero-1.jpg",
-            "copy": "Building a new UX for a unique product."
+            "copy": "Building a new UX for a unique product.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -441,8 +440,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/sony-hmz-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/sony-hmz-full-1.jpg"
+              }
+            ]
           }
         ]
       },
@@ -454,14 +457,12 @@
         "client": "Merrill",
         "launch":"Dec 2015",
         "projectColor": "0064B5",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/merrill-hero-1.jpg",
-            "copy": "Modern, data-driven animations."
+            "copy": "Modern, data-driven animations.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -486,8 +487,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/merrill-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/merrill-full-1.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -510,14 +515,16 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/merrill-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/merrill-full-3.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/merrill-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/merrill-full-3.jpg"
+              }
+            ]
           }
         ]
       },
@@ -529,14 +536,12 @@
         "client": "Eventbrite",
         "launch":"Feb 2016",
         "projectColor": "F6682F",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/eventbrite-coyote-hero-1.jpg",
-            "copy": "Re-thinking an overhaul of Eventbrite's core product."
+            "copy": "Re-thinking an overhaul of Eventbrite's core product.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -561,8 +566,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/eventbrite-coyote-full-1.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-1.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -585,26 +594,24 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/eventbrite-coyote-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/eventbrite-coyote-full-6.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/eventbrite-coyote-full-4.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/eventbrite-coyote-full-5.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-6.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-4.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-5.jpg"
+              }
+            ]
           }
         ]
       },
@@ -616,14 +623,12 @@
         "client": "Thinknear",
         "launch":"May 2015",
         "projectColor": "FFCE34",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/thinknear-header-2.jpg",
-            "copy": "A flexible site to define a mobile-first technology company."
+            "copy": "A flexible site to define a mobile-first technology company.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -648,8 +653,12 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/thinknear-full-1.jpg",
-            "title": "thinknear"
+            "images": [
+              {
+                "title": "",
+                "src": "/images/thinknear-full-1.jpg"
+              }
+            ]
           },
           {
             "type": "details",
@@ -672,20 +681,20 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/thinknear-full-2.jpg",
-            "title": "thinknear"
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/thinknear-full-3.jpg",
-            "title": "thinknear"
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/thinknear-full-4.jpg",
-            "title": "thinknear"
+            "images": [
+              {
+                "title": "thinknear",
+                "src": "/images/thinknear-full-2.jpg"
+              },
+              {
+                "title": "thinknear",
+                "src": "/images/thinknear-full-3.jpg"
+              },
+              {
+                "title": "thinknear",
+                "src": "/images/thinknear-full-4.jpg"
+              }
+            ]
           }
         ]
       },
@@ -697,14 +706,12 @@
         "client": "Sony",
         "launch":"Oct 2015",
         "projectColor": "#00aeef",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/mede-header-2.jpg",
-            "copy": "Using web technologies to build an innovative trade show screen solution."
+            "copy": "Using web technologies to build an innovative trade show screen solution.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -728,27 +735,25 @@
           },
           {
             "type": "image",
-            "size": "lg",
-            "src": "/images/mede-full.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
             "size": "full",
-            "src": "/images/mede-full-2.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/mede-full-3.jpg",
-            "title": ""
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "src": "/images/mede-full-4.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/mede-full.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mede-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mede-full-3.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mede-full-4.jpg"
+              }
+            ]
           }
 
         ]
@@ -762,14 +767,12 @@
         "client": "Twitter",
         "launch":"Oct 2015",
         "projectColor": "#00aeef",
-        "images": [
-          { "src": "", "title": "" }
-        ],
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/vidhub-header-3.jpg",
-            "copy": "Twitter asked us to help build out their Video Marketing site. They wanted the site to feel modern and fresh, as well as showcase the new autoplay video functionality feature on Twitter."
+            "copy": "Twitter asked us to help build out their Video Marketing site. They wanted the site to feel modern and fresh, as well as showcase the new autoplay video functionality feature on Twitter.",
+            "headerOverlayOpacity": ".4"
           },
           {
             "type": "sectionHeader",
@@ -794,8 +797,59 @@
           {
             "type": "image",
             "size": "full",
-            "src": "/images/vidhub-full.jpg",
-            "title": ""
+            "images": [
+              {
+                "title": "",
+                "src": "/images/vidhub-full.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "projectID": "airbnb-maisons-de-france",
+        "title": "Project 02",
+        "logo": "metagram-logo.png",
+        "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
+        "client": "Twitter",
+        "launch":"Oct 2016",
+        "projectColor": "#00aeef",
+        "pageContent": [
+          {
+            "type": "projectHero",
+            "url": "someurl.jpg",
+            "copy": "airbnb-maisons-de-france - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com",
+            "headerOverlayOpacity": ".4"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "projectIntro",
+            "projectIntro": "<p></p><p></p>",
+            "logo": "metagram-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p></p>",
+            "copyRight": "<p></p><p></p>"
+          },
+          {
+            "type": "image",
+            "size": "lg",
+            "images": [
+              {
+                "title": "",
+                "src": "../../assets/images/temp-image.jpg"
+              }
+            ]
           }
         ]
       }

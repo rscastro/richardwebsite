@@ -36,6 +36,7 @@ export default class PageContent extends Component {
             src={ component.src }
             copy={ component.copy }
             projectColor={ projectColor }
+            headerOverlayOpacity={ component.headerOverlayOpacity || 0.5 }
           />
         );
       } else if (component.type === 'intro') {
@@ -69,8 +70,7 @@ export default class PageContent extends Component {
           <Image
             key={ `${component.type}-${index}` }
             size={ component.size }
-            src={ component.src }
-            title={ component.title }
+            images={ component.images }
           />
         );
       } else if (component.type === 'details') {

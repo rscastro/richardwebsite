@@ -4,9 +4,18 @@
 .img-hldr {
   @include component-margin-top-bottom;
 
-  .img {
-    width: 100%;
-    height: auto;
-    vertical-align: top;
+  .img-hldr-inner {
+
+    margin-bottom: $base-spacing;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .img {
+      width: 100%;
+      height: auto;
+      vertical-align: top;
+    }
   }
 }

@@ -7,16 +7,27 @@ export default class Image extends Component {
   static get propTypes() {
     return {
       size: React.PropTypes.string, // Size options are full, lg, md, sm
-      src: React.PropTypes.string, // src to image
-      title: React.PropTypes.string
+      images: React.PropTypes.array
     };
+  }
+
+  renderColumns(imgs) {
+    return imgs.map((img, index) => {
+      return (
+        <div
+          className="img-hldr-inner"
+          key={ `nav-column-${index}` }
+        >
+          <img src={img.src} alt={img.title} className="img" />
+        </div>
+      );
+    });
   }
 
   render() {
     const {
       size,
-      src,
-      title
+      images
     } = this.props;
 
     return (
@@ -24,7 +35,7 @@ export default class Image extends Component {
 
         {/* Fullwidth */}
         { (size === 'full') ?
-          <img src={src} alt={title} className="img" />
+          this.renderColumns(images)
         : null }
 
         {/* Large */}
@@ -32,7 +43,7 @@ export default class Image extends Component {
           <div className="wrapper">
             <div className="grid">
               <div className="grid__col-12">
-                <img src={src} alt={title} className="img" />
+                { this.renderColumns(images) }
               </div>
             </div>
           </div>
@@ -43,7 +54,7 @@ export default class Image extends Component {
           <div className="wrapper">
             <div className="grid grid--justify-center">
               <div className="grid__col-8">
-                <img src={src} alt={title} className="img" />
+                { this.renderColumns(images) }
               </div>
             </div>
           </div>
@@ -54,7 +65,7 @@ export default class Image extends Component {
           <div className="wrapper">
             <div className="grid grid--justify-center">
               <div className="grid__col-4">
-                <img src={src} alt={title} className="img" />
+                { this.renderColumns(images) }
               </div>
             </div>
           </div>
