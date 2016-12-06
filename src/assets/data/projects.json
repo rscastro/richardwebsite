@@ -193,7 +193,7 @@
             "type": "hero",
             "src": "/images/abb-mdf-header.jpg",
             "copy": "A multi-phase contest to find the most iconic residence in each district in France.",
-            "headerOverlayOpacity": ".4"
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -328,13 +328,13 @@
         "intro": "",
         "client": "Airbnb",
         "launch":"Nov 2016",
-        "projectColor": "7B0051",
+        "projectColor": "bd80a8",
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/abb-holidays-hero-1.jpg",
             "copy": "Sharing a New Home for the Holidays in time for Thanksgiving.",
-            "headerOverlayOpacity": ".4"
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -399,7 +399,7 @@
         "intro": "",
         "client": "Sony",
         "launch":"Dec 2013",
-        "projectColor": "ffffff",
+        "projectColor": "dedede",
         "pageContent": [
           {
             "type": "hero",
@@ -549,7 +549,7 @@
             "type": "hero",
             "src": "/images/eventbrite-coyote-hero-1.jpg",
             "copy": "Re-thinking an overhaul of Eventbrite's core product.",
-            "headerOverlayOpacity": ".4"
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -713,13 +713,13 @@
         "intro": "",
         "client": "Mede Analytics",
         "launch":"May 2015",
-        "projectColor": "#00aeef",
+        "projectColor": "00aeef",
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/mede-header-2.jpg",
             "copy": "Using web technologies to build an innovative trade show screen solution.",
-            "headerOverlayOpacity": ".4"
+            "headerOverlayOpacity": ".6"
           },
           {
             "type": "sectionHeader",
@@ -774,7 +774,7 @@
         "intro": "",
         "client": "Twitter",
         "launch":"Oct 2015",
-        "projectColor": "#00aeef",
+        "projectColor": "00aeef",
         "pageContent": [
           {
             "type": "hero",
@@ -804,11 +804,27 @@
           },
           {
             "type": "image",
-            "size": "full",
+            "size": "lg",
             "images": [
               {
                 "title": "",
-                "src": "/images/vidhub-full.jpg"
+                "src": "/images/vidhub-full-1.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/vidhub-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/vidhub-full-3.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/vidhub-full-4.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/vidhub-full-5.jpg"
               }
             ]
           }

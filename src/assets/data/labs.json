@@ -17,7 +17,7 @@
             "type": "hero",
             "src": "/images/metagramme-hero-2.jpg",
             "copy": "a different way of looking at images.",
-            "headerOverlayOpacity": ".6"
+            "headerOverlayOpacity": ".2"
           },
           {
             "type": "sectionHeader",
