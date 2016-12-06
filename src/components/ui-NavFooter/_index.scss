@@ -2,11 +2,26 @@
 @import "../css-base/_mixins";
 
 .nav-footer-hldr {
-  padding-top: $navbar-height-base;
+  padding-top: $component-margin-top-lg;
+
+  @include breakpoint($break-pt-xs) {
+    padding-top: $component-margin-top-xs;
+  }
+
+  @include breakpoint($break-pt-md) {
+    padding-top: $component-margin-top-sm;
+  }
+
+  @include breakpoint($break-pt-md) {
+    padding-top: $component-margin-top-md;
+  }
+
+  @include breakpoint($break-pt-lg) {
+    padding-top: $component-margin-top-lg;
+  }
 
   .nav-footer-bar {
-    padding-top: $base-spacing;
-    height: $navbar-height-base;
+    height: $navbar-padding-bottom-lg;
 
     .nav-footer-bar-inner {
       position: relative;

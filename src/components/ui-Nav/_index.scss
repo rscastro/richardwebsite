@@ -25,7 +25,11 @@
     top: 0;
     right: 0;
     left: 0;
-    padding-top: $navbar-padding-top-lg;
+    padding-top: $navbar-padding-top-sm;
+
+    @include breakpoint($break-pt-sm) {
+      padding-top: $navbar-padding-top-lg;
+    }
 
     .nav-bar-inner {
       position: relative;
