@@ -45,7 +45,7 @@
             "images": [
               {
                 "title": "",
-                "src": "/images/mtc-full-create.jpg"
+                "src": "/images/mtc-full-2.jpg"
               }
             ]
           },
@@ -74,15 +74,15 @@
             "images": [
               {
                 "title": "",
-                "src": "/images/mtc-full-5.jpg"
-              },
-              {
-                "title": "",
                 "src": "/images/mtc-full-3.jpg"
               },
               {
                 "title": "",
                 "src": "/images/mtc-full-4.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/mtc-full-5.jpg"
               }
             ]
           },
@@ -92,21 +92,21 @@
               {
                 "type": "Work",
                 "title": "Twitter<br>Flight School",
-                "url": "/twitter-flight-school",
+                "url": "/work/twitter-flight-school",
                 "img": "/images/home-workgrid/fs-sq.jpg",
                 "size": "sm"
               },
               {
                 "type": "Labs",
                 "title": "Twitter Fingerprint",
-                "url": "/twitter-fingerprint",
+                "url": "/labs/twitter-fingerprint",
                 "img": "/images/home-workgrid/twitter-fingerprint-sq.jpg",
                 "size": "sm"
               },
               {
                 "type": "Work",
                 "title": "Airbnb Maisons<br>De France",
-                "url": "/airbnb-maisons-de-france",
+                "url": "/work/airbnb-maisons-de-france",
                 "img": "/images/home-workgrid/abb-mdf-sq.jpg",
                 "size": "sm"
               }
@@ -168,6 +168,10 @@
             "type": "image",
             "size": "full",
             "images": [
+              {
+                "title": "",
+                "src": "/images/fs-full-2.jpg"
+              },
               {
                 "title": "",
                 "src": "/images/fs-full.jpg"
@@ -239,7 +243,7 @@
           },
           {
             "type": "image",
-            "size": "full",
+            "size": "lg",
             "images": [
               {
                 "title": "",
@@ -308,6 +312,10 @@
               {
                 "title": "",
                 "src": "/images/abb-rt-full-1.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/abb-rt-full-2.jpg"
               }
             ]
           }
@@ -576,7 +584,7 @@
           {
             "type": "details",
             "siteurlLinkTitle": "Site Unavailable.",
-            "siteurl": "martiansf.com",
+            "siteurl": "#",
             "list1Title": "What We Did",
             "list1": [
               { "title": "Technical Architecture" },
@@ -700,11 +708,11 @@
       },
       {
         "projectID": "mede-analytics",
-        "title": "Project 04",
+        "title": "",
         "description":"",
-        "intro": "Someintro copy...3",
-        "client": "Sony",
-        "launch":"Oct 2015",
+        "intro": "",
+        "client": "Mede Analytics",
+        "launch":"May 2015",
         "projectColor": "#00aeef",
         "pageContent": [
           {
@@ -805,81 +813,6 @@
             ]
           }
         ]
-      },
-      {
-        "projectID": "airbnb-maisons-de-france",
-        "title": "Project 02",
-        "logo": "metagram-logo.png",
-        "description":"Project 02 description - Vivamus sagittis diam ligula, non semper magna tristique nec. Nulla malesuada nibh nulla, non cursus odio lacinia ac.",
-        "client": "Twitter",
-        "launch":"Oct 2016",
-        "projectColor": "#00aeef",
-        "pageContent": [
-          {
-            "type": "projectHero",
-            "url": "someurl.jpg",
-            "copy": "airbnb-maisons-de-france - We concepted and developed a fully responsive, dynamic platform capable of easily generating and manageing thousands of pages for Marketing.Twitter.com",
-            "headerOverlayOpacity": ".4"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "01",
-            "title": "Challenge"
-          },
-          {
-            "type": "projectIntro",
-            "projectIntro": "<p></p><p></p>",
-            "logo": "metagram-logo.png"
-          },
-          {
-            "type": "sectionHeader",
-            "number": "02",
-            "title": "Solution"
-          },
-          {
-            "type": "textColumns",
-            "copyLeft": "<p></p>",
-            "copyRight": "<p></p><p></p>"
-          },
-          {
-            "type": "image",
-            "size": "lg",
-            "images": [
-              {
-                "title": "",
-                "src": "../../assets/images/temp-image.jpg"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "video": {
-    "poster": "/images/temp-image-1.jpg",
-    "title": "Video title"
-  },
-  "carousel": {
-    "temp": "temp-image.jpg",
-    "title": "Video title",
-    "slides": [
-      {
-        "title": "Project 01",
-        "url": "//example.com",
-        "subtitle": "Subtitle copy...1",
-        "client": "AirBnb"
-      },
-      {
-        "title": "Project 01",
-        "url": "//example.com",
-        "subtitle": "Subtitle copy...1",
-        "client": "AirBnb"
-      },
-      {
-        "title": "Project 01",
-        "url": "//example.com",
-        "subtitle": "Subtitle copy...1",
-        "client": "AirBnb"
       }
     ]
   }
