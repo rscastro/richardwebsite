@@ -1,4 +1,5 @@
 @import "../css-base/_variables";
+@import "../css-base/_mixins";
 
 .home-hero {
   margin: 0;
@@ -6,4 +7,116 @@
   background: #202020;
   padding: 0;
   overflow: hidden;
+
+
+  .main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    overflow-x: hidden;
+
+    .hidden {
+      display: none;
+    }
+
+    .logo-container {
+      display: flex;
+      height: 100%;
+      margin-left: 8%;
+      max-height: 240px;
+      width: 75%;
+      position: relative;
+
+      @include breakpoint($break-pt-md) {
+        width: 50%;
+      }
+
+      .logo {
+        align-self: center;
+        display: flex;
+        height:100%;
+        position: absolute;
+        width: 27.98165%;
+        max-width: 244px;
+        left: 0px;
+
+        svg {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .reveal{
+        fill:#EEEEEE;
+      }
+
+      .mask{
+        fill:#111111;
+        opacity:0;
+      }
+
+      .logo-type {
+        display: flex;
+        height: 100%;
+        position: absolute;
+        margin-left: 35%;
+        width: 72.01835%;
+
+        svg {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    // .content {
+    //   animation: fade-in;
+    //   animation-duration: 1.2s;
+    //   animation-delay: 4s;
+    //   animation-fill-mode: both;
+    //   left: 0;
+    //   margin-left: 8%;
+    //   margin-top: 25%;
+    //   min-width: 280px;
+    //   position: absolute;
+    //   top: 45%;
+    //
+    //   @include media($mobile-plus) {
+    //     margin-top: 145px;
+    //   }
+    //
+    //   @include media($desktop-plus) {
+    //     margin-top: 200px;
+    //   }
+    //
+    //   h1 {
+    //     font-family: $roboto;
+    //     font-weight: 300;
+    //     font-size: rem(24);
+    //     line-height: rem(28);
+    //     margin: 0 0 rem(6);
+    //
+    //     @include media($mobile-plus) {
+    //       font-size: rem(30);
+    //       line-height: rem(30);
+    //       margin-bottom: rem(10);
+    //     }
+    //
+    //     @include media($desktop) {
+    //       font-weight: 300;
+    //       font-size: rem(40);
+    //       line-height: rem(40);
+    //     }
+    //
+    //   }
+    //
+    // }//.logo
+  }//main
+
 }
