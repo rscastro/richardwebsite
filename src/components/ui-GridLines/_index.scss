@@ -1,0 +1,47 @@
+@import "../css-base/_variables";
+@import "../css-base/_mixins";
+
+.grid-lines-hldr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  .wrapper {
+    height: 100%;
+
+    .line-hldr {
+      height: 100%;
+      box-shadow: inset 1px 0px 0px 0px rgba($black, .5);
+      &:last-of-type {
+        &:before {
+          position: absolute;
+          box-shadow: inset 1px 0 0 0 rgba($black, .5);
+          content: " ";
+          height: 100%;
+          right: 1px;
+          top: 0;
+          width: 1px;
+        }
+      }
+    }
+
+    .grid-lines-sm {
+      height: 100%;
+
+      @include breakpoint($break-pt-sm) {
+        display: none;
+      }
+    }
+
+    .grid-lines-lg {
+      height: 100%;
+      display: none;
+
+      @include breakpoint($break-pt-sm) {
+        display: flex;
+      }
+    }
+  }
+}

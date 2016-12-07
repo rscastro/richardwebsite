@@ -3,7 +3,6 @@ import './_index.scss';
 import React, { Component } from 'react';
 
 // Alias includes in the webpack.config files
-import TweenLite from 'TweenLite';
 import TimelineLite from 'TimelineLite';
 
 export default class HamburgerIcon extends Component {
@@ -24,9 +23,9 @@ export default class HamburgerIcon extends Component {
     const duration = .2;
     this.hamburgerTl = new TimelineLite({paused:true});
     this.hamburgerTl
-      .to('#l1', duration, {rotation:45, scaleX:.38, x:9, y:0, transformOrigin:'0% 50%'}, 0)
-      .to('#l2', duration, {rotation:-45, transformOrigin:'50% 50%'}, 0)
-      .to('#l3', duration, {rotation:45, scaleX:.38, x:-9, y:0, transformOrigin:'100% 50%'}, 0)
+      .to('#l1', duration, {rotation:45, scaleX:.36, x:10, y:0, transformOrigin:'0% 50%'}, 0)
+      .to('#l2', duration, {rotation:-45, scaleX:.83, transformOrigin:'50% 50%'}, 0)
+      .to('#l3', duration, {rotation:45, scaleX:.36, x:-10, y:0, transformOrigin:'100% 50%'}, 0)
   }
 
   componentDidMount() {
@@ -52,9 +51,9 @@ export default class HamburgerIcon extends Component {
           onClick={this.onClickHandler.bind(this)}
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 30" className="hamburger-svg">
-            <rect id="l1" y="0" width="48" height="1" fill="#fff" />
-            <rect id="l2" y="15" width="48" height="1" fill="#fff" />
-            <rect id="l3" y="29" width="48" height="1" fill="#fff" />
+            <rect id="l1" y="0" width="48" height="2" fill="#fff" />
+            <rect id="l2" y="14" width="48" height="2" fill="#fff" />
+            <rect id="l3" y="28" width="48" height="2" fill="#fff" />
           </svg>
         </a>
       </div>

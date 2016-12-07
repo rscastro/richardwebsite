@@ -23,24 +23,24 @@
 }
 
 
-@mixin component-margin-top-bottom {
+@mixin component-padding-top-bottom {
 
-  margin-top: $component-margin-top-xs;
-  margin-bottom: $component-margin-bottom-xs;
+  padding-top: $component-padding-top-xs;
+  padding-bottom: $component-padding-bottom-xs;
 
   @include breakpoint($break-pt-sm) {
-    margin-top: $component-margin-top-sm;
-    margin-bottom: $component-margin-bottom-sm;
+    padding-top: $component-padding-top-sm;
+    padding-bottom: $component-padding-bottom-sm;
   }
 
   @include breakpoint($break-pt-md) {
-    margin-top: $component-margin-top-md;
-    margin-bottom: $component-margin-bottom-md;
+    padding-top: $component-padding-top-md;
+    padding-bottom: $component-padding-bottom-md;
   }
 
   @include breakpoint($break-pt-lg) {
-    margin-top: $component-margin-top-lg;
-    margin-bottom: $component-margin-bottom-lg;
+    padding-top: $component-padding-top-lg;
+    padding-bottom: $component-padding-bottom-lg;
   }
 
 }

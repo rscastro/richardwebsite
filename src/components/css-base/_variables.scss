@@ -28,11 +28,18 @@ $wrapper-max: 144rem;
 $column-padding: 2.4rem;
 
 // Navigation
-$navbar-height: 12.5rem;
+$logo-mark-width-height-base: 10.4rem;
+$logo-mark-width-height-sm: 8rem;
+$navbar-padding-top-sm: 4rem;
+$navbar-padding-bottom-sm: 6rem;
+$navbar-padding-top-lg: 7.5rem;
+$navbar-padding-bottom-lg: 12.5rem;
 $hamburger-width-sm: 4rem;
 $hamburger-height-sm: 2.3rem;
 $hamburger-width-base: 4.8rem;
 $hamburger-height-base: 3rem;
+$navbar-height-sm: $logo-mark-width-height-sm + $navbar-padding-top-lg;
+$navbar-height-base:  $logo-mark-width-height-base + $navbar-padding-top-lg;
 
 
 // Font Sizes
@@ -54,14 +61,14 @@ $xl-spacing: $base-spacing * 4;
 $xxl-spacing: $base-spacing * 5;
 
 // component spacing
-$component-margin-top-xs: 6.5rem;
-$component-margin-bottom-xs: 0;
-$component-margin-top-sm: 8.5rem;
-$component-margin-bottom-sm: 0;
-$component-margin-top-md: 15rem;
-$component-margin-bottom-md: 0;
-$component-margin-top-lg: 17.5rem;
-$component-margin-bottom-lg: 0;
+$component-padding-top-xs: 6.5rem;
+$component-padding-bottom-xs: 0;
+$component-padding-top-sm: 8.5rem;
+$component-padding-bottom-sm: 0;
+$component-padding-top-md: 15rem;
+$component-padding-bottom-md: 0;
+$component-padding-top-lg: 17.5rem;
+$component-padding-bottom-lg: 0;
 
 // Forms
 $form-border-radius: .3rem;

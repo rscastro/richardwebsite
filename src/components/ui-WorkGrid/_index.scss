@@ -2,7 +2,7 @@
 @import '../css-base/_mixins';
 
 .workgrid-hldr {
-  @include component-margin-top-bottom;
+  @include component-padding-top-bottom;
 
   &.home {
     margin-top: 0;

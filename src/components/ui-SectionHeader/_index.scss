@@ -2,8 +2,9 @@
  @import "../css-base/_mixins";
 
 .section-header {
+  position: relative;
   text-align: center;
-  @include component-margin-top-bottom;
+  @include component-padding-top-bottom;
 
   .number-hldr {
     margin-bottom: $md-spacing;

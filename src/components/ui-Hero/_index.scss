@@ -2,22 +2,10 @@
 @import "../css-base/_mixins";
 
 .hero {
-  min-height: 40rem;
+  height: 100vh;
   position: relative;
   background-size: cover;
   overflow: hidden;
-
-  @include breakpoint($break-pt-sm) {
-    min-height: 50rem;
-  }
-
-  @include breakpoint($break-pt-md) {
-    min-height: 70rem;
-  }
-
-  @include breakpoint($break-pt-lg) {
-    min-height: 90rem;
-  }
 
   .color-overlay {
     position: absolute;
@@ -26,20 +14,14 @@
   }
 
   .copy-hldr {
-    padding-top: 17.5rem;
+    padding-top: $navbar-height-base;
 
     @include breakpoint($break-pt-sm) {
-      padding-top: 22rem;
+      padding-top: $navbar-height-base + $navbar-padding-bottom-lg;
     }
 
     @include breakpoint($break-pt-md) {
-      padding-top: 30rem;
+      padding-top: $navbar-height-base + $navbar-padding-bottom-lg;
     }
   }
 }
-
-
-// @include breakpoint($break-pt-sm) {}
-// @include breakpoint($break-pt-md) {}
-// @include breakpoint($break-pt-lg) {}
-// @include breakpoint($break-pt-xl) {}

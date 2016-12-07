@@ -2,7 +2,8 @@
 @import "../css-base/_mixins";
 
 .project-intro {
-  @include component-margin-top-bottom;
+  @include component-padding-top-bottom;
+  position: relative;
 
   .image-hldr {
     margin-bottom: $md-spacing;

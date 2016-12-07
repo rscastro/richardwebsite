@@ -7,7 +7,7 @@
   right: 0;
   left: 0;
   z-index: 100;
-  padding-top: $navbar-height;
+  padding-top: $navbar-height-base;
 
   .nav-bg {
     display: none;
@@ -25,9 +25,11 @@
     top: 0;
     right: 0;
     left: 0;
-    padding-top: $base-spacing;
-    height: $navbar-height;
-    // background: $off-black;
+    padding-top: $navbar-padding-top-sm;
+
+    @include breakpoint($break-pt-sm) {
+      padding-top: $navbar-padding-top-lg;
+    }
 
     .nav-bar-inner {
       position: relative;
@@ -43,13 +45,13 @@
       }
 
       .logo-mark {
-        width: 8rem;
-        height: 8rem;
+        width: $logo-mark-width-height-sm;
+        height: $logo-mark-width-height-sm;
         margin: 0 auto;
 
         @include breakpoint($break-pt-sm) {
-          width: 10.4rem;
-          height: 10.4rem;
+          width: $logo-mark-width-height-base;
+          height: $logo-mark-width-height-base;
         }
       }
 
@@ -69,7 +71,7 @@
   .nav-links-hldr {
     margin-top: $lg-spacing;
     overflow: auto;
-    height: calc(100vh - #{$navbar-height + $column-padding});
+    height: calc(100vh - #{$navbar-height-base + $column-padding});
     display: none;
     opacity: 0;
 
