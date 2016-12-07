@@ -4,7 +4,6 @@
 .hero {
   height: 100vh;
   position: relative;
-  background-size: cover;
   overflow: hidden;
 
   @include breakpoint($break-pt-sm) {
@@ -26,6 +25,7 @@
     bottom: 0;
     left: 0;
     background-position: center center;
+    background-size: cover;
     filter: grayscale(100%);
   }
 
