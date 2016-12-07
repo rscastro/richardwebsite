@@ -1,6 +1,7 @@
 import './_index.scss';
 
 import React, { Component } from 'react';
+import GridLines from '../ui-GridLines';
 
 
 export default class ProjectSectionHeader extends Component {
@@ -27,6 +28,7 @@ export default class ProjectSectionHeader extends Component {
 
     return (
       <div className="section-header">
+        <GridLines />
         <div className="wrapper">
           <div className={ number ? 'grid' : 'grid grid--justify-center' }>
             { number ?

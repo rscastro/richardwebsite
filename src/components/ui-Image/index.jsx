@@ -1,6 +1,7 @@
 import './_index.scss';
 
 import React, { Component } from 'react';
+import GridLines from '../ui-GridLines';
 
 export default class Image extends Component {
 
@@ -32,6 +33,7 @@ export default class Image extends Component {
 
     return (
       <div className="img-hldr">
+        <GridLines />
 
         {/* Fullwidth */}
         { (size === 'full') ?

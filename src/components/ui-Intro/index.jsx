@@ -1,6 +1,7 @@
 import './_index.scss';
 
 import React, { Component } from 'react';
+import GridLines from '../ui-GridLines';
 
 export default class ProjectIntro extends Component {
 
@@ -21,6 +22,7 @@ export default class ProjectIntro extends Component {
 
     return (
       <div className="project-intro">
+        <GridLines />
         <div className="grid grid--justify-center">
           <div className="grid__col-12 grid__col-sm-3 grid__col-md-2 image-hldr text-center">
             { <img src={logo} alt={title} className="img" /> }

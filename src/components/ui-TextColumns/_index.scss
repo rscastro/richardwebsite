@@ -1,7 +1,8 @@
 @import '../css-base/_mixins';
 
 .text-columns {
-  @include component-margin-top-bottom;
+  @include component-padding-top-bottom;
+  position: relative;
 
   .copy {
 

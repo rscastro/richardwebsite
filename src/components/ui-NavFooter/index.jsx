@@ -5,14 +5,15 @@ import React, {Component} from 'react';
 import NavLinks from '../ui-NavLinks'
 import LogoMark from '../../assets/images/logo-mark.svg';
 import LogoType from '../../assets/images/logo-type.svg';
+import GridLines from '../ui-GridLines';
 
 export default class Nav extends Component {
 
   render() {
     return (
       <div className="nav-footer-hldr">
+        <GridLines />
         <div className="wrapper">
-
           <div className="nav-footer-bar">
             <div className="grid">
               <div className="grid__col-12 text-center nav-footer-bar-inner">

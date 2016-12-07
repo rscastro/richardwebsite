@@ -2,6 +2,7 @@ import './_index.scss';
 
 import React, { Component } from 'react';
 import List from '../ui-List';
+import GridLines from '../ui-GridLines';
 
 export default class Details extends Component {
 
@@ -35,6 +36,7 @@ export default class Details extends Component {
 
     return (
       <div className="details">
+        <GridLines />
         <div className="grid grid--justify-center">
           <div className="grid__col-sm-3 grid__col-md-2 project-link">
             <h5 className="title overline" style={projectLinkColorStyle}>

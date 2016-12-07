@@ -2,7 +2,8 @@
 @import "../css-base/_mixins";
 
 .img-hldr {
-  @include component-margin-top-bottom;
+  @include component-padding-top-bottom;
+  position: relative;
 
   .img-hldr-inner {
 
