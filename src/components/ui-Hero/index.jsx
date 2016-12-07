@@ -21,8 +21,6 @@ export default class Hero extends Component {
       headerOverlayOpacity
     } = this.props;
 
-    console.log('headerOverlayOpacity', headerOverlayOpacity );
-
     const bgImgStyle = {
       backgroundImage: 'url(' + src + ')'
     }
