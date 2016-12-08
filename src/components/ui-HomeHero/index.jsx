@@ -42,15 +42,15 @@ export default class HomeHero extends Component {
       frequency: 50,
       heightmap: this.THREE.Terrain.DiamondSquare,
       material: this.mesh,
-      maxHeight: 415,
-      minHeight: -120,
+      maxHeight: 455,
+      minHeight: -140,
       steps: 500,
       turbulent: true,
       useBufferGeometry: true,
       xSegments: this.xS,
-      xSize: 500,
+      xSize: 900,
       ySegments: this.yS,
-      ySize: 500
+      ySize: 900
     });
     this.iteration = 0;
     this.totalIteration = 100;
@@ -132,7 +132,7 @@ export default class HomeHero extends Component {
     this.container = document.getElementById('hero-container');
     this.renderer.setSize( this.container.offsetWidth, window.innerHeight );
     this.container.appendChild( this.renderer.domElement );
-    this.camera = new this.THREE.PerspectiveCamera( 90, this.container.offsetWidth/window.innerHeight, 1, 1200 );
+    this.camera = new this.THREE.PerspectiveCamera( 110, this.container.offsetWidth/window.innerHeight, 200, 1200 );
     this.camera.position.x = 0;
     this.camera.position.y = this.cameraPos;
     this.camera.position.z = 0;
