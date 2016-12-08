@@ -2,21 +2,24 @@
 @import "../css-base/_mixins";
 
 .tagline {
+  position: relative;
+  // background: rgba($orange, .5);
   background: $orange;
   text-align: center;
+
   padding: $xl-spacing $base-spacing;
 
   @include breakpoint($break-pt-md) {
-		padding: 16rem $base-spacing;
-	}
+    padding: 16rem $base-spacing;
+  }
 
   @include breakpoint($break-pt-lg) {
-		padding: 21.5rem $base-spacing;
-	}
+    padding: 21.5rem $base-spacing;
+  }
 
   .title {
     @include fontsize(3.2rem, 4.8rem);
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: .2rem;
     color: $white;
   }
