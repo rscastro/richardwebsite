@@ -1,7 +1,7 @@
 import './_index.scss';
 
 import React, { Component } from 'react';
-
+import GridLines from '../ui-GridLines';
 
 export default class Tagline extends Component {
 
@@ -17,7 +17,8 @@ export default class Tagline extends Component {
     } = this.props;
 
     return (
-      <div className="tagline bg-lines-white">
+      <div className="tagline">
+        <GridLines lineColor={'white'}/>
         <div className="wrapper">
           <h3 className="title">{title}</h3>
         </div>

@@ -28,6 +28,20 @@
       }
     }
 
+    .grid-lines-sm,
+    .grid-lines-lg {
+      &.white {
+        .line-hldr {
+          box-shadow: inset 1px 0px 0px 0px rgba($white, .3);
+          &:last-of-type {
+            &:before {
+              box-shadow: inset 1px 0 0 0 rgba($white, .3);
+            }
+          }
+        }
+      }
+    }
+
     .grid-lines-sm {
       height: 100%;
 
