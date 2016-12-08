@@ -148,30 +148,6 @@
             "copyLeft": "<p>This project was built using the React framework, and we ran this with strict Agile sprints.</p><p>As the project scaled, multiple stakeholders became involved with differing priorities. Maintaining a strict Agile workflow, we were to prioritize the backlog.</p>",
             "copyRight": "<p>In this way, the stakeholders were able to have visibility into the project timeline and work out prioritization amongst themselves while having full transparency into the project.</p>"
           },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/fs-full-2.jpg"
-              },
-              {
-                "title": "",
-                "src": "/images/fs-full-3.jpg"
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "lg",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/fs-full.jpg"
-              }
-            ]
-          },
            {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
@@ -186,6 +162,20 @@
             "list2Title": "Technologies",
             "list2": [
               { "title": "" }
+            ]
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/fs-full-2.jpg"
+              },
+              {
+                "title": "",
+                "src": "/images/fs-full.jpg"
+              }
             ]
           }
         ]
