@@ -1,14 +1,25 @@
 import './_index.scss';
 
 import React, { Component } from 'react';
+import TimelineMax from 'TimelineMax';
+import TweenMax from 'TweenMax';
+import GsapEasing from 'GsapEasing'
+import MorphSvg from '../../../lib/gsap/plugins/MorphSVGPlugin.min.js';
+import LogoSvg from '../ui-LogoSvg';
+import LogoTypeSvg from '../ui-LogoTypeSvg';
 
 import THREELib from 'three-js';
 import './OrbitControls.js';
 import './THREE.Terrain.js';
 
 export default class HomeHero extends Component {
+
   constructor(props) {
     super(props);
+
+    this.state = {
+      logoSvgVisible: true
+    }
 
     this.container = null;
     this.THREE = THREELib();
@@ -52,6 +63,50 @@ export default class HomeHero extends Component {
     };
   }
 
+  swapLogo() {
+    this.setState({ logoSvgVisible: false });
+  }
+
+  // Animate MARTIAN logo
+  animateLogo() {
+    const tlCirc = new TimelineMax({delay:1});
+    const tl = new TimelineMax({delay:1.6});
+    const tl2 = new TimelineMax({delay:1.6});
+
+    TweenMax.set(document.body, {opacity:1});
+
+    // findShapeIndex('#a1', '#a2');
+    TweenMax.set('#circ', {transformOrigin:'50% 50%'});
+    tlCirc.fromTo('#circ', 0.8, { scale:0 }, {scale:1, ease:GsapEasing.Power2.easeInOut});
+    tl.to('#c-a1', 0.3, {morphSVG:{shape:'#c-a2', shapeIndex:4},ease: GsapEasing.Power2.easeIn}).to('#c-b1', 0.3, {morphSVG:{shape:'#c-b2', shapeIndex:4},ease: GsapEasing.Power2.easeOut});
+    tl2.to('#c-c1', 0.2, {morphSVG:{shape:'#c-c2', shapeIndex:4},ease: GsapEasing.Power2.easeIn}).to('#c-d1', 0.2, {morphSVG:{shape:'#c-d2', shapeIndex:4}}).to('#c-e1', 0.2, {morphSVG:{shape:'#c-e2', shapeIndex:4}, ease: GsapEasing.Power2.easeOut, onComplete: this.swapLogo.bind(this)});
+
+    TweenMax.set('.logo', {left:'75%'});
+    TweenMax.set('.logo-type', {opacity: 0});
+    const logoMove = new TweenMax.to('.logo', 0.8, {delay: 2.2, left: '0', ease:GsapEasing.Power2.easeInOut, onComplete: this.animateLogoType});
+    // const slantTween = new TimelineMax();
+  }
+
+  // Animate MARTIAN type
+  animateLogoType() {
+    const tlM = new TimelineMax();
+    const tlA = new TimelineMax();
+    const tlR = new TimelineMax();
+    const tlT = new TimelineMax();
+    const tlI = new TimelineMax({yoyo:false});
+    const tlAA = new TimelineMax({yoyo:false});
+    const tlN = new TimelineMax({yoyo:false});
+
+    TweenMax.set('.logo-type', {opacity: 1});
+    tlM.to('#m1b', 0.4, {morphSVG:{shape:'#m1', shapeIndex:4}, ease: GsapEasing.Power2.easeIn}).to('#m2b', 0.2, {morphSVG:{shape:'#m2', shapeIndex:4}}).to('#m3b', 0.2, {morphSVG:{shape:'#m3', shapeIndex:4}}).to('#m4b', 0.4, {morphSVG:{shape:'#m4', shapeIndex:4}, ease: GsapEasing.Power2.easeOut});
+    tlA.to('#a1b', 0.6, {morphSVG:{shape:'#a1', shapeIndex:4}, ease: GsapEasing.Power2.easeIn}).to('#a2b', 0.6, {morphSVG:{shape:'#a2', shapeIndex:4}, ease: GsapEasing.Power2.easeOut});
+    tlR.fromTo('#rPath', 0.8, {drawSVG:'0% 0%'},{drawSVG:'0% 100%', ease: GsapEasing.Power2.easeInOut}).to('#r1b', 0.4, {morphSVG:{shape:'#r1', shapeIndex:4}, ease: GsapEasing.Power2.easeOut});
+    tlT.to('#t1b', 0.6, {morphSVG:{shape:'#t1', shapeIndex:3}, ease: GsapEasing.Power2.easeIn}).to('#t2b', 0.6, {morphSVG:{shape:'#t2', shapeIndex:4}, ease: GsapEasing.Power2.easeOut});
+    tlI.to('#i1b', 1.2, {morphSVG:{shape:'#i1', shapeIndex:4}, ease: GsapEasing.Power2.easeInOut});
+    tlAA.to('#aa1b', 0.4, {morphSVG:{shape:'#aa1', shapeIndex:4}, ease: GsapEasing.Power2.easeIn}).to('#aa2b', 0.4, {morphSVG:{shape:'#aa2', shapeIndex:4}}).to('#aa3b', 0.4, {morphSVG:{shape:'#aa3', shapeIndex:4}, ease: GsapEasing.Power2.easeOut});
+    tlN.to('#n1b', 0.4, {morphSVG:{shape:'#n1', shapeIndex:4}, ease: GsapEasing.Power2.easeIn}).to('#n2b', 0.4, {morphSVG:{shape:'#n2', shapeIndex:4}}).to('#n3b', 0.4, {morphSVG:{shape:'#n3', shapeIndex:4}, ease: GsapEasing.Power2.easeOut});
+  }
+
   update() {
     let time = Date.now() * 0.001;
 
@@ -72,6 +127,8 @@ export default class HomeHero extends Component {
   }
 
   componentDidMount() {
+    this.animateLogo();
+
     this.container = document.getElementById('hero-container');
     this.renderer.setSize( this.container.offsetWidth, window.innerHeight );
     this.container.appendChild( this.renderer.domElement );
@@ -103,13 +160,18 @@ export default class HomeHero extends Component {
   }
 
   render() {
-    const {
-      src,
-      title
-    } = this.props;
-
+    const { logoSvgVisible } = this.state;
     return (
-      <div id="hero-container" className="home-hero"></div>
+      <div id="hero-container" className="home-hero">
+
+        <main className="main">
+          <div className="logo-container">
+            <LogoSvg logoSvgVisible={ logoSvgVisible } />
+            <LogoTypeSvg />
+          </div>
+        </main>
+
+      </div>
     );
   }
 }
