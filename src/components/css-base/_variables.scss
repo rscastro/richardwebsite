@@ -16,6 +16,12 @@ $break-pt-md: 76.8rem;
 $break-pt-lg: 99.2rem;
 $break-pt-xl: 120rem;
 
+// $reflex-xs: 480px !default;
+// $reflex-sm: 768px !default;
+// $reflex-md: 992px !default;
+// $reflex-lg: 1200px !default;
+// $reflex-xlg: 1600px !default;
+
 // Available breakpoints
 // @include breakpoint($break-pt-sm) {}
 // @include breakpoint($break-pt-md) {}
@@ -24,8 +30,6 @@ $break-pt-xl: 120rem;
 
 
 $wrapper-max: 144rem;
-// $columns: 12;
-// $gutters: .75;
 $column-padding: 2.4rem;
 
 // Navigation

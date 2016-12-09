@@ -7,19 +7,29 @@
 
   .project-link {
     margin-bottom: $md-spacing;
+    margin-right: 0;
 
     .title {
       margin-bottom: 0;
       padding-bottom: 0;
     }
 
+    @include breakpoint($break-pt-xs) {
+      margin-right: 0;
+    }
+
     @include breakpoint($break-pt-sm) {
-      margin-right: 8.33333%; // Width of one columns
+      margin-right: 0;
     }
 
     @include breakpoint($break-pt-md) {
-      margin-right: 16.66667%; // Width of two more columns
+      margin-right: 16.66667%;
     }
+
+    @include breakpoint($break-pt-lg) {
+      margin-right: 16.66667%;
+    }
+
   }
 
   .details-list {
