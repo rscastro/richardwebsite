@@ -82,6 +82,7 @@ module.exports = {
       'TweenMax': 'gsap/src/uncompressed/TweenMax.js',
       'TimelineLite': 'gsap/src/uncompressed/TimelineLite.js',
       'TimelineMax': 'gsap/src/uncompressed/TimelineMax.js',
+      'GsapEasing': 'gsap/src/uncompressed/easing/EasePack.js',
       'ScrollMagic': 'scrollmagic/scrollmagic/uncompressed/ScrollMagic.js',
       'animation.gsap': 'scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js',
       'debug.addIndicators': 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js'

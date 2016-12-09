@@ -7,7 +7,7 @@ h6 {
   margin: 0 0 $sm-spacing;
   font-family: 'Titillium Web', sans-serif;
   line-height: $line-height-heading;
-  color: $white;
+  color: $bodycopy;
 
   &.underline {
     border-bottom: 1px solid $white;
@@ -72,7 +72,7 @@ p {
   @include fontsize($font-size-base, $line-height-base);
   font-weight: 200;
   margin: 0 0 $md-spacing;
-  color: $white;
+  color: $bodycopy;
 
   &:last-of-type {
     margin-bottom: 0;
