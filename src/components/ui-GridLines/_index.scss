@@ -4,10 +4,15 @@
 .grid-lines-hldr {
   position: absolute;
   top: 0;
-  right: 0;
+  right: $column-padding;
   bottom: 0;
-  left: 0;
+  left: $column-padding;
   z-index: -1;
+
+  @include breakpoint($break-pt-sm) {
+    right: 0;
+    left: 0;
+  }
 
   .wrapper {
     height: 100%;
