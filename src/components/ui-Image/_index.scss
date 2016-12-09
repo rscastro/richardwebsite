@@ -2,8 +2,9 @@
 @import "../css-base/_mixins";
 
 .img-hldr {
-  @include component-padding-top-bottom;
+  @include component-padding-top-bottom('bottomPadding');
   position: relative;
+  background: transparent url(../../assets/images/img-component-bg.jpg);
 
   .img-hldr-inner {
     margin-bottom: $base-spacing;

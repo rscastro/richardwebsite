@@ -4,7 +4,7 @@
 .section-header {
   position: relative;
   text-align: center;
-  @include component-padding-top-bottom;
+  @include component-padding-top-bottom();
 
   .number-hldr {
     margin-bottom: $md-spacing;

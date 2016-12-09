@@ -2,7 +2,7 @@
 @import "../css-base/_mixins";
 
 .details {
-  @include component-padding-top-bottom;
+  @include component-padding-top-bottom();
   position: relative;
 
   .project-link {
