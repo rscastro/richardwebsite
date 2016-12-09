@@ -71,9 +71,14 @@
   .nav-links-hldr {
     margin-top: $lg-spacing;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
     height: calc(100vh - #{$navbar-height-base + $column-padding});
     display: none;
     opacity: 0;
+
+    @include breakpoint($break-pt-sm) {
+      -webkit-overflow-scrolling: none;
+    }
 
     .nav-links {
       display: none;
