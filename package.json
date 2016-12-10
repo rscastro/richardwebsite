@@ -33,6 +33,7 @@
     "gzip-size": "3.0.0",
     "html-webpack-plugin": "2.24.0",
     "http-proxy-middleware": "0.17.2",
+    "image-webpack-loader": "^3.0.0",
     "jest": "16.0.2",
     "json-loader": "0.5.4",
     "node-reset-scss": "^1.0.1",
