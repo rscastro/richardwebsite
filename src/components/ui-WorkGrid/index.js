@@ -1,6 +1,7 @@
 import './_index.scss';
 
 import React, {PropTypes, Component} from 'react';
+import GridLines from '../ui-GridLines';
 
 export default class WorkGrid extends Component {
 
@@ -57,6 +58,7 @@ export default class WorkGrid extends Component {
 
     return (
       <div className={ id + ' workgrid-hldr' }>
+        <GridLines />
         <div className="wrapper">
           <div className="grid">
             { this.renderProjects(workgridItems) }

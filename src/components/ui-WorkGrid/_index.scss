@@ -3,6 +3,7 @@
 
 .workgrid-hldr {
   @include component-padding-top-bottom();
+  position: relative;
 
   &.home {
     padding-top: 0;
