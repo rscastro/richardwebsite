@@ -3,7 +3,7 @@
 
 .home-hero {
   margin: 0;
-  max-height: 90rem;
+  height: 100vh;
   background: #202020;
   padding: 0;
   overflow: hidden;
@@ -37,21 +37,6 @@
       @include breakpoint($break-pt-md) {
         width: 50%;
       }
-
-      // .logo {
-      //   align-self: center;
-      //   display: flex;
-      //   height:100%;
-      //   position: absolute;
-      //   width: 27.98165%;
-      //   max-width: 244px;
-      //   left: 0px;
-      //
-      //   svg {
-      //     width: 100%;
-      //     height: auto;
-      //   }
-      // }
 
       .reveal{
         fill:#EEEEEE;
