@@ -15,11 +15,11 @@ export default class GridLines extends Component {
     return (
       <div className="grid-lines-hldr">
         <div className="wrapper">
-          <div className={ `grid-lines-sm grid ${lineColor}` }>
+          <div className={ `grid-lines-sm grid${ (typeof lineColor !== 'undefined') ? ' ' + lineColor : '' }` }>
             <div className="grid__col-6 line-hldr"></div>
             <div className="grid__col-6 line-hldr"></div>
           </div>
-          <div className={ `grid-lines-lg grid ${lineColor}` }>
+          <div className={ `grid-lines-lg grid${ (typeof lineColor !== 'undefined') ? ' ' + lineColor : '' }` }>
             <div className="grid__col-2 line-hldr"></div>
             <div className="grid__col-2 line-hldr"></div>
             <div className="grid__col-2 line-hldr"></div>
