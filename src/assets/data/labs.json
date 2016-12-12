@@ -30,6 +30,17 @@
             "logo": "/images/metagramme-logo.png"
           },
           {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/metagramme-full-1.png"
+              }
+            ]
+          },
+
+          {
             "type": "sectionHeader",
             "number": "02",
             "title": "Solution"
@@ -45,7 +56,15 @@
             "images": [
               {
                 "title": "",
-                "src": "/images/metagramme-full-1.jpg"
+                "src": "/images/metagramme-full-2.png"
+              },
+              {
+                "title": "",
+                "src": "/images/metagramme-full-3.png"
+              },
+              {
+                "title": "",
+                "src": "/images/metagramme-full-4.png"
               }
             ]
           },
@@ -68,24 +87,6 @@
               { "title": "" },
               { "title": "" },
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/metagramme-full-2.jpg"
-              },
-              {
-                "title": "",
-                "src": "/images/metagramme-full-3.jpg"
-              },
-              {
-                "title": "",
-                "src": "/images/metagramme-full-4.jpg"
-              }
             ]
           }
         ]
@@ -131,7 +132,11 @@
             "images": [
               {
                 "title": "",
-                "src": "/images/twfp-full-1.jpg"
+                "src": "/images/twfp-full-1.png"
+              },
+              {
+                "title": "",
+                "src": "/images/twfp-full-2.jpg"
               }
             ]
           },
@@ -218,7 +223,15 @@
             "images": [
               {
                 "title": "Image title",
-                "src": "/images/scrumpoker-full-1.jpg"
+                "src": "/images/scrumpoker-full-1.png"
+              },
+              {
+                "title": "Image title",
+                "src": "/images/scrumpoker-full-2.png"
+              },
+              {
+                "title": "Image title",
+                "src": "/images/scrumpoker-full-3.png"
               }
 
             ]

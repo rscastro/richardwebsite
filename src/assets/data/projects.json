@@ -45,7 +45,7 @@
             "images": [
               {
                 "title": "",
-                "src": "/images/mtc-full-2.jpg"
+                "src": "/images/mtc-full-2.png"
               }
             ]
           },
@@ -70,19 +70,19 @@
           },
           {
             "type": "image",
-            "size": "lg",
+            "size": "full",
             "images": [
               {
                 "title": "",
-                "src": "/images/mtc-full-3.jpg"
+                "src": "/images/mtc-full-3.png"
               },
               {
                 "title": "",
-                "src": "/images/mtc-full-4.jpg"
+                "src": "/images/mtc-full-4.png"
               },
               {
                 "title": "",
-                "src": "/images/mtc-full-5.jpg"
+                "src": "/images/mtc-full-5.png"
               }
             ]
           },
@@ -170,11 +170,11 @@
             "images": [
               {
                 "title": "",
-                "src": "/images/fs-full-2.jpg"
+                "src": "/images/fs-full-2.png"
               },
               {
                 "title": "",
-                "src": "/images/fs-full.jpg"
+                "src": "/images/fs-full-1.png"
               }
             ]
           }
@@ -206,6 +206,16 @@
             "logo": "/images/airbnb-logo.png"
           },
           {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-mdf-full.png"
+              }
+            ]
+          },
+          {
             "type": "sectionHeader",
             "number": "02",
             "title": "Solution"
@@ -217,11 +227,11 @@
           },
           {
             "type": "image",
-            "size": "full",
+            "size": "lg",
             "images": [
               {
                 "title": "",
-                "src": "/images/abb-mdf-full.jpg"
+                "src": "/images/abb-mdf-full-2.png"
               }
             ]
           },
@@ -239,16 +249,6 @@
             "list2Title": "Technologies",
             "list2": [
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "lg",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/abb-mdf-full-2.jpg"
-              }
             ]
           }
         ]
@@ -288,6 +288,20 @@
             "copyLeft": "<p>We wanted the routes to connect attractions and nearby listings, so we couldn't rely on the Google Maps API to give us path coordinates.</p><p>Getting the coordinates was tricky. We ended up using a combination of Google Earth, Excel, and some code editor magic to gather the data we needed.</p>",
             "copyRight": "<p>We designed and built this project on an insanely-tight timeline.</p><p>Despite some last-minute listing changes, we launched it on time. The client was happy with what we were able to create.</p>"
           },
+          {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-rt-full-1.png"
+              },
+              {
+                "title": "",
+                "src": "/images/abb-rt-full-2.png"
+              }
+            ]
+          },
            {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
@@ -303,20 +317,6 @@
               { "title": "" },
               { "title": "" },
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/abb-rt-full-1.jpg"
-              },
-              {
-                "title": "",
-                "src": "/images/abb-rt-full-2.jpg"
-              }
             ]
           }
         ]
@@ -362,6 +362,16 @@
             "copyRight": "<p>We launched the app in time for Thanksgiving; we were proud of what we were able to build in the time given.</p>"
           },
           {
+            "type": "image",
+            "size": "lg",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/abb-holidays-full-1.png"
+              }
+            ]
+          },
+          {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
             "siteurl": "http://holidays.withairbnb.com",
@@ -378,16 +388,6 @@
               { "title": "" },
               { "title": "" },
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/abb-holidays-full-1.jpg"
-              }
             ]
           }
         ]
@@ -428,6 +428,24 @@
             "copyRight": "<p>The technique we settled on was a hybrid of static image sequences that could be toggled on and off in rapid succession, simulating motion. Then, we tied those sequences together with video clips for the transitions.</p><p>The result was a module that was as interesting as the product itself. The interactive integrity was maintained across all devices and screen sizes, and the module gracefully degraded for older browsers.</p>"
           },
           {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/sony-hmz-full-1.png"
+              },
+              {
+                "title": "",
+                "src": "/images/sony-hmz-full-2.png"
+              },
+              {
+                "title": "",
+                "src": "/images/sony-hmz-full-3.png"
+              }
+            ]
+          },
+          {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
             "siteurl": "http://sony.t2dsf.com/module/hmz/index.html",
@@ -443,16 +461,6 @@
               { "title": "" },
               { "title": "" },
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/sony-hmz-full-1.jpg"
-              }
             ]
           }
         ]
@@ -494,11 +502,23 @@
           },
           {
             "type": "image",
-            "size": "full",
+            "size": "lg",
             "images": [
               {
                 "title": "",
-                "src": "/images/merrill-full-1.jpg"
+                "src": "/images/merrill-full-1.png"
+              },
+              {
+                "title": "",
+                "src": "/images/merrill-full-2.png"
+              },
+              {
+                "title": "",
+                "src": "/images/merrill-full-3.png"
+              },
+              {
+                "title": "",
+                "src": "/images/merrill-full-4.png"
               }
             ]
           },
@@ -518,20 +538,6 @@
               { "title": "" },
               { "title": "" },
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/merrill-full-2.jpg"
-              },
-              {
-                "title": "",
-                "src": "/images/merrill-full-3.jpg"
-              }
             ]
           }
         ]
@@ -577,8 +583,25 @@
             "images": [
               {
                 "title": "",
-                "src": "/images/eventbrite-coyote-full-1.jpg"
+                "src": "/images/eventbrite-coyote-full-1.png"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-2.png"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-3.png"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-4.png"
+              },
+              {
+                "title": "",
+                "src": "/images/eventbrite-coyote-full-5.png"
               }
+
             ]
           },
           {
@@ -597,28 +620,6 @@
               { "title": "" },
               { "title": "" },
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/eventbrite-coyote-full-2.jpg"
-              },
-              {
-                "title": "",
-                "src": "/images/eventbrite-coyote-full-6.jpg"
-              },
-              {
-                "title": "",
-                "src": "/images/eventbrite-coyote-full-4.jpg"
-              },
-              {
-                "title": "",
-                "src": "/images/eventbrite-coyote-full-5.jpg"
-              }
             ]
           }
         ]
@@ -663,8 +664,20 @@
             "size": "full",
             "images": [
               {
-                "title": "",
-                "src": "/images/thinknear-full-1.jpg"
+                "title": "thinknear",
+                "src": "/images/thinknear-full-1.png"
+              },
+              {
+                "title": "thinknear",
+                "src": "/images/thinknear-full-2.png"
+              },
+              {
+                "title": "thinknear",
+                "src": "/images/thinknear-full-3.png"
+              },
+              {
+                "title": "thinknear",
+                "src": "/images/thinknear-full-4.png"
               }
             ]
           },
@@ -684,24 +697,6 @@
               { "title": "" },
               { "title": "" },
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "thinknear",
-                "src": "/images/thinknear-full-2.jpg"
-              },
-              {
-                "title": "thinknear",
-                "src": "/images/thinknear-full-3.jpg"
-              },
-              {
-                "title": "thinknear",
-                "src": "/images/thinknear-full-4.jpg"
-              }
             ]
           }
         ]
@@ -747,19 +742,19 @@
             "images": [
               {
                 "title": "",
-                "src": "/images/mede-full.jpg"
+                "src": "/images/mede-full-1.png"
               },
               {
                 "title": "",
-                "src": "/images/mede-full-2.jpg"
+                "src": "/images/mede-full-2.png"
               },
               {
                 "title": "",
-                "src": "/images/mede-full-3.jpg"
+                "src": "/images/mede-full-3.png"
               },
               {
                 "title": "",
-                "src": "/images/mede-full-4.jpg"
+                "src": "/images/mede-full-4.png"
               }
             ]
           }
@@ -808,23 +803,23 @@
             "images": [
               {
                 "title": "",
-                "src": "/images/vidhub-full-1.jpg"
+                "src": "/images/vidhub-full-1.png"
               },
               {
                 "title": "",
-                "src": "/images/vidhub-full-2.jpg"
+                "src": "/images/vidhub-full-2.png"
               },
               {
                 "title": "",
-                "src": "/images/vidhub-full-3.jpg"
+                "src": "/images/vidhub-full-3.png"
               },
               {
                 "title": "",
-                "src": "/images/vidhub-full-4.jpg"
+                "src": "/images/vidhub-full-4.png"
               },
               {
                 "title": "",
-                "src": "/images/vidhub-full-5.jpg"
+                "src": "/images/vidhub-full-5.png"
               }
             ]
           }
