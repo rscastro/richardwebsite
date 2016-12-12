@@ -2,11 +2,11 @@
 @import '../css-base/_mixins';
 
 .workgrid-hldr {
-  @include component-padding-top-bottom;
+  @include component-padding-top-bottom();
 
   &.home {
-    margin-top: 0;
-    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .workgrid__item {

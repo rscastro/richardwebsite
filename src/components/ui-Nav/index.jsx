@@ -9,6 +9,7 @@ import HamburgerIcon from '../ui-HamburgerIcon';
 
 // Alias includes in the webpack.config files
 import TweenLite from 'TweenLite';
+import TimelineMax from 'TimelineMax';
 import ScrollMagic from 'ScrollMagic';
 import animationGsap from 'animation.gsap';
 //import debugAddIndicators from 'debug.addIndicators'; // via alias in the webpack.config files
@@ -27,11 +28,12 @@ export default class Nav extends Component {
 
     this.logoController = {};
     this.hamburgerController = {};
+
+    this.phoneWidth = 480;
   }
 
   onToggleNav() {
     const duration = .4;
-    const phoneWidth = 480;
     const logoMarkNode = this.refs.logoMark;
     const logoTypeNode = this.refs.logoType;
 
@@ -60,12 +62,8 @@ export default class Nav extends Component {
       TweenLite.to('.nav-links', 0, {y:'-100'}); // This should be solved differently, hacky...
       TweenLite.to('.nav-bg', duration, {opacity:1, display:'block'});
       TweenLite.to(logoMarkNode, duration, {opacity:1, display:'block'});
-      if (screenWidth > phoneWidth) {
-        TweenLite.to(logoTypeNode, duration, {
-          opacity:1,
-          display:'inline-block',
-          delay:duration/2
-        });
+      if (screenWidth > this.phoneWidth) {
+        TweenLite.to(logoTypeNode, duration, { opacity:1, display:'inline-block', delay:duration/2 });
       }
       TweenLite.to('.nav-links-hldr', duration, {opacity:1, display: 'block' });
       TweenLite.to('.nav-links', duration, {y:'0', opacity:1, display: 'flex', delay: duration });
@@ -77,20 +75,34 @@ export default class Nav extends Component {
   }
 
   setupScrollMagic() {
-    let duration = .2;
-
+    const duration = .2;
     const logoMarkNode = this.refs.logoMark;
     const toggleLogoState = this.toggleLogoState.bind(this);
 
+    const {
+      screenWidth
+    } = this.state;
+
     // Logo mark fade out
     this.logoController = new ScrollMagic.Controller();
-    const logoTween = TweenLite.to(logoMarkNode, duration, { opacity: '0', display:'none'});
+    // const logoTween = TweenLite.to(logoMarkNode, duration, { opacity: '0', display:'none'});
+    // const hamburgerPositionTween = TweenLite.to('.hamburger-icon', duration, {top: '-15'});
+    const navTween = new TimelineMax()
+			.to(logoMarkNode, duration, { opacity:'0', display:'none' }, 0);
+
+    console.log('screenWidth: ', screenWidth);
+    console.log('this.phoneWidth: ', this.phoneWidth);
+
+    if (screenWidth <= this.phoneWidth) {
+      navTween.to('.hamburger-icon', duration, { top:'-15' }, 0);
+    }
+
     const logoScene = new ScrollMagic.Scene({
       triggerElement: '.app-container',
       offset: 70,
       triggerHook: 0,
     })
-    .setTween(logoTween)
+    .setTween(navTween)
     .addTo(this.logoController)
     .on('start', function (event) {
       toggleLogoState(event.progress)

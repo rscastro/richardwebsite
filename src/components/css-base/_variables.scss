@@ -16,6 +16,12 @@ $break-pt-md: 76.8rem;
 $break-pt-lg: 99.2rem;
 $break-pt-xl: 120rem;
 
+// $reflex-xs: 480px !default;
+// $reflex-sm: 768px !default;
+// $reflex-md: 992px !default;
+// $reflex-lg: 1200px !default;
+// $reflex-xlg: 1600px !default;
+
 // Available breakpoints
 // @include breakpoint($break-pt-sm) {}
 // @include breakpoint($break-pt-md) {}
@@ -24,8 +30,6 @@ $break-pt-xl: 120rem;
 
 
 $wrapper-max: 144rem;
-// $columns: 12;
-// $gutters: .75;
 $column-padding: 2.4rem;
 
 // Navigation
@@ -63,13 +67,13 @@ $xxl-spacing: $base-spacing * 5;
 
 // component spacing
 $component-padding-top-xs: 6.5rem;
-$component-padding-bottom-xs: 0;
+$component-padding-bottom-xs: 6.5rem;
 $component-padding-top-sm: 8.5rem;
-$component-padding-bottom-sm: 0;
+$component-padding-bottom-sm: 8.5rem;
 $component-padding-top-md: 15rem;
-$component-padding-bottom-md: 0;
+$component-padding-bottom-md: 15rem;
 $component-padding-top-lg: 17.5rem;
-$component-padding-bottom-lg: 0;
+$component-padding-bottom-lg: 17.5rem;
 
 // Forms
 $form-border-radius: .3rem;

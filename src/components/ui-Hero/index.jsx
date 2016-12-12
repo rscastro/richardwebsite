@@ -18,22 +18,23 @@ export default class Hero extends Component {
       src,
       copy,
       projectColor,
-      headerOverlayOpacity
+      headerOverlayOpacity // TODO: Remove headerOverlayOpacity this here and on json, no longer used.
     } = this.props;
 
     const bgImgStyle = {
-      backgroundImage: 'url(' + src + ')'
+      backgroundImage: 'url(' + src + ')',
+      backgroundBlendMode: 'multiply',
+      opacity: headerOverlayOpacity
     }
 
     const fillColor =  {
-      backgroundColor: '#' + projectColor,
-      opacity: headerOverlayOpacity
+      backgroundColor: '#' + projectColor
     }
 
     return (
       <div className="hero">
-        <div className="hero__img" style={ bgImgStyle }></div>
         <div className="hero__color-overlay" style={ fillColor }></div>
+        <div className="hero__img" style={ bgImgStyle }></div>
         <div className="wrapper">
           <div className="copy-hldr">
             <div className="grid grid--justify-center">
