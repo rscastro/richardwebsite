@@ -105,7 +105,7 @@ export default class HomeHero extends Component {
     this.container = document.getElementById('hero-container');
     this.renderer.setSize( this.container.offsetWidth, window.innerHeight );
     this.container.appendChild( this.renderer.domElement );
-    this.camera = new this.THREE.PerspectiveCamera( 110, this.container.offsetWidth/window.innerHeight, 200, 1200 );
+    this.camera = new this.THREE.PerspectiveCamera( 100, this.container.offsetWidth/window.innerHeight, 100, 1200 );
     this.camera.position.x = 0;
     this.camera.position.y = this.cameraPos;
     this.camera.position.z = 0;
