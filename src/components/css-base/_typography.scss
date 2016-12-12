@@ -34,6 +34,7 @@ h1 {
 h2 {
   @include fontsize(2.1rem, 2.9rem);
   font-weight: 200;
+  color: $white;
 
   @include breakpoint($break-pt-sm) {
     @include fontsize(3.2rem, 4.1rem);
