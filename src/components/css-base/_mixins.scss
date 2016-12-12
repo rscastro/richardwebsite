@@ -43,19 +43,23 @@
     padding-bottom: 0;
   }
 
-  @if $component == 'bottomPadding' {
-    padding-bottom: $component-padding-bottom-xs;
+  @if $component == 'ui-Image' {
+    padding-top: $component-padding-top-xs * 2;
+    padding-bottom: 0;
 
     @include breakpoint($break-pt-sm) {
-      padding-bottom: $component-padding-bottom-sm;
+      padding-top: $component-padding-top-sm * 2;
+      padding-bottom: 0;
     }
 
     @include breakpoint($break-pt-md) {
-      padding-bottom: $component-padding-bottom-md;
+      padding-top: $component-padding-top-md * 2;
+      padding-bottom: 0;
     }
 
     @include breakpoint($break-pt-lg) {
-      padding-bottom: $component-padding-bottom-lg;
+      padding-top: $component-padding-top-lg * 2;
+      padding-bottom: 0;
     }
   }
 }

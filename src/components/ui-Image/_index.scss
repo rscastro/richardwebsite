@@ -2,12 +2,40 @@
 @import "../css-base/_mixins";
 
 .img-hldr {
-  @include component-padding-top-bottom('bottomPadding');
+  @include component-padding-top-bottom('ui-Image');
   position: relative;
-  background: transparent url(../../assets/images/img-component-bg.jpg);
+  // background: transparent url(../../assets/images/img-component-bg.jpg);
+
+  // .img-bg-hldr {
+  //
+  // }
+
+  &:before {
+    content:"";
+    position:absolute;
+    top: $component-padding-top-xs;
+    left:0;
+    right:0;
+    bottom:0;
+    background: transparent url(../../assets/images/img-component-bg.jpg);
+
+
+    @include breakpoint($break-pt-sm) {
+      top: $component-padding-top-sm;
+    }
+
+    @include breakpoint($break-pt-md) {
+      top: $component-padding-top-md;
+    }
+
+    @include breakpoint($break-pt-lg) {
+      top: $component-padding-top-lg;
+    }
+  }
 
   .img-hldr-inner {
     margin-bottom: $base-spacing;
+    position: relative;
 
     &:last-of-type {
       margin-bottom: 0;
