@@ -41,7 +41,7 @@ export default class NavLinks extends Component {
         <div className="nav-column nav-column-about grid__col-12 grid__col-sm-4 grid--order-1-sm">
           <h3 className="title underline">{title}</h3>
           <p>
-            {weAre}<br/>
+            <div dangerouslySetInnerHTML={ {__html: weAre} } />
             <span className="contact">
               <a href="tel:+1-415-263-7383">
                 415-263-7383
