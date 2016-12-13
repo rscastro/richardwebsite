@@ -1,14 +1,6 @@
 @import "../css-base/_variables";
 @import "../css-base/_mixins";
 
-// .details {
-//   .grid {
-//     @include breakpoint(max $break-pt-md) {
-//       text-align: left;
-//     }
-//   }
-// }
-
 .details {
   @include component-padding-top-bottom();
   position: relative;
