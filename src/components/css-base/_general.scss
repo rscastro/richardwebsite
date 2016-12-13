@@ -5,7 +5,8 @@
 
 html,
 body {
-  background: $off-black;
+  background: $off-black url(../../assets/images/img-component-bg.jpg);
+  background-attachment: fixed;
   border: 0;
   margin: 0;
   padding: 0;

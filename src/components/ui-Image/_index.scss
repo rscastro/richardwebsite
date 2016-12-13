@@ -4,11 +4,6 @@
 .img-hldr {
   @include component-padding-top-bottom('ui-Image');
   position: relative;
-  // background: transparent url(../../assets/images/img-component-bg.jpg);
-
-  // .img-bg-hldr {
-  //
-  // }
 
   &:before {
     content:"";
@@ -17,8 +12,6 @@
     left:0;
     right:0;
     bottom:0;
-    background: transparent url(../../assets/images/img-component-bg.jpg);
-
 
     @include breakpoint($break-pt-sm) {
       top: $component-padding-top-sm;
