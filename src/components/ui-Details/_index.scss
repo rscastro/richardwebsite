@@ -1,6 +1,14 @@
 @import "../css-base/_variables";
 @import "../css-base/_mixins";
 
+// .details {
+//   .grid {
+//     @include breakpoint(max $break-pt-md) {
+//       text-align: left;
+//     }
+//   }
+// }
+
 .details {
   @include component-padding-top-bottom();
   position: relative;
@@ -14,19 +22,7 @@
       padding-bottom: 0;
     }
 
-    @include breakpoint($break-pt-xs) {
-      margin-right: 0;
-    }
-
-    @include breakpoint($break-pt-sm) {
-      margin-right: 0;
-    }
-
     @include breakpoint($break-pt-md) {
-      margin-right: 16.66667%;
-    }
-
-    @include breakpoint($break-pt-lg) {
       margin-right: 16.66667%;
     }
 

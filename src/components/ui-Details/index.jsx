@@ -39,16 +39,16 @@ export default class Details extends Component {
         <GridLines />
         <div className="wrapper">
           <div className="grid grid--justify-center">
-            <div className="grid__col-sm-4 grid__col-md-4 grid__col-lg-2 project-link">
+            <div className="grid__col-sm-4 grid__col-md-2 grid__col-lg-2 project-link">
               <h5 className="title overline" style={projectLinkColorStyle}>
                 <a href={siteurl} target="_blank">{ siteurlLinkTitle }</a>
               </h5>
             </div>
-            <div className="grid__col-sm-4 grid__col-md-4 grid__col-lg-2 list1-hldr">
+            <div className="grid__col-sm-4 grid__col-md-2 grid__col-lg-2 list1-hldr">
               <h5 className="title overline">{ list1Title }</h5>
               <List items={list1} className={ 'details-list list1-ul' } />
             </div>
-            <div className="grid__col-sm-4 grid__col-md-4 grid__col-lg-2 list2-hldr">
+            <div className="grid__col-sm-4 grid__col-md-2 grid__col-lg-2 list2-hldr">
               <h5 className="title overline">{ list2Title }</h5>
               <List items={list2} className={ 'details-list gray list2-ul' } />
             </div>

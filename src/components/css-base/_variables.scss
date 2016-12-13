@@ -1,3 +1,5 @@
+@import "~reflex-grid/scss/reflex/variables";
+
 // Colors
 $black:      #000;
 $off-black:  #202020;
@@ -16,11 +18,11 @@ $break-pt-md: 76.8rem;
 $break-pt-lg: 99.2rem;
 $break-pt-xl: 120rem;
 
-// $reflex-xs: 480px !default;
-// $reflex-sm: 768px !default;
-// $reflex-md: 992px !default;
-// $reflex-lg: 1200px !default;
-// $reflex-xlg: 1600px !default;
+$reflex-xs: $break-pt-xs;
+$reflex-sm: $break-pt-sm;
+$reflex-md: $break-pt-md;
+$reflex-lg: $break-pt-lg;
+$reflex-xlg: $break-pt-xl;
 
 // Available breakpoints
 // @include breakpoint($break-pt-sm) {}
