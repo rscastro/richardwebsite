@@ -20,13 +20,15 @@
 
   .hero__img {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-position: center center;
+    top: -4rem;
+    right: -4rem;
+    bottom: -4rem;
+    left: -4rem;
     background-size: cover;
-    filter: grayscale(100%);
+    background-position: center center;
+    //filter: grayscale(100%);
+    opacity: 0;
+    transition: opacity 1s, top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
   }
 
   .hero__color-overlay {
