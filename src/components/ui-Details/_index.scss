@@ -14,19 +14,7 @@
       padding-bottom: 0;
     }
 
-    @include breakpoint($break-pt-xs) {
-      margin-right: 0;
-    }
-
-    @include breakpoint($break-pt-sm) {
-      margin-right: 0;
-    }
-
     @include breakpoint($break-pt-md) {
-      margin-right: 16.66667%;
-    }
-
-    @include breakpoint($break-pt-lg) {
       margin-right: 16.66667%;
     }
 
