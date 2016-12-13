@@ -21,7 +21,7 @@ export default class HomeHero extends Component {
     this.controls = null;
     this.decrement = .000025;
     this.cameraPos = 1300;
-    this.fog = 0.0022;
+    this.fog = 0.0021;
     this.xS = 180;
     this.yS = 180;
     this.mesh = new this.THREE.MeshBasicMaterial({
@@ -39,9 +39,9 @@ export default class HomeHero extends Component {
       turbulent: true,
       useBufferGeometry: true,
       xSegments: this.xS,
-      xSize: 900,
+      xSize: 1000,
       ySegments: this.yS,
-      ySize: 900
+      ySize: 1000
     });
     this.iteration = 0;
     this.totalIteration = 100;
@@ -77,7 +77,7 @@ export default class HomeHero extends Component {
     this.container = document.getElementById('hero-container');
     this.renderer.setSize( this.container.offsetWidth, window.innerHeight );
     this.container.appendChild( this.renderer.domElement );
-    this.camera = new this.THREE.PerspectiveCamera( 110, this.container.offsetWidth/window.innerHeight, 200, 1200 );
+    this.camera = new this.THREE.PerspectiveCamera( 110, this.container.offsetWidth/window.innerHeight, 1, 2000 );
     this.camera.position.x = 0;
     this.camera.position.y = this.cameraPos;
     this.camera.position.z = 0;
