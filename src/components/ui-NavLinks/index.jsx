@@ -29,8 +29,7 @@ export default class NavLinks extends Component {
         aboutInfo: {
           title,
           weAre,
-          email,
-          address1
+          email
         },
         navColumns
       }
@@ -53,7 +52,6 @@ export default class NavLinks extends Component {
                 {email}
               </a>
             </span><br/>
-            <span className="addr">{address1}</span>
           </p>
           <SocialMediaIcons />
         </div>
