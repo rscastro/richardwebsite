@@ -24,7 +24,7 @@
         {
           "type": "Work",
           "title": "twitter flight school",
-          "url": "/work/twitter-marketing",
+          "url": "/work/twitter-flight-school",
           "img": "/images/home-workgrid/fs-sq.jpg",
           "size": "md"
         },
@@ -38,7 +38,7 @@
         {
           "type": "Work",
           "title": "maisons de france",
-          "url": "work/airbnb-maisons-de-france",
+          "url": "/work/airbnb-maisons-de-france",
           "img": "/images/home-workgrid/abb-mdf-sq.jpg",
           "size": "sm"
         },
@@ -94,21 +94,21 @@
         {
           "type": "Work",
           "title": "thinknear",
-          "url": "/thinknear",
+          "url": "/work/thinknear",
           "img": "/images/home-workgrid/thinknear-sq.jpg",
           "size": "sm"
         },
         {
           "type": "work",
           "title": "mede analytics",
-          "url": "/mede-analytics",
+          "url": "/work/mede-analytics",
           "img": "/images/home-workgrid/mede-analytics-sq.jpg",
           "size": "sm"
         },
         {
           "type": "work",
           "title": "twitter videohub",
-          "url": "/twitter-videohub",
+          "url": "/work/twitter-videohub",
           "img": "/images/home-workgrid/twitter-videohub-sq.jpg",
           "size": "sm"
         }
