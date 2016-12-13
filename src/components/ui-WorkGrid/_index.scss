@@ -56,22 +56,43 @@
         z-index: 1;
         padding: $column-padding;
         text-align: center;
-        letter-spacing: .5rem;
+        letter-spacing: .2rem;
+
+        @include breakpoint($break-pt-sm) {
+          letter-spacing: .5rem;
+        }
 
         .type-title {
           position: absolute;
           top: $column-padding;
           right: 0;
           left: 0;
+
+          @include fontsize(1.4rem, 2rem);
+
+          @include breakpoint($break-pt-sm) {
+            @include fontsize(1.6rem, 2.4rem);
+          }
         }
 
         .title-hldr {
           @include vertical-align();
           width: 100%;
-          padding: 15px;
+          padding: 0;
+
+
+
+          @include breakpoint($break-pt-sm) {
+            padding: 15px;
+          }
 
           .title {
+            @include fontsize(1.4rem, 2rem);
             color: $white;
+
+            @include breakpoint($break-pt-sm) {
+              @include fontsize(1.6rem, 2.4rem);
+            }
           }
         }
       }
