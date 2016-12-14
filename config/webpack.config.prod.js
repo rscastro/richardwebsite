@@ -1,4 +1,3 @@
-var path = require('path');
 var autoprefixer = require('autoprefixer');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -229,6 +228,7 @@ module.exports = {
     new webpack.optimize.UglifyJsPlugin({
       compress: {
         screw_ie8: true, // React doesn't support IE8
+        drop_console: true,
         warnings: false
       },
       mangle: {

@@ -1,6 +1,12 @@
 @import "../css-base/_variables";
 @import "../css-base/_mixins";
 
+.nav-column {
+  .nav-we-are {
+    display: block;
+  }
+}
+
 .nav-hldr {
   position: fixed;
   top: 0;
