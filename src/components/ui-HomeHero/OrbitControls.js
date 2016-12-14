@@ -492,8 +492,8 @@ THREE.OrbitControls = function ( object, domElement ) {
 
   }
 
-  function handleMouseUp( event ) {
-    console.log(event);
+  function handleMouseUp( ) {
+    
     //console.log( 'handleMouseUp' );
 
   }
