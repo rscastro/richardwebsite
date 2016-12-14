@@ -1,12 +1,11 @@
-const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 const boom = require('express-boom');
+const compression = require('compression');
 // const env = process.env.NODE_ENV || 'development';
 // const config = require(__dirname + '/config/config.json')[env]; TODO: hookup config if needed
 
-const models = path.join(__dirname, './models');
 const port = process.env.PORT || 3000;
 
 const app = express();
@@ -18,6 +17,7 @@ module.exports = {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(boom());
+app.use(compression());
 
 // Serve static assets
 app.use(express.static(path.resolve(__dirname, '..', 'build')));
