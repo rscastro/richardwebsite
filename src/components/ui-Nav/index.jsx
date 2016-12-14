@@ -89,7 +89,6 @@ export default class Nav extends Component {
     // const hamburgerPositionTween = TweenLite.to('.hamburger-icon', duration, {top: '-15'});
     const navTween = new TimelineMax()
 			.to(logoMarkNode, duration, { opacity:'0', display:'none' }, 0);
-
     if (screenWidth <= this.phoneWidth) {
       navTween.to('.hamburger-icon', duration, { top:'-15' }, 0);
     }
