@@ -155,10 +155,10 @@ export default class Nav extends Component {
           <div className="nav-bar">
             <div className="wrapper">
               <div className="nav-bar-inner text-center">
-                <a href="/">
+                <a className="logo-type-a" href="/">
                   <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
                 </a>
-                <a href="/">
+                <a className="logo-mark-a" href="/">
                   <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
                 </a>
                 <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onToggleNav.bind(this)} />
