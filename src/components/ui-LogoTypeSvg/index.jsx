@@ -61,7 +61,7 @@ export default class LogoTypeSvg extends Component {
             <path id="m1b" className="reveal" d="M4.777,40.978L4.777,40.978H0l0,0"/>
             <path id="m2b" className="reveal" d="M2.721,10.843L2.721,10.843L0,0.933l0,0L2.721,10.843z"/>
             <path id="m3b" className="reveal" d="M21.954,31.73L21.954,31.73v-7.014l0,0V31.73z"/>
-            <path id="m4b" className="reveal" d="M43.807,0.933L43.807,0.933l-4.777,11.184v0.065"/>
+            <path id="m4b" className="reveal" d="M43.807,0.933L43.807,0.933l-4.777,11.184"/>
           </g>
           <g id="A">
             <path id="a1" className="mask" d="M78.625,6.212L60.353,40.51h-5.316L76.2,1.079"/>
@@ -96,7 +96,7 @@ export default class LogoTypeSvg extends Component {
             <path id="n1" className="mask" d="M274.878,0.015v40.556h4.777V4.744"/>
             <path id="n1b" className="reveal" d="M274.878,40.571L274.878,40.571h4.777l0,0"/>
             <path id="n2" className="mask" d="M275.453,7.197l34.695,33.781l-4.777-11.282L274.878,0.015L275.453,7.197z"/>
-            <path id="n2b" className="reveal" d="M275.359,6.759l0.078,0.078l-0.56-6.822l0,0L275.359,6.759z"/>
+            <path id="n2b" className="reveal" d="M275.359,6.759l0.0,0.0l-0.56-6.822l0,0L275.359,6.759z"/>
             <path id="n3" className="mask" d="M310.148,40.978V0.523h-4.777v35.517L310.148,40.978z"/>
             <path id="n3b" className="reveal" d="M310.148,40.978L310.148,40.978l-4.777-4.906v-0.016L310.148,40.978z"/>
           </g>
