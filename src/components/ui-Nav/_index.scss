@@ -40,24 +40,36 @@
     .nav-bar-inner {
       position: relative;
 
-      .logo-type {
-        position: absolute;
-        top: 4.75rem;
-        left: $column-padding;
-        display: none;
-        opacity: 0;
-        width: 15rem;
-        height: 2rem;
+      .logo-type-a {
+        display: inline-block;
+
+        .logo-type {
+          position: absolute;
+          top: 3.2rem;
+          left: $column-padding;
+          display: none;
+          opacity: 0;
+          width: 15rem;
+          height: 2rem;
+
+          @include breakpoint($break-pt-sm) {
+            top: 4.75rem;
+          }
+        }
       }
 
-      .logo-mark {
-        width: $logo-mark-width-height-sm;
-        height: $logo-mark-width-height-sm;
-        margin: 0 auto;
+      .logo-mark-a {
+        display: inline-block;
+        
+        .logo-mark {
+          width: $logo-mark-width-height-sm;
+          height: $logo-mark-width-height-sm;
+          margin: 0 auto;
 
-        @include breakpoint($break-pt-sm) {
-          width: $logo-mark-width-height-base;
-          height: $logo-mark-width-height-base;
+          @include breakpoint($break-pt-sm) {
+            width: $logo-mark-width-height-base;
+            height: $logo-mark-width-height-base;
+          }
         }
       }
 
@@ -75,15 +87,17 @@
   }
 
   .nav-links-hldr {
-    margin-top: $lg-spacing;
+    margin-top: 0;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    height: calc(100vh - #{$navbar-height-base + $column-padding});
+    height: calc(100vh - #{$navbar-height-sm + $column-padding});
     display: none;
     opacity: 0;
 
     @include breakpoint($break-pt-sm) {
       -webkit-overflow-scrolling: none;
+      margin-top: $lg-spacing;
+      height: calc(100vh - #{$navbar-height-base + $column-padding});
     }
 
     .nav-links {

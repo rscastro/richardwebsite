@@ -89,7 +89,6 @@ export default class Nav extends Component {
     // const hamburgerPositionTween = TweenLite.to('.hamburger-icon', duration, {top: '-15'});
     const navTween = new TimelineMax()
 			.to(logoMarkNode, duration, { opacity:'0', display:'none' }, 0);
-
     if (screenWidth <= this.phoneWidth) {
       navTween.to('.hamburger-icon', duration, { top:'-15' }, 0);
     }
@@ -156,10 +155,10 @@ export default class Nav extends Component {
           <div className="nav-bar">
             <div className="wrapper">
               <div className="nav-bar-inner text-center">
-                <a href="/">
+                <a className="logo-type-a" href="/">
                   <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
                 </a>
-                <a href="/">
+                <a className="logo-mark-a" href="/">
                   <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
                 </a>
                 <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onToggleNav.bind(this)} />
