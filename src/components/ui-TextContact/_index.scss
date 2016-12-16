@@ -1,0 +1,10 @@
+@import '../css-base/_mixins';
+
+.text-contact {
+  @include component-padding-top-bottom();
+  position: relative;
+
+  .copy {
+
+  }
+}
