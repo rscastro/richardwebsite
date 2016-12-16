@@ -36,10 +36,11 @@ export default class TextContact extends Component {
       <div className="text-contact">
         <GridLines />
         <div className="grid grid--justify-center">
-          <div className="grid__col-12 grid__col-sm-6 grid__col-md-6 copy">
+          <div className="grid__col-12 grid__col-sm-8 grid__col-md-6 copy">
             <div dangerouslySetInnerHTML={ {__html: copy} } />
           </div>
-          <div className="grid__col-12 grid__col-sm-4 grid__col-md-2 copy">
+          <div className="grid__col-12 grid__col-sm-4 grid__col-md-2 contacts">
+            <div className="horizontal-line line"></div>
             { this.renderContacts(contacts) }
           </div>
         </div>
