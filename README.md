@@ -63,6 +63,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
+## Analytics
+
+The analytics software used on the website is Google Analytics. As of 12/15/16, the only event being tracked are pageviews, which are tracked for every route change. Any additions to analytics should be added to 'src/u-Analytics' and used as helper functions throughout components.
 
 ## Displaying Lint Output in the Editor
 
