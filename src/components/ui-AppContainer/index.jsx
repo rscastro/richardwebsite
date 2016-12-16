@@ -1,26 +1,20 @@
 import './_index.scss';
 
 import React from 'react';
-import { Router, Route, browserHistory } from 'react-router';
-
-import Home from '../ui-Home';
-import Project from '../ui-Project';
-import Lab from '../ui-Lab';
-import Contact from '../ui-Contact';
 import Nav from '../ui-Nav';
+import { pageview } from '../u-Analytics';
 
 export default class AppContainer extends React.Component {
+  componentWillMount() {
+    const { pathname } = this.props;
+    pageview({pathname: pathname});
+  }
+
   render() {
     return (
       <div className='app-container'>
-        <Router history={browserHistory}>
-            <Route path='work' name='work' component={Project} />
-            <Route path='work/:projectId' component={Project}/>
-            <Route path='labs/:labId' component={Lab}/>
-            <Route path='contact' name='contact' component={Contact} />
-            <Route path='*' component={ Home }/>
-        </Router>
         <Nav />
+        { this.props.children }
       </div>
     );
   }
