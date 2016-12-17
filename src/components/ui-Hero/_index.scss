@@ -5,6 +5,7 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
+  // Overwrite styles for this component are also in ui-Lab and ui-project, specific to those locations
 
   @include breakpoint($break-pt-sm) {
     min-height: 50rem;
