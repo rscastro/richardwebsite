@@ -11,12 +11,12 @@
         "intro": "<p></p>",
         "client": "Martian",
         "launch":"Oct 2014",
-        "projectColor": "666666",
+        "projectColor": "d94c02",
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/metagramme-hero-2.jpg",
-            "copy": "a different way of looking at images.",
+            "copy": "Using image data to look at images differently.",
             "headerOverlayOpacity": ".2"
           },
           {
@@ -26,7 +26,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>We love exploring different ways to process and view images.</p><p>This project stemmed from a 2-year-old idea that was resurrected and built out into something cooler.</p><p>We wanted to average image sets to see what would happen. We hoped that the resulting image would be both a mathematical average of the source images, as well as be representative of the average image content & composition.</p>",
+            "intro": "<p>We love exploring different ways to process and view images. We also love to explore and visualize data.</p><p>This concept stemmed from a sketchbook idea from a couple years prior.</p><p>We wanted to see if we could 'average' a set of images and come up with something cool. <br/>We hoped that the output would be both a mathematical average of the source images, as well as maintain some context with regard to image content & composition.</p>",
             "logo": "/images/metagramme-logo.png"
           },
           {
@@ -47,8 +47,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>The application needed to work on any screen, so the UI was designed to work on both small and large screens.</p><p>The concept is abstract, so we ended up simulating the process in the UI to help show users what was happening.</p><p>The site was a hit, and was featured by Wired Magazine both on their site and their Instagram feed. The production server was run on AWS and was built to scale; it handled the Wired traffic flawlessly.</p>",
-            "copyRight": "<p>This concept is awesome; with this approach, you can quantify and visualize what society thinks \"sadness\" looks like.</p><p>Instagram has a TON of spam. In the future, we hope to add other image sources like Flickr that are more curated.</p><p>We also plan to use higher-resolution images, which will allow users to print out the resulting images.</p>"
+            "copyLeft": "<p>The application needed to work on any screen, so the UI was designed to work on both small and large screens.</p><p>The concept is abstract, so we wanted to simulate the process visually to help users understand what was happening.</p><p>The site was a hit, and was featured by Wired Magazine both on their site and their Instagram feed. The production server was run on AWS and was built to scale; it handled the Wired traffic flawlessly.</p>",
+            "copyRight": "<p>This concept is awesome; theoretically you could visualize what society thinks \"sadness\" looks like.</p><p>We began with Instagram because it seemed to be a straightforward data source. However, Instagram has a ton of spam; \"#apple\" brings up free iPad spam etc. <br/>In the future, we hope to add other image sources like Flickr that are more curated.</p><p>We also plan to use higher-resolution images and allow users to print out the results.</p>"
           },
           {
             "type": "image",
@@ -98,13 +98,13 @@
         "intro": "<p></p>",
         "client": "Martian",
         "launch":"Dec 2014",
-        "projectColor": "EF0173",
+        "projectColor": "d94c02",
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/twfp-hero-1.png",
             "copy": "A rapid-fire, iterative data-visualization experiment",
-            "headerOverlayOpacity": ".6"
+            "headerOverlayOpacity": ".36"
           },
           {
             "type": "sectionHeader",
@@ -113,7 +113,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>We found ourselves with a little bit of free time at the end of one of our sprint cycles. We decided to come up with an idea that we could iterate on and build out within these time constraints.</p><p>This was another project from the archives that we thought could use a little more love.</p><p>We were looking for data and usage patterns that could possibly be used as unique identifiers or fingerprints for each user.</p>",
+            "intro": "<p>We found ourselves with some free time and decided to build something that we could iterate on and get to MVP within this block of time.</p><p>This was another project from the archives that we thought could use a little more love.</p><p>We were looking for data and usage patterns that could possibly be used as unique identifiers or fingerprints for each user.</p>",
             "logo": "/images/martian-logo.png"
           },
           {
@@ -123,8 +123,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Again, time was of the essence. So again, we chose a data source that was a)ubuquitous and well-used and b)that had a robust API.</p><p>The project's interaction was basic enough to combine the wireframe and design iterations into one. We began prototyping as soon as we had settled on the circular graphs.</p><p>We were finishing up Metagramme and some client work, so those had to take priority but any spare time we had at the end of the day was to be devoted to this project.</p>",
-            "copyRight": "<p>This is a perfect example of the agile, iterative process at work. We've built a functioning application, with plenty of room for additional features.</p><p>Conceptually, we think we're on to something. Developing a visual fingerprint for web usage can tell us a lot about a person (or bot).</p><p>This was a fun exploration and a good example of how Agile development and R&D should happen.</p>"
+            "copyLeft": "<p>We chose a data source that was A) ubuquitous and well-used and B) that had a robust API. Twitter fit that perfectly.</p><p>The project's interaction was basic enough to allow us to wireframe and design simultaneously. <br/>We began prototyping as soon as we had settled on the circular graphs.</p>",
+            "copyRight": "<p>This is a perfect example of the agile, iterative process at work. This is how R&D should work. We built a functioning application, with plenty of room for additional features.</p><p>Conceptually, we think we're on to something. Developing a visual fingerprint for web usage can tell us a lot about a person (or bot).</p>"
           },
           {
             "type": "image",
@@ -169,7 +169,7 @@
         "intro": "",
         "client": "Martian",
         "launch":"July 2014",
-        "projectColor": "627847",
+        "projectColor": "d94c02",
         "pageContent": [
           {
             "type": "hero",
@@ -184,7 +184,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Scrum Poker is a critical part of the Agile Development Process. Unfortunately, there's no good standard practice.</p><p>Estimating the level of effort required to complete a task happens in the Sprint planning phase in Agile development.</p><p>Currently, the standard practice is to have a literal deck of cards, or download an app that just displays a number on your phone to show the group.</p>",
+            "intro": "<p>Scrum Poker is a critical part of the Agile Development Process; estimating tasks happens in the Sprint planning phase.<br/>Unfortunately, there's no good standard way to do this.</p><p>Currently the standard practice is to have a literal deck of cards, or download an app that just displays a number on your phone to show the group.</p>",
             "logo": "/images/martian-logo.png"
           },
           {
@@ -194,8 +194,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>The biggest pain-points are actually tallying the votes up manually, doing so without influencing others, and working with a distributed team over Google Hangouts.</p><p>We were messing around with sockets and the concept of real-time peer connection, and came up with a solution that would be simpler to use, as well as provide more pertinent information.</p><p>This was a no-brainer in terms of requirements; this was a simple solution to a very tedious part of the Agile process.</p>",
-            "copyRight": "<p>The final app allows multiple table generation, anonymous voting, and a dealer-override button. Offsite team members' votes are identical to those attending in-person.</p><p>In addition to your own vote, the results screen shows the mean, the mode, the lowest and highest votes, as well as the table ID and the dealer name.</p><p>This tool simplifies the sprint planning process and saves a ton of time in the process.</p>"
+            "copyLeft": "<p>The biggest pain-points are actually tallying the votes up manually, doing so without influencing others, and working with a distributed team.</p><p>We were messing around with sockets and the concept of real-time peer connection, and came up with an awesome solution.</p><p>This was a no-brainer in terms of requirements; this was a simple solution to a very tedious part of the Agile process.</p>",
+            "copyRight": "<p>The app allows multiple tables, anonymous voting, and a dealer-override button. Offsite team members' votes are identical to those attending in-person.</p><p>In addition to your own vote, the results screen shows the mean, the mode, the lowest and highest votes, as well as the table ID and the dealer name.</p><p>This tool simplifies the sprint planning process and saves a ton of time in the process.</p>"
           },
           {
             "type": "details",

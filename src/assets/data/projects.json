@@ -16,7 +16,7 @@
           {
             "type": "hero",
             "src": "/images/mtc-header-1.jpg",
-            "copy": "A fully responsive, dynamic platform capable of easily generating and managing thousands of pages for Twitter Marketing",
+            "copy": "A fully responsive, dynamic platform to generate and manage thousands of pages for Twitter Marketing",
             "headerOverlayOpacity": ".4"
           },
           {
@@ -46,6 +46,18 @@
               {
                 "title": "",
                 "src": "/images/mtc-full-2.png"
+              },
+              {
+                "title": "",
+                "src": "/images/mtc-full-3.png"
+              },
+              {
+                "title": "",
+                "src": "/images/mtc-full-4.png"
+              },
+              {
+                "title": "",
+                "src": "/images/mtc-full-5.png"
               }
             ]
           },
@@ -66,24 +78,6 @@
               { "title": "" },
               { "title": "" },
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/mtc-full-3.png"
-              },
-              {
-                "title": "",
-                "src": "/images/mtc-full-4.png"
-              },
-              {
-                "title": "",
-                "src": "/images/mtc-full-5.png"
-              }
             ]
           },
           {
@@ -125,7 +119,7 @@
           {
             "type": "hero",
             "src": "/images/fs-header-1.jpg",
-            "copy": "Twitter's online global learning application for marketers and advertisers.",
+            "copy": "A global e-learning application for Twitter's advertising and marketing clients.",
             "headerOverlayOpacity": ".4"
           },
           {
@@ -135,7 +129,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Twitter's Flight School started as an e-learning tool for a very niche audience. It proved to be extremely successful, so it was expanded into multiple markets on a global scale.</p><p>The biggest challenge was updating the UI, Backend, etc without disrupting the constant daily users.</p>",
+            "intro": "<p>Twitter's Flight School started as an e-learning tool for a very niche audience. It proved to be extremely successful, so it was quickly expanded into multiple markets on a global scale.</p><p>The biggest challenge was scaling both the UI and Backend without disrupting the existing daily users.</p>",
             "logo": "/images/twtr-logo.png"
           },
           {
@@ -145,8 +139,22 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>This project was built using the React framework, and we ran this with strict Agile sprints.</p><p>As the project scaled, multiple stakeholders became involved with differing priorities. Maintaining a strict Agile workflow, we were to prioritize the backlog.</p>",
-            "copyRight": "<p>In this way, the stakeholders were able to have visibility into the project timeline and work out prioritization amongst themselves while having full transparency into the project.</p>"
+            "copyLeft": "<p>This project was built using the React framework, and we ran this with strict Agile sprints.</p><p>As the project scaled, multiple stakeholders became involved with differing priorities. Maintaining a strict Agile workflow, we were able to prioritize the backlog.</p>",
+            "copyRight": "<p>Working this way gave the stakeholders visibility into the project timeline and let them prioritize features amongst themselves while having full transparency into the impact of their decisions on the product.</p>"
+          },
+          {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "",
+                "src": "/images/fs-full-2.png"
+              },
+              {
+                "title": "",
+                "src": "/images/fs-full-1.png"
+              }
+            ]
           },
            {
             "type": "details",
@@ -163,20 +171,6 @@
             "list2": [
               { "title": "" }
             ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "",
-                "src": "/images/fs-full-2.png"
-              },
-              {
-                "title": "",
-                "src": "/images/fs-full-1.png"
-              }
-            ]
           }
         ]
       },
@@ -192,7 +186,7 @@
           {
             "type": "hero",
             "src": "/images/abb-mdf-header.jpg",
-            "copy": "A multi-phase contest to find the most iconic residence in each district in France.",
+            "copy": "A multi-phase contest to find the most iconic Airbnb residence in each district in France.",
             "headerOverlayOpacity": ".6"
           },
           {
@@ -202,7 +196,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Airbnb wanted to host a contest in France that would let users submit their unique Airbnb listings.</p><p>Judges narrowed down the submissions to three finalists in each region.</p><p>The public could then vote on their favorite listings in each of the 14 regions.</p>",
+            "intro": "<p>Airbnb wanted to host a contest in France to showcase the unique Airbnb listings in the country.</p><p>Users submitted their listings, then judges narrowed down the submissions to three finalists in each region.</p><p>The public could then vote on their favorite listings in each of the 14 regions.</p>",
             "logo": "/images/airbnb-logo.png"
           },
           {
@@ -222,8 +216,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>We built a system that was secure enough to be accurate, but simple enough to keep people from dropping off before voting.</p>",
-            "copyRight": "<p>The contest received thousands of submissions. There were attempts at cheating the voting system but our backups were able to detect these cheating patterns quickly.</p>"
+            "copyLeft": "<p>The voting system needed to be secure enough to be accurate, but simple enough to keep people from dropping off before voting.</p>",
+            "copyRight": "<p>The contest received thousands of submissions. There were attempts at cheating the voting system but our backups were able to detect and quickly remove cheating patterns.</p>"
           },
           {
             "type": "image",
@@ -266,7 +260,7 @@
             "type": "hero",
             "src": "/images/abb-rt-hero.jpg",
             "copy": "Helping to change how people use Airbnb when planning trips.",
-            "headerOverlayOpacity": ".4"
+            "headerOverlayOpacity": ".1"
           },
           {
             "type": "sectionHeader",
@@ -275,7 +269,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>People use Airbnb as a hotel-replacement, but it can be so much more. Road Trips: Rerouted was one attempt at providing road trip ideas along classic routes. These routes just happen to have awesome Airbnb listings along the way.</p>",
+            "intro": "<p>People use Airbnb as a hotel-replacement, but it can be so much more. Road Trips: Rerouted was one attempt at providing road trip ideas along classic routes - these routes just happen to have awesome Airbnb listings along the way.</p>",
             "logo": "/images/airbnb-logo.png"
           },
           {
@@ -285,8 +279,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>We wanted the routes to connect attractions and nearby listings, so we couldn't rely on the Google Maps API to give us path coordinates.</p><p>Getting the coordinates was tricky. We ended up using a combination of Google Earth, Excel, and some code editor magic to gather the data we needed.</p>",
-            "copyRight": "<p>We designed and built this project on an insanely-tight timeline.</p><p>Despite some last-minute listing changes, we launched it on time. The client was happy with what we were able to create.</p>"
+            "copyLeft": "<p>We needed the routes to connect attractions and nearby listings, so we couldn't rely on the Google Maps API to give us path coordinates.</p><p>Getting the coordinates was tricky. We ended up using a combination of Google Earth, Excel, and some code editor magic to gather the data we needed.</p>",
+            "copyRight": "<p>We designed and built this project on a super-tight timeline.</p><p>Even with some last-minute listing and route changes, we launched it on time. The client was happy with what we were able to create.</p>"
           },
           {
             "type": "image",
@@ -334,7 +328,7 @@
             "type": "hero",
             "src": "/images/abb-holidays-hero-1.jpg",
             "copy": "Sharing a New Home for the Holidays in time for Thanksgiving.",
-            "headerOverlayOpacity": ".6"
+            "headerOverlayOpacity": ".1"
           },
           {
             "type": "sectionHeader",
@@ -348,8 +342,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>Airbnb wanted a shareable web app for Thanksgiving that people could use to share their holidays spent in an Airbnb.</p><p>Airbnb and Chiat/Day came up with the concept; Airbnb required Chiat to work with Martian because we knew how their deployment process worked.</p>",
-            "copyRight": "<p>We had less than 2 weeks to do UX, Design and Development. The app needed to grab camera/camera roll images, overlay one of a dozen filters on top, create a url and then be able to share the image on facebook/twitter, as well as be downloadable.</p>"
+            "copyLeft": "<p>Airbnb wanted a shareable web app for Thanksgiving that people could use to share their holidays spent in an Airbnb.</p><p>Airbnb and Chiat/Day came up with the concept; Airbnb needed Chiat to work with Martian because we knew how Airbnb's deployment process worked.</p>",
+            "copyRight": "<p>We had less than 2 weeks to do UX, Design and Development. The app needed to capture camera/camera roll images, overlay one of a dozen filters on top, upload the image to a custom url and then be able to share the image on facebook/twitter, as well as be downloadable.</p>"
           },
           {
             "type": "sectionHeader",
@@ -358,12 +352,12 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>We built the app to post to facebook via a link share. The app was mobile-only, but we realized that the shared content needed to be viewable on desktop to we had to build out some exceptions.</p>",
+            "copyLeft": "<p>We built the app to post to facebook via a link share. The app was mobile-only, but we realized that the shared content needed to be viewable on desktop so we had to build out some exceptions.</p>",
             "copyRight": "<p>We launched the app in time for Thanksgiving; we were proud of what we were able to build in the time given.</p>"
           },
           {
             "type": "image",
-            "size": "lg",
+            "size": "full",
             "images": [
               {
                 "title": "",
@@ -405,7 +399,7 @@
             "type": "hero",
             "src": "/images/sony-hmz-hero-1.jpg",
             "copy": "Building a new UX for a unique product.",
-            "headerOverlayOpacity": ".4"
+            "headerOverlayOpacity": ".14"
           },
           {
             "type": "sectionHeader",
@@ -414,7 +408,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>For years, Sony has been leading the pack in progressing the digital experience. Recently this innovation effort has resulted in a number of new, futuristic products such as the HMZ head-mounted display. The product has generated a lot of buzz and has been labeled as a serious competitor to the revolutionary Oculus Rift.</p><p>Selling the value of such a unique product required a web experience that would match the product's real-world product design. As the device is a video display, the creative team wanted to utilize some sort of video or motion sequence.</p><p>Sony's new site was built for modern browsers, and Sony wanted the showcase module experience to translate across desktop and mobile devices.</p>",
+            "intro": "<p>For years Sony has led the pack in pushing digital experiences, resulting in new, futuristic products such as the HMZ head-mounted display. The product generated a lot of buzz and was labeled as a competitor to the revolutionary Oculus Rift.</p><p>Showcasing such a unique product required a web experience that would match the product's real-world product design; the creative team wanted to utilize some sort of video or motion sequence.</p><p>Sony's new site was built for modern browsers, and Sony wanted this showcase experience to translate across both desktop and mobile devices.</p>",
             "logo": "/images/sony-logo.png"
           },
           {
@@ -424,8 +418,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>There were many different solutions to the problem; Video scrubbing, static image sequence traversing, and animation via time-codes were all attempted. Using html5, css3 and javascript, we tried many solutions and weighed the pros and cons of each.</p><p>Additionally, iPhones don't play video inline so we had to have an alternate technical implementation for that scenario.</p><p>A simple linear dragger wasn't novel enough so we tried different approaches to the animation. We settled on an arc motion to replicate a thumb swipe on a mobile device which felt very natural.</p>",
-            "copyRight": "<p>The technique we settled on was a hybrid of static image sequences that could be toggled on and off in rapid succession, simulating motion. Then, we tied those sequences together with video clips for the transitions.</p><p>The result was a module that was as interesting as the product itself. The interactive integrity was maintained across all devices and screen sizes, and the module gracefully degraded for older browsers.</p>"
+            "copyLeft": "<p>We attempted many different solutions to the problem: video scrubbing, static image sequence traversing, and animation via time-codes were all explored. Using html5, css3 and javascript, we tried many solutions and weighed the pros and cons of each.</p><p>Additionally, iPhones don't play video inline so we had to have an alternate technical implementation for that scenario.</p><p>A simple linear dragger wasn't novel enough so we tried different approaches to the animation. We settled on an arc motion to replicate a thumb swipe on a mobile device which felt very natural.</p>",
+            "copyRight": "<p>The technique we settled on was a hybrid of static image sequences that could be toggled on and off in rapid succession; we then tied those sequences together with video clips for the transitions.</p><p>The result was as interesting as the product itself. The interactive integrity was maintained across all devices and screen sizes, and the module gracefully degraded for older browsers.</p>"
           },
           {
             "type": "image",
@@ -487,7 +481,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Merrill had a very corporate site; the re-brand was solid but the site needed some hero pieces.</p><p></p>",
+            "intro": "<p>Merrill built a cool new corporate site; their re-brand was solid but the site needed some beautiful hero pieces.</p>",
             "logo": "/images/merrill-logo.png"
           },
           {
@@ -497,8 +491,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>We worked with Merrill's agency on the approach and design, and built out some really cool interactive infographics and charts.</p>",
-            "copyRight": "<p>The modules needed to be translated into multiple languages after the fact, so we had to do quite a bit of finagling to get localization working. </p>"
+            "copyLeft": "<p>We worked with Merrill's agency to create some really cool interactive infographics and charts.</p>",
+            "copyRight": "<p>The modules needed to be translated into multiple languages post-launch, so we had to do quite a bit of finagling to get localization working. </p>"
           },
           {
             "type": "image",
@@ -531,6 +525,7 @@
               { "title": "Technical Strategy" },
               { "title": "Prototyping" },
               { "title": "UX" },
+              { "title": "Motion Design" },
               { "title": "Front-end development" }
             ],
             "list2Title": "Technologies",
@@ -549,13 +544,13 @@
         "intro": "",
         "client": "Eventbrite",
         "launch":"Feb 2016",
-        "projectColor": "F6682F",
+        "projectColor": "39C6CD",
         "pageContent": [
           {
             "type": "hero",
             "src": "/images/eventbrite-coyote-hero-1.jpg",
-            "copy": "Re-thinking an overhaul of Eventbrite's core product.",
-            "headerOverlayOpacity": ".6"
+            "copy": "Re-thinking Eventbrite's core product.",
+            "headerOverlayOpacity": ".15"
           },
           {
             "type": "sectionHeader",
@@ -564,7 +559,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Eventbrite is the company to beat when it comes to ticket sales. Lately their UI and overall customer experience was feeling sluggish and dated.</p><p>We helped to prototype out a framework that would allow the design and product teams to iterate quickly and refine the massive core product.</p>",
+            "intro": "<p>Eventbrite is the company to beat when it comes to events. Lately their UI and overall customer experience needed to stay ahead of the competition.</p><p>We helped to prototype out a framework that would allow the design and product teams to iterate quickly and refine the massive core product.</p>",
             "logo": "/images/eventbrite-logo.png"
           },
           {
@@ -575,7 +570,7 @@
           {
             "type": "textColumns",
             "copyLeft": "<p>We built the product on React after talking with Eventbrite's technical team.</p>",
-            "copyRight": "<p></p><p></p>"
+            "copyRight": "<p>We worked closely with Eventbrite's UX and Design teams to iterate through features and functionality.</p><p>The result was a testable platform that Eventbrite could test on actual customers.</p>"
           },
           {
             "type": "image",
@@ -637,7 +632,7 @@
             "type": "hero",
             "src": "/images/thinknear-header-2.jpg",
             "copy": "A flexible site to define a mobile-first technology company.",
-            "headerOverlayOpacity": ".4"
+            "headerOverlayOpacity": ".14"
           },
           {
             "type": "sectionHeader",
@@ -646,7 +641,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Thinknear's design team had desktop comps already; the comps were beautiful but image-heavy. Additionally, they ONLY had desktop comps.</p>",
+            "intro": "<p>Thinknear's design team had desktop comps already; the comps were beautiful but image-heavy. Additionally, they only had desktop comps and needed help designing for mobile devices.</p>",
             "logo": "/images/thinknear-logo.png"
           },
           {
@@ -656,8 +651,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>The client had a ton of content to display and needed an easy way to manage it. This was their first managed site so we chose Wordpress to manage the content.</p>",
-            "copyRight": "<p>The client was able to upload a TON of content to the site and manage it with very little support.. We were happy to find a happy medium between the friendliness of Wordpress' admin interface and a modern static site generator.</p>"
+            "copyLeft": "<p>The client had a ton of content to display and needed an easy way to manage it. This was their first go with a CMS so we chose Wordpress to manage the content.</p>",
+            "copyRight": "<p>The client was able to upload a ton of content to the site and manage it with very little support. We were pleased to pair Wordpress' user-friendly admin interface with a custom static front-end.</p>"
           },
           {
             "type": "image",
@@ -689,8 +684,8 @@
             "list1": [
               { "title": "Technical Architecture" },
               { "title": "UX" },
-              { "title": "Front-end development" },
-              { "title": "Responsive design layout" }
+              { "title": "Front-end Development" },
+              { "title": "Responsive Design" }
             ],
             "list2Title": "Technologies",
             "list2": [
@@ -713,8 +708,8 @@
           {
             "type": "hero",
             "src": "/images/mede-header-2.jpg",
-            "copy": "Using web technologies to build an innovative trade show screen solution.",
-            "headerOverlayOpacity": ".6"
+            "copy": "Using web technologies for an innovative trade-show screen installation.",
+            "headerOverlayOpacity": ".16"
           },
           {
             "type": "sectionHeader",
@@ -723,7 +718,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>Mede Analytics had a huge trade show and needed help standing out among the crowd. They rented a 15' jumbo-tron screen and mounted it above their booth; now they needed content to display. The client wanted to be able to type in messages in realtime and display them on the screen. They also wanted to be able to upload images. Additionally, they wanted to gather input from conference-goers and graph and display this data.</p>",
+            "intro": "<p>Mede had a huge trade show and needed help standing out. They rented a 15' jumbo-tron and mounted it above their booth; now they needed content to display.</p><p> The client wanted to be able to input messages in realtime and display them on the screen. They also wanted to be able to upload images. <br/>Additionally, they wanted to gather input from conference-goers and then graph and display this survey data on the screen.</p>",
             "logo": "/images/mede-logo.png"
           },
           {
@@ -733,8 +728,8 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>We chose to use socket connections for realtime control of the screen. We knew that the browser could handle this type of interaction but weren't sure about 10 hours a day so we began testing immediately. We built different module types with different designs for each. We then created a programmable interface that would control the timing and content contained in the screens.</p>",
-            "copyRight": "<p>We built a mobile web app to gather the survey input; booth hosts would solict people to take the quiz throughout the event via iPads. The client would also share the quiz to their social channels so those not in attendance could also particpate. The application performed well and handled over one thousand survey responses, both from within the conference and via Twitter.</p>"
+            "copyLeft": "<p>We used sockets for real-time control of the screen. We weren't sure how the browser would hold up after 10-hour days so we began testing immediately. <br/>We built different module types with different designs and functionality for each. <br/>We then built an interface that would control the timing and content displayed on the screen.</p>",
+            "copyRight": "<p>We then built a mobile web app to gather the survey input; booth hosts would solict people to take the quiz throughout the event via iPads. <br/>The client also shared the quiz to their social channels so those not in attendance could also particpate. <br/>The application performed well and handled over one thousand survey responses, both from within the conference and via the web.</p>"
           },
           {
             "type": "image",
@@ -757,6 +752,26 @@
                 "src": "/images/mede-full-4.png"
               }
             ]
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Site Unavailable",
+            "siteurl": "#",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Concepting" },
+              { "title": "Technical Architecture" },
+              { "title": "UX" },
+              { "title": "Front-end Development" },
+              { "title": "Back-end Development" },
+              { "title": "Motion Design" }
+            ],
+            "list2Title": "Technologies",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
           }
 
         ]
@@ -774,8 +789,8 @@
           {
             "type": "hero",
             "src": "/images/vidhub-header-3.jpg",
-            "copy": "Twitter asked us to help build out their Video Marketing site. They wanted the site to feel modern and fresh, as well as showcase the new autoplay video functionality feature on Twitter.",
-            "headerOverlayOpacity": ".4"
+            "copy": "A site to showcase Twitter's video capabilites.",
+            "headerOverlayOpacity": ".24"
           },
           {
             "type": "sectionHeader",
@@ -784,7 +799,7 @@
           },
           {
             "type": "intro",
-            "intro": "<p>The site launch coincided with the feature launch happening on twitter.com, so our development process needed to be scalable in case the launch date was moved up.</p><p>Sure enough, the launch date was moved and we had to scale the team. Planning ahead allowed us to scale seamlessly and hit the new date.</p>",
+            "intro": "<p>Twitter wanted to tout their video capabilities.<br/> They had desktop designs and an idea of how they wanted everything to move, but were running into some design roadblocks for smaller screens.</p>",
             "logo": "/images/twtr-logo.png"
           },
           {
@@ -821,6 +836,24 @@
                 "title": "",
                 "src": "/images/vidhub-full-5.png"
               }
+            ]
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Visit Site",
+            "siteurl": "#https://video.twitter.com/about",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Technical Architecture" },
+              { "title": "UX" },
+              { "title": "Front-end Development" },
+              { "title": "Motion Design" }
+            ],
+            "list2Title": "Technologies",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
             ]
           }
         ]
