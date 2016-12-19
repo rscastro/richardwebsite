@@ -18,11 +18,11 @@ export default class WorkGrid extends Component {
       let itemGridSize = '';
       switch (item.size) {
       case 'md':
-        itemGridSize = 'grid__col-6'
+        itemGridSize = 'grid__col-12 grid__col-sm-6'
         break;
       case 'sm':
       default:
-        itemGridSize = 'grid__col-6 grid__col-sm-4'
+        itemGridSize = 'grid__col-12 grid__col-sm-4'
       }
 
       return (
