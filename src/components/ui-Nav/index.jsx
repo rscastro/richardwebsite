@@ -85,8 +85,6 @@ export default class Nav extends Component {
 
     // Logo mark fade out
     this.logoController = new ScrollMagic.Controller();
-    // const logoTween = TweenLite.to(logoMarkNode, duration, { opacity: '0', display:'none'});
-    // const hamburgerPositionTween = TweenLite.to('.hamburger-icon', duration, {top: '-15'});
     const navTween = new TimelineMax()
 			.to(logoMarkNode, duration, { opacity:'0', display:'none' }, 0);
     if (screenWidth <= this.phoneWidth) {

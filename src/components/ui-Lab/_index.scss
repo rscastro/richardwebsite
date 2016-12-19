@@ -11,11 +11,16 @@
     z-index: 1;
   }
 
-  .page-content {
+  .page-content-hldr {
+
     position: relative;
     top: $hero-height;
     z-index: 2;
     background: $off-black;
+
+    .page-content {
+
+    }
   }
 
 }

@@ -46,8 +46,10 @@ export default class Lab extends Component {
           projectColor={ currentLab.projectColor }
           headerOverlayOpacity={ pageHero.headerOverlayOpacity || 0.5 }
         />
-        <PageContent currentProject={ currentLab } />
-        <NavFooter />
+        <div className="page-content-hldr">
+          <PageContent currentProject={ currentLab } />
+          <NavFooter />
+        </div>
       </div>
     );
   }
