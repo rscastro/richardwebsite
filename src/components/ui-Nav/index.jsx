@@ -50,9 +50,6 @@ export default class Nav extends Component {
       TweenLite.to('.nav-bg', duration, {opacity:0, display:'none'});
       TweenLite.to(logoTypeNode, duration, {opacity:0, display:'none'});
       TweenLite.to(logoMarkNode, duration, {opacity:0, display:'none'});
-      // if (logoFadedOut === 1) {
-      //   TweenLite.to(logoMarkNode, duration, {opacity:0, display:'none'});
-      // }
       TweenLite.to('.nav-links-hldr', duration, {opacity:0, display: 'none' });
       TweenLite.to('.nav-links', duration, { opacity:0, display:'none' });
 
@@ -77,7 +74,6 @@ export default class Nav extends Component {
 
   setupScrollMagic() {
     const duration = .2;
-    const logoMarkNode = this.refs.logoMark;
     const toggleLogoState = this.toggleLogoState.bind(this);
 
     const {
@@ -87,7 +83,6 @@ export default class Nav extends Component {
     // Logo mark fade out
     this.logoController = new ScrollMagic.Controller();
     const navTween = new TimelineMax();
-			// .to(logoMarkNode, duration, { opacity:'0', display:'none' }, 0);
     if (screenWidth <= this.phoneWidth) {
       navTween.to('.hamburger-icon', duration, { top:'-15' }, 0);
     }
