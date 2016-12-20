@@ -49,9 +49,7 @@ export default class Nav extends Component {
       // Close the nav
       TweenLite.to('.nav-bg', duration, {opacity:0, display:'none'});
       TweenLite.to(logoTypeNode, duration, {opacity:0, display:'none'});
-      if (logoFadedOut === 1) {
-        TweenLite.to(logoMarkNode, duration, {opacity:0, display:'none'});
-      }
+      TweenLite.to(logoMarkNode, duration, {opacity:0, display:'none'});
       TweenLite.to('.nav-links-hldr', duration, {opacity:0, display: 'none' });
       TweenLite.to('.nav-links', duration, { opacity:0, display:'none' });
 
@@ -61,7 +59,7 @@ export default class Nav extends Component {
       // Open the nav
       TweenLite.to('.nav-links', 0, {y:'-100'}); // This should be solved differently, hacky...
       TweenLite.to('.nav-bg', duration, {opacity:1, display:'block'});
-      TweenLite.to(logoMarkNode, duration, {opacity:1, display:'block'});
+      TweenLite.to(logoMarkNode, duration, {opacity:1, display:'inline-block'});
       if (screenWidth > this.phoneWidth) {
         TweenLite.to(logoTypeNode, duration, { opacity:1, display:'inline-block', delay:duration/2 });
       }
@@ -76,7 +74,6 @@ export default class Nav extends Component {
 
   setupScrollMagic() {
     const duration = .2;
-    const logoMarkNode = this.refs.logoMark;
     const toggleLogoState = this.toggleLogoState.bind(this);
 
     const {
@@ -85,17 +82,14 @@ export default class Nav extends Component {
 
     // Logo mark fade out
     this.logoController = new ScrollMagic.Controller();
-    // const logoTween = TweenLite.to(logoMarkNode, duration, { opacity: '0', display:'none'});
-    // const hamburgerPositionTween = TweenLite.to('.hamburger-icon', duration, {top: '-15'});
-    const navTween = new TimelineMax()
-			.to(logoMarkNode, duration, { opacity:'0', display:'none' }, 0);
+    const navTween = new TimelineMax();
     if (screenWidth <= this.phoneWidth) {
       navTween.to('.hamburger-icon', duration, { top:'-15' }, 0);
     }
 
     const logoScene = new ScrollMagic.Scene({
-      triggerElement: '.app-container',
-      offset: 70,
+      triggerElement: '.page-content-hldr',
+      offset: -75,
       triggerHook: 0,
     })
     .setTween(navTween)
@@ -155,11 +149,11 @@ export default class Nav extends Component {
           <div className="nav-bar">
             <div className="wrapper">
               <div className="nav-bar-inner text-center">
-                <a className="logo-type-a" href="/">
-                  <img ref="logoType" src={LogoType} alt={navData.title} className="logo-type" />
+                <a ref="logoType" className="logo-type-a" href="/">
+                  <img src={LogoType} alt={navData.title} className="logo-type" />
                 </a>
-                <a className="logo-mark-a" href="/">
-                  <img ref="logoMark" src={LogoMark} alt={navData.title} className="logo-mark" />
+                <a ref="logoMark" className="logo-mark-a" href="/">
+                  <img src={LogoMark} alt={navData.title} className="logo-mark" />
                 </a>
                 <HamburgerIcon navOpen={this.state.navOpen} className="hamburger" onToggleNav={this.onToggleNav.bind(this)} />
               </div>

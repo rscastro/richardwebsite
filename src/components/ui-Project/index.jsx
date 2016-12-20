@@ -5,7 +5,7 @@ const projectsData = require('../../assets/data/projects.json');
 import React, { Component } from 'react';
 import PageContent from '../ui-PageContent';
 import NavFooter from '../ui-NavFooter';
-import WorkGrid from '../ui-WorkGrid';
+import Hero from '../ui-Hero';
 
 export default class Project extends Component {
 
@@ -53,16 +53,25 @@ export default class Project extends Component {
   }
 
   render() {
-    const { currentProject } = this.state;
+    const {
+      currentProject,
+      currentProject: {
+        pageHero
+      }
+    } = this.state;
 
     return (
       <div className="project">
-        <PageContent currentProject={ currentProject } />
-        <WorkGrid
-          id={ currentProject.projectID }
-          workgridItems={ this.getPageSuggestions(currentProject, 'work') }
+        <Hero
+          src={ pageHero.src }
+          copy={ pageHero.copy }
+          projectColor={ currentProject.projectColor }
+          headerOverlayOpacity={ pageHero.headerOverlayOpacity || 0.5 }
         />
-        <NavFooter />
+        <div className="page-content-hldr">
+          <PageContent currentProject={ currentProject } />
+          <NavFooter />
+        </div>
       </div>
     );
   }

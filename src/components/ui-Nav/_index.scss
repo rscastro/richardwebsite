@@ -40,8 +40,19 @@
     .nav-bar-inner {
       position: relative;
 
-      .logo-type-a {
+      .hamburger-icon {
+        position: absolute;
+        top: 2.8rem;
+        right: $column-padding;
         display: inline-block;
+
+        @include breakpoint($break-pt-sm) {
+          top: 3.6rem;
+        }
+      }
+
+      .logo-type-a {
+        display: none;
 
         .logo-type {
           position: absolute;
@@ -59,8 +70,8 @@
       }
 
       .logo-mark-a {
-        display: inline-block;
-        
+        display: none;
+
         .logo-mark {
           width: $logo-mark-width-height-sm;
           height: $logo-mark-width-height-sm;
@@ -70,17 +81,6 @@
             width: $logo-mark-width-height-base;
             height: $logo-mark-width-height-base;
           }
-        }
-      }
-
-      .hamburger-icon {
-        position: absolute;
-        top: 2.8rem;
-        right: $column-padding;
-        display: inline-block;
-
-        @include breakpoint($break-pt-sm) {
-          top: 3.6rem;
         }
       }
     }

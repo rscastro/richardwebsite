@@ -1,6 +1,7 @@
 import './_index.scss';
 
 import React, { Component } from 'react';
+import Logos from '../ui-Logos';
 
 export default class Hero extends Component {
 
@@ -78,6 +79,7 @@ export default class Hero extends Component {
             </div>
           </div>
         </div>
+        <Logos />
       </div>
     );
   }

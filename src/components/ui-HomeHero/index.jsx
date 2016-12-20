@@ -2,6 +2,7 @@ import './_index.scss';
 
 import React, { Component } from 'react';
 import LogoTypeSvg from '../ui-LogoTypeSvg';
+import Logos from '../ui-Logos';
 
 import THREELib from 'three-js';
 import './OrbitControls.js';
@@ -152,6 +153,7 @@ export default class HomeHero extends Component {
             <LogoTypeSvg />
           </div>
         </main>
+        <Logos />
       </div>
     );
   }

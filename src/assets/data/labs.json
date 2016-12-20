@@ -10,14 +10,13 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Oct 2014",
-        "projectColor": "d94c02",
+        "projectColor": "666666",
+        "pageHero": {
+          "src": "/images/metagramme-hero-2.jpg",
+          "copy": "a different way of looking at images.",
+          "headerOverlayOpacity": ".2"
+        },
         "pageContent": [
-          {
-            "type": "hero",
-            "src": "/images/metagramme-hero-2.jpg",
-            "copy": "Using image data to look at images differently.",
-            "headerOverlayOpacity": ".2"
-          },
           {
             "type": "sectionHeader",
             "number": "01",
@@ -38,7 +37,6 @@
               }
             ]
           },
-
           {
             "type": "sectionHeader",
             "number": "02",
@@ -96,14 +94,13 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Dec 2014",
-        "projectColor": "d94c02",
+        "projectColor": "EF0173",
+        "pageHero": {
+          "src": "/images/twfp-hero-1.png",
+          "copy": "A rapid-fire, iterative data-visualization experiment",
+          "headerOverlayOpacity": ".6"
+        },
         "pageContent": [
-          {
-            "type": "hero",
-            "src": "/images/twfp-hero-1.png",
-            "copy": "A rapid-fire, iterative data-visualization experiment",
-            "headerOverlayOpacity": ".36"
-          },
           {
             "type": "sectionHeader",
             "number": "01",
@@ -166,14 +163,13 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"July 2014",
-        "projectColor": "d94c02",
+        "projectColor": "627847",
+        "pageHero": {
+          "src": "/images/scrumpoker-hero-1.jpg",
+          "copy": "Making tools to simplify our internal workflow",
+          "headerOverlayOpacity": ".6"
+        },
         "pageContent": [
-          {
-            "type": "hero",
-            "src": "/images/scrumpoker-hero-1.jpg",
-            "copy": "Making tools to simplify our internal workflow",
-            "headerOverlayOpacity": ".6"
-          },
           {
             "type": "sectionHeader",
             "number": "01",

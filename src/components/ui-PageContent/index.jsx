@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 
-import Hero from '../ui-Hero';
 import Intro from '../ui-Intro';
 import SectionHeader from '../ui-SectionHeader';
 import TextColumns from '../ui-TextColumns';
 import Image from '../ui-Image';
 import Details from '../ui-Details';
-import HomeHero from '../ui-HomeHero';
 import Tagline from '../ui-Tagline';
 import WorkGrid from '../ui-WorkGrid';
 import TextContact from '../ui-TextContact';
@@ -28,17 +26,7 @@ export default class PageContent extends Component {
     let projectColor = currentProject.projectColor;
 
     return pageContent.map((component, index) => {
-      if (component.type === 'hero') {
-        return (
-          <Hero
-            key={ `${component.type}-${index}` }
-            src={ component.src }
-            copy={ component.copy }
-            projectColor={ projectColor }
-            headerOverlayOpacity={ component.headerOverlayOpacity || 0.5 }
-          />
-        );
-      } else if (component.type === 'intro') {
+      if (component.type === 'intro') {
         return (
           <Intro
             key={ `${component.type}-${index}` }
@@ -91,14 +79,6 @@ export default class PageContent extends Component {
             list2Title={ component.list2Title }
             list2={ component.list2 }
             projectColor={ projectColor }
-          />
-        );
-      } else if (component.type === 'homeHero') {
-        return (
-          <HomeHero
-            key={ `${component.type}-${index}` }
-            src={ component.src }
-            title={ component.title }
           />
         );
       } else if (component.type === 'tagline') {
