@@ -7,8 +7,7 @@
       {
         "labID": "metagramme",
         "title": "Metagramme",
-        "description":"",
-        "intro": "<p></p>",
+        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Oct 2014",
         "projectColor": "d94c02",
@@ -94,8 +93,7 @@
       {
         "labID": "twitter-fingerprint",
         "title": "Twitter Fingerprint",
-        "description":"",
-        "intro": "<p></p>",
+        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Dec 2014",
         "projectColor": "d94c02",
@@ -164,9 +162,8 @@
       },
       {
         "labID": "scrum-poker",
-        "title": "",
-        "description":"",
-        "intro": "",
+        "title": "Scrum Poker",
+        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"July 2014",
         "projectColor": "d94c02",
