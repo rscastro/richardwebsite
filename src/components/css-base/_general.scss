@@ -38,3 +38,10 @@ img {
 .text-right {
   text-align: right;
 }
+
+.horizontal-line {
+  width: 100%;
+  border-top: 1px solid $gray;
+  height: 1px;
+  margin-bottom: $base-spacing;
+}

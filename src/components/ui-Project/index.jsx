@@ -30,6 +30,28 @@ export default class Project extends Component {
     );
   }
 
+  getPageSuggestions(currentProject, typeOfProject) {
+    const projectsJson = projectsData.projects.projectSingles;
+    const numOfProjects = Object.keys(projectsJson).length
+    const pageSuggestions = [];
+    const numOfSuggestions = 3;
+    const currentProjectIndex = projectsJson.indexOf(currentProject);
+    let counter = currentProjectIndex;
+
+    for (let i = 0; i < numOfSuggestions; i++) {
+      ++counter
+      if (counter >= numOfProjects) { counter = 0; }
+
+      pageSuggestions.push({});
+      pageSuggestions[i].type = typeOfProject;
+      pageSuggestions[i].title = projectsJson[counter].title;
+      pageSuggestions[i].url = '/' + typeOfProject + '/' + projectsJson[counter].projectID;
+      pageSuggestions[i].img = projectsJson[counter].gridImg;
+      pageSuggestions[i].size = 'sm';
+    }
+    return pageSuggestions;
+  }
+
   render() {
     const {
       currentProject,

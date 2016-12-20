@@ -1,5 +1,3 @@
-import './_index.scss';
-
 import React, { Component } from 'react';
 
 import Intro from '../ui-Intro';
@@ -9,6 +7,7 @@ import Image from '../ui-Image';
 import Details from '../ui-Details';
 import Tagline from '../ui-Tagline';
 import WorkGrid from '../ui-WorkGrid';
+import TextContact from '../ui-TextContact';
 // import Video from '../ui-Video';
 // import Carousel from '../ui-Carousel';
 
@@ -53,6 +52,14 @@ export default class PageContent extends Component {
             copyRight={ component.copyRight }
           />
         );
+      } else if (component.type === 'textContact') {
+        return (
+          <TextContact
+            key={ `${component.type}-${index}` }
+            copy={ component.copy }
+            contacts={ component.contacts }
+          />
+        );
       } else if (component.type === 'image') {
         return (
           <Image
@@ -79,6 +86,7 @@ export default class PageContent extends Component {
           <Tagline
             key={ `${component.type}-${index}` }
             title={ component.title }
+            className={ component.className }
           />
         );
       } else if (component.type === 'workgrid') {
