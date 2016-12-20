@@ -1,12 +1,7 @@
 {
   "projectID": "home",
-  "title": "",
+  "title": "Home",
   "pageContent": [
-    {
-      "type": "homeHero",
-      "src": "someurl.jpg",
-      "title": "Hero Title"
-    },
     {
       "type": "tagline",
       "title": "We build the creative web"
