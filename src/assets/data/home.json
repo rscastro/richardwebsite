@@ -116,25 +116,6 @@
       ]
     },
     {
-      "type": "sectionHeader",
-      "number": "",
-      "title": "Hello"
-    },
-    {
-      "type": "textContact",
-      "copy": "<p>Metagramme is an self-initiated experiment in exploring how patterns emerge from combining visual data over time using public Instagram photos and hashtags. What does it look like when you merge the image.</p>",
-      "contacts": [
-        {
-          "what": "Creative Direction:",
-          "email": "Jared@martiansf.com"
-        },
-        {
-          "what": "New Business:",
-          "email": "Derek@martiansf.com"
-        }
-      ]
-    },
-    {
       "type": "tagline",
       "title": "Interested in working with us?<br><a href='mailto:hello@martian.com'>hello@martian.com</a>"
     }
