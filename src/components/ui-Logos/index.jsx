@@ -8,7 +8,7 @@ export default class logos extends Component {
 
   render() {
     return (
-      <div className="nav-bar">
+      <div className="logos">
         <div className="wrapper">
           <div className="nav-bar-inner text-center">
             <a className="logo-type-a" href="/">

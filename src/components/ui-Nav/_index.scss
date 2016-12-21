@@ -14,6 +14,8 @@
   left: 0;
   z-index: 100;
   padding-top: $navbar-height-base;
+  pointer-events: none;
+
 
   .nav-bg {
     display: none;
@@ -24,6 +26,7 @@
     bottom: 0;
     left: 0;
     background: $off-black;
+    pointer-events: none;
   }
 
   .nav-bar {
@@ -32,6 +35,7 @@
     right: 0;
     left: 0;
     padding-top: $navbar-padding-top-sm;
+    pointer-events: auto;
 
     @include breakpoint($break-pt-sm) {
       padding-top: $navbar-padding-top-lg;
@@ -53,13 +57,12 @@
 
       .logo-type-a {
         display: none;
+        opacity: 0;
 
         .logo-type {
           position: absolute;
           top: 3.2rem;
           left: $column-padding;
-          display: none;
-          opacity: 0;
           width: 15rem;
           height: 2rem;
 
@@ -71,6 +74,7 @@
 
       .logo-mark-a {
         display: none;
+        opacity: 0;
 
         .logo-mark {
           width: $logo-mark-width-height-sm;
@@ -93,6 +97,7 @@
     height: calc(100vh - #{$navbar-height-sm + $column-padding});
     display: none;
     opacity: 0;
+    pointer-events: auto;
 
     @include breakpoint($break-pt-sm) {
       -webkit-overflow-scrolling: none;
