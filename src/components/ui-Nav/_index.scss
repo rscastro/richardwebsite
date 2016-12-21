@@ -57,13 +57,12 @@
 
       .logo-type-a {
         display: none;
+        opacity: 0;
 
         .logo-type {
           position: absolute;
           top: 3.2rem;
           left: $column-padding;
-          display: none;
-          opacity: 0;
           width: 15rem;
           height: 2rem;
 
@@ -75,6 +74,7 @@
 
       .logo-mark-a {
         display: none;
+        opacity: 0;
 
         .logo-mark {
           width: $logo-mark-width-height-sm;
