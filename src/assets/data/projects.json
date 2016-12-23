@@ -14,7 +14,7 @@
         "projectColor": "00aeef",
         "pageHero": {
           "src": "/images/mtc-header-1.jpg",
-          "copy": "A fully responsive, dynamic platform capable of easily generating and managing thousands of pages for Twitter Marketing",
+          "copy": "A fully responsive, dynamic platform to generate and manage thousands of pages for Twitter Marketing",
           "headerOverlayOpacity": ".4"
         },
         "pageContent": [
@@ -78,32 +78,6 @@
               { "title": "" },
               { "title": "" }
             ]
-          },
-          {
-            "type": "workgrid",
-            "workgridItems": [
-              {
-                "type": "Work",
-                "title": "Twitter<br>Flight School",
-                "url": "/work/twitter-flight-school",
-                "img": "/images/home-workgrid/fs-sq.jpg",
-                "size": "sm"
-              },
-              {
-                "type": "Labs",
-                "title": "Twitter Fingerprint",
-                "url": "/labs/twitter-fingerprint",
-                "img": "/images/home-workgrid/twitter-fingerprint-sq.jpg",
-                "size": "sm"
-              },
-              {
-                "type": "Work",
-                "title": "Airbnb Maisons<br>De France",
-                "url": "/work/airbnb-maisons-de-france",
-                "img": "/images/home-workgrid/abb-mdf-sq.jpg",
-                "size": "sm"
-              }
-            ]
           }
         ]
       },
@@ -116,7 +90,7 @@
         "projectColor": "00aeef",
         "pageHero": {
           "src": "/images/fs-header-1.jpg",
-          "copy": "Twitter's online global learning application for marketers and advertisers.",
+          "copy": "A global e-learning application for Twitter's advertising and marketing clients.",
           "headerOverlayOpacity": ".4"
         },
         "pageContent": [
@@ -181,7 +155,7 @@
         "projectColor": "ff5a5f",
         "pageHero": {
           "src": "/images/abb-mdf-header.jpg",
-          "copy": "A multi-phase contest to find the most iconic residence in each district in France.",
+          "copy": "A multi-phase contest to find the most iconic Airbnb residence in each district in France.",
           "headerOverlayOpacity": ".6"
         },
         "pageContent": [
@@ -253,7 +227,7 @@
         "pageHero": {
           "src": "/images/abb-rt-hero.jpg",
           "copy": "Helping to change how people use Airbnb when planning trips.",
-          "headerOverlayOpacity": ".4"
+          "headerOverlayOpacity": ".1"
         },
         "pageContent": [
           {
@@ -319,7 +293,7 @@
         "pageHero": {
           "src": "/images/abb-holidays-hero-1.jpg",
           "copy": "Sharing a New Home for the Holidays in time for Thanksgiving.",
-          "headerOverlayOpacity": ".6"
+          "headerOverlayOpacity": ".1"
         },
         "pageContent": [
           {
@@ -388,7 +362,7 @@
         "pageHero": {
           "src": "/images/sony-hmz-hero-1.jpg",
           "copy": "Building a new UX for a unique product.",
-          "headerOverlayOpacity": ".4"
+          "headerOverlayOpacity": ".14"
         },
         "pageContent": [
           {
@@ -531,11 +505,11 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Eventbrite",
         "launch":"Feb 2016",
-        "projectColor": "F6682F",
+        "projectColor": "39C6CD",
         "pageHero": {
           "src": "/images/eventbrite-coyote-hero-1.jpg",
-          "copy": "Re-thinking an overhaul of Eventbrite's core product.",
-          "headerOverlayOpacity": ".6"
+          "copy": "Re-thinking Eventbrite's core product.",
+          "headerOverlayOpacity": ".15"
         },
         "pageContent": [
           {
@@ -615,7 +589,7 @@
         "pageHero": {
           "src": "/images/thinknear-header-2.jpg",
           "copy": "A flexible site to define a mobile-first technology company.",
-          "headerOverlayOpacity": ".4"
+          "headerOverlayOpacity": ".14"
         },
         "pageContent": [
           {
@@ -689,8 +663,8 @@
         "projectColor": "00aeef",
         "pageHero": {
           "src": "/images/mede-header-2.jpg",
-          "copy": "Using web technologies to build an innovative trade show screen solution.",
-          "headerOverlayOpacity": ".6"
+          "copy": "Using web technologies for an innovative trade-show screen installation.",
+          "headerOverlayOpacity": ".16"
         },
         "pageContent": [
           {
@@ -768,8 +742,8 @@
         "projectColor": "00aeef",
         "pageHero": {
           "src": "/images/vidhub-header-3.jpg",
-          "copy": "Twitter asked us to help build out their Video Marketing site. They wanted the site to feel modern and fresh, as well as showcase the new autoplay video functionality feature on Twitter.",
-          "headerOverlayOpacity": ".4"
+          "copy": "A site to showcase Twitter's video capabilites.",
+          "headerOverlayOpacity": ".24"
         },
         "pageContent": [
           {
