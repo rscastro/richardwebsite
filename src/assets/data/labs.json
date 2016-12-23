@@ -10,7 +10,7 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Oct 2014",
-        "projectColor": "666666",
+        "projectColor": "D94C02",
         "pageHero": {
           "src": "/images/metagramme-hero-2.jpg",
           "copy": "a different way of looking at images.",
@@ -94,7 +94,7 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Dec 2014",
-        "projectColor": "EF0173",
+        "projectColor": "D94C02",
         "pageHero": {
           "src": "/images/twfp-hero-1.png",
           "copy": "A rapid-fire, iterative data-visualization experiment",
@@ -163,7 +163,7 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"July 2014",
-        "projectColor": "627847",
+        "projectColor": "D94C02",
         "pageHero": {
           "src": "/images/scrumpoker-hero-1.jpg",
           "copy": "Making tools to simplify our internal workflow",
@@ -191,9 +191,151 @@
             "copyRight": "<p>The app allows multiple tables, anonymous voting, and a dealer-override button. Offsite team members' votes are identical to those attending in-person.</p><p>In addition to your own vote, the results screen shows the mean, the mode, the lowest and highest votes, as well as the table ID and the dealer name.</p><p>This tool simplifies the sprint planning process and saves a ton of time in the process.</p>"
           },
           {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "Image title",
+                "src": "/images/scrumpoker-full-1.png"
+              },
+              {
+                "title": "Image title",
+                "src": "/images/scrumpoker-full-2.png"
+              },
+              {
+                "title": "Image title",
+                "src": "/images/scrumpoker-full-3.png"
+              }
+
+            ]
+          },
+          {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
             "siteurl": "http://scrumpoker.martiansf.com",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Concepting" },
+              { "title": "UX" },
+              { "title": "Prototyping" },
+              { "title": "Design" },
+              { "title": "Front-end Development" },
+              { "title": "Backend Development" }
+            ],
+            "list2Title": "Technologies",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
+          }
+        ]
+      },
+      {
+        "labID": "moonphase",
+        "title": "Moon Phase Native App",
+        "gridImg": "/images/home-workgrid/moonphase-sq.jpg",
+        "client": "Martian",
+        "launch":"Dec 2016",
+        "projectColor": "D94C02",
+        "pageHero": {
+          "src": "/images/moonphase-hero-1.jpg",
+          "copy": "Building a native iPhone app using React Native",
+          "headerOverlayOpacity": ".6"
+        },
+        "pageContent": [
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "intro",
+            "intro": "<p>We love React and wanted to explore React Native, a promising platform allowing native app creation via Javascript using React.</p>",
+            "logo": "/images/martian-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>React Native was very easy to approach; we had the app built out in just a few days.</p><p>The trickiest part was actually getting it submitted to the App Store! That process took much longer than actually developing the app.</p>",
+            "copyRight": "<p>There are some tricks to getting React Native to work properly, and it's still limited in terms of functionality; it wouldn't be ideal for some situations.</p><p>That said, we were happy with how straightforward the process was, and plan to build more native apps soon.</p>"
+          },
+          {
+            "type": "image",
+            "size": "lg",
+            "images": [
+              {
+                "title": "Image title",
+                "src": "/images/moonphase-full-1.png"
+              },
+              {
+                "title": "Image title",
+                "src": "/images/moonphase-full-2.png"
+              }
+            ]
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "https://appsto.re/us/uaXcgb.i",
+            "list1Title": "What We Did",
+            "list1": [
+              { "title": "Concepting" },
+              { "title": "UX" },
+              { "title": "Prototyping" },
+              { "title": "Design" },
+              { "title": "Front-end Development" }
+            ],
+            "list2Title": "Technologies",
+            "list2": [
+              { "title": "" },
+              { "title": "" },
+              { "title": "" }
+            ]
+          }
+        ]
+      },
+      {
+        "labID": "serenade",
+        "title": "Serenade",
+        "gridImg": "/images/home-workgrid/serenade-sq.jpg",
+        "client": "Martian",
+        "launch":"July 2016",
+        "projectColor": "D94C02",
+        "pageHero": {
+          "src": "/images/serenade-hero-1.jpg",
+          "copy": "Real-time interaction with hardware over the web.",
+          "headerOverlayOpacity": ".6"
+        },
+        "pageContent": [
+          {
+            "type": "sectionHeader",
+            "number": "01",
+            "title": "Challenge"
+          },
+          {
+            "type": "intro",
+            "intro": "<p>We wanted to explore latency with hardare using sockets over the web; the idea was to create a virtual 'piano' that could be played by anyone, anywhere.</p>",
+            "logo": "/images/martian-logo.png"
+          },
+          {
+            "type": "sectionHeader",
+            "number": "02",
+            "title": "Solution"
+          },
+          {
+            "type": "textColumns",
+            "copyLeft": "<p>We designed an abstract set of 'piano keys', or objects that would be assigned to unique notes. We built the front-end with threeJS; the notes can be triggered with mouse, keyboard, or touch events. </p><p>We served the site off of a RaspberryPi from our office; the Pi also generated the notes. We tethered an Arduino and a strip of RGB LEDS each assigned to a note.</p>",
+            "copyRight": "<p>This works over any connection to the web; there's almost zero-latency! It's pretty awesome.</p><p> While ultimately not a very useful tool, this was a fun project to prototype out.</p><p>Feel free to visit now and accompany us in our office while we work!</p>"
+          },
+          {
+            "type": "details",
+            "siteurlLinkTitle": "Visit the Site",
+            "siteurl": "http://serenade.martiansf.com",
             "list1Title": "What We Did",
             "list1": [
               { "title": "Concepting" },
@@ -216,15 +358,11 @@
             "images": [
               {
                 "title": "Image title",
-                "src": "/images/scrumpoker-full-1.png"
+                "src": "/images/serenade-full-1.png"
               },
               {
                 "title": "Image title",
-                "src": "/images/scrumpoker-full-2.png"
-              },
-              {
-                "title": "Image title",
-                "src": "/images/scrumpoker-full-3.png"
+                "src": "/images/serenade-full-2.png"
               }
 
             ]

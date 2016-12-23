@@ -30,7 +30,9 @@
       "listlinks": [
         { "title": "Metagramme", "url": "/labs/metagramme" },
         { "title": "Twitter Fingerprint", "url": "/labs/twitter-fingerprint" },
-        { "title": "Scrum Poker", "url": "/labs/scrum-poker" }
+        { "title": "Scrum Poker", "url": "/labs/scrum-poker" },
+        { "title": "MoonPhase", "url": "/labs/moonphase" },
+        { "title": "Serenade", "url": "/labs/serenade" }
       ]
     }
   ]

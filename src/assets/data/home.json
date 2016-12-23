@@ -60,10 +60,10 @@
           "size": "sm"
         },
         {
-          "type": "Work",
-          "title": "airbnb<br>new home for the holidays",
-          "url": "/work/airbnb-holidays-app",
-          "img": "/images/home-workgrid/abb-holidays-app-sq.jpg",
+          "type": "Labs",
+          "title": "moonphase",
+          "url": "/labs/moonphase",
+          "img": "/images/home-workgrid/moonphase-sq.jpg",
           "size": "sm"
         },
         {
@@ -102,10 +102,10 @@
           "size": "sm"
         },
         {
-          "type": "work",
-          "title": "twitter<br>videohub",
-          "url": "/work/twitter-videohub",
-          "img": "/images/home-workgrid/twitter-videohub-sq.jpg",
+          "type": "Labs",
+          "title": "Serenade",
+          "url": "/labs/serenade",
+          "img": "/images/home-workgrid/serenade-sq.jpg",
           "size": "sm"
         }
       ]
