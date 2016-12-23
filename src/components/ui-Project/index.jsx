@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 import PageContent from '../ui-PageContent';
 import NavFooter from '../ui-NavFooter';
 import Hero from '../ui-Hero';
+import WorkGrid from '../ui-WorkGrid';
 
 export default class Project extends Component {
 
@@ -70,6 +71,10 @@ export default class Project extends Component {
         />
         <div className="page-content-hldr">
           <PageContent currentProject={ currentProject } />
+          <WorkGrid
+            id={ currentProject.projectID }
+            workgridItems={ this.getPageSuggestions(currentProject, 'work') }
+          />
           <NavFooter />
         </div>
       </div>
