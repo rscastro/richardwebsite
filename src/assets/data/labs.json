@@ -10,10 +10,14 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Oct 2014",
+<<<<<<< HEAD
         "projectColor": "D94C02",
+=======
+        "projectColor": "d94c02",
+>>>>>>> 9e070b378958a48104f9225cb37e0606092cfc62
         "pageHero": {
           "src": "/images/metagramme-hero-2.jpg",
-          "copy": "a different way of looking at images.",
+          "copy": "Using image data to look at images differently.",
           "headerOverlayOpacity": ".2"
         },
         "pageContent": [
@@ -94,11 +98,15 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Dec 2014",
+<<<<<<< HEAD
         "projectColor": "D94C02",
+=======
+        "projectColor": "d94c02",
+>>>>>>> 9e070b378958a48104f9225cb37e0606092cfc62
         "pageHero": {
           "src": "/images/twfp-hero-1.png",
           "copy": "A rapid-fire, iterative data-visualization experiment",
-          "headerOverlayOpacity": ".6"
+          "headerOverlayOpacity": ".36"
         },
         "pageContent": [
           {
@@ -163,7 +171,11 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"July 2014",
+<<<<<<< HEAD
         "projectColor": "D94C02",
+=======
+        "projectColor": "d94c02",
+>>>>>>> 9e070b378958a48104f9225cb37e0606092cfc62
         "pageHero": {
           "src": "/images/scrumpoker-hero-1.jpg",
           "copy": "Making tools to simplify our internal workflow",
