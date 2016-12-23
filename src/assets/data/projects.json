@@ -529,7 +529,7 @@
           },
           {
             "type": "textColumns",
-            "copyLeft": "<p>We built the product on React after talking with Eventbrite's technical team.</p>",
+            "copyLeft": "<p>We decided on using React after talking with Eventbrite's technical team.</p>",
             "copyRight": "<p>We worked closely with Eventbrite's UX and Design teams to iterate through features and functionality.</p><p>The result was a testable platform that Eventbrite could test on actual customers.</p>"
           },
           {
