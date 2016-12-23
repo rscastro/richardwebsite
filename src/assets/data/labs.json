@@ -10,11 +10,7 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Oct 2014",
-<<<<<<< HEAD
         "projectColor": "D94C02",
-=======
-        "projectColor": "d94c02",
->>>>>>> 9e070b378958a48104f9225cb37e0606092cfc62
         "pageHero": {
           "src": "/images/metagramme-hero-2.jpg",
           "copy": "Using image data to look at images differently.",
@@ -98,11 +94,7 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"Dec 2014",
-<<<<<<< HEAD
         "projectColor": "D94C02",
-=======
-        "projectColor": "d94c02",
->>>>>>> 9e070b378958a48104f9225cb37e0606092cfc62
         "pageHero": {
           "src": "/images/twfp-hero-1.png",
           "copy": "A rapid-fire, iterative data-visualization experiment",
@@ -171,11 +163,7 @@
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Martian",
         "launch":"July 2014",
-<<<<<<< HEAD
         "projectColor": "D94C02",
-=======
-        "projectColor": "d94c02",
->>>>>>> 9e070b378958a48104f9225cb37e0606092cfc62
         "pageHero": {
           "src": "/images/scrumpoker-hero-1.jpg",
           "copy": "Making tools to simplify our internal workflow",
@@ -345,6 +333,21 @@
             "copyRight": "<p>This works over any connection to the web; there's almost zero-latency! It's pretty awesome.</p><p> While ultimately not a very useful tool, this was a fun project to prototype out.</p><p>Feel free to visit now and accompany us in our office while we work!</p>"
           },
           {
+            "type": "image",
+            "size": "full",
+            "images": [
+              {
+                "title": "Image title",
+                "src": "/images/serenade-full-1.png"
+              },
+              {
+                "title": "Image title",
+                "src": "/images/serenade-full-2.png"
+              }
+
+            ]
+          },
+          {
             "type": "details",
             "siteurlLinkTitle": "Visit the Site",
             "siteurl": "http://serenade.martiansf.com",
@@ -362,21 +365,6 @@
               { "title": "" },
               { "title": "" },
               { "title": "" }
-            ]
-          },
-          {
-            "type": "image",
-            "size": "full",
-            "images": [
-              {
-                "title": "Image title",
-                "src": "/images/serenade-full-1.png"
-              },
-              {
-                "title": "Image title",
-                "src": "/images/serenade-full-2.png"
-              }
-
             ]
           }
         ]
