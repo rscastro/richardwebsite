@@ -8,7 +8,6 @@
         "projectID": "twitter-marketing",
         "title": "Twitter<br>Marketing",
         "gridImg": "/images/home-workgrid/mtc-sq.jpg",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
         "client": "Twitter",
         "launch":"Oct 2016",
         "projectColor": "00aeef",
@@ -84,7 +83,7 @@
       {
         "projectID": "twitter-flight-school",
         "title": "Twitter<br>Flight School",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/fs-sq.jpg",
         "client": "Twitter",
         "launch":"Oct 2016",
         "projectColor": "00aeef",
@@ -149,7 +148,7 @@
       {
         "projectID": "airbnb-maisons-de-france",
         "title": "Airbnb<br>Maisons de France Contest",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/abb-mdf-sq.jpg",
         "client": "Airbnb",
         "launch":"August 2016",
         "projectColor": "ff5a5f",
@@ -220,7 +219,7 @@
       {
         "projectID": "airbnb-road-trips",
         "title": "Airbnb<br>Road Trips",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/abb-road-trippers-sq.jpg",
         "client": "Airbnb",
         "launch":"July 2016",
         "projectColor": "8CE071",
@@ -286,7 +285,7 @@
       {
         "projectID": "airbnb-holidays-app",
         "title": "Airbnb<br>Holidays Mobile Web App",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/abb-holidays-app-sq.jpg",
         "client": "Airbnb",
         "launch":"Nov 2016",
         "projectColor": "bd80a8",
@@ -355,7 +354,7 @@
       {
         "projectID": "sony-hmz",
         "title": "Sony<br>HMZ",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/sony-hmz-sq.jpg",
         "client": "Sony",
         "launch":"Dec 2013",
         "projectColor": "dedede",
@@ -426,7 +425,7 @@
       {
         "projectID": "merrill-infographics",
         "title": "Merrill<br>Infographics",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/merrill-infographics-sq.jpg",
         "client": "Merrill",
         "launch":"Dec 2015",
         "projectColor": "0064B5",
@@ -502,7 +501,7 @@
       {
         "projectID": "eventbrite-prototype",
         "title": "Eventbrite<br>Prototype",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/eb-prototype-sq.jpg",
         "client": "Eventbrite",
         "launch":"Feb 2016",
         "projectColor": "39C6CD",
@@ -582,7 +581,7 @@
       {
         "projectID": "thinknear",
         "title": "Thinknear",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/thinknear-sq.jpg",
         "client": "Thinknear",
         "launch":"May 2015",
         "projectColor": "FFCE34",
@@ -657,7 +656,7 @@
       {
         "projectID": "mede-analytics",
         "title": "Mede<br>Analytics",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/mede-analytics-sq.jpg",
         "client": "Mede Analytics",
         "launch":"May 2015",
         "projectColor": "00aeef",
@@ -735,7 +734,7 @@
       {
         "projectID": "twitter-videohub",
         "title": "Twitter<br>Videohub",
-        "gridImg": "/images/home-workgrid/mtc-sq.jpg",
+        "gridImg": "/images/home-workgrid/twitter-videohub-sq.jpg",
         "logo": "",
         "client": "Twitter",
         "launch":"Oct 2015",
