@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 import PageContent from '../ui-PageContent';
 import NavFooter from '../ui-NavFooter';
 import Hero from '../ui-Hero';
+import HeroVideo from '../ui-HeroVideo';
 import WorkGrid from '../ui-WorkGrid';
 
 export default class Project extends Component {
@@ -63,12 +64,25 @@ export default class Project extends Component {
 
     return (
       <div className="project">
-        <Hero
-          src={ pageHero.src }
-          copy={ pageHero.copy }
-          projectColor={ currentProject.projectColor }
-          headerOverlayOpacity={ pageHero.headerOverlayOpacity || 0.5 }
-        />
+
+        { (pageHero.type === 'video') ?
+          <HeroVideo
+            src={ pageHero.src }
+            copy={ pageHero.copy }
+            projectColor={ currentProject.projectColor }
+            headerOverlayOpacity={ pageHero.headerOverlayOpacity || 0.5 }
+          />
+        : null }
+
+        { (pageHero.type === 'img') ?
+          <Hero
+            src={ pageHero.src }
+            copy={ pageHero.copy }
+            projectColor={ currentProject.projectColor }
+            headerOverlayOpacity={ pageHero.headerOverlayOpacity || 0.5 }
+          />
+        : null }
+
         <div className="page-content-hldr">
           <PageContent currentProject={ currentProject } />
           <WorkGrid

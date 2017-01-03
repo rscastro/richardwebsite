@@ -12,6 +12,7 @@
         "launch":"Oct 2016",
         "projectColor": "00aeef",
         "pageHero": {
+          "type": "video",
           "src": "/images/mtc-header-1.jpg",
           "copy": "A fully responsive, dynamic platform to generate and manage thousands of pages for Twitter Marketing",
           "headerOverlayOpacity": ".4"
@@ -88,6 +89,7 @@
         "launch":"Oct 2016",
         "projectColor": "00aeef",
         "pageHero": {
+          "type": "img",
           "src": "/images/fs-header-1.jpg",
           "copy": "A global e-learning application for Twitter's advertising and marketing clients.",
           "headerOverlayOpacity": ".4"
@@ -153,6 +155,7 @@
         "launch":"August 2016",
         "projectColor": "ff5a5f",
         "pageHero": {
+          "type": "img",
           "src": "/images/abb-mdf-header.jpg",
           "copy": "A multi-phase contest to find the most iconic Airbnb residence in each district in France.",
           "headerOverlayOpacity": ".6"
@@ -224,6 +227,7 @@
         "launch":"July 2016",
         "projectColor": "8CE071",
         "pageHero": {
+          "type": "img",
           "src": "/images/abb-rt-hero.jpg",
           "copy": "Helping to change how people use Airbnb when planning trips.",
           "headerOverlayOpacity": ".1"
@@ -290,6 +294,7 @@
         "launch":"Nov 2016",
         "projectColor": "bd80a8",
         "pageHero": {
+          "type": "img",
           "src": "/images/abb-holidays-hero-1.jpg",
           "copy": "Sharing a New Home for the Holidays in time for Thanksgiving.",
           "headerOverlayOpacity": ".1"
@@ -359,6 +364,7 @@
         "launch":"Dec 2013",
         "projectColor": "dedede",
         "pageHero": {
+          "type": "img",
           "src": "/images/sony-hmz-hero-1.jpg",
           "copy": "Building a new UX for a unique product.",
           "headerOverlayOpacity": ".14"
@@ -430,6 +436,7 @@
         "launch":"Dec 2015",
         "projectColor": "0064B5",
         "pageHero": {
+          "type": "img",
           "src": "/images/merrill-hero-1.jpg",
           "copy": "Modern, data-driven animations.",
           "headerOverlayOpacity": ".4"
@@ -506,6 +513,7 @@
         "launch":"Feb 2016",
         "projectColor": "39C6CD",
         "pageHero": {
+          "type": "img",
           "src": "/images/eventbrite-coyote-hero-1.jpg",
           "copy": "Re-thinking Eventbrite's core product.",
           "headerOverlayOpacity": ".15"
@@ -586,6 +594,7 @@
         "launch":"May 2015",
         "projectColor": "FFCE34",
         "pageHero": {
+          "type": "img",
           "src": "/images/thinknear-header-2.jpg",
           "copy": "A flexible site to define a mobile-first technology company.",
           "headerOverlayOpacity": ".14"
@@ -661,6 +670,7 @@
         "launch":"May 2015",
         "projectColor": "00aeef",
         "pageHero": {
+          "type": "img",
           "src": "/images/mede-header-2.jpg",
           "copy": "Using web technologies for an innovative trade-show screen installation.",
           "headerOverlayOpacity": ".16"
@@ -740,6 +750,7 @@
         "launch":"Oct 2015",
         "projectColor": "00aeef",
         "pageHero": {
+          "type": "img",
           "src": "/images/vidhub-header-3.jpg",
           "copy": "A site to showcase Twitter's video capabilites.",
           "headerOverlayOpacity": ".24"
