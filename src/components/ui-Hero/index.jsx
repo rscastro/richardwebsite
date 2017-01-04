@@ -44,7 +44,6 @@ export default class Hero extends Component {
         right: 0,
         bottom: 0,
         left: 0,
-        // opacity: headerOverlayOpacity
       }
       this.loadBgImage(src);
     }
@@ -68,21 +67,22 @@ export default class Hero extends Component {
     const duration = .75;
     const copyHldrWrapper = document.querySelector('.copy-hldr-wrapper');
     const colorOverlay = document.querySelector('.hero__color-overlay');
+    const heroVideo = document.querySelector('.video-player');
 
-    const heroController = new ScrollMagic.Controller({ loglevel: 3 });
+    const heroController = new ScrollMagic.Controller();
     const navTween = new TimelineMax()
       .to(copyHldrWrapper, duration, { y:0 - copyHldrWrapper.offsetHeight }, 0)
       .to(colorOverlay, duration, { y:0 - colorOverlay.offsetHeight }, .3);
 
     const headerScene = new ScrollMagic.Scene({
       triggerElement: '.app-container',
-      offset: 50,
+      // offset: 50,
       triggerHook: 0,
       duration: '100%'
     })
     .setTween(navTween)
     .addTo(heroController)
-    headerScene.addIndicators({name: 'Hero animation'});
+    // headerScene.addIndicators({name: 'Hero animation'});
 
     const headerBodyPinScene = new ScrollMagic.Scene({
       triggerElement: '.app-container',
@@ -91,7 +91,10 @@ export default class Hero extends Component {
     })
     .addTo(heroController)
     .setPin('.project');
-    headerBodyPinScene.addIndicators({name: 'Hero animation'});
+    // headerBodyPinScene.addIndicators({name: 'Hero animation'});
+
+    // Scrollmagic somehow stops video playback. Restarting it here.
+    heroVideo.play();
   }
 
   render() {
@@ -119,7 +122,7 @@ export default class Hero extends Component {
 
         { (mediaType === 'video') ?
           <div className="hero__video">
-            <video autoPlay loop>
+            <video className="video-player" autoPlay loop>
               <source src={ src } type="video/mp4" />
               Your browser does not support the video tag.
             </video>

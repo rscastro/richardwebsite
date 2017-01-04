@@ -28,7 +28,6 @@
     background-size: cover;
     background-position: center center;
     filter: grayscale(100%);
-    // opacity: 0;
     transition: opacity 1s, top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
   }
 
@@ -38,9 +37,6 @@
     right: -4rem;
     bottom: -4rem;
     left: -4rem;
-    // background-size: cover;
-    // background-position: center center;
-    // opacity: 0;
     transition: opacity 1s, top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
     overflow: hidden;
 
