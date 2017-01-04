@@ -70,9 +70,12 @@ export default class Hero extends Component {
     const heroVideo = document.querySelector('.video-player');
 
     const heroController = new ScrollMagic.Controller();
+    // const navTween = new TimelineMax()
+    //   .to(copyHldrWrapper, duration, { y:0 - copyHldrWrapper.offsetHeight }, 0)
+    //   .to(colorOverlay, duration, { y:0 - colorOverlay.offsetHeight }, .3);
     const navTween = new TimelineMax()
-      .to(copyHldrWrapper, duration, { y:0 - copyHldrWrapper.offsetHeight }, 0)
-      .to(colorOverlay, duration, { y:0 - colorOverlay.offsetHeight }, .3);
+      .to(colorOverlay, duration, { y:0 - colorOverlay.offsetHeight }, 0)
+      .to(copyHldrWrapper, duration / 20, { alpha: 0 }, .15);
 
     const headerScene = new ScrollMagic.Scene({
       triggerElement: '.app-container',
