@@ -29,7 +29,8 @@ export default class NavLinks extends Component {
         aboutInfo: {
           title,
           weAre,
-          email
+          email,
+          phone
         },
         navColumns
       }
@@ -43,8 +44,8 @@ export default class NavLinks extends Component {
           <p>
             <span className='nav-we-are' dangerouslySetInnerHTML={ {__html: weAre} } />
             <span className='contact'>
-              <a href='tel:+1-415-263-7383'>
-                415-263-7383
+              <a href={`tel:+1-${phone}`}>
+                {phone}
               </a>
             </span><br/>
             <span className='contact'>
