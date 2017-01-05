@@ -26,7 +26,8 @@ export default class Hero extends Component {
   static get propTypes() {
     return {
       mediaType: React.PropTypes.string, // img or video
-      src: React.PropTypes.string, // src to image
+      src: React.PropTypes.string, // src to image or video
+      poster: React.PropTypes.string, // poster image for video, only used with video
       copy: React.PropTypes.string,
       projectColor: React.PropTypes.string,
       headerOverlayOpacity: React.PropTypes.string
@@ -48,6 +49,10 @@ export default class Hero extends Component {
       this.loadBgImage(src);
     }
 
+    if ( mediaType === 'video') {
+      this.setupVideoEvents();
+    }
+
     this.setupHeroScrollingAnimation();
   }
 
@@ -63,16 +68,20 @@ export default class Hero extends Component {
     })
   }
 
+  setupVideoEvents() {
+    console.log('ui-Hero::setupVideoEvents');
+    var vid = document.getElementsByTagName('video')[0];
+    vid.addEventListener('canplay', function() {
+      vid.play();
+    }, true);
+  }
+
   setupHeroScrollingAnimation() {
     const duration = .75;
     const copyHldrWrapper = document.querySelector('.copy-hldr-wrapper');
     const colorOverlay = document.querySelector('.hero__color-overlay');
-    const heroVideo = document.querySelector('.video-player');
 
     const heroController = new ScrollMagic.Controller();
-    // const navTween = new TimelineMax()
-    //   .to(copyHldrWrapper, duration, { y:0 - copyHldrWrapper.offsetHeight }, 0)
-    //   .to(colorOverlay, duration, { y:0 - colorOverlay.offsetHeight }, .3);
     const navTween = new TimelineMax()
       .to(colorOverlay, duration, { y:0 - colorOverlay.offsetHeight }, 0)
       .to(copyHldrWrapper, duration / 20, { alpha: 0 }, .15);
@@ -95,9 +104,6 @@ export default class Hero extends Component {
     .addTo(heroController)
     .setPin('.project');
     // headerBodyPinScene.addIndicators({name: 'Hero animation'});
-
-    // Scrollmagic somehow stops video playback. Restarting it here.
-    heroVideo.play();
   }
 
   render() {
@@ -105,6 +111,7 @@ export default class Hero extends Component {
       copy,
       projectColor, // TODO: Remove headerOverlayOpacity this here and on json, no longer used.
       src,
+      poster,
       mediaType,
       headerOverlayOpacity
     } = this.props;
@@ -125,10 +132,24 @@ export default class Hero extends Component {
 
         { (mediaType === 'video') ?
           <div className="hero__video">
-            <video className="video-player" autoPlay loop>
+            <video className="video-player"
+              poster={ poster }
+              autoPlay
+              loop
+              controls="true"
+            >
               <source src={ src } type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+
+            {/* <video width="480" controls
+              poster="https://archive.org/download/WebmVp8Vorbis/webmvp8.gif" >
+              <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm">
+              <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
+              <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg">
+              Your browser doesn't support HTML5 video tag.
+            </video> */}
+
           </div>
         : null }
 

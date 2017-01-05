@@ -66,6 +66,7 @@ export default class Project extends Component {
         <Hero
           mediaType={ pageHero.mediaType }
           src={ pageHero.src }
+          poster={ pageHero.poster }
           copy={ pageHero.copy }
           projectColor={ currentProject.projectColor }
           headerOverlayOpacity={ pageHero.headerOverlayOpacity || 0.5 }

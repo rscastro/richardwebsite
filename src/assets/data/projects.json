@@ -14,6 +14,7 @@
         "pageHero": {
           "mediaType": "video",
           "src": "/videos/temp-video-beach.mp4",
+          "poster": "/images/twfp-hero-1.png",
           "copy": "A fully responsive, dynamic platform to generate and manage thousands of pages for Twitter Marketing",
           "headerOverlayOpacity": ".4"
         },
@@ -91,6 +92,7 @@
         "pageHero": {
           "mediaType": "video",
           "src": "/videos/temp-video-dark-forest.mp4",
+          "poster": "/images/twfp-hero-1.png",
           "copy": "A global e-learning application for Twitter's advertising and marketing clients.",
           "headerOverlayOpacity": ".4"
         },
@@ -157,6 +159,7 @@
         "pageHero": {
           "mediaType": "video",
           "src": "/videos/temp-video-snowdrops.mp4",
+          "poster": "/images/twfp-hero-1.png",
           "copy": "A multi-phase contest to find the most iconic Airbnb residence in each district in France.",
           "headerOverlayOpacity": ".6"
         },
