@@ -71,11 +71,16 @@
               { "title": "Front-end development" },
               { "title": "Integration Support" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "Webpack" },
+              { "title": "Sass" },
+              { "title": "PostCSS"},
+              { "title": "Babel" },
+              { "title": "Component-based" },
+              { "title": "Decoupled" },
+              { "title": "Atomic design principals" }
             ]
           }
         ]
@@ -138,9 +143,18 @@
               { "title": "Front-end development" },
               { "title": "Backend development" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "ES6" },
+              { "title": "React / Redux / Reflux" },
+              { "title": "Node" },
+              { "title": "MongoDB" },
+              { "title": "Webpack" },
+              { "title": "PostCSS"},
+              { "title": "Babel" },
+              { "title": "Unit Testing" },
+              { "title": "Integration Testing" }
             ]
           }
         ]
@@ -209,9 +223,15 @@
               { "title": "Front-end development" },
               { "title": "Backend development" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "HTML" },
+              { "title": "CSS / Sass" },
+              { "title": "Gulp" },
+              { "title": "Node" },
+              { "title": "Jade/Pug" },
+              { "title": "MongoDB" }
             ]
           }
         ]
@@ -273,11 +293,15 @@
               { "title": "Front-end development" },
               { "title": "Design" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "HTML" },
+              { "title": "CSS / Sass" },
+              { "title": "Google Maps API" },
+              { "title": "Gulp" },
+              { "title": "Node" },
+              { "title": "Jade/Pug" }
             ]
           }
         ]
@@ -342,11 +366,13 @@
               { "title": "Front-end development" },
               { "title": "Backend development" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "HTML" },
+              { "title": "CSS" },
+              { "title": "Gulp" },
+              { "title": "PHP" }
             ]
           }
         ]
@@ -413,11 +439,11 @@
               { "title": "UX" },
               { "title": "Front-end development" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "Canvas" },
+              { "title": "CSS / Sass" }
             ]
           }
         ]
@@ -489,11 +515,12 @@
               { "title": "Motion Design" },
               { "title": "Front-end development" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "SVG" },
+              { "title": "GSAP" },
+              { "title": "CSS" },
+              { "title": "Javascript" }
             ]
           }
         ]
@@ -569,11 +596,16 @@
               { "title": "UX" },
               { "title": "Front-end development" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "ES6" },
+              { "title": "React / Redux" },
+              { "title": "Node" },
+              { "title": "MongoDB" },
+              { "title": "Webpack" },
+              { "title": "PostCSS"},
+              { "title": "Babel" }
             ]
           }
         ]
@@ -644,11 +676,12 @@
               { "title": "Front-end Development" },
               { "title": "Responsive Design" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "HTML" },
+              { "title": "CSS / Sass" },
+              { "title": "Node" }
             ]
           }
         ]
@@ -712,7 +745,7 @@
             "type": "details",
             "siteurlLinkTitle": "Site Unavailable",
             "siteurl": "#",
-            "list1Title": "What We Did",
+            "list2Title": "Technology / Methodology",
             "list1": [
               { "title": "Concepting" },
               { "title": "Technical Architecture" },
@@ -721,11 +754,12 @@
               { "title": "Back-end Development" },
               { "title": "Motion Design" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "HTML" },
+              { "title": "CSS / Sass" },
+              { "title": "Node" }
             ]
           }
 
@@ -794,7 +828,7 @@
           {
             "type": "details",
             "siteurlLinkTitle": "Visit Site",
-            "siteurl": "#https://video.twitter.com/about",
+            "siteurl": "https://video.twitter.com/about",
             "list1Title": "What We Did",
             "list1": [
               { "title": "Technical Architecture" },
@@ -802,11 +836,15 @@
               { "title": "Front-end Development" },
               { "title": "Motion Design" }
             ],
-            "list2Title": "Technologies",
+            "list2Title": "Technology / Methodology",
             "list2": [
-              { "title": "" },
-              { "title": "" },
-              { "title": "" }
+              { "title": "Javascript" },
+              { "title": "Angular" },
+              { "title": "HTML" },
+              { "title": "CSS / Sass" },
+              { "title": "Node" },
+              { "title": "Gulp" },
+              { "title": "Parallax" }
             ]
           }
         ]
