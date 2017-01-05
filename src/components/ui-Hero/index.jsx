@@ -69,7 +69,6 @@ export default class Hero extends Component {
   }
 
   setupVideoEvents() {
-    console.log('ui-Hero::setupVideoEvents');
     var vid = document.getElementsByTagName('video')[0];
     vid.addEventListener('canplay', function() {
       vid.play();
