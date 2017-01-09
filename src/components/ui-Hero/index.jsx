@@ -133,9 +133,10 @@ export default class Hero extends Component {
           <div className="hero__video">
             <video className="video-player"
               poster={ poster }
-              autoPlay
+              autoplay
               loop
-              controls="true"
+              muted
+              playsinline
             >
               <source src={ src } type="video/mp4" />
               Your browser does not support the video tag.

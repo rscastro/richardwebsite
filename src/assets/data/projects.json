@@ -13,8 +13,8 @@
         "projectColor": "00aeef",
         "pageHero": {
           "mediaType": "video",
-          "src": "/videos/temp-video-beach.mp4",
-          "poster": "/images/twfp-hero-1.png",
+          "src": "/videos/twitterfp_large.mp4",
+          "poster": "/images/temp-video-poster.jpg",
           "copy": "A fully responsive, dynamic platform to generate and manage thousands of pages for Twitter Marketing",
           "headerOverlayOpacity": ".4"
         },
@@ -91,8 +91,8 @@
         "projectColor": "00aeef",
         "pageHero": {
           "mediaType": "video",
-          "src": "/videos/temp-video-dark-forest.mp4",
-          "poster": "/images/twfp-hero-1.png",
+          "src": "/videos/hmz_large.mp4",
+          "poster": "/images/temp-video-poster.jpg",
           "copy": "A global e-learning application for Twitter's advertising and marketing clients.",
           "headerOverlayOpacity": ".4"
         },
@@ -158,8 +158,8 @@
         "projectColor": "ff5a5f",
         "pageHero": {
           "mediaType": "video",
-          "src": "/videos/temp-video-snowdrops.mp4",
-          "poster": "/images/twfp-hero-1.png",
+          "src": "/videos/mede_large.mp4",
+          "poster": "/images/temp-video-poster.jpg",
           "copy": "A multi-phase contest to find the most iconic Airbnb residence in each district in France.",
           "headerOverlayOpacity": ".6"
         },
