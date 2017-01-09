@@ -71,6 +71,7 @@ export default class Hero extends Component {
   setupVideoEvents() {
     var vid = document.getElementsByTagName('video')[0];
     vid.addEventListener('canplay', function() {
+      // console.log(vid.audioTracks.length);
       vid.play();
     }, true);
   }
@@ -133,10 +134,10 @@ export default class Hero extends Component {
           <div className="hero__video">
             <video className="video-player"
               poster={ poster }
-              autoplay
+              autoPlay
               loop
               muted
-              playsinline
+              playsInline
             >
               <source src={ src } type="video/mp4" />
               Your browser does not support the video tag.
