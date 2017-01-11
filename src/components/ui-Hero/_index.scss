@@ -27,9 +27,30 @@
     left: -4rem;
     background-size: cover;
     background-position: center center;
-    //filter: grayscale(100%);
-    opacity: 0;
+    filter: grayscale(100%);
     transition: opacity 1s, top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
+  }
+
+  .hero__video {
+    position: absolute;
+    top: -4rem;
+    right: -4rem;
+    bottom: -4rem;
+    left: -4rem;
+    transition: opacity 1s, top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
+    overflow: hidden;
+
+    video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      transform: translateX(-50%) translateY(-50%);
+    }
   }
 
   .hero__color-overlay {

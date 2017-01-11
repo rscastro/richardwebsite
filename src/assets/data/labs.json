@@ -12,6 +12,7 @@
         "launch":"Oct 2014",
         "projectColor": "D94C02",
         "pageHero": {
+          "type": "img",
           "src": "/images/metagramme-hero-2.jpg",
           "copy": "Using image data to look at images differently.",
           "headerOverlayOpacity": ".2"
@@ -96,6 +97,7 @@
         "launch":"Dec 2014",
         "projectColor": "D94C02",
         "pageHero": {
+          "type": "img",
           "src": "/images/twfp-hero-1.png",
           "copy": "A rapid-fire, iterative data-visualization experiment",
           "headerOverlayOpacity": ".36"
@@ -165,6 +167,7 @@
         "launch":"July 2014",
         "projectColor": "D94C02",
         "pageHero": {
+          "type": "img",
           "src": "/images/scrumpoker-hero-1.jpg",
           "copy": "Making tools to simplify our internal workflow",
           "headerOverlayOpacity": ".6"
@@ -239,6 +242,7 @@
         "launch":"Dec 2016",
         "projectColor": "D94C02",
         "pageHero": {
+          "type": "img",
           "src": "/images/moonphase-hero-1.jpg",
           "copy": "Building a native iPhone app using React Native",
           "headerOverlayOpacity": ".6"
@@ -307,6 +311,7 @@
         "launch":"July 2016",
         "projectColor": "D94C02",
         "pageHero": {
+          "type": "img",
           "src": "/images/serenade-hero-1.jpg",
           "copy": "Real-time interaction with hardware over the web.",
           "headerOverlayOpacity": ".6"
