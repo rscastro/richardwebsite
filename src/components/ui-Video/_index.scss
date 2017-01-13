@@ -1,6 +1,7 @@
 @import '../css-base/_variables';
+@import '../css-base/_mixins';
 
 .video-hldr {
-  margin-top: $sm-spacing; // Temp style
-  margin-bottom: $sm-spacing; // Temp style
+  @include component-padding-top-bottom();
+  position: relative;
 }

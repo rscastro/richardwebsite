@@ -8,7 +8,7 @@ import Details from '../ui-Details';
 import Tagline from '../ui-Tagline';
 import WorkGrid from '../ui-WorkGrid';
 import TextContact from '../ui-TextContact';
-// import Video from '../ui-Video';
+import Video from '../ui-Video';
 // import Carousel from '../ui-Carousel';
 
 
@@ -97,10 +97,17 @@ export default class PageContent extends Component {
             workgridItems={ component.workgridItems }
           />
         );
+      } else if (component.type === 'video') {
+        return (
+          <Video
+            key={ `${component.type}-${index}` }
+            vidUrl={ component.vidUrl }
+            poster={ component.poster }
+          />
+        );
       }
 
       {/*
-        <Video data={labsData.video} />
         <Carousel data={labsData.carousel} />
         <WorkGrid labs={labsData.labs} />
       */}

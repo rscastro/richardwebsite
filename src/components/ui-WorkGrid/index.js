@@ -1,6 +1,6 @@
 import './_index.scss';
 
-import React, {PropTypes, Component} from 'react';
+import React, {Component} from 'react';
 import GridLines from '../ui-GridLines';
 
 export default class WorkGrid extends Component {
