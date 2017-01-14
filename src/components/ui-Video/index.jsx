@@ -31,7 +31,6 @@ export default class Video extends Component {
               className="video-player"
               controls
               preload
-              autoPlay
               poster={ poster }
             >
               <source src={ vidUrl } type="video/mp4" />
