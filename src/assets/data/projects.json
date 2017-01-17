@@ -20,6 +20,11 @@
         },
         "pageContent": [
           {
+            "type": "video",
+            "vidUrl": "/videos/hmz_large.mp4",
+            "poster": "/images/temp-video-poster.jpg"
+          },
+          {
             "type": "sectionHeader",
             "number": "01",
             "title": "Challenge"
