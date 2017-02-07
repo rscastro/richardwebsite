@@ -5,8 +5,6 @@ const projectsData = require('../../assets/data/projects.json');
 import React, { Component } from 'react';
 import PageContent from '../ui-PageContent';
 import NavFooter from '../ui-NavFooter';
-import Hero from '../ui-Hero';
-import WorkGrid from '../ui-WorkGrid';
 
 export default class Project extends Component {
 
@@ -31,54 +29,13 @@ export default class Project extends Component {
     );
   }
 
-  getPageSuggestions(currentProject, typeOfProject) {
-    const projectsJson = projectsData.projects.projectSingles;
-    const numOfProjects = Object.keys(projectsJson).length
-    const pageSuggestions = [];
-    const numOfSuggestions = 3;
-    const currentProjectIndex = projectsJson.indexOf(currentProject);
-    let counter = currentProjectIndex;
-
-    for (let i = 0; i < numOfSuggestions; i++) {
-      ++counter
-      if (counter >= numOfProjects) { counter = 0; }
-
-      pageSuggestions.push({});
-      pageSuggestions[i].type = typeOfProject;
-      pageSuggestions[i].title = projectsJson[counter].title;
-      pageSuggestions[i].url = '/' + typeOfProject + '/' + projectsJson[counter].projectID;
-      pageSuggestions[i].img = projectsJson[counter].gridImg;
-      pageSuggestions[i].size = 'sm';
-    }
-    return pageSuggestions;
-  }
-
   render() {
-    const {
-      currentProject,
-      currentProject: {
-        pageHero
-      }
-    } = this.state;
+    const { currentProject } = this.state;
 
     return (
       <div className="project">
-        <Hero
-          mediaType={ pageHero.mediaType }
-          src={ pageHero.src }
-          poster={ pageHero.poster }
-          copy={ pageHero.copy }
-          projectColor={ currentProject.projectColor }
-          headerOverlayOpacity={ pageHero.headerOverlayOpacity || 0.5 }
-        />
-        <div className="page-content-hldr">
-          <PageContent currentProject={ currentProject } />
-          <WorkGrid
-            id={ currentProject.projectID }
-            workgridItems={ this.getPageSuggestions(currentProject, 'work') }
-          />
-          <NavFooter />
-        </div>
+        <PageContent currentProject={ currentProject } />
+        <NavFooter />
       </div>
     );
   }

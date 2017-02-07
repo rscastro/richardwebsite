@@ -6,8 +6,9 @@ import { pageview } from '../u-Analytics';
 
 export default class AppContainer extends React.Component {
   componentWillMount() {
-    const { pathname } = this.props;
-    pageview({pathname: pathname});
+    // TODO: Implement personal GA
+    // const { pathname } = this.props;
+    // pageview({pathname: pathname});
   }
 
   render() {

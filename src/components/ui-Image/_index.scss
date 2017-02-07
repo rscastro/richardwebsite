@@ -2,8 +2,7 @@
 @import "../css-base/_mixins";
 
 .img-hldr {
-  // @include component-padding-top-bottom('ui-Image');
-  @include component-padding-top-bottom();
+  @include component-padding-top-bottom('ui-Image');
   position: relative;
 
   &:before {
@@ -28,7 +27,7 @@
   }
 
   .img-hldr-inner {
-    margin-bottom: $md-spacing;
+    margin-bottom: $base-spacing;
     position: relative;
 
     &:last-of-type {

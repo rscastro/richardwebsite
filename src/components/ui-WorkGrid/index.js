@@ -1,6 +1,6 @@
 import './_index.scss';
 
-import React, {Component} from 'react';
+import React, {PropTypes, Component} from 'react';
 import GridLines from '../ui-GridLines';
 
 export default class WorkGrid extends Component {
@@ -18,11 +18,11 @@ export default class WorkGrid extends Component {
       let itemGridSize = '';
       switch (item.size) {
       case 'md':
-        itemGridSize = 'grid__col-12 grid__col-sm-6'
+        itemGridSize = 'grid__col-6'
         break;
       case 'sm':
       default:
-        itemGridSize = 'grid__col-12 grid__col-sm-4'
+        itemGridSize = 'grid__col-6 grid__col-sm-4'
       }
 
       return (

@@ -2,7 +2,6 @@ import './_index.scss';
 
 import React, { Component } from 'react';
 import LogoTypeSvg from '../ui-LogoTypeSvg';
-import Logos from '../ui-Logos';
 
 import THREELib from 'three-js';
 import './OrbitControls.js';
@@ -35,21 +34,17 @@ export default class HomeHero extends Component {
       heightmap: this.THREE.Terrain.DiamondSquare,
       material: this.mesh,
       maxHeight: 455,
-      minHeight: -240,
-      steps: 900,
+      minHeight: -140,
+      steps: 500,
       turbulent: true,
       useBufferGeometry: true,
       xSegments: this.xS,
-      xSize: 1100,
+      xSize: 1000,
       ySegments: this.yS,
-      ySize: 1100
+      ySize: 1000
     });
     this.iteration = 0;
     this.totalIteration = 100;
-    this.isZoomed = false;
-    this.doneMoving = true;
-    this.fromRotationX = 0;
-    this.fromRotationY = 0;
   }
 
   static get propTypes() {
@@ -63,16 +58,12 @@ export default class HomeHero extends Component {
     let time = Date.now() * 0.001;
 
     // animate terrain into view
-    if (this.iteration < this.totalIteration && !this.isZoomed) {
-      this.camera.position.y = this.easeOutCubic(this.iteration,1300,-750, this.totalIteration);
+    if (this.iteration < this.totalIteration) {
+      this.camera.position.y = this.easeOutCubic(this.iteration,1300,-640, this.totalIteration);
       this.iteration++;
-    } else if (this.iteration >= this.totalIteration) {
-      this.isZoomed = true;
-      this.iteration = 0;
-      this.totalIteration = 100;
     }
 
-    // rotate terrain z-axis
+    // rotate terrain
     if (this.terrainScene) {
       this.terrainScene.rotation.z = time * 0.08;
     }
@@ -98,39 +89,7 @@ export default class HomeHero extends Component {
 
     this.update();
 
-    // container click/tap listener
-    this.container.addEventListener('click', () => {
-      if (this.doneMoving) {
-        this.fromRotationX = this.terrainScene.rotation.x;
-        this.fromRotationY = this.terrainScene.rotation.y;
-        this.doneMoving = false;
-        this.iteration = 0;
-        this.totalIteration = 100;
-        this.rotateTerrain();
-      }
-    });
-
     window.addEventListener('resize', this.onWindowResize.bind(this), false);
-  }
-
-  degInRad(deg) {
-    return deg * Math.PI / 180;
-  }
-
-  /** 
-  * Handle terrain x,y rotation
-  **/
-  rotateTerrain() {
-    if (this.iteration <= this.totalIteration && !this.doneMoving) {
-      this.terrainScene.rotation.x = this.easeOutCubic(this.iteration,this.fromRotationX,-0.45, this.totalIteration);
-      this.terrainScene.rotation.y = this.easeOutCubic(this.iteration,this.fromRotationY,-0.35, this.totalIteration);
-      requestAnimationFrame( this.rotateTerrain.bind(this) );
-      this.iteration++;
-    }
-
-    if (this.iteration === this.totalIteration) {
-      this.doneMoving = true;
-    }
   }
 
   onWindowResize() {
@@ -153,7 +112,6 @@ export default class HomeHero extends Component {
             <LogoTypeSvg />
           </div>
         </main>
-        <Logos />
       </div>
     );
   }

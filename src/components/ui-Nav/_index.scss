@@ -1,11 +1,6 @@
 @import "../css-base/_variables";
 @import "../css-base/_mixins";
 
-.nav-column {
-  .nav-we-are {
-    display: block;
-  }
-}
 
 .nav-hldr {
   position: fixed;
@@ -13,101 +8,95 @@
   right: 0;
   left: 0;
   z-index: 100;
-  padding-top: $navbar-height-base;
-  pointer-events: none;
+
+}
 
 
-  .nav-bg {
-    display: none;
-    opacity: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: $off-black;
-    pointer-events: none;
+.hamburger-icon {
+  display: inline-block;
+  width: $hamburger-width-sm;
+  height: $hamburger-height-sm;
+  font-size: 2rem;
+
+  @include breakpoint($break-pt-sm) {
+    width: $hamburger-width-base;
+    height: $hamburger-height-base;
   }
+      .bm-burger-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      left: 36px;
+      top: 36px;
+    }
 
-  .nav-bar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding-top: $navbar-padding-top-sm;
-    pointer-events: auto;
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+      background: #373a47;
+    }
+
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+    }
+
+    /* Color/shape of close button cross */
+    .bm-cross {
+      background: #bdc3c7;
+    }
+
+    /* General sidebar styles */
+    .bm-menu {
+      background: #373a47;
+      padding: 2.5em 1.5em 0;
+      font-size: 1.15em;
+    }
+
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+
+    /* Wrapper for item list */
+    .bm-item-list {
+      color: #b8b7ad;
+      padding: 0.8em;
+    }
+
+    /* Styling of overlay */
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+  .hamburger-svg {
+    width: $hamburger-width-sm;
+    height: $hamburger-height-sm;
+
+    rect {
+      fill: $white;
+      width: 100%;
+    }
 
     @include breakpoint($break-pt-sm) {
-      padding-top: $navbar-padding-top-lg;
-    }
-
-    .nav-bar-inner {
-      position: relative;
-
-      .hamburger-icon {
-        position: absolute;
-        top: 2.8rem;
-        right: $column-padding;
-        display: inline-block;
-
-        @include breakpoint($break-pt-sm) {
-          top: 3.6rem;
-        }
-      }
-
-      .logo-type-a {
-        display: none;
-        opacity: 0;
-
-        .logo-type {
-          position: absolute;
-          top: 3.2rem;
-          left: $column-padding;
-          width: 15rem;
-          height: 2rem;
-
-          @include breakpoint($break-pt-sm) {
-            top: 4.75rem;
-          }
-        }
-      }
-
-      .logo-mark-a {
-        display: none;
-        opacity: 0;
-
-        .logo-mark {
-          width: $logo-mark-width-height-sm;
-          height: $logo-mark-width-height-sm;
-          margin: 0 auto;
-
-          @include breakpoint($break-pt-sm) {
-            width: $logo-mark-width-height-base;
-            height: $logo-mark-width-height-base;
-          }
-        }
-      }
+      width: $hamburger-width-base;
+      height: $hamburger-height-base;
     }
   }
 
-  .nav-links-hldr {
-    margin-top: 0;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    height: calc(100vh - #{$navbar-height-sm + $column-padding});
-    display: none;
-    opacity: 0;
-    pointer-events: auto;
+  &:hover {
+    .hamburger-svg {
+      rect {
 
-    @include breakpoint($break-pt-sm) {
-      -webkit-overflow-scrolling: none;
-      margin-top: $lg-spacing;
-      height: calc(100vh - #{$navbar-height-base + $column-padding});
-    }
+        @include breakpoint($break-pt-md) {
+          fill: $gray;
+        }
 
-    .nav-links {
-      display: none;
-      opacity: 0;
+        &:nth-child(2) {
+          // width: 80%;
+          // transform-origin: 50% 50%;
+        }
+      }
     }
   }
 }

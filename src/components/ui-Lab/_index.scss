@@ -1,26 +1,4 @@
-@import "../css-base/_variables";
 
 .lab {
-
-  .hero {
-    height: $hero-height;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1;
-  }
-
-  .page-content-hldr {
-
-    position: relative;
-    top: $hero-height;
-    z-index: 2;
-    background: $off-black;
-
-    .page-content {
-
-    }
-  }
 
 }

@@ -1,44 +1,26 @@
 @import "../css-base/_variables";
 @import "../css-base/_mixins";
 
-.tagline-hldr {
+.tagline {
   position: relative;
-  @include component-padding-top-bottom();
+  // background: rgba($orange, .5);
+  background: $orange;
+  text-align: center;
 
-  &.no-top-padding {
-    padding-top: 0;
+  padding: $xl-spacing $base-spacing;
+
+  @include breakpoint($break-pt-md) {
+    padding: 16rem $base-spacing;
   }
 
-  .tagline {
-    position: relative;
-    background: $orange;
-    text-align: center;
+  @include breakpoint($break-pt-lg) {
+    padding: 21.5rem $base-spacing;
+  }
 
-    padding: $xl-spacing $base-spacing;
-
-    @include breakpoint($break-pt-md) {
-      padding: 16rem $base-spacing;
-    }
-
-    @include breakpoint($break-pt-lg) {
-      padding: 21.5rem $base-spacing;
-    }
-
-    .title {
-      @include fontsize(3.2rem, 4.8rem);
-      font-weight: 200;
-      letter-spacing: .2rem;
-      color: $white;
-
-      a {
-        font-weight: 200;
-        opacity: .5;
-
-        &:hover {
-          opacity: 1;
-          text-decoration: none;
-        }
-      }
-    }
+  .title {
+    @include fontsize(3.2rem, 4.8rem);
+    font-weight: 200;
+    letter-spacing: .2rem;
+    color: $white;
   }
 }

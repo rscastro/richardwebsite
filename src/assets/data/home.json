@@ -1,11 +1,15 @@
 {
   "projectID": "home",
-  "title": "Home",
+  "title": "",
   "pageContent": [
     {
+      "type": "homeHero",
+      "src": "someurl.jpg",
+      "title": "Hero Title"
+    },
+    {
       "type": "tagline",
-      "className": "no-top-padding",
-      "title": "We build the creative&nbsp;web"
+      "title": "We build the creative web"
     },
     {
       "type": "workgrid",
@@ -33,37 +37,37 @@
         },
         {
           "type": "Work",
-          "title": "Airbnb<br>maisons de france",
+          "title": "maisons de france",
           "url": "/work/airbnb-maisons-de-france",
           "img": "/images/home-workgrid/abb-mdf-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "eventbrite<br>prototype",
+          "title": "eventbrite prototype",
           "url": "/work/eventbrite-prototype",
           "img": "/images/home-workgrid/eb-prototype-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "sony<br>hmz",
+          "title": "sony hmz",
           "url": "/work/sony-hmz",
           "img": "/images/home-workgrid/sony-hmz-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "airbnb<br>road trips",
+          "title": "airbnb road trips",
           "url": "/work/airbnb-road-trips",
           "img": "/images/home-workgrid/abb-road-trippers-sq.jpg",
           "size": "sm"
         },
         {
-          "type": "Labs",
-          "title": "moonphase",
-          "url": "/labs/moonphase",
-          "img": "/images/home-workgrid/moonphase-sq.jpg",
+          "type": "Work",
+          "title": "new home for the holidays",
+          "url": "/work/airbnb-holidays-app",
+          "img": "/images/home-workgrid/abb-holidays-app-sq.jpg",
           "size": "sm"
         },
         {
@@ -75,44 +79,40 @@
         },
         {
           "type": "labs",
-          "title": "twitter<br>fingerprint",
+          "title": "twitter fingerprint",
           "url": "/labs/twitter-fingerprint",
           "img": "/images/home-workgrid/twitter-fingerprint-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "merrill<br>infographics",
+          "title": "merrill infographics",
           "url": "/work/merrill-infographics",
           "img": "/images/home-workgrid/merrill-infographics-sq.jpg",
           "size": "sm"
         },
         {
           "type": "Work",
-          "title": "telenav<br>thinknear",
+          "title": "thinknear",
           "url": "/work/thinknear",
           "img": "/images/home-workgrid/thinknear-sq.jpg",
           "size": "sm"
         },
         {
           "type": "work",
-          "title": "mede<br>analytics",
+          "title": "mede analytics",
           "url": "/work/mede-analytics",
           "img": "/images/home-workgrid/mede-analytics-sq.jpg",
           "size": "sm"
         },
         {
-          "type": "Labs",
-          "title": "Serenade",
-          "url": "/labs/serenade",
-          "img": "/images/home-workgrid/serenade-sq.jpg",
+          "type": "work",
+          "title": "twitter videohub",
+          "url": "/work/twitter-videohub",
+          "img": "/images/home-workgrid/twitter-videohub-sq.jpg",
           "size": "sm"
         }
       ]
-    },
-    {
-      "type": "tagline",
-      "title": "Interested in working with us?<br><a href='mailto:hello@martian.com'>hello@martian.com</a>"
     }
   ]
 }

@@ -5,7 +5,6 @@ const labsData = require('../../assets/data/labs.json');
 import React, { Component } from 'react';
 import PageContent from '../ui-PageContent';
 import NavFooter from '../ui-NavFooter';
-import Hero from '../ui-Hero';
 
 export default class Lab extends Component {
 
@@ -31,25 +30,12 @@ export default class Lab extends Component {
   }
 
   render() {
-    const {
-      currentLab,
-      currentLab: {
-        pageHero
-      }
-    } = this.state;
+    const { currentLab } = this.state;
 
     return (
       <div className="lab">
-        <Hero
-          src={ pageHero.src }
-          copy={ pageHero.copy }
-          projectColor={ currentLab.projectColor }
-          headerOverlayOpacity={ pageHero.headerOverlayOpacity || 0.5 }
-        />
-        <div className="page-content-hldr">
-          <PageContent currentProject={ currentLab } />
-          <NavFooter />
-        </div>
+        <PageContent currentProject={ currentLab } />
+        <NavFooter />
       </div>
     );
   }

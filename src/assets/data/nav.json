@@ -3,7 +3,7 @@
   "aboutInfo": {
     "title": "About",
     "weAre": "Martian is a creative development studio in San&nbsp;Francisco.",
-    "phone": "415.309.9362",
+    "phone": "415.263.7383",
     "email": "hello@martiansf.com"
   },
   "navColumns": [
@@ -30,9 +30,7 @@
       "listlinks": [
         { "title": "Metagramme", "url": "/labs/metagramme" },
         { "title": "Twitter Fingerprint", "url": "/labs/twitter-fingerprint" },
-        { "title": "Scrum Poker", "url": "/labs/scrum-poker" },
-        { "title": "MoonPhase", "url": "/labs/moonphase" },
-        { "title": "Serenade", "url": "/labs/serenade" }
+        { "title": "Scrum Poker", "url": "/labs/scrum-poker" }
       ]
     }
   ]
